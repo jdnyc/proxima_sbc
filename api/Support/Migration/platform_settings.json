@@ -1,0 +1,18 @@
+[
+  {
+    "channel_id": 1,
+    "platform_id": 1,
+    "sns_account": true,
+    "sns_opened_at": "2019-08-30",
+    "sns_account_info": {
+      "clientId": "969813755544-vh4clh5hbonj2r16ajdd0k3nacpi8h4v.apps.googleusercontent.com",
+      "channelId": "UCLvO5aGvTBRc3h8wC8hDyCQ",
+      "redirectUri": "",
+      "clientSecret": "cpk0WkIIGNGduXKb3ItBVx_u",
+      "refreshToken": "1/CFCU13oFyyx2iED3EHlrl8D97XTDlZEz0YqJYk0J1jA"
+    },
+    "web_url": "https://www.youtube.com/channel/UCLvO5aGvTBRc3h8wC8hDyCQ",
+    "category_id": 11,
+    "tag": "제머나이,테스트,기본태그"
+  }
+]

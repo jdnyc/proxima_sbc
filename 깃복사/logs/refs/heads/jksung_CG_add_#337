@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676883317 +0900	branch: Created from master
+de98263c18af5307c096be4a621189811a94f8d7 41f1b564ed86cf992c1b41a706ba0f62bd663368 jksung <jksung@gemiso.com> 1677220255 +0900	commit: [#337][성준경] MOV ->MXF 변환 CG추가
+41f1b564ed86cf992c1b41a706ba0f62bd663368 5e6719887f6fc06db7cbfd24996cff4c120a1033 jksung <jksung@gemiso.com> 1677220316 +0900	commit: [#337][성준경]CG 부조 전송 활성화
+5e6719887f6fc06db7cbfd24996cff4c120a1033 ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 jksung <jksung@gemiso.com> 1677220383 +0900	commit: [#337][성준경]영상매핑 UI 크기 조절 및 컬럼 추가
+ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 e8ed2c7bfbb2f504644326a8cb9660c4f8adfabc jksung <jksung@gemiso.com> 1678150987 +0900	commit: [#337][성준경]영상매핑 표출 추가
+e8ed2c7bfbb2f504644326a8cb9660c4f8adfabc 72092568ead7a5b585d15a613842847a2805f39b jksung <jksung@gemiso.com> 1678421822 +0900	commit: [#337][성준경]우클릭 부조전송 추가
+72092568ead7a5b585d15a613842847a2805f39b e32e28424c9b9b108e94ee9e087651b0d7e2ffae jksung <jksung@gemiso.com> 1678766496 +0900	commit: [#337][성준경]2주 삭제 정책CG

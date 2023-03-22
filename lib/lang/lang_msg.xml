@@ -1,0 +1,3077 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<items>
+		<msgcode>MSG00001</msgcode>
+		<msgkor>홈으로 이동하시겠습니까?</msgkor>
+		<msgeng>Are you moving to home?</msgeng>
+		<msgchi>是否回到主页？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00002</msgcode>
+		<msgkor>로그아웃 하시겠습니까?</msgkor>
+		<msgeng>Are you sure you want to log out?</msgeng>
+		<msgchi>确定要注销？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00003</msgcode>
+		<msgkor>사번을 입력하세요</msgkor>
+		<msgeng>Enter User ID</msgeng>
+		<msgchi>请输入用户ID</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00004</msgcode>
+		<msgkor>비밀번호을 입력하세요.</msgkor>
+		<msgeng>Enter your password</msgeng>
+		<msgchi>请输入密码</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00005</msgcode>
+		<msgkor>님 환영합니다</msgkor>
+		<msgeng>Welcome "User Id"</msgeng>
+		<msgchi>欢迎使用</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00006</msgcode>
+		<msgkor>계정으로 로그인 되어있습니다</msgkor>
+		<msgeng>Logged in as "User Id"</msgeng>
+		<msgchi>账户已注册</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00007</msgcode>
+		<msgkor>검색어를 입력해주세요</msgkor>
+		<msgeng>Search keywords are required.</msgeng>
+		<msgchi>请输入关键词</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00008</msgcode>
+		<msgkor>암호가 설정되어 있지 않습니다. 마이페이지로 이동합니다.</msgkor>
+		<msgeng>Passsword is not defined. Page will be redirected to My Page.</msgeng>
+		<msgchi>未设置密码，返回我的页面。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00009</msgcode>
+		<msgkor>전송하실 컨텐츠를 선택하여 주세요</msgkor>
+		<msgeng>Select content to transfer</msgeng>
+		<msgchi>请选择发送内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00010</msgcode>
+		<msgkor>허용된 NPS IP에서만 연결할 수 있습니다</msgkor>
+		<msgeng>Your IP is blocked. You can only connect from allowed IP.</msgeng>
+		<msgchi>仅限连接许可NPS IP</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00011</msgcode>
+		<msgkor>심의 요청하실 아이템을 선택하여 주세요</msgkor>
+		<msgeng>Select content to censor.</msgeng>
+		<msgchi>请选择需要审查的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00012</msgcode>
+		<msgkor>검색 결과 탭으로 이동하여 실행하여 주세요</msgkor>
+		<msgeng>This menu is only executable in browsing tabs.</msgeng>
+		<msgchi>移动至搜索结果标签执行</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00013</msgcode>
+		<msgkor>일괄 수정하실 콘텐츠를 선택하여주세요</msgkor>
+		<msgeng>Select (multiple) content to update at the same time.</msgeng>
+		<msgchi>请选择批量修改的内容。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00014</msgcode>
+		<msgkor>기능 구현중입니다</msgkor>
+		<msgeng>Function in construction.</msgeng>
+		<msgchi>正在实现功能</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00015</msgcode>
+		<msgkor>검색어를 입력하세요</msgkor>
+		<msgeng>Enter search keyword</msgeng>
+		<msgchi>请输入关键词</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00016</msgcode>
+		<msgkor>잘못된 CONTENT_ID 입니다</msgkor>
+		<msgeng>Wrong CONTENT_ID</msgeng>
+		<msgchi>错误的CONTENT_ID</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00017</msgcode>
+		<msgkor>삭제성공</msgkor>
+		<msgeng>Delete succeeded.</msgeng>
+		<msgchi>删除成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00018</msgcode>
+		<msgkor>삭제실패</msgkor>
+		<msgeng>Delete failed.</msgeng>
+		<msgchi>删除失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00019</msgcode>
+		<msgkor>등록 요청이 완료되었습니다</msgkor>
+		<msgeng>Update request completed successfully.</msgeng>
+		<msgchi>已完成上传申请</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00020</msgcode>
+		<msgkor>작업할 내용이 없습니다. 작업을 추가 해주세요</msgkor>
+		<msgeng>No job to process. Please add jobs to process.</msgeng>
+		<msgchi>没有可操作内容，请添加任务。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00021</msgcode>
+		<msgkor>선택되어진 항목이 없습니다</msgkor>
+		<msgeng>No selected item.</msgeng>
+		<msgchi>没有已选项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00022</msgcode>
+		<msgkor>삭제하실 항목을 선택하여주세요</msgkor>
+		<msgeng>Select item(s) to delete.</msgeng>
+		<msgchi>请选择删除项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00023</msgcode>
+		<msgkor>해당게시물에 대한 열람 권한이 없습니다</msgkor>
+		<msgeng>You cannot view the selected content. Proper privilege required.</msgeng>
+		<msgchi>所选内容没有阅览权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00024</msgcode>
+		<msgkor>오류입니다</msgkor>
+		<msgeng>Error.</msgeng>
+		<msgchi>错误</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00025</msgcode>
+		<msgkor>삭제 권한이 없습니다</msgkor>
+		<msgeng>You cannot delete the selected content. Proper privilege required.</msgeng>
+		<msgchi>没有删除权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00026</msgcode>
+		<msgkor>선택해주세요.</msgkor>
+		<msgeng>Please select one.</msgeng>
+		<msgchi>请选择</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00027</msgcode>
+		<msgkor>구간추출된 파일이 없습니다</msgkor>
+		<msgeng>PFR file not exists.</msgeng>
+		<msgchi>无法找到PFR文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00028</msgcode>
+		<msgkor>전송 요청이 성공적으로 수행되었습니다</msgkor>
+		<msgeng>Transfer request has been posted successfully.</msgeng>
+		<msgchi>已执行发送申请</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00029</msgcode>
+		<msgkor>생성될 정보가 없습니다</msgkor>
+		<msgeng>Information is empty.</msgeng>
+		<msgchi>无法找到信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00030</msgcode>
+		<msgkor>일괄 PFR 작업이 정상적으로 등록되었습니다</msgkor>
+		<msgeng>Batch Partial File Restore jobs have been posted successfully.</msgeng>
+		<msgchi>已登记批量PFR任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00031</msgcode>
+		<msgkor>원본 파일이 없습니다</msgkor>
+		<msgeng>No original file.</msgeng>
+		<msgchi>无法找到原文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00032</msgcode>
+		<msgkor>ActiveX 가 설치되어있지 않습니다</msgkor>
+		<msgeng>No ActiveX is installed.</msgeng>
+		<msgchi>未安装ActiveX</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00033</msgcode>
+		<msgkor>프록시 파일이 존재하지 않습니다</msgkor>
+		<msgeng>Proxy file does not exist.</msgeng>
+		<msgchi>无法找到低码文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00034</msgcode>
+		<msgkor>메타데이터 수정이 완료되었습니다</msgkor>
+		<msgeng>Metadata update completed successfully.</msgeng>
+		<msgchi>已修改元数据</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00035</msgcode>
+		<msgkor>작업이 완료되지 않은 항목이 있습니다. 확인하고 다시 인제스트 하세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>有未完成的任务，请确认后重新导入</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00036</msgcode>
+		<msgkor>Agency정보 갱신을 시작합니다</msgkor>
+		<msgeng>Starting Agency information update.</msgeng>
+		<msgchi>开始更新Agency信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00037</msgcode>
+		<msgkor>등록완료 성공</msgkor>
+		<msgeng>Registration succeded.</msgeng>
+		<msgchi>注册成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00038</msgcode>
+		<msgkor>등록완료 실패</msgkor>
+		<msgeng>Registration failed.</msgeng>
+		<msgchi>注册失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00039</msgcode>
+		<msgkor>등록이 취소되었습니다</msgkor>
+		<msgeng>Registration cancelled.</msgeng>
+		<msgchi>取消注册</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00040</msgcode>
+		<msgkor>삭제가 완료되었습니다</msgkor>
+		<msgeng>Delete succeeded.</msgeng>
+		<msgchi>已删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00041</msgcode>
+		<msgkor>검색 값를 선택하세요.</msgkor>
+		<msgeng>Select search keyword</msgeng>
+		<msgchi>请选择搜索值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00042</msgcode>
+		<msgkor>검색명을 선택하세요</msgkor>
+		<msgeng>-</msgeng>
+		<msgchi>请选择搜索名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00043</msgcode>
+		<msgkor>업데이트 실패</msgkor>
+		<msgeng>Update failure.</msgeng>
+		<msgchi>更新失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00044</msgcode>
+		<msgkor>문서 콘텐츠는 심의요청을 할 수 없습니다</msgkor>
+		<msgeng>Document content cannot be censored.</msgeng>
+		<msgchi>文书内容无法申请审核</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00045</msgcode>
+		<msgkor>심의비대상(등록완료) 콘텐츠만 심의 요청이 가능합니다</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>只接受非审核对象（已登记）内容的审核申请</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00046</msgcode>
+		<msgkor>일괄 심의하실 컨텐츠를 선택하여주세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>请选择批量审核内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00047</msgcode>
+		<msgkor>등록가능한 콘텐츠가 없습니다</msgkor>
+		<msgeng>There is no content registrable.</msgeng>
+		<msgchi>无法找到可上传内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00048</msgcode>
+		<msgkor>선택되어진 콘텐츠가 없습니다</msgkor>
+		<msgeng>No content selected.</msgeng>
+		<msgchi>无选择内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00049</msgcode>
+		<msgkor>다운로드 사유를 입력하세요</msgkor>
+		<msgeng>Enter the reason for downloading.</msgeng>
+		<msgchi>请输入下载原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00050</msgcode>
+		<msgkor>다운로드 프로그램이 실행되었습니다</msgkor>
+		<msgeng>Download application is initiated.</msgeng>
+		<msgchi>下载应用程序启动</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00051</msgcode>
+		<msgkor>다운로드 프로그램이 설치되어있지 않습니다</msgkor>
+		<msgeng>Download application must be installed before this job.</msgeng>
+		<msgchi>未安装下载应用程序</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00052</msgcode>
+		<msgkor>등록할 수 없는 콘텐츠 입니다</msgkor>
+		<msgeng>This content cannot be registered.</msgeng>
+		<msgchi>无法上传的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00053</msgcode>
+		<msgkor>전송이 취소 되었습니다</msgkor>
+		<msgeng>Transfer cancelled.</msgeng>
+		<msgchi>发送已取消</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00054</msgcode>
+		<msgkor>콘텐츠 유형이 동일하지 않습니다</msgkor>
+		<msgeng>Content Types are not identical.</msgeng>
+		<msgchi>内容类型不相同</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00055</msgcode>
+		<msgkor>다운로드할 컨텐츠를 선택하여 주세요</msgkor>
+		<msgeng>Selete content to download.</msgeng>
+		<msgchi>请选择下载内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00056</msgcode>
+		<msgkor>VCR작성 프로그램이 실행되었습니다</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>已运行VCR制作应用程序</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00057</msgcode>
+		<msgkor>전송이 시작되었습니다</msgkor>
+		<msgeng>Transfer is started.</msgeng>
+		<msgchi>开始发送</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00058</msgcode>
+		<msgkor>저장이 완료되었습니다</msgkor>
+		<msgeng>Save completed.</msgeng>
+		<msgchi>保存成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00059</msgcode>
+		<msgkor>작업할당 성공</msgkor>
+		<msgeng>Assigning job succeeded.</msgeng>
+		<msgchi>成功分配任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00060</msgcode>
+		<msgkor>수정하실 사용자를 선택해주세요</msgkor>
+		<msgeng>Select user to edit.</msgeng>
+		<msgchi>请选择修改用户</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00061</msgcode>
+		<msgkor>삭제하실 사용자를 선택해주세요</msgkor>
+		<msgeng>Select user to delete.</msgeng>
+		<msgchi>请选择删除用户</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00062</msgcode>
+		<msgkor>업데이트 성공</msgkor>
+		<msgeng>Update completed.</msgeng>
+		<msgchi>更新成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00063</msgcode>
+		<msgkor>수정하실 그룹를 선택해주세요</msgkor>
+		<msgeng>Select group to edit.</msgeng>
+		<msgchi>请选择修改组</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00064</msgcode>
+		<msgkor>삭제하실 그룹를 선택해주세요</msgkor>
+		<msgeng>Select group to delete.</msgeng>
+		<msgchi>请选择删除组</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00065</msgcode>
+		<msgkor>승인 성공</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>已通过</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00066</msgcode>
+		<msgkor>선택된 콘텐츠가 없습니다</msgkor>
+		<msgeng>No content selected.</msgeng>
+		<msgchi>没有选择内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00067</msgcode>
+		<msgkor>반려목록을 선택해주세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>请选择拒绝项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00068</msgcode>
+		<msgkor>같은 콘텐츠 유형만 일괄 수정이 가능합니다</msgkor>
+		<msgeng>Batch edit with multiple content are only allowed for same content type.</msgeng>
+		<msgchi>只允许批量编辑相同内容类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00069</msgcode>
+		<msgkor>업데이트 할수 없는 콘텐츠가 있습니다</msgkor>
+		<msgeng>There is content that cannot be updated.</msgeng>
+		<msgchi>找到无法更新的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00070</msgcode>
+		<msgkor>스트리밍 정보가 없습니다</msgkor>
+		<msgeng>No information for streaming.</msgeng>
+		<msgchi>无法找到流媒体信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00071</msgcode>
+		<msgkor>일괄 수정할 필드를 체크하여주세요</msgkor>
+		<msgeng>Check the field to edit.</msgeng>
+		<msgchi>请选择批量修改范围</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00072</msgcode>
+		<msgkor>반려 실패</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>拒绝失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00073</msgcode>
+		<msgkor>수신자를 선택해주세요</msgkor>
+		<msgeng>Select receiver.</msgeng>
+		<msgchi>请选择收件人</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00074</msgcode>
+		<msgkor>심의가 완료되었습니다</msgkor>
+		<msgeng>Censor completed.</msgeng>
+		<msgchi>已完成审核</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00075</msgcode>
+		<msgkor>플레이하실 영상을 선택하여주세요</msgkor>
+		<msgeng>Select movie to play.</msgeng>
+		<msgchi>请选择播放视频</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00076</msgcode>
+		<msgkor>플레이어가 존재하지 않습니다</msgkor>
+		<msgeng>There is no movie player.</msgeng>
+		<msgchi>无法找到播放器</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00077</msgcode>
+		<msgkor>삭제하실 수신자를 선택하여주세요</msgkor>
+		<msgeng>Select receiver(s) to delete.</msgeng>
+		<msgchi>请选择删除收件人</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00078</msgcode>
+		<msgkor>콘텐츠를 선택하여 주세요</msgkor>
+		<msgeng>Select content.</msgeng>
+		<msgchi>请选择内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00079</msgcode>
+		<msgkor>심의 상태를 선택하여주세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>请选择审核状态</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00080</msgcode>
+		<msgkor>심의 상태값을 변경하여주세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>请修改审核状态值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00081</msgcode>
+		<msgkor>심의 내용를 입력하여주세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>请输入审核内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00082</msgcode>
+		<msgkor>삭제하실 항목을 선택해주세요</msgkor>
+		<msgeng>Select item(s) to delete.</msgeng>
+		<msgchi>请选择删除项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00083</msgcode>
+		<msgkor>완료</msgkor>
+		<msgeng>Completed.</msgeng>
+		<msgchi>完成</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00084</msgcode>
+		<msgkor>수정하실 항목을 선택하세요</msgkor>
+		<msgeng>Select item(s) to edit.</msgeng>
+		<msgchi>请选择修改项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00085</msgcode>
+		<msgkor>요청 실패</msgkor>
+		<msgeng>Request failed.</msgeng>
+		<msgchi>申请失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00086</msgcode>
+		<msgkor>삭제 실패</msgkor>
+		<msgeng>Delete failed.</msgeng>
+		<msgchi>删除失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00087</msgcode>
+		<msgkor>수정이 완료되었습니다.</msgkor>
+		<msgeng>Update completed.</msgeng>
+		<msgchi>修改成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00088</msgcode>
+		<msgkor>리스토어 요청 실패</msgkor>
+		<msgeng>Restore request failed.</msgeng>
+		<msgchi>恢复申请失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00089</msgcode>
+		<msgkor>타임코드를 입력해주세요</msgkor>
+		<msgeng>Enter the timecode.</msgeng>
+		<msgchi>请输入时间码</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00090</msgcode>
+		<msgkor>제목을 입력해주세요</msgkor>
+		<msgeng>Input title.</msgeng>
+		<msgchi>请输入标题</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00091</msgcode>
+		<msgkor>비밀번호가 서로 맞지 않습니다.</msgkor>
+		<msgeng>Password is not correct.</msgeng>
+		<msgchi>密码不正确</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00092</msgcode>
+		<msgkor>구현 중입니다</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>体现中</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00093</msgcode>
+		<msgkor>선택하여주세요</msgkor>
+		<msgeng>Select???</msgeng>
+		<msgchi>请选择</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00094</msgcode>
+		<msgkor>작업이 등록되었습니다</msgkor>
+		<msgeng>Job is registered.</msgeng>
+		<msgchi>任务已登记</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00095</msgcode>
+		<msgkor>비밀번호를 입력해 주세요</msgkor>
+		<msgeng>Please enter your password.</msgeng>
+		<msgchi>请输入密码</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00096</msgcode>
+		<msgkor>비밀번호 확인을 입력해 주세요</msgkor>
+		<msgeng>Confirm password.</msgeng>
+		<msgchi>确认密码</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00097</msgcode>
+		<msgkor>비밀번호 확인을 다시 입력해 주세요.</msgkor>
+		<msgeng>Password is not identical. Confirmation failed.</msgeng>
+		<msgchi>请再次输入密码</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00098</msgcode>
+		<msgkor>그룹을 선택하여 주세요</msgkor>
+		<msgeng>Select group.</msgeng>
+		<msgchi>请选择组</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00099</msgcode>
+		<msgkor>등록하실 사용자를 선택하여 주세요</msgkor>
+		<msgeng>Select user to register.</msgeng>
+		<msgchi>请选择需要注册的用户</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00100</msgcode>
+		<msgkor>비밀번호가 일치하지 않습니다</msgkor>
+		<msgeng>Password is not correct.</msgeng>
+		<msgchi>密码不一致</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00101</msgcode>
+		<msgkor>모든 항목은 필수 입력입니다</msgkor>
+		<msgeng>All items must be filled.</msgeng>
+		<msgchi>所有项目必填</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00102</msgcode>
+		<msgkor>등록할 목록을 선택해주세요</msgkor>
+		<msgeng>Select list to register.</msgeng>
+		<msgchi>请选择登记项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00103</msgcode>
+		<msgkor>DAS에 존재하는 등록번호입니다</msgkor>
+		<msgeng>Registration No already exists in DAS.</msgeng>
+		<msgchi>注册号码DAS上已存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00104</msgcode>
+		<msgkor>등록 완료</msgkor>
+		<msgeng>Registration completed.</msgeng>
+		<msgchi>注册成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00105</msgcode>
+		<msgkor>업데이트 완료</msgkor>
+		<msgeng>Update completed.</msgeng>
+		<msgchi>更新成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00106</msgcode>
+		<msgkor>페이지를 찾을수 없습니다</msgkor>
+		<msgeng>Cannot find pages.</msgeng>
+		<msgchi>无法找到页面</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00107</msgcode>
+		<msgkor>요청 페이지가 존재하지 않습니다</msgkor>
+		<msgeng>No page exists for your request.</msgeng>
+		<msgchi>搜索页面不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00108</msgcode>
+		<msgkor>수정하실 행을 선택해주세요</msgkor>
+		<msgeng>Select row to edit.</msgeng>
+		<msgchi>请选择修改行</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00109</msgcode>
+		<msgkor>삭제하실 행을 선택해주세요</msgkor>
+		<msgeng>Select row to delete.</msgeng>
+		<msgchi>请选择删除行</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00110</msgcode>
+		<msgkor>삭제하실 콘텐츠를 선택하여주세요</msgkor>
+		<msgeng>Select content to delete.</msgeng>
+		<msgchi>请选择删除内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00111</msgcode>
+		<msgkor>콘텐츠 종류를 선택하세요</msgkor>
+		<msgeng>Select user defined content type.</msgeng>
+		<msgchi>请选择内容类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00112</msgcode>
+		<msgkor>수정하실 메타데이터를 선택하세요</msgkor>
+		<msgeng>Select metadata to edit.</msgeng>
+		<msgchi>请选择需要修改的元数据</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00113</msgcode>
+		<msgkor>삭제하실 메타데이터를 선택하세요</msgkor>
+		<msgeng>Select metadata to delete.</msgeng>
+		<msgchi>请选择需要删除的元数据</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00114</msgcode>
+		<msgkor>재시작 하실 항목을 선택해주세요</msgkor>
+		<msgeng>Select item to restart.</msgeng>
+		<msgchi>请选择需要重启的项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00115</msgcode>
+		<msgkor>완료된 작업입니다</msgkor>
+		<msgeng>Selected job is completed.</msgeng>
+		<msgchi>此任务已完成</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00116</msgcode>
+		<msgkor>진행중인 작업입니다</msgkor>
+		<msgeng>Selected job is in progress.</msgeng>
+		<msgchi>任务进行中</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00117</msgcode>
+		<msgkor>재시작 요청이 성공적으로 보내졌습니다</msgkor>
+		<msgeng>Retry request has been posted successfully</msgeng>
+		<msgchi>已成功发送重启请求</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00118</msgcode>
+		<msgkor>취소 하실 항목을 선택해주세요</msgkor>
+		<msgeng>Select item to cancel.</msgeng>
+		<msgchi>请选择需要取消的项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00119</msgcode>
+		<msgkor>진행중인 작업만 취소 가능합니다</msgkor>
+		<msgeng>Only processing job cannot cancelled.</msgeng>
+		<msgchi>只能取消进行中的任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00120</msgcode>
+		<msgkor>변경하실 콘텐츠를 선택해주세요</msgkor>
+		<msgeng>Select content to change.  ??/</msgeng>
+		<msgchi>请选择需要修改的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00121</msgcode>
+		<msgkor>등록하실 콘텐츠을 선택해주세요</msgkor>
+		<msgeng>Select content to register.</msgeng>
+		<msgchi>请选择需要登记的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00122</msgcode>
+		<msgkor>카테고리를 선택해주세요</msgkor>
+		<msgeng>Select category.</msgeng>
+		<msgchi>请选择分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00123</msgcode>
+		<msgkor>메타데이터 유형을 선택해주세요</msgkor>
+		<msgeng>Select metadata type first.</msgeng>
+		<msgchi>请选择元数据类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00124</msgcode>
+		<msgkor>메타데이터 변경 내용이 없습니다</msgkor>
+		<msgeng>No change detected.</msgeng>
+		<msgchi>没有元数据修改内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00125</msgcode>
+		<msgkor>필수 항목에 값을 넣어주세요.</msgkor>
+		<msgeng>Mandatory items must be filled.</msgeng>
+		<msgchi>请输入必填项</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00126</msgcode>
+		<msgkor>등록 하실 항목 부터 선택해주세요</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>请先选择登记项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00127</msgcode>
+		<msgkor>등록에 실패하였습니다</msgkor>
+		<msgeng>Registration failed.</msgeng>
+		<msgchi>登记失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00128</msgcode>
+		<msgkor>데이터를 불러오는 도중 에러가 발생하여습니다</msgkor>
+		<msgeng>Error is happened while opening the file.</msgeng>
+		<msgchi>读取数据时发生错误</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00129</msgcode>
+		<msgkor>리스토어 상태가 아니기 때문에 아카이브 명령을 내릴 수 없습니다</msgkor>
+		<msgeng>Cannot request archive, since content is not on disk.</msgeng>
+		<msgchi>不是恢复状态，无法命令存档</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00130</msgcode>
+		<msgkor>아카이브 상태가 아니기 때문에 리스토어 명령을 내릴 수 없습니다</msgkor>
+		<msgeng>Cannot request restore, since content is not archived.</msgeng>
+		<msgchi>不是存档状态，无法命令恢复</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00131</msgcode>
+		<msgkor>host 값을 입력하세요</msgkor>
+		<msgeng>Enter host value.</msgeng>
+		<msgchi>请输入host值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00132</msgcode>
+		<msgkor>path 값을 입력하세요</msgkor>
+		<msgeng>Enter path value.</msgeng>
+		<msgchi>请输入path值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00133</msgcode>
+		<msgkor>URL를 선택해주세요</msgkor>
+		<msgeng>Select URL.</msgeng>
+		<msgchi>请选择URL</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00134</msgcode>
+		<msgkor>담당자를 선택해주세요</msgkor>
+		<msgeng>Select user in charge.</msgeng>
+		<msgchi>请选择负责人</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00135</msgcode>
+		<msgkor>검색 항목을 선택하세요</msgkor>
+		<msgeng>Select metadata list</msgeng>
+		<msgchi>请选择搜索项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00136</msgcode>
+		<msgkor>아이디 또는 비밀번호가 맞지 않습니다</msgkor>
+		<msgeng>User ID or password you entered is incorrect</msgeng>
+		<msgchi>ID或密码不正确</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00137</msgcode>
+		<msgkor>아이디 또는 비밀번호가 맞지 않습니다</msgkor>
+		<msgeng>User ID or password you entered is empty</msgeng>
+		<msgchi>ID或密码不正确</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00138</msgcode>
+		<msgkor>사용 중지된 사용자입니다.</msgkor>
+		<msgeng>Invalid User ID.</msgeng>
+		<msgchi>用户已禁止使用</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00139</msgcode>
+		<msgkor>사용기간이 만료 되었습니다.</msgkor>
+		<msgeng>Expired content.</msgeng>
+		<msgchi>已过使用期限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00140</msgcode>
+		<msgkor>삭제 하시겠습니까?</msgkor>
+		<msgeng>Are you sure you want to delete the category</msgeng>
+		<msgchi>是否删除？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00141</msgcode>
+		<msgkor>하위 카테리고리 부터 삭제하여주세요</msgkor>
+		<msgeng>You must delete child categories first to delete a category.</msgeng>
+		<msgchi>请从子分类开始删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00142</msgcode>
+		<msgkor>등록된 자료가 없습니다</msgkor>
+		<msgeng>No material registered</msgeng>
+		<msgchi>无法找到注册资料</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00143</msgcode>
+		<msgkor>상세보기를 불러오는 중입니다</msgkor>
+		<msgeng>Reading Metadata</msgeng>
+		<msgchi>正在调取详细信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00144</msgcode>
+		<msgkor>삭제 요청 중</msgkor>
+		<msgeng>Delete Request in processing</msgeng>
+		<msgchi>正在申请删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00145</msgcode>
+		<msgkor>삭제 사유를 저장하고 콘텐츠를 삭제하시겠습니까?</msgkor>
+		<msgeng>Will you delete content?</msgeng>
+		<msgchi>确定保存删除原因并删除内容吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00146</msgcode>
+		<msgkor>불러올 콘텐츠 목록이 존재하지 않습니다</msgkor>
+		<msgeng>No content exists to load.</msgeng>
+		<msgchi>没有需要调取的内容目录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00147</msgcode>
+		<msgkor>메타데이터를 일괄 수정 하시겠습니까?</msgkor>
+		<msgeng>Are you sure to update metadata for selected content? This action is not recoverable</msgeng>
+		<msgchi>是否确定批量修改元数据？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00148</msgcode>
+		<msgkor>결과 값이 없습니다.</msgkor>
+		<msgeng>No result</msgeng>
+		<msgchi>无法找到结果</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00149</msgcode>
+		<msgkor>지정 기간 가입한 사용자가 없습니다</msgkor>
+		<msgeng>No new user added for the specified period.</msgeng>
+		<msgchi>指定期间没有注册的用户</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00150</msgcode>
+		<msgkor>기본으로 설정되어 있습니다</msgkor>
+		<msgeng>It is configured as default.</msgeng>
+		<msgchi>设置状态为默认值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00151</msgcode>
+		<msgkor>설정되지 않았습니다</msgkor>
+		<msgeng>??????????</msgeng>
+		<msgchi>未设置</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00152</msgcode>
+		<msgkor>추가 중입니다</msgkor>
+		<msgeng>Adding the user. Please wait…</msgeng>
+		<msgchi>正在添加</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00153</msgcode>
+		<msgkor>변경 중입니다</msgkor>
+		<msgeng>Applying the change. Please wait…</msgeng>
+		<msgchi>正在修改</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00154</msgcode>
+		<msgkor>을(를) 찾을 수 없습니다</msgkor>
+		<msgeng>, Not Found</msgeng>
+		<msgchi>无法找到</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00155</msgcode>
+		<msgkor>다음 사용자를 삭제 하시겠습니까?</msgkor>
+		<msgeng>Are you sure to delete</msgeng>
+		<msgchi>确定删除此用户吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00156</msgcode>
+		<msgkor>그룹이 존재하지 않습니다</msgkor>
+		<msgeng>Group does not exist.</msgeng>
+		<msgchi>此组不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00157</msgcode>
+		<msgkor>등록된 작업이 없습니다.</msgkor>
+		<msgeng>No job to show</msgeng>
+		<msgchi>无已登记的任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00158</msgcode>
+		<msgkor>현재 작업은 삭제됩니다.</msgkor>
+		<msgeng>Current job will be cancelled</msgeng>
+		<msgchi>删除目前任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00159</msgcode>
+		<msgkor>재등록 하시겠습니까?</msgkor>
+		<msgeng>Will you restart?</msgeng>
+		<msgchi>是否重启？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00160</msgcode>
+		<msgkor>수정하실 글을 선택해주세요</msgkor>
+		<msgeng>You must select a notice to edit.</msgeng>
+		<msgchi>请选择修改字段</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00161</msgcode>
+		<msgkor>공지 사항을 삭제 하시겠습니까?</msgkor>
+		<msgeng>Will you delete this notice?</msgeng>
+		<msgchi>确认删除通知事项吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00162</msgcode>
+		<msgkor>저장 완료</msgkor>
+		<msgeng>Save is processed properly.</msgeng>
+		<msgchi>保存成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00163</msgcode>
+		<msgkor>새로고침을 눌러주세요</msgkor>
+		<msgeng>Click refresh button</msgeng>
+		<msgchi>请点击刷新</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00164</msgcode>
+		<msgkor>작업을 취소 하시겠습니까?</msgkor>
+		<msgeng>Will you cancel the job?</msgeng>
+		<msgchi>是否取消任务？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00165</msgcode>
+		<msgkor>작업이 취소 되었습니다.</msgkor>
+		<msgeng>Job cancelled.</msgeng>
+		<msgchi>任务已取消</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00166</msgcode>
+		<msgkor>기록된 작업 내용이 없습니다.</msgkor>
+		<msgeng>No record for the job.</msgeng>
+		<msgchi>无任务内容记录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00167</msgcode>
+		<msgkor>저장 실패</msgkor>
+		<msgeng>Failed to save</msgeng>
+		<msgchi>保存失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00168</msgcode>
+		<msgkor>수정 실패</msgkor>
+		<msgeng>Failed to update</msgeng>
+		<msgchi>修改失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00169</msgcode>
+		<msgkor>수정할 콘텐츠 명을 선택해주세요</msgkor>
+		<msgeng>Select content name to edit</msgeng>
+		<msgchi>请选择需要修改的内容名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00170</msgcode>
+		<msgkor>삭제할 콘텐츠 명을 선택해주세요</msgkor>
+		<msgeng>Select content name to delete</msgeng>
+		<msgchi>请选择需要删除的内容名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00171</msgcode>
+		<msgkor>개의  선택된 메타데이터들 을 삭제 하시겠습니까?</msgkor>
+		<msgeng>items are selected, Will you delete the selected metadata?</msgeng>
+		<msgchi>确定删除已选编目信息吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00172</msgcode>
+		<msgkor>삭제 하시겠습니까?</msgkor>
+		<msgeng>will be deleted. Will you proceed?</msgeng>
+		<msgchi>是否删除？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00173</msgcode>
+		<msgkor>수정된 내용이 있습니다. 적용 하시겠습니까?</msgkor>
+		<msgeng>Modified data found. Will you apply the modification?</msgeng>
+		<msgchi>内容已修改，是否适用？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00174</msgcode>
+		<msgkor>추가 하시겠습니까?</msgkor>
+		<msgeng>Will you add?</msgeng>
+		<msgchi>是否添加？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00175</msgcode>
+		<msgkor>수정 하시겠습니까?</msgkor>
+		<msgeng>will be edited. Will you proceed?</msgeng>
+		<msgchi>是否修改？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00176</msgcode>
+		<msgkor>작업흐름을 선택해 주세요.</msgkor>
+		<msgeng>Select workflow</msgeng>
+		<msgchi>请选择工作流程</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00177</msgcode>
+		<msgkor>원본 자료 입니다.</msgkor>
+		<msgeng>This is the original content</msgeng>
+		<msgchi>这是原件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00178</msgcode>
+		<msgkor>콘텐츠를 대표하는 이미지입니다.</msgkor>
+		<msgeng>This is the representative image for the content.</msgeng>
+		<msgchi>这是内容的代表图像</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00179</msgcode>
+		<msgkor>스트리밍 서비스를 위한 H264형식의 저해상도 프록시 파일입니다.</msgkor>
+		<msgeng>This is h.264 low resolution proxy file for the streaming.</msgeng>
+		<msgchi>这是提供媒体流服务的H264形式低分辨率文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00180</msgcode>
+		<msgkor>다운로드 서비스를 위한 WMV형식의 자료입니다</msgkor>
+		<msgeng>This is WMV file for downloading.</msgeng>
+		<msgchi>提供下载服务的WMV格式资料</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00181</msgcode>
+		<msgkor>사용자가 추가한 프록시 파일입니다</msgkor>
+		<msgeng>This is the proxy file that user added.</msgeng>
+		<msgchi>用户添加的低码文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00182</msgcode>
+		<msgkor>니어라인 자료입니다</msgkor>
+		<msgeng>This is the content stored in nearline storage.</msgeng>
+		<msgchi>Nearline资料</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00183</msgcode>
+		<msgkor>아카이브 자료입니다</msgkor>
+		<msgeng>This is the content in the archive storage.</msgeng>
+		<msgchi>存档资料</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00184</msgcode>
+		<msgkor>리스토어 자료입니다</msgkor>
+		<msgeng>This is the content restored from the archive.</msgeng>
+		<msgchi>复原资料</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00185</msgcode>
+		<msgkor>고해상도 프록시파일입니다.</msgkor>
+		<msgeng>This is the high resolution proxy file.</msgeng>
+		<msgchi>高分辨率转码文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00186</msgcode>
+		<msgkor>추가할 작업을 선택하세요.</msgkor>
+		<msgeng>Please select job to add</msgeng>
+		<msgchi>请选择需要添加的任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00187</msgcode>
+		<msgkor>작업 실행 번호를 입력하세요</msgkor>
+		<msgeng>Please enter job session no.</msgeng>
+		<msgchi>请输入任务执行编号</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00188</msgcode>
+		<msgkor>리스토어 하시겠습니까?</msgkor>
+		<msgeng>Are you going to restore this file from Archive? This takes some time.</msgeng>
+		<msgchi>确定复原？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00189</msgcode>
+		<msgkor>수정하신 내용을 저장하시겠습니까?</msgkor>
+		<msgeng>Will you update metadata for this content?</msgeng>
+		<msgchi>是否保存修改内容？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00190</msgcode>
+		<msgkor>창을 닫으시겠습니까?</msgkor>
+		<msgeng>Will you close this window?</msgeng>
+		<msgchi>是否关闭窗口？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00191</msgcode>
+		<msgkor>In 값이 비어 있습니다</msgkor>
+		<msgeng>In point is empty</msgeng>
+		<msgchi>未输入In值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00192</msgcode>
+		<msgkor>Out 값이 비어 있습니다</msgkor>
+		<msgeng>Out point is empty</msgeng>
+		<msgchi>未输入Out值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00193</msgcode>
+		<msgkor>In 과 Out 값이 동일합니다</msgkor>
+		<msgeng>In and out point is identical</msgeng>
+		<msgchi>In和Out值相同</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00194</msgcode>
+		<msgkor>Out 보다 In 값이 더 큽니다</msgkor>
+		<msgeng>Out point is bigger than In point.</msgeng>
+		<msgchi>Out值大于In值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00195</msgcode>
+		<msgkor>최소 구간은 10초 입니다</msgkor>
+		<msgeng>Minimum In/Out duration is 10 seconds.</msgeng>
+		<msgchi>最小区间为10秒</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00196</msgcode>
+		<msgkor>작업을 추가해주세요</msgkor>
+		<msgeng>Please add job.</msgeng>
+		<msgchi>请添加任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00197</msgcode>
+		<msgkor>작업 타입을 선택해주세요</msgkor>
+		<msgeng>Please select job type.</msgeng>
+		<msgchi>请选择任务类别</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00198</msgcode>
+		<msgkor>소스 스토리지를 선택하세요</msgkor>
+		<msgeng>Please select source storage.</msgeng>
+		<msgchi>请选择素材存储</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00199</msgcode>
+		<msgkor>타겟 스토리지를 선택하세요</msgkor>
+		<msgeng>Please select target storage.</msgeng>
+		<msgchi>请选择目标存储</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00200</msgcode>
+		<msgkor>모듈을 추가 해 주세요</msgkor>
+		<msgeng>Please add a module.</msgeng>
+		<msgchi>请添加模块</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00201</msgcode>
+		<msgkor>수정하실 모듈을 선택해 주세요</msgkor>
+		<msgeng>Please select the module to edit.</msgeng>
+		<msgchi>请选择修改模块</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00202</msgcode>
+		<msgkor>삭제하실 모듈을 선택해 주세요</msgkor>
+		<msgeng>Please select the module to delete.</msgeng>
+		<msgchi>请选择需要删除的模块</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00203</msgcode>
+		<msgkor>모듈명을 입력해 주세요</msgkor>
+		<msgeng>Please enter the name for the module.</msgeng>
+		<msgchi>请输入模块名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00204</msgcode>
+		<msgkor>모듈에 대한 설명을 입력해 주세요</msgkor>
+		<msgeng>Please enter the description for the module.</msgeng>
+		<msgchi>请输入模块相关说明</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00205</msgcode>
+		<msgkor>메인 IP주소를 입력해 주세요</msgkor>
+		<msgeng>Please enter the main IP address.</msgeng>
+		<msgchi>请输入主IP地址</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00206</msgcode>
+		<msgkor>보조 IP주소를 입력해 주세요</msgkor>
+		<msgeng>Please enter the second IP address.</msgeng>
+		<msgchi>请输入辅助IP地址</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00207</msgcode>
+		<msgkor>이미지가 없습니다</msgkor>
+		<msgeng>No Image</msgeng>
+		<msgchi>没有图片</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00208</msgcode>
+		<msgkor>대표이미지로 지정 하시겠습니까?</msgkor>
+		<msgeng>Will you replace this image as the poster of this content?</msgeng>
+		<msgchi>是否设置为缩略图？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00209</msgcode>
+		<msgkor>속해 있는 메타데이터 부터 삭제하여주세요.</msgkor>
+		<msgeng>Empty the metadata items first. Metadata items need to be deleted before deleting user defined content type.</msgeng>
+		<msgchi>请从子元数据开始删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00210</msgcode>
+		<msgkor>메타테이터 삭제 완료</msgkor>
+		<msgeng>Metadata delete completed successfully.</msgeng>
+		<msgchi>元数据删除成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00211</msgcode>
+		<msgkor>미디어 정보 삭제 완료</msgkor>
+		<msgeng>Media information delete completed successfully.</msgeng>
+		<msgchi>媒体信息删除成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00212</msgcode>
+		<msgkor>작업이 완료되지 않은 상태입니다.</msgkor>
+		<msgeng>작업이 완료되지 않은 상태입니다.</msgeng>
+		<msgchi>任务尚未完成</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00213</msgcode>
+		<msgkor>서비스 준비중입니다.</msgkor>
+		<msgeng>서비스 준비중입니다.</msgeng>
+		<msgchi>服务准备中</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00214</msgcode>
+		<msgkor>MXF TO MOV로 요청하시겠습니까?</msgkor>
+		<msgeng>Rewrapper request has been posted successfully</msgeng>
+		<msgchi>是否申请MXF TO MOV？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00215</msgcode>
+		<msgkor>폐기 기간을 선택하세요</msgkor>
+		<msgeng>폐기 기간을 선택하세요</msgeng>
+		<msgchi>请选择失效期限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00216</msgcode>
+		<msgkor>저해상도 영상정보가 없습니다. 영상미리보기가 지원되지 않습니다.</msgkor>
+		<msgeng>저해상도 영상정보가 없습니다. 영상미리보기가 지원되지 않습니다.</msgeng>
+		<msgchi>无法找到低分辨率视频信息。不支持视频预览。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00217</msgcode>
+		<msgkor>파일을 전송 중입니다.</msgkor>
+		<msgeng>파일을 전송 중입니다.</msgeng>
+		<msgchi>正在发送文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG00218</msgcode>
+		<msgkor>사용자를 추가할 그룹을 선택해주세요.</msgkor>
+		<msgeng>사용자를 추가할 그룹을 선택해주세요.</msgeng>
+		<msgchi>请选择需要添加用户的组</msgchi>
+	</items>
+        <items>
+		<msgcode>MSG00219</msgcode>
+		<msgkor>그룹에 추가할 사용자를 선택해주세요.</msgkor>
+		<msgeng>그룹에 추가할 사용자를 선택해주세요.</msgeng>
+		<msgchi>请选择添加到此组的用户</msgchi>
+	</items>
+        <items>
+		<msgcode>MSG00220</msgcode>
+		<msgkor>해당 그룹에 소속된 사용자가 없습니다.</msgkor>
+		<msgeng>해당 그룹에 소속된 사용자가 없습니다.</msgeng>
+		<msgchi>相应组内无用户</msgchi>
+	</items>
+        <items>
+		<msgcode>MSG00221</msgcode>
+		<msgkor>그룹에서 삭제할 사용자를 선택해주세요.</msgkor>
+		<msgeng>그룹에서 삭제할 사용자를 선택해주세요.</msgeng>
+		<msgchi>请选择移除改组的用户</msgchi>
+	</items>
+	<!-- sgl 메세지 추가 -->
+	<items>
+		<msgcode>MSG01000</msgcode>
+		<msgkor>다음 그룹을 삭제 하시겠습니까?</msgkor>
+		<msgeng>Will you remove the following Group?</msgeng>
+		<msgchi>是否删除此组？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01001</msgcode>
+		<msgkor>로그인 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please log in first.</msgeng>
+		<msgchi>请先登录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01002</msgcode>
+		<msgkor>권한이 지정되지 않았습니다.</msgkor>
+		<msgeng>No access right is assigned.</msgeng>
+		<msgchi>没有指定权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01003</msgcode>
+		<msgkor>먼저 사용자를 선택해주세요.</msgkor>
+		<msgeng>Please select user first.</msgeng>
+		<msgchi>请先选择用户</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01004</msgcode>
+		<msgkor>입력하신 비밀번호가 서로 일치하지 않습니다.</msgkor>
+		<msgeng>The password you entered do not match.</msgeng>
+		<msgchi>密码不一致</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01005</msgcode>
+		<msgkor>먼저 대상을 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please select one first.</msgeng>
+		<msgchi>请先选择对象</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01006</msgcode>
+		<msgkor>첨부파일을 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please select attach files only.</msgeng>
+		<msgchi>请选择附件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01007</msgcode>
+		<msgkor>하시겠습니까?</msgkor>
+		<msgeng>Will you proceed?</msgeng>
+		<msgchi>是否进行？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01008</msgcode>
+		<msgkor>수정 하시겠습니까?</msgkor>
+		<msgeng>Will you update the comment?</msgeng>
+		<msgchi>是否修改？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01009</msgcode>
+		<msgkor>요청이 완료되었습니다</msgkor>
+		<msgeng>Request completed successfully.</msgeng>
+		<msgchi>申请成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01010</msgcode>
+		<msgkor>허용치를 초과하였습니다.</msgkor>
+		<msgeng>Max request exceeded.</msgeng>
+		<msgchi>超出许可值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01011</msgcode>
+		<msgkor>해당 영상은 관리자에게 문의하시기 바랍니다.</msgkor>
+		<msgeng>Please ask to administrator about this media.</msgeng>
+		<msgchi>相关视频请与负责人沟通</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01012</msgcode>
+		<msgkor>먼저 메타데이터를 입력 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please fill the metadata first.</msgeng>
+		<msgchi>请先编目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01013</msgcode>
+		<msgkor>올바른 값을 입력 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please enter the correct values.</msgeng>
+		<msgchi>请输入正确值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01014</msgcode>
+		<msgkor>완료후 콘텐츠 상태</msgkor>
+		<msgeng>Content Status</msgeng>
+		<msgchi>完成后内容状态</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01015</msgcode>
+		<msgkor>FlashNet Archive 그룹정보 가져오기를 성공하였습니다</msgkor>
+		<msgeng>The FlashNet group information importing is completed successfully.</msgeng>
+		<msgchi>成功调取FlashNet Archive组信息</msgchi>
+	</items>
+		<items>
+		<msgcode>MSG01016</msgcode>
+		<msgkor>FlashNet에서 그룹정보 가져오기를 진행합니다. 이 작업은 몇초 정도 걸릴 수 있습니다.</msgkor>
+		<msgeng>This will import group information from FlashNet. This may take a while.</msgeng>
+		<msgchi>FlashNet中读取组信息。此操作需要等待几秒钟。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01017</msgcode>
+		<msgkor>FlashNet 그룹은 필수입니다. 그룹을 선택해주세요.</msgkor>
+		<msgeng>FlashNet Group is required. Please select one of the FlashNet Group.</msgeng>
+		<msgchi>FlashNet组是必选项。请选择组。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01018</msgcode>
+		<msgkor>응답을 기다리고 있습니다.</msgkor>
+		<msgeng>Waiting for the result. This may take a while.</msgeng>
+		<msgchi>正在等待应答</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01019</msgcode>
+		<msgkor>리스토어 우선순위 0 : FlashNet 지정순위 1 : 가장높음 100: 가장낮음 기본: 4</msgkor>
+		<msgeng>Restore Priority. 0 : allows FlashNet to priorities your job itself 1: highest 100: lowest 4: default</msgeng>
+		<msgchi>恢复优先级 0 : FlashNet 指定排序 1 : 最高 100: 最低默认: 4</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01020</msgcode>
+		<msgkor>이미 원본이 삭제된 콘텐츠입니다.</msgkor>
+		<msgeng>HR was already deleted.</msgeng>
+		<msgchi>已删除原件的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01021</msgcode>
+		<msgkor>원본이 지워진 경우 리스토어가 가능합니다.</msgkor>
+		<msgeng>Restore can be proceeded only if HR media is not on the storage.</msgeng>
+		<msgchi>原件已删除时，可以恢复</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01022</msgcode>
+		<msgkor>액션이 정의 되어있지 않습니다.</msgkor>
+		<msgeng>Action is not defined.</msgeng>
+		<msgchi>动作未定义</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01023</msgcode>
+		<msgkor>등록 모듈 아이디 값은 중복이 될 수 없습니다.</msgkor>
+		<msgeng>The ID of Registration Module can not be duplicated.</msgeng>
+		<msgchi>注册模块ID值不可重复</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01024</msgcode>
+		<msgkor>추가 되었습니다.</msgkor>
+		<msgeng>Add succeeded.</msgeng>
+		<msgchi>添加成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01025</msgcode>
+		<msgkor>등록 채널 값은 중복이 될 수 없습니다.</msgkor>
+		<msgeng>The Channel of Workflow can not be duplicated.</msgeng>
+		<msgchi>登记频道值不可重复</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01026</msgcode>
+		<msgkor>검색날짜를 입력해 주세요</msgkor>
+		<msgeng>Search dates are required. Please select date in the datefield to continue search.</msgeng>
+		<msgchi>请输入搜索日期</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01027</msgcode>
+		<msgkor>동일한 검색 항목을 선택하셨습니다.</msgkor>
+		<msgeng>Select same search condition. Please select another condition for search.</msgeng>
+		<msgchi>请选择相同搜索项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01028</msgcode>
+		<msgkor>사용자 정의 콘텐츠를 선택해 주세요</msgkor>
+		<msgeng>Please select User Defined Content type.</msgeng>
+		<msgchi>请选择用户定义内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01029</msgcode>
+		<msgkor>권한 선택해 주세요</msgkor>
+		<msgeng>Please select Grant.</msgeng>
+		<msgchi>请选择权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01030</msgcode>
+		<msgkor>Access Right 선택해 주세요</msgkor>
+		<msgeng>Please select Access Right.</msgeng>
+		<msgchi>请选择Access Right</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01031</msgcode>
+		<msgkor>Context Menu 선택해 주세요</msgkor>
+		<msgeng>Please select Context Menu.</msgeng>
+		<msgchi>请选择Context Menu</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01032</msgcode>
+		<msgkor>콘텐츠를 등록할 권한이 없습니다.</msgkor>
+		<msgeng>You do not have permission to register content.</msgeng>
+		<msgchi>无内容登记权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01033</msgcode>
+		<msgkor>목록을 선택해 주세요.</msgkor>
+		<msgeng>Please select list first.</msgeng>
+		<msgchi>请选择目录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01034</msgcode>
+		<msgkor>취소할 수 없는 작업입니다.</msgkor>
+		<msgeng>Selected task cannot be changed to Canceled.</msgeng>
+		<msgchi>此任务无法取消</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01035</msgcode>
+		<msgkor>취소된 작업만 삭제 가능합니다.</msgkor>
+		<msgeng>Only canceled task can be deleted.</msgeng>
+		<msgchi>只能删除已取消任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01036</msgcode>
+		<msgkor>계정 사용기간이 만료되었습니다.</msgkor>
+		<msgeng>Expired account.</msgeng>
+		<msgchi>账户使用已到期</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01037</msgcode>
+		<msgkor>장시간 사용하지 않았습니다.</msgkor>
+		<msgeng>Not used for a long time.</msgeng>
+		<msgchi>长期未使用</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01038</msgcode>
+		<msgkor>다시 로그인 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please log in again.</msgeng>
+		<msgchi>请重新登录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01039</msgcode>
+		<msgkor>다른 시스템에서 접속하여 로그아웃됩니다.</msgkor>
+		<msgeng>You are logged out from other systems connected.</msgeng>
+		<msgchi>在其他系统登录，退出此处登录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01040</msgcode>
+		<msgkor>Timecode정보를 수정합니다.</msgkor>
+		<msgeng>Timecode information will be edited.</msgeng>
+		<msgchi>修改Timecode信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01041</msgcode>
+		<msgkor>Timecode정보를 추가합니다.</msgkor>
+		<msgeng>Timecode information will be added.</msgeng>
+		<msgchi>添加Timecode信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01042</msgcode>
+		<msgkor>Timecode정보를 삭제합니다.</msgkor>
+		<msgeng>Timecode information will be deleted.</msgeng>
+		<msgchi>删除Timecode信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01043</msgcode>
+		<msgkor>PFR작업을 요청합니다.</msgkor>
+		<msgeng>Partial Restore task will be requested.</msgeng>
+		<msgchi>申请PFR任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01044</msgcode>
+		<msgkor>Timecode정보가 올바르지 않습니다.</msgkor>
+		<msgeng>Invalid Timecode info.</msgeng>
+		<msgchi>Timecode信息不正确</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01045</msgcode>
+		<msgkor>중복된 Timecode정보는 추가할 수 없습니다.</msgkor>
+		<msgeng>Same Timecode information can not be duplicated.</msgeng>
+		<msgchi>无法添加重复的Timecode信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01046</msgcode>
+		<msgkor>다운로드 할 수 없는 유형입니다.</msgkor>
+		<msgeng>Can not be downloaded type.</msgeng>
+		<msgchi>无法下载的类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01047</msgcode>
+		<msgkor>기존 비밀번호와 신규 비밀번호가 동일합니다</msgkor>
+		<msgeng>New password is same as current password.</msgeng>
+		<msgchi>旧密码与新密码相同</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01048</msgcode>
+		<msgkor>존재하는 테이블명입니다.</msgkor>
+		<msgeng>A duplicate name exists on the database.</msgeng>
+		<msgchi>已存在的工位名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01049</msgcode>
+		<msgkor>존재하는 메타데이터 이름 입니다.</msgkor>
+		<msgeng>A duplicate name exists on the user metadata.</msgeng>
+		<msgchi>已存在的元数据名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01050</msgcode>
+		<msgkor>그룹 아이디가 존재 하지않습니다.</msgkor>
+		<msgeng>There is no Group ID.</msgeng>
+		<msgchi>此组ID不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01051</msgcode>
+		<msgkor>메타데이터 명이 존재 하지않습니다.</msgkor>
+		<msgeng>Metadata Name is empty.Please input name for Metadata.</msgeng>
+		<msgchi>元数据名称不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01052</msgcode>
+		<msgkor>입력형식이 존재 하지않습니다.</msgkor>
+		<msgeng>Type of the metadata is empty. Please select one of the type.</msgeng>
+		<msgchi>输入形式不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01053</msgcode>
+		<msgkor>2차 컨테이너 안에는 컨테이너외 다른 입력형식들만 추가하실수 있습니다.</msgkor>
+		<msgeng>Only container and other type of the metadata can be selected for 2nd Container.</msgeng>
+		<msgchi>在2次container中只能添加container以外的其他输入形式</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01054</msgcode>
+		<msgkor>컨테이너를 선택하시거나 입력형식을 컨테이너로 선택해 주십시오.</msgkor>
+		<msgeng>Please select one of the container or insert new container.</msgeng>
+		<msgchi>请选择container或将输入形式设为container</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01055</msgcode>
+		<msgkor>미디어 종류 추가 완료</msgkor>
+		<msgeng>Complete adding new media type.</msgeng>
+		<msgchi>媒体类型添加成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01056</msgcode>
+		<msgkor>메타데이터 아이디가 존재 하지않습니다.</msgkor>
+		<msgeng>The ID of metadata is empty.</msgeng>
+		<msgchi>不存在的元数据ID</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01057</msgcode>
+		<msgkor>재정렬 완료</msgkor>
+		<msgeng>Complete reorder.</msgeng>
+		<msgchi>完成重新排序</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01058</msgcode>
+		<msgkor>메뉴를 선택하여 주세요</msgkor>
+		<msgeng>Select menu.</msgeng>
+		<msgchi>请选择菜单</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01059</msgcode>
+		<msgkor>콘텐츠를 이동시킬 카테고리를 선택하여 주세요.</msgkor>
+		<msgeng>Please select a category to move content.</msgeng>
+		<msgchi>请选择发送内容的分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01060</msgcode>
+		<msgkor>기존의 카테고리와 다른 카테고리를 선택해주세요.</msgkor>
+		<msgeng>Please select another categories.</msgeng>
+		<msgchi>请选择与目前分类不同的分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01061</msgcode>
+		<msgkor>선택된 카테고리 내에 콘텐츠가 존재합니다.</msgkor>
+		<msgeng>There is a content in the selected category.</msgeng>
+		<msgchi>已选分类中存在此内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01062</msgcode>
+		<msgkor>삭제 사유를 입력 해 주세요.</msgkor>
+		<msgeng>Please fill the delete reason.</msgeng>
+		<msgchi>请输入删除原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG01063</msgcode>
+		<msgkor>A카테고리의 콘텐츠를 B카테고리로 이동하시겠습니까?</msgkor>
+		<msgeng>Do you want to move content from A to B?</msgeng>
+		<msgchi>是否把A分类的内容移动到B分类？</msgchi>
+	</items>
+	<!-- sgl 메세지 추가 끝 -->
+	<items>
+		<msgcode>MSG02001</msgcode>
+		<msgkor>먼저 대상을 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>First, please select target.</msgeng>
+		<msgchi>请选择对象</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02002</msgcode>
+		<msgkor>코드 또는 코드명이 이미 등록되어 있습니다.</msgkor>
+		<msgeng>Code or code type name is already registered.</msgeng>
+		<msgchi>已注册的代码或者代码名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02003</msgcode>
+		<msgkor>개의 하위 코드가 있습니다. 삭제 하시겠습니까?</msgkor>
+		<msgeng> sub-codes are exist. Are you sure to delete this code?</msgeng>
+		<msgchi>副代号已存在，是否删除？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02004</msgcode>
+		<msgkor>개의 하위 코드가 있습니다. 함께 삭제 하시겠습니까?</msgkor>
+		<msgeng> sub-codes are exist. Are you sure to delete this code and sub-codes?</msgeng>
+		<msgchi>副代号已存在，是否一起删除？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02005</msgcode>
+		<msgkor>사용자정의콘텐츠를 선택해주세요</msgkor>
+		<msgeng>Select user metadata.</msgeng>
+		<msgchi>请选择用户定义的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02006</msgcode>
+		<msgkor>사용자 그룹을 선택해주세요</msgkor>
+		<msgeng>Select user group.</msgeng>
+		<msgchi>请选择用户组</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02007</msgcode>
+		<msgkor>권한을 선택해주세요</msgkor>
+		<msgeng>Select right.</msgeng>
+		<msgchi>请选择权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02008</msgcode>
+		<msgkor>취소할 수 없습니다.</msgkor>
+		<msgeng>Cannot cancel this item(s).</msgeng>
+		<msgchi>无法取消</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02009</msgcode>
+		<msgkor>취소된 작업만 삭제 가능합니다.</msgkor>
+		<msgeng>Only not canceled job cannot deleted.</msgeng>
+		<msgchi>仅限删除已取消的工作</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02010</msgcode>
+		<msgkor>하시겠습니까?</msgkor>
+		<msgeng>will you proceed?</msgeng>
+		<msgchi>是否进行？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02011</msgcode>
+		<msgkor>Please login first.</msgkor>
+		<msgeng>Please login first.</msgeng>
+		<msgchi>Please login first.</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02012</msgcode>
+		<msgkor>다운로드 할 파일을 찾을 수 없습니다.</msgkor>
+		<msgeng>Cannot find file to download.</msgeng>
+		<msgchi>无法找到需要下载的文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02013</msgcode>
+		<msgkor>첨부파일 입니다.</msgkor>
+		<msgeng>This is the file that user attached.</msgeng>
+		<msgchi>这是附件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02014</msgcode>
+		<msgkor>구간추출파일 입니다.</msgkor>
+		<msgeng>This is the PFR(Partial File Restore) proxy file.</msgeng>
+		<msgchi>这是PFR代理文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02015</msgcode>
+		<msgkor>삭제 사유를 적어주세요.</msgkor>
+		<msgeng>Please write reason for deletion.</msgeng>
+		<msgchi>请输入删除原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02016</msgcode>
+		<msgkor>먼저 로그인 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please login first.</msgeng>
+		<msgchi>请先登录账号</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02017</msgcode>
+		<msgkor>FINAL탭으로 이동시킵니다.</msgkor>
+		<msgeng>Move to FINAL tab.</msgeng>
+		<msgchi>移动到FINAL标签</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02018</msgcode>
+		<msgkor>아카이브 작업을 진행하시겠습니까?</msgkor>
+		<msgeng>Will you proceed Archive job?</msgeng>
+		<msgchi>是否进行归档？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02019</msgcode>
+		<msgkor>전송 작업을 진행하시겠습니까?</msgkor>
+		<msgeng>Will you proceed Move to ON-AIR job?</msgeng>
+		<msgchi>是否发送？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02020</msgcode>
+		<msgkor>다중선택 후 삭제는 동일한 카테고리 내에서만 가능합니다.</msgkor>
+		<msgeng>Multi-select and delete only possible within the same category.</msgeng>
+		<msgchi>多选项目的删除仅限在同一个分类中进行</msgchi>
+	</items>
+	<!-- 추가  -->
+	<items>
+		<msgcode>MSG02021</msgcode>
+		<msgkor>-</msgkor>
+		<msgeng>Please select</msgeng>
+		<msgchi>-</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02022</msgcode>
+		<msgkor>-</msgkor>
+		<msgeng>-</msgeng>
+		<msgchi>-</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02023</msgcode>
+		<msgkor>-</msgkor>
+		<msgeng>-</msgeng>
+		<msgchi>-</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02024</msgcode>
+		<msgkor>-</msgkor>
+		<msgeng>Update request completed successfully.</msgeng>
+		<msgchi>-更新申请已完成</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02025</msgcode>
+		<msgkor>카테고리명은 250자 이내입니다.</msgkor>
+		<msgeng>Category name is too long. Please enter the category name within 205 characters.</msgeng>
+		<msgchi>分类名称为250字以内</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02026</msgcode>
+		<msgkor>기본값을 확인하세요.</msgkor>
+		<msgeng>Default values should be filled under proper rules.</msgeng>
+		<msgchi>请确认默认值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02027</msgcode>
+		<msgkor>편집자를 선택하세요.</msgkor>
+		<msgeng>Editor must be filled(selected).</msgeng>
+		<msgchi>请选择剪辑人员</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02028</msgcode>
+		<msgkor>EDL 정보가 없습니다.</msgkor>
+		<msgeng>No EDL to download.</msgeng>
+		<msgchi>没有EDL的信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02029</msgcode>
+		<msgkor>EDL Import시 드래그해주세요.</msgkor>
+		<msgeng>To import EDL from NLE, please drag and drop.</msgeng>
+		<msgchi>EDL Import时，请拖动</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02030</msgcode>
+		<msgkor>다운로드 하시겠습니까?</msgkor>
+		<msgeng>Will you download content?</msgeng>
+		<msgchi>是否下载？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02031</msgcode>
+		<msgkor>매칭 해제되었습니다.</msgkor>
+		<msgeng>Unlinked.</msgeng>
+		<msgchi>已解除配对</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02032</msgcode>
+		<msgkor>기사 정보가 없습니다.</msgkor>
+		<msgeng>Some field in the script is not correct. Please check the script first to link.</msgeng>
+		<msgchi>没有相关信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02033</msgcode>
+		<msgkor>변경 되었습니다.</msgkor>
+		<msgeng>Request sent.</msgeng>
+		<msgchi>已修改</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02034</msgcode>
+		<msgkor>비밀번호를 9자리 이상 입력해 주세요.</msgkor>
+		<msgeng>Password should be longer than 9 characters.</msgeng>
+		<msgchi>请输入9位数以上的密码</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02035</msgcode>
+		<msgkor>비밀번호는 영문, 숫자, 특수문자를 각각 1개 이상 포함하여야 합니다.</msgkor>
+		<msgeng>Password must have at least 1 number, alphabet and special character.</msgeng>
+		<msgchi>密码需包含1个以上的字母，数字，特殊符号</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02036</msgcode>
+		<msgkor>등록중입니다.</msgkor>
+		<msgeng>Sending request.</msgeng>
+		<msgchi>注册中</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02037</msgcode>
+		<msgkor>등록 되었습니다.</msgkor>
+		<msgeng>Request sent.</msgeng>
+		<msgchi>注册完毕</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02038</msgcode>
+		<msgkor>신규 콘텐츠를 생성하시겠습니까?</msgkor>
+		<msgeng>Will you create a partial content?</msgeng>
+		<msgchi>是否生成新内容？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02039</msgcode>
+		<msgkor>이 작업을 진행하시겠습니까?</msgkor>
+		<msgeng>Will you proceed?</msgeng>
+		<msgchi>是否进行此任务？</msgchi><!-- check -->
+	</items>
+	<items>
+		<msgcode>MSG02040</msgcode>
+		<msgkor>파일이 존재하지 않습니다.</msgkor>
+		<msgeng>File does not exist.</msgeng>
+		<msgchi>此文件不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02041</msgcode>
+		<msgkor>세션이 만료되어 로그인이 필요합니다.</msgkor>
+		<msgeng>Please log in first.</msgeng>
+		<msgchi>请先登录</msgchi><!--  MSG01037-->
+	</items>
+	<items>
+		<msgcode>MSG02042</msgcode>
+		<msgkor>대기중인 작업만 요청 가능합니다.</msgkor>
+		<msgeng>Priority can be changed on queued tasks only.</msgeng>
+		<msgchi>仅限申请等待状态的任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02043</msgcode>
+		<msgkor>삭제 완료 목록은 연장하실 수 없습니다.</msgkor>
+		<msgeng>(e)삭제 완료 목록은 연장하실 수 없습니다.</msgeng>
+		<msgchi>无法延长已删除目录</msgchi><!-- check -->
+	</items>
+	<items>
+		<msgcode>MSG02044</msgcode>
+		<msgkor>이미 승인하였습니다.</msgkor>
+		<msgeng>Already approved.</msgeng>
+		<msgchi>已确认</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02045</msgcode>
+		<msgkor>사용자 요청에 대한 삭제승인권한이 설정되지 않았습니다.</msgkor>
+		<msgeng>You do not have rights to delete.</msgeng>
+		<msgchi>未赋予确认删除权限</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02046</msgcode>
+		<msgkor>선택하신 목록을 삭제 승인하시겠습니까?</msgkor>
+		<msgeng>Will you approve to delete the selected content?</msgeng>
+		<msgchi>是否确认删除已选目录？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02047</msgcode>
+		<msgkor>삭제된 목록은 삭제 취소할 수 없습니다.</msgkor>
+		<msgeng>Delete cannot be reverted after deletion.</msgeng>
+		<msgchi>已删除目录无法取消删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02048</msgcode>
+		<msgkor>-</msgkor>
+		<msgeng>-</msgeng>
+		<msgchi>-</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02049</msgcode>
+		<msgkor>기한 만료된 목록은 삭제 취소할 수 없습니다.</msgkor>
+		<msgeng>(e)기한 만료된 목록은 삭제 취소할 수 없습니다.</msgeng>
+		<msgchi>过期目录无法取消删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02050</msgcode>
+		<msgkor>작업 로그가 존재하지 않습니다.</msgkor>
+		<msgeng>Cannot find task processing history from DB. Please contact Gemiso support team.</msgeng>
+		<msgchi>此任务无记录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02051</msgcode>
+		<msgkor>출력하실 내용이 없습니다.</msgkor>
+		<msgeng>There is no item to print out.</msgeng>
+		<msgchi>没有打印内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02052</msgcode>
+		<msgkor>다시 시도 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please try again.</msgeng>
+		<msgchi>请重试</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02053</msgcode>
+		<msgkor>다운로드 할 수 없는 파일입니다.</msgkor>
+		<msgeng>Cannot be downloaded.</msgeng>
+		<msgchi>无法下载的文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02054</msgcode>
+		<msgkor>사용자 정보가 변경되었습니다.</msgkor>
+		<msgeng>Your information has modified.</msgeng>
+		<msgchi>已修改用户信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02055</msgcode>
+		<msgkor>작업흐름 상세 목록을 을 선택해 주세요.</msgkor>
+		<msgeng>Select workflow in detail.</msgeng>
+		<msgchi>请选择工作流程的详细目录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02056</msgcode>
+		<msgkor>폴더명은 15자 이내입니다.</msgkor>
+		<msgeng>Folder name is too long. Please enter the forlder name within 15 characters.</msgeng>
+		<msgchi>文件夹名为15字以内</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02057</msgcode>
+		<msgkor>메타데이터 추가가 완료되었습니다</msgkor>
+		<msgeng>Metadata add completed successfully.</msgeng>
+		<msgchi>成功添加元数据</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02058</msgcode>
+		<msgkor>동일한 작업ID가 존재합니다</msgkor>
+		<msgeng>A duplicate TASK ID exists on the database.</msgeng>
+		<msgchi>已存在相同的任务ID</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02059</msgcode>
+		<msgkor>작업이 추가되었습니다</msgkor>
+		<msgeng>Job is added successfully.</msgeng>
+		<msgchi>已添加任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02060</msgcode>
+		<msgkor>작업이 수정되었습니다</msgkor>
+		<msgeng>Job is updated successfully.</msgeng>
+		<msgchi>已修改任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02061</msgcode>
+		<msgkor>작업이 삭제되었습니다</msgkor>
+		<msgeng>Job is deleted successfully.</msgeng>
+		<msgchi>已删除任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02062</msgcode>
+		<msgkor>모듈이 추가되었습니다</msgkor>
+		<msgeng>Module is added successfully.</msgeng>
+		<msgchi>已添加模块</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02063</msgcode>
+		<msgkor>모듈이 수정되었습니다</msgkor>
+		<msgeng>Module is updated successfully.</msgeng>
+		<msgchi>已修改模块</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02064</msgcode>
+		<msgkor>이미 선택하였습니다.</msgkor>
+		<msgeng>Already selected.</msgeng>
+		<msgchi>已选择</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02065</msgcode>
+		<msgkor>내용은 4000자 이내입니다.</msgkor>
+		<msgeng>Content is too long. Please enter the Content within 4000 characters.</msgeng>
+		<msgchi>内容需少于400字</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02066</msgcode>
+		<msgkor>입력하신 정보가 초기화 되며, 선택하신 유형으로 정보가 갱신됩니다.</msgkor>
+		<msgeng>Current metadata will be cleared. And will be refresh by selected content type metadata.</msgeng>
+		<msgchi>输入的信息将初始化，信息更新为已选类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02067</msgcode>
+		<msgkor>진행하시겠습니까?</msgkor>
+		<msgeng>Will you proceed?</msgeng>
+		<msgchi>是否进行？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02068</msgcode>
+		<msgkor>이미 아카이브된 항목입니다.</msgkor>
+		<msgeng>This content already archived.</msgeng>
+		<msgchi>已归档内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02069</msgcode>
+		<msgkor>리스토어 작업이 진행 중 입니다.</msgkor>
+		<msgeng>Restore job is in progress.</msgeng>
+		<msgchi>正在进行恢复工作</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02070</msgcode>
+		<msgkor>접속 제한 시간이 만료되었습니다.</msgkor>
+		<msgeng>Your Session has been expired.</msgeng>
+		<msgchi>访问时间已过期</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02071</msgcode>
+		<msgkor>확인을 클릭하시면 로그인 페이지로 이동합니다.</msgkor>
+		<msgeng>Click Ok to move login page.</msgeng>
+		<msgchi>点击确认，移动至登录页面</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02072</msgcode>
+		<msgkor>존재하는 사용자 정의 콘텐츠 명 입니다.</msgkor>
+		<msgeng>A duplicate title exists on the User Defined Content.</msgeng>
+		<msgchi>已存在的用户定义内容名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02073</msgcode>
+		<msgkor>Database table명의 최대길이는 영문 16자 입니다.</msgkor>
+		<msgeng>The maximum length for database table name is 16(number, alphabet).</msgeng>
+		<msgchi>Database table名称限输入16个字母</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02074</msgcode>
+		<msgkor>영문, 숫자만 입력 가능합니다.</msgkor>
+		<msgeng>Only number, alphabet can allow here.</msgeng>
+		<msgchi>仅限输入字母，数字</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02075</msgcode>
+		<msgkor>수정할 카테고리를 선택 해 주세요.</msgkor>
+		<msgeng>Select category to edit</msgeng>
+		<msgchi>请选择需要修改的分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02076</msgcode>
+		<msgkor>삭제할 카테고리를 선택 해 주세요.</msgkor>
+		<msgeng>Select category to delete</msgeng>
+		<msgchi>请选择需要删除的分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02077</msgcode>
+		<msgkor>정렬을 저장하시겠습니까?</msgkor>
+		<msgeng>Are you sure to save order</msgeng>
+		<msgchi>是否保存排序？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02078</msgcode>
+		<msgkor>이 태그를 삭제하시겠습니까?</msgkor>
+		<msgeng>Are you sure to delete this tag?</msgeng>
+		<msgchi>是否删除标签？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02079</msgcode>
+		<msgkor>수정할 태그를 선택 해 주세요.</msgkor>
+		<msgeng>Select tag to edit</msgeng>
+		<msgchi>请选择需要修改的标签</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02080</msgcode>
+		<msgkor>삭제할 태그를 선택 해 주세요.</msgkor>
+		<msgeng>Select tag to delete</msgeng>
+		<msgchi>请选择需要删除的标签</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02081</msgcode>
+		<msgkor>데이터가 있는 메타데이터는 삭제할 수 업습니다. 보기옵션을 숨김으로 처리 해 주시기 바랍니다.</msgkor>
+		<msgeng>Can not delete metadata field which have data, Please try to uncheck Visible in the metadata Edit popup</msgeng>
+		<msgchi>无法删除已有数据的编目信息。请把可见选项更改为隐藏。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02082</msgcode>
+		<msgkor>하위 메타데이터를 먼저 삭제 해 주시기 바랍니다.</msgkor>
+		<msgeng>Need delete sub metadata field</msgeng>
+		<msgchi>请先删除子元数据</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02083</msgcode>
+		<msgkor>존재하지 않는 워크플로우 입니다.</msgkor>
+		<msgeng>Workflow does not exist.</msgeng>
+		<msgchi>不存在此工作流程</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02084</msgcode>
+		<msgkor>콘텐츠 유형이 올바르지 않은 워크플로우 입니다.</msgkor>
+		<msgeng>Content type is wrong between workflow and content.</msgeng>
+		<msgchi>内容类型不正确的工作流程</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02085</msgcode>
+		<msgkor>Loudness 측정을 요청하시겠습니까?</msgkor>
+		<msgeng>Would process to check Loudness?</msgeng>
+		<msgchi>是否申请Loudness测定？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02086</msgcode>
+		<msgkor>Loudness 측정 요청 중</msgkor>
+		<msgeng>Loudness Measurement Request in processing</msgeng>
+		<msgchi>正在申请Loudness测定</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02087</msgcode>
+		<msgkor>이미 존재하는 워크플로우 유형 입니다.</msgkor>
+		<msgeng>Loudness Measurement Request in processing</msgeng>
+		<msgchi>已存在的工作流程类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02088</msgcode>
+		<msgkor>Loudness 보정을 요청하시겠습니까?</msgkor>
+		<msgeng>Would process to correct Loudness?</msgeng>
+		<msgchi>是否申请完善Loudness？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02089</msgcode>
+		<msgkor>사용자 ID가 올바르지 않습니다.</msgkor>
+		<msgeng>Invalid User ID.</msgeng>
+		<msgchi>用户ID不正确</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02090</msgcode>
+		<msgkor>동일한 아이디가 존재합니다</msgkor>
+		<msgeng>A duplicate ID exists on the database.</msgeng>
+		<msgchi>已存在的ID</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02091</msgcode>
+		<msgkor>그룹파일을 zip으로 변환 중 입니다. 잠시만 기다려 주시기 바랍니다.</msgkor>
+		<msgeng>Start download group file as zip file, after finish download it will be show popup save as.</msgeng>
+		<msgchi>正在压缩组文件，请稍等。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02092</msgcode>
+		<msgkor>콘텐츠를 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>Must select content first.</msgeng>
+		<msgchi>请选择内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02093</msgcode>
+		<msgkor>먼저 콘텐츠를 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>Must click to tag icon of selected content(s).</msgeng>
+		<msgchi>请先选择内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02094</msgcode>
+		<msgkor>Loudness 측정 후  Loudness 보정을 하시겠습니까?</msgkor>
+		<msgeng>Would you like to correct after check Loudness?</msgeng>
+		<msgchi>是否先测定Loudness，后完善Loudness？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02095</msgcode>
+		<msgkor>이 댓글을 삭제하시겠습니까?</msgkor>
+		<msgeng>Are you sure to delete this comment?</msgeng>
+		<msgchi>是否删除该评论？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02096</msgcode>
+		<msgkor>댓글이 없습니다.</msgkor>
+		<msgeng>Do not have comment.</msgeng>
+		<msgchi>暂无评论</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02097</msgcode>
+		<msgkor>요청 내역이 없습니다.</msgkor>
+		<msgeng>Request is empty.</msgeng>
+		<msgchi>无申请详情</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02098</msgcode>
+		<msgkor>파싱 에러</msgkor>
+		<msgeng>Parse Error</msgeng>
+		<msgchi>解析错误</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02099</msgcode>
+		<msgkor>을(를) 찾을 수 없습니다.</msgkor>
+		<msgeng>Can not find.</msgeng>
+		<msgchi>无法找到</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02100</msgcode>
+		<msgkor>존재하지 않는 작업 입니다.</msgkor>
+		<msgeng>Task does not exist.</msgeng>
+		<msgchi>不存在的任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02101</msgcode>
+		<msgkor>아카이브 완료</msgkor>
+		<msgeng>Archive Complete</msgeng>
+		<msgchi>存档成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02102</msgcode>
+		<msgkor>리스토어 완료</msgkor>
+		<msgeng>Restore Complete</msgeng>
+		<msgchi>恢复成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02103</msgcode>
+		<msgkor>전송 완료</msgkor>
+		<msgeng>Transfer Complete</msgeng>
+		<msgchi>发送成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02104</msgcode>
+		<msgkor>등록되지 않은 IP 또는 MAC_ADDRESS 입니다.</msgkor>
+		<msgeng>Unknown IP or MAC_ADDRESS.</msgeng>
+		<msgchi>未注册的IP或者MAC_ADDRESS</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02105</msgcode>
+		<msgkor>대기중인 작업이 없습니다.</msgkor>
+		<msgeng>Queued tasks does not exist.</msgeng>
+		<msgchi>没有等待中的任务</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02106</msgcode>
+		<msgkor>해당 아이피에 대한 module_info값이 없습니다.</msgkor>
+		<msgeng>Module information does not exist in this IP.</msgeng>
+		<msgchi>没有相关IP的module_info值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02107</msgcode>
+		<msgkor>소스경로가 없습니다.</msgkor>
+		<msgeng>Source path does not exist.</msgeng>
+		<msgchi>素材路径不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02108</msgcode>
+		<msgkor>타겟경로가 없습니다.</msgkor>
+		<msgeng>Target path does not exist.</msgeng>
+		<msgchi>目标路径不存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02109</msgcode>
+		<msgkor>잘못된 소스경로 입니다.</msgkor>
+		<msgeng>Wrong source path.</msgeng>
+		<msgchi>错误的素材路径</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02110</msgcode>
+		<msgkor>하위 콘텐츠가 있는 카테고리는 삭제할 수 없습니다, 이관 또는 삭제 후 재시도해 주세요.</msgkor>
+		<msgeng>Can not delete category which has contents, Please retry after moving contents or deleting contents.</msgeng>
+		<msgchi>无法删除拥有子内容的分类，请移动或删除后重试。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02111</msgcode>
+		<msgkor>시작점과 끝점을 선택해주세요.</msgkor>
+		<msgeng>Select start and end image.</msgeng>
+		<msgchi>请选择开始和结束</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02112</msgcode>
+		<msgkor>볼륨 정보 동기화</msgkor>
+		<msgeng>Sync Volume Information</msgeng>
+		<msgchi>同步音量信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02113</msgcode>
+		<msgkor>Flashnet의 볼륨정보를 동기화 합니다. 이 작업은 몇초 정도 걸릴 수 있습니다.</msgkor>
+		<msgeng>This will sync volume information from FlashNet. This may take a while.</msgeng>
+		<msgchi>同步Flashnet的音量信息，需要等待几秒钟</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02114</msgcode>
+		<msgkor>Flashnet의 볼륨정보를 동기화하였습니다.</msgkor>
+		<msgeng>The FlashNet volume information syncronize is completed successfully.</msgeng>
+		<msgchi>已同步Flashnet的音量信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02115</msgcode>
+		<msgkor>스토리보드를 삭제하시겠습니까?</msgkor>
+		<msgeng>Are you sure to delete this story board?</msgeng>
+		<msgchi>确定删除story board？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02116</msgcode>
+		<msgkor>존재하는 메타데이터 이름 입니다.</msgkor>
+		<msgeng>Metadata name already exists.</msgeng>
+		<msgchi>已存在的元数据名称</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02117</msgcode>
+		<msgkor>삭제된 필드명 입니다. 다른 이름을 사용 해 주시기 바랍니다.</msgkor>
+		<msgeng>Already deleted field name. Please use another name.</msgeng>
+		<msgchi>已删除的空间名，请使用其他名称。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02118</msgcode>
+		<msgkor>정보를 갱신하시겠습니까?</msgkor>
+		<msgeng>Will you update your information?</msgeng>
+		<msgchi>是否更新信息？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02119</msgcode>
+		<msgkor>요청 상태의 목록만 승인 가능합니다.</msgkor>
+		<msgeng>Only not requested contents cannot confirm.</msgeng>
+		<msgchi>只能确申请状态的目录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02120</msgcode>
+		<msgkor>고해상도 삭제는 아카이브 이후에 가능합니다.</msgkor>
+		<msgeng>Delete High Resolution can be proceeded only if HR media Archived.</msgeng>
+		<msgchi>归档之后才能删除高分辨率</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02121</msgcode>
+		<msgkor>검색어를 입력해주세요.</msgkor>
+		<msgeng>Enter your search word</msgeng>
+		<msgchi>请输入搜索词</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02122</msgcode>
+		<msgkor>삭제되었습니다.</msgkor>
+		<msgeng>Deleted.</msgeng>
+		<msgchi>已删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02123</msgcode>
+		<msgkor>Quality Type: 오디오 볼륨이 기준치 이하입니다.</msgkor>
+		<msgeng>Quality Type: No audio samples</msgeng>
+		<msgchi>Quality Type: 音频未达到标准值</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02124</msgcode>
+		<msgkor>검출된 QC가 문제되지 않는 항목이라고 확인합니다.</msgkor>
+		<msgeng>Mark QC list as not error.</msgeng>
+		<msgchi>技审错误报告确认为无异常内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02125</msgcode>
+		<msgkor>Loading ...</msgkor>
+		<msgeng>Loading ...</msgeng>
+		<msgchi>Loading ...</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02126</msgcode>
+		<msgkor>선택한 항목들은 이미 처리(요청)된 상태입니다.</msgkor>
+		<msgeng>All of them already sent the request for</msgeng>
+		<msgchi>该选项是已处理状态</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02127</msgcode>
+		<msgkor>전체 요청 건수</msgkor>
+		<msgeng>You send request for total</msgeng>
+		<msgchi>申请总件数</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02128</msgcode>
+		<msgkor>건. 기존 요청 건수</msgkor>
+		<msgeng>content. But already</msgeng>
+		<msgchi>件. 已申请数量</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02129</msgcode>
+		<msgkor>건. 실제 요청 건수</msgkor>
+		<msgeng>content had requested. So,</msgeng>
+		<msgchi>件. 实际申请数量</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02130</msgcode>
+		<msgkor>건 요청 완료.</msgkor>
+		<msgeng>content send requested succesfully.</msgeng>
+		<msgchi>件申请成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02131</msgcode>
+		<msgkor> </msgkor>
+		<msgeng>before</msgeng>
+		<msgchi> </msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02132</msgcode>
+		<msgkor>ODA 연결 상태를 확인하세요. ODA Server error.</msgkor>
+		<msgeng>Please check for ODA connect. ODA Server error.</msgeng>
+		<msgchi>请确认ODA连接状态，ODA Server error</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02133</msgcode>
+		<msgkor>연결 상태 정상</msgkor>
+		<msgeng>connecton true</msgeng>
+		<msgchi>连接状态正常</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02134</msgcode>
+		<msgkor>작업중입니다. 잠시 후 다시 시도해주세요.</msgkor>
+		<msgeng>Now module is working for another task. Please retry later.</msgeng>
+		<msgchi>正在处理其他任务，请稍后再试。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02135</msgcode>
+		<msgkor>카트리지를 삽입해주세요.</msgkor>
+		<msgeng>Please insert cartridge.</msgeng>
+		<msgchi>请插入墨盒</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02136</msgcode>
+		<msgkor>콘텐츠ID 오류</msgkor>
+		<msgeng>Please check content information</msgeng>
+		<msgchi>内容ID错误</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02137</msgcode>
+		<msgkor>ODA 연결 실패</msgkor>
+		<msgeng>ODA connect failed</msgeng>
+		<msgchi>ODA连接失败</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02138</msgcode>
+		<msgkor>아카이브 요청 사유를 입력하세요.</msgkor>
+		<msgeng>Please fill the archive reason.</msgeng>
+		<msgchi>请输入存档原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02139</msgcode>
+		<msgkor>아카이브를 요청 할 수 없습니다.</msgkor>
+		<msgeng>Can not send archive request</msgeng>
+		<msgchi>无法申请存档</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02140</msgcode>
+		<msgkor>리스토어 요청 사유를 입력하세요.</msgkor>
+		<msgeng>Please fill the restore reason.</msgeng>
+		<msgchi>请输入恢复原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02141</msgcode>
+		<msgkor>리스토어를 를 요청 할 수 없습니다.</msgkor>
+		<msgeng>Can not send restore request</msgeng>
+		<msgchi>无法申请恢复</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02142</msgcode>
+		<msgkor>사용자_통계</msgkor>
+		<msgeng>User_Statistics</msgeng>
+		<msgchi>用户_统计</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02143</msgcode>
+		<msgkor>프로그램_별_통계</msgkor>
+		<msgeng>Content_Statistics_Program</msgeng>
+		<msgchi>节目_分别_统计</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02144</msgcode>
+		<msgkor>요청 오류 건수</msgkor>
+		<msgeng>Error count for request</msgeng>
+		<msgchi>申请出错数量</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02145</msgcode>
+		<msgkor>요청 오류 메세지</msgkor>
+		<msgeng>Error message for request</msgeng>
+		<msgchi>申请出错信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02146</msgcode>
+		<msgkor>가장_최근에_등록된_콘텐츠</msgkor>
+		<msgeng>Recently_Registered_Content</msgeng>
+		<msgchi>近期_登记的_内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02147</msgcode>
+		<msgkor>가장_최근에_수정된_콘텐츠</msgkor>
+		<msgeng>Recently_Modified_Content</msgeng>
+		<msgchi>近期_修改的_内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02148</msgcode>
+		<msgkor>가장_최근에_삭제된_콘텐츠</msgkor>
+		<msgeng>Recently_Deleted_Content</msgeng>
+		<msgchi>近期_删除的_内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02149</msgcode>
+		<msgkor>가장_최근에_다운로드된_콘텐츠</msgkor>
+		<msgeng>Recently_Downloaded_Content</msgeng>
+		<msgchi>近期_下载的_内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02150</msgcode>
+		<msgkor>가장_최근에_조회된_콘텐츠</msgkor>
+		<msgeng>Recently_Viewed_Content</msgeng>
+		<msgchi>近期_查询的_内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02151</msgcode>
+		<msgkor>스토리지_통계</msgkor>
+		<msgeng>Storage_Statistics</msgeng>
+		<msgchi>存储_统计</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02152</msgcode>
+		<msgkor>콘텐츠타입별등록현황</msgkor>
+		<msgeng>Registration_Count_Content_Types</msgeng>
+		<msgchi>不同类型内容的登记现状</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02153</msgcode>
+		<msgkor>콘텐츠타입별조회현황</msgkor>
+		<msgeng>View_Count_Content_Types</msgeng>
+		<msgchi>不同类型内容的查询现状</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02154</msgcode>
+		<msgkor>ODS-D 모듈에서 리스토어 작업은 하나씩 가능합니다.</msgkor>
+		<msgeng>In ODS-D module, Restore can be one by one.</msgeng>
+		<msgchi>在ods-d模块中,恢复只能一个一个进行</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02155</msgcode>
+		<msgkor>인제스트 채널을 선택해주세요</msgkor>
+		<msgeng>Please select ingest channel</msgeng>
+		<msgchi>请选择采集通道</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02156</msgcode>
+		<msgkor>스케줄 종류를 선택해주세요</msgkor>
+		<msgeng>Please select type of schedule</msgeng>
+		<msgchi>请选择日程类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02157</msgcode>
+		<msgkor>사용자 정의 콘텐츠를 선택해주세요.</msgkor>
+		<msgeng>Please select user defined content.</msgeng>
+		<msgchi>请选择用户定义的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02158</msgcode>
+		<msgkor>제목을 입력해주세요.</msgkor>
+		<msgeng>Please input title of schedule.</msgeng>
+		<msgchi>请输入标题</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02159</msgcode>
+		<msgkor>스케줄 타입을 선택해주세요.</msgkor>
+		<msgeng>Please select type of schedule.</msgeng>
+		<msgchi>请选择日程类型</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02160</msgcode>
+		<msgkor>시작시간을 입력해주세요.</msgkor>
+		<msgeng>Please input start time.</msgeng>
+		<msgchi>请输入开始时间</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02161</msgcode>
+		<msgkor>종료시간을 입력해주세요.</msgkor>
+		<msgeng>Please input end time.</msgeng>
+		<msgchi>请输入结束时间</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02162</msgcode>
+		<msgkor>인제스트 서버를 선택해주세요</msgkor>
+		<msgeng>Please select ingest server</msgeng>
+		<msgchi>请选择采集服务器</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02163</msgcode>
+		<msgkor>원본파일이 존재하는 항목만 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please select content again with HR media stored in storage.</msgeng>
+		<msgchi>仅限选择存有原件的项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02164</msgcode>
+		<msgkor>최대 허용 사용자 수를 초과하였습니다.</msgkor>
+		<msgeng>The maximum allowable number of users exceed.</msgeng>
+		<msgchi>超过最大允许的用户数量</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02165</msgcode>
+		<msgkor>선택하신 목록을 아카이브 승인하시겠습니까?</msgkor>
+		<msgeng>Will you approve to archive the selected content?</msgeng>
+		<msgchi>是否归档所选项目？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02166</msgcode>
+		<msgkor>아카이브된 목록은 취소할 수 없습니다.</msgkor>
+		<msgeng>Archive cannot be reverted after archiving.</msgeng>
+		<msgchi>无法取消已归档项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02167</msgcode>
+		<msgkor>모든 마커를 삭제 하시겠습니까?</msgkor>
+		<msgeng>Are you sure to delete all mark points?</msgeng>
+		<msgchi>确定删除所有标记吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02168</msgcode>
+		<msgkor>마커를 저장 하시겠습니까?</msgkor>
+		<msgeng>Are you sure to save mark?</msgeng>
+		<msgchi>确定保存标记吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02169</msgcode>
+		<msgkor>샷리스트를 저장 하시겠습니까?</msgkor>
+		<msgeng>Are you sure to save shot list?</msgeng>
+		<msgchi>确定保存拍摄程序表吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02170</msgcode>
+		<msgkor>수정된 항목이 있습니다. 계속 진행하시겠습니까?</msgkor>
+		<msgeng>This item has been modified. Do you want to continue?</msgeng>
+		<msgchi>存在已修改项目，是否继续？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02171</msgcode>
+		<msgkor>부조정실을 선택해 주세요</msgkor>
+		<msgeng>Please select a sub control room</msgeng>
+		<msgchi>请选择副控</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02172</msgcode>
+		<msgkor>프로그램을 선택해 주세요</msgkor>
+		<msgeng>Please select the program</msgeng>
+		<msgchi>请选择节目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02173</msgcode>
+		<msgkor>회차정보를 선택해 주세요</msgkor>
+		<msgeng>Please select the Recurrence Information</msgeng>
+		<msgchi>请选择集数信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02174</msgcode>
+		<msgkor>해당 프로그램에 대한 BIS정보가 없습니다</msgkor>
+		<msgeng>There is no information on the program BIS</msgeng>
+		<msgchi>无法找到该节目的BIS信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02175</msgcode>
+		<msgkor>BIS항목을 선택해 주세요</msgkor>
+		<msgeng>Please select the BIS items</msgeng>
+		<msgchi>请选择BIS项目</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02176</msgcode>
+		<msgkor>선택하신 </msgkor>
+		<msgeng>Select item(s)</msgeng>
+		<msgchi>所选的</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02177</msgcode>
+		<msgkor>플레이리스트를 삭제하시겠습니까?</msgkor>
+		<msgeng>Are you sure you want to delete the media list?</msgeng>
+		<msgchi>确定删除播放列表吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02178</msgcode>
+		<msgkor>플레이리스트 내 콘텐츠가 없습니다</msgkor>
+		<msgeng>There is no playlist content</msgeng>
+		<msgchi>播放列表里没有我的内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02179</msgcode>
+		<msgkor>서버오류 : 다시 시도 해 주시기 바랍니다.</msgkor>
+		<msgeng>Server Error: Please try again.</msgeng>
+		<msgchi>服务器错误：请重试</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02180</msgcode>
+		<msgkor>선택된 플레이리스트에 콘텐츠가 없습니다</msgkor>
+		<msgeng>There is no content in the selected playlist</msgeng>
+		<msgchi>已选播放列表中没有内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02181</msgcode>
+		<msgkor>전송 할 플레이리스트를 선택해 주세요</msgkor>
+		<msgeng>Please select the play list to be transmitted</msgeng>
+		<msgchi>请选择需要发送的播放列表</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02182</msgcode>
+		<msgkor>삭제할 콘텐츠를 선택해 주세요</msgkor>
+		<msgeng>Please select the content you want to delete</msgeng>
+		<msgchi>请选择删除内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02183</msgcode>
+		<msgkor>승인 사유를 입력해 주세요.</msgkor>
+		<msgeng>Please input the reason for approve</msgeng>
+		<msgchi>请输入确认原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02184</msgcode>
+		<msgkor>반려 사유를 입력해 주세요.</msgkor>
+		<msgeng>Please input the reason for rejection</msgeng>
+		<msgchi>请输入拒绝原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02185</msgcode>
+		<msgkor>반려 성공.</msgkor>
+		<msgeng>Reject completed successfully.</msgeng>
+		<msgchi>拒绝成功</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02186</msgcode>
+		<msgkor>선택된 항목을 반려 하시겠습니까?</msgkor>
+		<msgeng>Will you reject to archive the selected content?</msgeng>
+		<msgchi>是否拒绝已选项目？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02187</msgcode>
+		<msgkor>요청 사유를 입력해 주세요.</msgkor>
+		<msgeng>Please input the reason for request</msgeng>
+		<msgchi>请输入申请原因</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02188</msgcode>
+		<msgkor>숫자만 입력 가능합니다. 모든 항목은 필수 입력입니다.</msgkor>
+		<msgeng>Only number can allow here. All items must be filled.</msgeng>
+		<msgchi>仅限输入数字，所有项目均为必填项</msgchi>
+	</items>
+    <items>
+		<msgcode>MSG02201</msgcode>
+		<msgkor>잘못된 접근입니다. 다시 시도 해 주시기 바랍니다.</msgkor>
+		<msgeng>Invalid access. Please try again.</msgeng>
+		<msgchi>错误访问，请重试。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02501</msgcode>
+		<msgkor>지원하지 않는 플러그인 입니다.</msgkor>
+		<msgeng>This Plugin is Not Suppoted.</msgeng>
+		<msgchi>不支持此插件</msgchi>
+	</items>
+
+	<items>
+		<msgcode>MSG02502</msgcode>
+		<msgkor>입력하신 정보가 초기화 되며, 선택하신 유형으로 정보가 갱신됩니다.<br />진행하시겠습니까?</msgkor>
+		<msgeng>Your information is initialized, the information will be updated with the chosen type.<br />Are you sure you want to proceed?</msgeng>
+		<msgchi>输入信息将被初始化，信息更新为已选类型。<br />是否进行？</msgchi>
+	</items>
+
+	<items>
+		<msgcode>MSG02503</msgcode>
+		<msgkor>저장하려는 경로가 잘 못되었습니다.</msgkor>
+		<msgeng>Save path is wrong</msgeng>
+		<msgchi>保存路径有误</msgchi>
+	</items>
+
+	<items>
+		<msgcode>MSG02504</msgcode>
+		<msgkor>시퀀스를 로드하고 있습니다.</msgkor>
+		<msgeng>Loading the sequence.</msgeng>
+		<msgchi>正在加载顺序</msgchi>
+	</items>
+
+	<items>
+		<msgcode>MSG02505</msgcode>
+		<msgkor>이미지를 로드하고 있습니다.</msgkor>
+		<msgeng>Loading the Image.</msgeng>
+		<msgchi>正在加载图片</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02506</msgcode>
+		<msgkor>원본이 존재 합니다.</msgkor>
+		<msgeng>The original file exists in sotrage</msgeng>
+		<msgchi>原件已存在</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02507</msgcode>
+		<msgkor>그룹 하위 콘텐츠를 삭제할 수 없습니다.</msgkor>
+		<msgeng>Can not delete master sub content</msgeng>
+		<msgchi>无法删除组下内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02508</msgcode>
+		<msgkor>먼저 대표이미지를 변경 후 삭제 가능합니다.</msgkor>
+		<msgeng>Can not delete thumbnail content.Please change thumbnail content first!</msgeng>
+		<msgchi>修改代表图片才能删除</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02509</msgcode>
+		<msgkor>전송요청이 완료되었습니다.</msgkor>
+		<msgeng>The transfer request was completed.</msgeng>
+		<msgchi>发送申请已完成</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02510</msgcode>
+		<msgkor>최상위 카테고리는 삭제할 수 없습니다.</msgkor>
+		<msgeng>Can not delete root category.</msgeng>
+		<msgchi>无法删除最大分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02511</msgcode>
+		<msgkor>다른 곳에서 로그인되어 세션을 종료합니다.</msgkor>
+		<msgeng>Your ID was loged in at elsewhere.</msgeng>
+		<msgchi>您的ID在其他地方登录</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02512</msgcode>
+		<msgkor>로그인 페이지로 이동합니다.</msgkor>
+		<msgeng>Go to the login page.</msgeng>
+		<msgchi>跳转到登录界面</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02513</msgcode>
+		<msgkor>MXF, MOV 영상만 구간추출이 가능합니다.</msgkor>
+		<msgeng>MXF, MOV only can be partial restore. Please check file format.</msgeng>
+		<msgchi>只有MXF、MOV视频能够进行部分恢复</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02514</msgcode>
+		<msgkor>MXF영상은 mpeg2video인 경우에 가능합니다.</msgkor>
+		<msgeng>MXF(mpeg2video) only can be partial restore. Please check file format.</msgeng>
+		<msgchi>MXF视频能在mpeg2video情况下使用</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02515</msgcode>
+		<msgkor>콘텐츠를 선택하세요.</msgkor>
+		<msgeng>Please select at least one content</msgeng>
+		<msgchi>请选择内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02516</msgcode>
+		<msgkor>Please input some field(s) before press Edit button(KOR)</msgkor>
+		<msgeng>Please input some field(s) before press Edit button</msgeng>
+		<msgchi>Please input some field(s) before press Edit button</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02517</msgcode>
+		<msgkor>필수 항목에 데이터를 입력해주십시오.</msgkor>
+		<msgeng>Please input mandatory filed(s)</msgeng>
+		<msgchi>请输入必填项</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02518</msgcode>
+		<msgkor>파일 등록을 시작합니다...</msgkor>
+		<msgeng>Starting file uploading...</msgeng>
+		<msgchi>开始上传文件...</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02519</msgcode>
+		<msgkor>업로드할 파일을 선택하세요.</msgkor>
+		<msgeng>Please select upload file</msgeng>
+		<msgchi>请选择需要上传的文件</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02520</msgcode>
+		<msgkor>파일을 다음 카테고리로 업로드합니다 </msgkor>
+		<msgeng>Upload your file(s) to</msgeng>
+		<msgchi>文件上传至以下分类</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02521</msgcode>
+		<msgkor>Agency 전체 목록 재작성시 목록의 갯수에 따라 상당한 시간이 소요될 수 있습니다.<br />그래도 Agency 전체 목록을 재작성 하시겠습니까?</msgkor>
+		<msgeng>The entire list of agencies may take a considerable amount of time depending on the number of listings. <br /> Still want to rewrite the entire Agency list?</msgeng>
+		<msgchi>对Agency整体目录进行重编辑时，根据目录的数量需要的时间可能会很长。 <br /> 依然要对Agency整体目录进行重编辑?</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02522</msgcode>
+		<msgkor>Agency 정보를 갱신하시겠습니까?</msgkor>
+		<msgeng>Will you refresh agency?</msgeng>
+		<msgchi>确认更新Agency信息?</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02523</msgcode>
+		<msgkor>Agency 정보 갱신을 시작합니다</msgkor>
+		<msgeng>Agency refresh is started</msgeng>
+		<msgchi>开始更新Agency信息</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02524</msgcode>
+		<msgkor>수정하시겠습니까?</msgkor>
+		<msgeng>Will you Edit?</msgeng>
+		<msgchi>确认修改?</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02525</msgcode>
+		<msgkor>메타데이터 변경이 완료되지 않은 항목이 있습니다.<br />잠시 후 다시 요청해 주세요.</msgkor>
+		<msgeng>Metadata change not finished.<br />Please wait few seconds and try again.</msgeng>
+		<msgchi>此项目的编目信息未完成修改。<br />请稍后再申请。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02526</msgcode>
+		<msgkor>하위 카테고리에 포함된 모든 콘텐츠를 보여줍니다.</msgkor>
+		<msgeng>This will show all content under the selected category</msgeng>
+		<msgchi>显示子分类中的所有内容</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02527</msgcode>
+		<msgkor>오늘은 그만보기</msgkor>
+		<msgeng>Do not show today</msgeng>
+		<msgchi>今日不显示</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02528</msgcode>
+		<msgkor>본인이 등록한 콘텐츠만 삭제할 수 있습니다.</msgkor>
+		<msgeng>The content, you registred, can be deleted</msgeng>
+		<msgchi>只能删除本人登记的内容。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02529</msgcode>
+		<msgkor>서버에 접속할 수 없습니다. 네트워크 상태를 확인해주세요.</msgkor>
+		<msgeng>You can not connect to the server. Please check the network status.</msgeng>
+		<msgchi>无法访问服务器。请确认网络状态。</msgchi>
+	</items>
+    <items>
+		<msgcode>MSG02530</msgcode>
+		<msgkor>선택한 파일을 삭제 하시겠습니까?</msgkor>
+		<msgeng>Are you sure to remove this file?</msgeng>
+		<msgchi>是否删除已选文件？</msgchi>
+	</items>
+    <items>
+		<msgcode>MSG02531</msgcode>
+		<msgkor>그룹소재로 등록하시겠습니까?</msgkor>
+		<msgeng>Do you want to register by group content?</msgeng>
+		<msgchi>是否登记为组素材？</msgchi>
+	</items>
+    <items>
+		<msgcode>MSG02532</msgcode>
+		<msgkor>등록하시겠습니까?</msgkor>
+		<msgeng>Do you want to register content?</msgeng>
+		<msgchi>是否登记？</msgchi>
+	</items>
+    <items>
+		<msgcode>MSG02533</msgcode>
+		<msgkor>하나의 항목만 선택 해 주시기 바랍니다.</msgkor>
+		<msgeng>Please select one item only.</msgeng>
+		<msgchi>仅限选择一项</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02534</msgcode>
+		<msgkor>검색 할 Agnecy명을 입력해주세요.</msgkor>
+		<msgeng>Please input Agency for search.</msgeng>
+		<msgchi>服务器错误</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02535</msgcode>
+		<msgkor>이 즐겨찾기를 삭제하시겠습니까?</msgkor>
+		<msgeng>Are you sure you want to delete this favorite?</msgeng>
+		<msgchi>您确定要删除标签吗？</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02536</msgcode>
+		<msgkor>수정할 즐겨찾기를 선택 해 주세요.</msgkor>
+		<msgeng>Please select the favorite you want to edit.</msgeng>
+		<msgchi>选择要编辑的收藏。</msgchi>
+	</items>
+	<items>
+		<msgcode>MSG02537</msgcode>
+		<msgkor>삭제할 즐겨찾기를 선택 해 주세요.</msgkor>
+		<msgeng>Please select a favorite to delete.</msgeng>
+		<msgchi>请选择要删除的收藏夹。</msgchi>
+	</items>
+	
+</root>

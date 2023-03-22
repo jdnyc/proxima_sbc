@@ -1,0 +1,9 @@
+.x-form-timepickerfield canvas {
+	margin: 5px 30px;
+}
+.x-form-timepickerfield input {
+	border-left-width: 0;
+}
+.x-form-timepickerfield input.first {
+	border-left-width: 1px;
+}

@@ -1,0 +1,38 @@
+/*
+.x-tree-node-expanded .x-tree-node-icon{
+	background-image:url(../images/gemini/tree/bookmark_book_open.png);
+}
+
+.x-tree-node-leaf .x-tree-node-icon{
+	background-image:url(../images/gemini/tree/leaf.gif);
+}
+
+.x-tree-node-collapsed .x-tree-node-icon{
+	background-image:url(../images/gemini/tree/bookmark_folder.png);
+}
+
+*/
+.gemini-view-movie {
+	background-image:url(/led-icons/film.png) !important;
+}
+.gemini-view-sound {
+	background-image:url(/led-icons/music.png) !important;
+}
+.gemini-view-image {
+	background-image:url(/led-icons/picture.png) !important;
+}
+.gemini-view-document {
+	background-image:url(/led-icons/book.png) !important;
+}
+.gemini-view-all {
+	background-image:url(/led-icons/asterisk_orange.png) !important;
+}
+
+.gemini-view-list {
+	background-image:url(/led-icons/application_view_detail.png) !important;
+}
+.gemini-view-thumbnail{
+	background-image:url(/led-icons/application_view_tile.png) !important;
+}
+
+.myImg01{ background-image: url(/led-icons/text_list_numbers.png) !important; }; 

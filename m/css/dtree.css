@@ -1,0 +1,204 @@
+/*!
+ * dtree.css v1.0.0 
+ * mefe.net
+ * 2014-08-21
+ */
+
+#refresh_category body
+{
+    font-family: "Verdana";
+    font-size: 11px;
+}
+
+ul.dtree_categories, .dtree_categories li, li.folder-group
+{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+#refresh_category a
+{
+    height: 18px;
+    display: inline-block;
+    padding-top: 0px;
+/*     color:#000; */
+    text-decoration: none;
+}
+
+.text
+{
+    height: 18px;
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.dtree_categories ul li {
+/* 	width: 100px; */
+}
+
+
+.dtree_categories li, li.folder-group
+{
+    height: 18px;
+    display: block;
+/*     width: 300px; */
+	width: auto;
+	min-width: 190px;
+    line-height: 32px;
+}
+
+li.folder-group
+{
+    height: auto;
+    
+}
+
+.folder-group ul
+{
+   padding-left: 20px;
+   display: none;
+}
+
+.folder
+{
+    background: url('../img/misc.png') -22px -95px no-repeat;
+    padding-left: 30px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+ /*   transition: all 0.5s ease-in-out; */
+}
+
+.folder-open
+{
+    background: url('../img/misc.png') -126px -95px no-repeat;
+    padding-left: 30px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+/*    transition: all 0.5s ease-in-out; */
+}
+
+.main
+{
+    background: url('../img/misc.png') 2px 0 no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    float: left;
+}
+
+.folder-group
+{
+    background: url('../img/misc.png') -220px 0px repeat-y;
+    margin-top: 3px;
+}
+
+.folder-group.last
+{
+   background: none;
+}
+.folder-group.first_li
+{
+   background: none;
+}
+
+.plus
+{
+    background: url('../img/misc.png') -17px -176px no-repeat;
+    padding-left: 30px;
+    display: inline-block;
+    height: 25px;
+    width: 3px;
+    float: left;
+}
+
+.last .plus
+{
+    background: url('../img/misc.png') -17px -268px no-repeat;
+    padding-left: 30px;
+    display: inline-block;
+    height: 25px;
+    width: 3px;
+    float: left;
+
+}
+
+.first_li>.plus
+{
+    background: url('../img/misc.png') -24px -363px no-repeat;
+    padding-left: 27px;
+    display: inline-block;
+    height: 25px;
+    width: 3px;
+    float: left;
+}
+
+.first
+{
+	background: url('../img/misc.png') 0px -82px no-repeat;
+}
+
+.folder-group.last .minus
+{
+    /* background: url('../img/misc.png') -120px -270px no-repeat; */
+    padding-left: 30px;
+    display: inline-block;
+    height: 25px;
+    width: 3px;
+    float: left;
+
+}
+
+.first_li>.minus
+{
+    background: url('../img/misc.png') -127px -363px no-repeat;
+    padding-left: 27px;
+    display: inline-block;
+    height: 25px;
+    width: 3px;
+    float: left;
+}
+
+.minus
+{
+    background: url('../img/misc.png') -120px -176px no-repeat #fff;
+    padding-left: 30px;
+    display: inline-block;
+    height: 25px;
+    width: 3px;
+    float: left;
+}
+
+.page
+{
+    background: url('../img/misc.png') no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    float: left;
+}
+
+.join
+{
+    background: url('../img/misc.png') -17px -19px no-repeat;
+    width: 3px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+.join-last .join
+{
+    background: url('../img/misc.png') -116px -21px no-repeat;
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}

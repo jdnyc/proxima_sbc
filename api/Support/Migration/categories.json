@@ -1,0 +1,72 @@
+[
+  {
+    "platform_id": "2",
+    "name": "영화/애니메이션",
+    "code": "1"
+  },
+  {
+    "platform_id": "2",
+    "name": "자동차",
+    "code": "2"
+  },
+  {
+    "platform_id": "2",
+    "name": "음악",
+    "code": "10"
+  },
+  {
+    "platform_id": "2",
+    "name": "동물",
+    "code": "15"
+  },
+  {
+    "platform_id": "2",
+    "name": "스포츠",
+    "code": "17"
+  },
+  {
+    "platform_id": "2",
+    "name": "여행/이벤트",
+    "code": "19"
+  },
+  {
+    "platform_id": "2",
+    "name": "게임",
+    "code": "20"
+  },
+  {
+    "platform_id": "2",
+    "name": "인물/블로그",
+    "code": "22"
+  },
+  {
+    "platform_id": "2",
+    "name": "코미디",
+    "code": "23"
+  },
+  {
+    "platform_id": "2",
+    "name": "엔터테인먼트",
+    "code": "24"
+  },
+  {
+    "platform_id": "2",
+    "name": "뉴스/정치",
+    "code": "25"
+  },
+  {
+    "platform_id": "2",
+    "name": "노하우/스타일",
+    "code": "26"
+  },
+  {
+    "platform_id": "2",
+    "name": "교육",
+    "code": "27"
+  },
+  {
+    "platform_id": "2",
+    "name": "과학기술",
+    "code": "28"
+  }
+]

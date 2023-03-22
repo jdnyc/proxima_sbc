@@ -1,0 +1,86 @@
+.svn/
+
+# Created by https://www.gitignore.io/api/eclipse
+
+### Eclipse ###
+
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+/log/
+/logs/
+/test/
+vendor/
+/.vscode
+.dev-env
+
+# System configurations
+config.SYSTEM.xml
+
+# Composer.json
+composer.json
+
+# Extjs
+/lib/extjs/
+
+api/.env
+node_modules
+
+build
+
+/bin/
+
+
+/tests/
+api/.env.dev
+lib/config.SYSTEM.xml.dev
+lib/config.SYSTEM.xml.prod
+api/.env.prod
+
+.idea

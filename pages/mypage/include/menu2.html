@@ -1,0 +1,406 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <script language="javascript" type="text/javascript">
+function TH_ch(num) {
+    var TH_block = "2Tab"+num;
+    var THname1 = "TH"+num;
+    for(i=1;i<3;i++){
+        var TH_num = "2Tab"+i;
+		var THname2 = "TH"+i;    
+        document.getElementById(TH_num).style.display="none";    
+		document.getElementById(THname2).style.backgroundImage="url(my_images/mbt_over.jpg)";  
+		document.getElementById(THname2).style.fontSize="12"; 
+		document.getElementById(THname2).style.fontWeight="bold";
+		}
+		document.getElementById(TH_block).style.display="block";
+		document.getElementById(THname1).style.backgroundImage="url(my_images/mbt.jpg)"; 
+		document.getElementById(THname1).style.fontWeight="bold";   
+		}
+
+</script>
+ </HEAD>
+
+ <BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+ <table width="100%">
+    <tr>
+        <td>
+
+            <table border="0" cellpadding="0" cellspacing="0" width="212"> 
+                <tr>
+                    <td align="center" onclick="javascript:TH_ch(1);" style="cursor:pointer;FONT-WEIGHT: bold;"  id="TH1" height="26"  width="106" background="my_images/mbt.jpg" valign="top">
+					 <TABLE border="0" cellpadding="0" cellspacing="0">
+					 <TR>
+						<TD height="7"></TD>
+					 </TR>
+					 <TR>
+						<TD valign="top"><font color="#ffffff">전체작업내역</font></TD>
+					 </TR>
+					 </TABLE>
+				    </TD>
+					<td width="2"></td>
+                    <td align="center" onclick="javascript:TH_ch(2);" style="cursor:pointer;FONT-WEIGHT: bold;"  id="TH2" height="26" background="my_images/mbt_over.jpg">
+					  <TABLE border="0" cellpadding="0" cellspacing="0">
+					 <TR>
+						<TD height="7"></TD>
+					 </TR>
+					 <TR>
+						<TD valign="top"><font color="#ffffff">반려목록</font></TD>
+					 </TR>
+					 </TABLE>
+					</td>
+				  </tr>
+            </table>
+
+            <div id="2Tab1" style="display:block;"> 
+                <table border="0"  cellpadding="0" cellspacing="0" width="100%"> 
+
+                    <tr> 
+                        <td  colspan=3 />
+						<!--전체작업 테이블시작-->
+							<table width="100%" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse;" bordercolor="#cccccc">
+							  <tr>
+								<td height="250" align="center" valign="top" background="my_images/table_bg.jpg" bgcolor="#ffffff"><table width="98%" border="0" cellspacing="0" cellpadding="2">
+									<tr>
+									  <td height="15" ></td>
+									</tr>
+									<tr>
+									  <td height="30" align="left" valign="top"><table width="195" border="0" cellspacing="0" cellpadding="1">
+										  <tr>
+											<td width="20" align="left"><img src="my_images/title_iocn.jpg" width="15" height="13" /></td>
+											<td width="115" align="left">전체작업내역 리스트</td>
+											<td width="54" align="left"></td>
+										  </tr>
+									  </table></td>
+									</tr>
+									<tr>
+									  <td height="30"><table width="590" border="0" cellpadding="1" cellspacing="0">
+										<tr>
+										  <td width="10" align="right">&nbsp;</td>
+										  <td width="76" align="center">기간 선택:</td>
+										  <td width="75"><input name="textfield4" type="text" id="textfield4" size="11" style="height:13px"/></td>
+										  <td width="14" align="center"><img src="my_images/sv_dal.jpg" width="13" height="12" /></td>
+										  <td width="36" align="center">부터</td>
+										  <td width="67"><input name="textfield3" type="text" id="textfield3" size="11"  style="height:13px" /></td>
+										  <td width="13"><img src="my_images/sv_dal.jpg" width="13" height="12" /></td>
+										  <td width="5"></td>
+										  <td width="20" align="right"><img src="my_images/sv_icon.jpg" /></td>
+										  <td width="29" align="center">조회</td>
+										  <td width="154" align="right"><input name="textfield5" type="text" id="textfield5" value="검색할 제목을 입력하세요" size="24" style="height:13px" /></td>
+										  <td width="67" align="center"><img src="my_images/sv_bt.jpg" width="46" height="15" /></td>
+										</tr>
+									  </table></td>
+									</tr>
+									<tr>
+									  <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+										  <tr>
+											<td width="10" align="left"><img src="my_images/t_lm.jpg" width="3" height="2" /></td>
+											<td width="1770" background="my_images/t_top_bg.jpg"></td>
+											<td width="11" align="right"><img src="my_images/t_rm.jpg" width="4" height="2" /></td>
+										  </tr>
+										  <tr>
+											<td height="24" align="left"><img src="my_images/t_left.jpg" width="3" height="24" /></td>
+											<td width="100%" height="24" align="center" background="my_images/t_cbg.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+												  <td width="3%" align="center">번호</td>
+												  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+												  <td width="51%" align="center">콘텐츠제목</td>
+												  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+												  <td width="11%" align="center">작업형식</td>
+												  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+												  <td width="12%" align="center">콘텐츠종류</td>
+												  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+												  <td width="13%" align="center">만든날짜</td>
+												  <td width="0%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+												  <td width="6%" align="center">상태</td>
+												</tr>
+											</table></td>
+											<td height="24" align="right"><img src="my_images/t_right.jpg" width="4" height="24" /></td>
+										  </tr>
+										  <tr>
+											<td align="left"><img src="my_images/t_lm2.jpg" width="3" height="3" /></td>
+											<td background="my_images/t_bottom_bg.jpg"></td>
+											<td align="right"><img src="my_images/t_rm2.jpg" width="4" height="3" /></td>
+										  </tr>
+									  </table></td>
+									</tr>
+									<tr>
+									  <td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+										  <tr>
+											<td width="3%" height="25" align="center" bgcolor="#F2F2F2">1</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="51%" align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="11%" align="center" bgcolor="#F2F2F2">카탈로그</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="12%" align="center" bgcolor="#F2F2F2">동영상</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="13%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											<td width="0%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="6%" align="center" bgcolor="#F2F2F2">완료</td>
+										  </tr>
+										  <tr>
+											<td height="1" colspan="11" align="center"></td>
+										  </tr>
+										  <tr>
+											<td width="3%" height="25" align="center" bgcolor="#F2F2F2">2</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+											<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">카탈로그</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="12%" align="center" bgcolor="#F2F2F2">동영상</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="13%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											<td width="0%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="6%" align="center" bgcolor="#F2F2F2">완료</td>
+										  </tr>
+										  <tr>
+											<td height="1" colspan="11" align="center"></td>
+										  </tr>
+										  <tr>
+											<td width="3%" height="25" align="center" bgcolor="#F2F2F2">3</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+											<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">카탈로그</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="12%" align="center" bgcolor="#F2F2F2">동영상</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="13%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											<td width="0%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="6%" align="center" bgcolor="#F2F2F2">완료</td>
+										  </tr>
+										  <tr>
+											<td height="1" colspan="11" align="center"></td>
+										  </tr>
+										  <tr>
+											<td width="3%" height="25" align="center" bgcolor="#F2F2F2">4</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+											<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">카탈로그</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="12%" align="center" bgcolor="#F2F2F2">동영상</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="13%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											<td width="0%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="6%" align="center" bgcolor="#F2F2F2">완료</td>
+										  </tr>
+										  <tr>
+											<td height="1" colspan="11" align="center"></td>
+										  </tr>
+										  <tr>
+											<td width="3%" height="25" align="center" bgcolor="#F2F2F2">5</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+											<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td align="center" bgcolor="#F2F2F2">카탈로그</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="12%" align="center" bgcolor="#F2F2F2">동영상</td>
+											<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="13%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											<td width="0%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+											<td width="6%" align="center" bgcolor="#F2F2F2">완료</td>
+										  </tr>
+										  <tr>
+											<td height="5" colspan="11" align="center"></td>
+										  </tr>
+									  </table></td>
+									</tr>
+									<tr>
+									  <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#CBCBCB">
+										  <tr>
+											<td height="28" background="my_images/list_icon_bg.jpg">
+												  <? include ("include/list_num.html"); ?>
+										    </td>
+										  </tr>
+									  </table></td>
+									</tr>
+									<tr>
+									  <td height="15"></td>
+									</tr>
+								</table></td>
+							  </tr>
+							</table>
+						<!--전체작업 테이블끝-->
+						</td> 
+                    </tr> 
+                </table> 
+            </div> 
+
+            <div id="2Tab2" style="display:none;"> 
+                <table border="0"  cellpadding="0" cellspacing="0" width="100%"> 
+                    <tr> 
+                        <td  colspan=3 />
+						  <!--반려목록 테이블시작-->
+						      <table width="100%" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse;" bordercolor="#cccccc">
+								  <tr>
+									<td height="250" align="center" valign="top" background="my_images/table_bg.jpg" bgcolor="#ffffff"><table width="98%" border="0" cellspacing="0" cellpadding="2">
+										<tr>
+										  <td height="15" ></td>
+										</tr>
+										<tr>
+										  <td align="left" valign="top">
+												<table width="195" border="0" cellspacing="0" cellpadding="1">
+												  <tr>
+													<td width="20" align="left"><img src="my_images/title_iocn.jpg" width="15" height="13" /></td>
+													<td width="115" align="left">반려목록 리스트</td>
+													<td width="54" align="left"></td>
+												  </tr>
+											    </table>
+										  </td>
+										</tr>
+										<tr>
+										  <td height="10"></td>
+										</tr>
+										<tr>
+										  <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+											  <tr>
+												<td width="10" align="left"><img src="my_images/t_lm.jpg" width="3" height="2" /></td>
+												<td width="1770" background="my_images/t_top_bg.jpg"></td>
+												<td width="11" align="right"><img src="my_images/t_rm.jpg" width="4" height="2" /></td>
+											  </tr>
+											  <tr>
+												<td height="24" align="left"><img src="my_images/t_left.jpg" width="3" height="24" /></td>
+												<td width="100%" height="24" align="center" background="my_images/t_cbg.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+													  <td width="3%" align="center">번호</td>
+													  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+													  <td width="48%" align="center">콘텐츠제목</td>
+													  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+													  <td width="9%" align="center">상태</td>
+													  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+													  <td width="16%" align="center">사유</td>
+													  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+													  <td width="11%" align="center">요청자</td>
+													  <td width="1%" align="center"><img src="my_images/list_sun.jpg" width="3" height="24" /></td>
+													  <td width="8%" align="center">등록날짜</td>
+													</tr>
+												</table></td>
+												<td height="24" align="right"><img src="my_images/t_right.jpg" width="4" height="24" /></td>
+											  </tr>
+											  <tr>
+												<td align="left"><img src="my_images/t_lm2.jpg" width="3" height="3" /></td>
+												<td background="my_images/t_bottom_bg.jpg"></td>
+												<td align="right"><img src="my_images/t_rm2.jpg" width="4" height="3" /></td>
+											  </tr>
+										  </table></td>
+										</tr>
+										<tr>
+										  <td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+											  <tr>
+												<td width="3%" height="25" align="center" bgcolor="#F2F2F2">1</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="48%" align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="9%" align="center" bgcolor="#F2F2F2">진행중</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="16%" align="center" bgcolor="#F2F2F2">다시작업</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="11%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="8%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											  </tr>
+											  <tr>
+												<td height="1" colspan="11" align="center"></td>
+											  </tr>
+											  <tr>
+												<td width="3%" height="25" align="center" bgcolor="#F2F2F2">2</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+												<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">진행중</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="16%" align="center" bgcolor="#F2F2F2">다시작업</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="11%" align="center" bgcolor="#F2F2F2">현빈대리</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="8%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											  </tr>
+											  <tr>
+												<td height="1" colspan="11" align="center"></td>
+											  </tr>
+											  <tr>
+												<td width="3%" height="25" align="center" bgcolor="#F2F2F2">3</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+												<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">진행중</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="16%" align="center" bgcolor="#F2F2F2">다시작업</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="11%" align="center" bgcolor="#F2F2F2">현빈대리</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="8%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											  </tr>
+											  <tr>
+												<td height="1" colspan="11" align="center"></td>
+											  </tr>
+											  <tr>
+												<td width="3%" height="25" align="center" bgcolor="#F2F2F2">4</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+												<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">진행중</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="16%" align="center" bgcolor="#F2F2F2">다시작업</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="11%" align="center" bgcolor="#F2F2F2">현빈대리</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="8%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											  </tr>
+											  <tr>
+												<td height="1" colspan="11" align="center"></td>
+											  </tr>
+											  <tr>
+												<td width="3%" height="25" align="center" bgcolor="#F2F2F2">5</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">안젤리나 발레니나</td>
+												<td align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td align="center" bgcolor="#F2F2F2">진행중</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="16%" align="center" bgcolor="#F2F2F2">다시작업</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="11%" align="center" bgcolor="#F2F2F2">현빈대리</td>
+												<td width="1%" align="center" bgcolor="#F2F2F2">&nbsp;</td>
+												<td width="8%" align="center" bgcolor="#F2F2F2">2011-09-21 16:32:45</td>
+											  </tr>
+											  <tr>
+												<td height="5" colspan="11" align="center"></td>
+											  </tr>
+										  </table></td>
+										</tr>
+										<tr>
+										  <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#CBCBCB">
+											  <tr>
+												<td height="28" background="my_images/list_icon_bg.jpg">
+												    <? include ("include/list_num.html"); ?>
+                                                </td>
+											  </tr>
+										  </table></td>
+										</tr>
+										<tr>
+										  <td height="15"></td>
+										</tr>
+									</table></td>
+								  </tr>
+								</table>
+						  <!--반려목록 테이블끝-->
+						</td> 
+                    </tr> 
+                </table>
+            </div>
+
+           
+        </td> 
+    </tr> 
+</table> 
+ </BODY>
+</HTML>

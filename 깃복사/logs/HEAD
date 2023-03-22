@@ -1,0 +1,220 @@
+0000000000000000000000000000000000000000 0a49c01c7ddad448c6d1bcfe85cc996f3e72dad2 jksung <jksung@gemiso.com> 1664518075 +0900	clone: from http://10.10.110.210:8088/GitServer/proxima_v3_ktv_git.git
+0a49c01c7ddad448c6d1bcfe85cc996f3e72dad2 60309f1f7411f72d9cb551eae6721c0bbd6d3f0b jksung <jksung@gemiso.com> 1667189045 +0900	pull: Fast-forward
+60309f1f7411f72d9cb551eae6721c0bbd6d3f0b 038660072e7ea42902f51d7a1ca93eca51f21e63 jksung <jksung@gemiso.com> 1667193560 +0900	checkout: moving from master to release
+038660072e7ea42902f51d7a1ca93eca51f21e63 313ba078fdbae8e81808836f2062fff6dd9b58db jksung <jksung@gemiso.com> 1667193572 +0900	pull: Fast-forward
+313ba078fdbae8e81808836f2062fff6dd9b58db 430606997073f8c8101f2bf59eec09351723ff5a jksung <jksung@gemiso.com> 1667437727 +0900	pull: Fast-forward
+430606997073f8c8101f2bf59eec09351723ff5a ac1242019db787f5c87f860e4bae79fdb42fd58d jksung <jksung@gemiso.com> 1669251104 +0900	pull: Fast-forward
+ac1242019db787f5c87f860e4bae79fdb42fd58d 497010f1181f652ed4648593ad95763fdd17aff6 jksung <jksung@gemiso.com> 1670937086 +0900	pull: Fast-forward
+497010f1181f652ed4648593ad95763fdd17aff6 188da5f6f7a2ec58c875a39cebf72f4230c38bca jksung <jksung@gemiso.com> 1671412454 +0900	pull: Fast-forward
+188da5f6f7a2ec58c875a39cebf72f4230c38bca dac87f35294c338ff43900e8db92dfc2b6647ec2 jksung <jksung@gemiso.com> 1672991237 +0900	checkout: moving from release to develop
+dac87f35294c338ff43900e8db92dfc2b6647ec2 969fcb95256fd385ac36efb79e8c79070b026d6d jksung <jksung@gemiso.com> 1672991249 +0900	pull: Fast-forward
+969fcb95256fd385ac36efb79e8c79070b026d6d 60309f1f7411f72d9cb551eae6721c0bbd6d3f0b jksung <jksung@gemiso.com> 1673591231 +0900	checkout: moving from develop to master
+60309f1f7411f72d9cb551eae6721c0bbd6d3f0b f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1673591247 +0900	pull: Fast-forward
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1673591807 +0900	checkout: moving from master to jksung_cordination_#125
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e 8364404c3bdc35748be11fa59812314e0b8a6d52 jksung <jksung@gemiso.com> 1673592161 +0900	commit: [#125][성준경]주/부조 전송 분리 및 검색 기능
+8364404c3bdc35748be11fa59812314e0b8a6d52 be6e1578fa390682a2e5b72b52ec133094d53944 jksung <jksung@gemiso.com> 1673595348 +0900	checkout: moving from jksung_cordination_#125 to dkkim_#294
+be6e1578fa390682a2e5b72b52ec133094d53944 8364404c3bdc35748be11fa59812314e0b8a6d52 jksung <jksung@gemiso.com> 1673595959 +0900	checkout: moving from dkkim_#294 to 8364404c3bdc35748be11fa59812314e0b8a6d52
+8364404c3bdc35748be11fa59812314e0b8a6d52 f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1673596015 +0900	checkout: moving from 8364404c3bdc35748be11fa59812314e0b8a6d52 to master
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e 8364404c3bdc35748be11fa59812314e0b8a6d52 jksung <jksung@gemiso.com> 1673596030 +0900	checkout: moving from master to jksung_cordination_#125
+8364404c3bdc35748be11fa59812314e0b8a6d52 be6e1578fa390682a2e5b72b52ec133094d53944 jksung <jksung@gemiso.com> 1673596095 +0900	checkout: moving from jksung_cordination_#125 to dkkim_#294
+be6e1578fa390682a2e5b72b52ec133094d53944 8364404c3bdc35748be11fa59812314e0b8a6d52 jksung <jksung@gemiso.com> 1673596103 +0900	checkout: moving from dkkim_#294 to jksung_cordination_#125
+8364404c3bdc35748be11fa59812314e0b8a6d52 4e32f38f9215beb42bd1c20e6069ab7fd9692942 jksung <jksung@gemiso.com> 1673596235 +0900	commit: [#125][성준경]주/부조 분리 및 검색 기능
+4e32f38f9215beb42bd1c20e6069ab7fd9692942 344ab0c26299b04916bbdb7de6b5482c4ffd2021 jksung <jksung@gemiso.com> 1673599755 +0900	commit: [#125][성준경]주/부조 전송 분리 및 검색 기능
+344ab0c26299b04916bbdb7de6b5482c4ffd2021 dfd7a2c5afdfe3b10c3b0c46862a871f9bd372f4 jksung <jksung@gemiso.com> 1673599965 +0900	commit: [#125][성준경]주/부조 전성 분리 및 검색 기능
+dfd7a2c5afdfe3b10c3b0c46862a871f9bd372f4 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674794198 +0900	commit: [#125][성준경]주/부조 검색 기능
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 969fcb95256fd385ac36efb79e8c79070b026d6d jksung <jksung@gemiso.com> 1674796170 +0900	checkout: moving from jksung_cordination_#125 to develop
+969fcb95256fd385ac36efb79e8c79070b026d6d f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1674796205 +0900	checkout: moving from develop to master
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e 188da5f6f7a2ec58c875a39cebf72f4230c38bca jksung <jksung@gemiso.com> 1674796212 +0900	checkout: moving from master to release
+188da5f6f7a2ec58c875a39cebf72f4230c38bca 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674796229 +0900	checkout: moving from release to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674796234 +0900	checkout: moving from jksung_cordination_#125 to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674796248 +0900	checkout: moving from jksung_cordination_#125 to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1674797342 +0900	checkout: moving from jksung_cordination_#125 to master
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e af565a61363a4721021b9703a6966b3ccfb0a057 jksung <jksung@gemiso.com> 1674797357 +0900	checkout: moving from master to jwpark_password_#271
+af565a61363a4721021b9703a6966b3ccfb0a057 3a2c8cec8dd73cee8d8afecfe7968fd822f1ef6f jksung <jksung@gemiso.com> 1674797559 +0900	commit: [#271][성준경] ods신규서버 접속정보 변경
+3a2c8cec8dd73cee8d8afecfe7968fd822f1ef6f 969fcb95256fd385ac36efb79e8c79070b026d6d jksung <jksung@gemiso.com> 1674797666 +0900	checkout: moving from jwpark_password_#271 to develop
+969fcb95256fd385ac36efb79e8c79070b026d6d caac1bd0fd317328b436085d5974e3e9bc2e84ed jksung <jksung@gemiso.com> 1674797669 +0900	pull: Fast-forward
+caac1bd0fd317328b436085d5974e3e9bc2e84ed 37c4ff01610a39945bc042a853b9ece6e55bc8e4 jksung <jksung@gemiso.com> 1674799608 +0900	merge jwpark_password_#271: Merge made by the 'ort' strategy.
+37c4ff01610a39945bc042a853b9ece6e55bc8e4 3a2c8cec8dd73cee8d8afecfe7968fd822f1ef6f jksung <jksung@gemiso.com> 1674802554 +0900	checkout: moving from develop to jwpark_password_#271
+3a2c8cec8dd73cee8d8afecfe7968fd822f1ef6f 31f050296432c838f8500c21a1733bfa8b71bb39 jksung <jksung@gemiso.com> 1674802626 +0900	commit: [#271][성준경] ods신규서버 접속정보 변경
+31f050296432c838f8500c21a1733bfa8b71bb39 31f050296432c838f8500c21a1733bfa8b71bb39 jksung <jksung@gemiso.com> 1674802658 +0900	checkout: moving from jwpark_password_#271 to jwpark_password_#271
+31f050296432c838f8500c21a1733bfa8b71bb39 37c4ff01610a39945bc042a853b9ece6e55bc8e4 jksung <jksung@gemiso.com> 1674802753 +0900	checkout: moving from jwpark_password_#271 to develop
+37c4ff01610a39945bc042a853b9ece6e55bc8e4 1e04bb153f4d4f4e4c565630c9df4ced6813635a jksung <jksung@gemiso.com> 1674802763 +0900	merge jwpark_password_#271: Merge made by the 'ort' strategy.
+1e04bb153f4d4f4e4c565630c9df4ced6813635a 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674803053 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674804150 +0900	checkout: moving from jksung_cordination_#125 to jksung_restore_#330
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 jksung <jksung@gemiso.com> 1674804219 +0900	commit: [#330][성준경]리스토어 통계 클린본 추가
+1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 1e04bb153f4d4f4e4c565630c9df4ced6813635a jksung <jksung@gemiso.com> 1674804304 +0900	checkout: moving from jksung_restore_#330 to develop
+1e04bb153f4d4f4e4c565630c9df4ced6813635a 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1674804493 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 jksung <jksung@gemiso.com> 1675045729 +0900	checkout: moving from jksung_cordination_#125 to jksung_restore_#330
+1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 1e04bb153f4d4f4e4c565630c9df4ced6813635a jksung <jksung@gemiso.com> 1675045770 +0900	checkout: moving from jksung_restore_#330 to develop
+1e04bb153f4d4f4e4c565630c9df4ced6813635a 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1675045792 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1675066268 +0900	checkout: moving from jksung_cordination_#125 to jksung_mcr_trnsmis_#000
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 5fa930cce35fcb933c74b192bbaf6461d1e0e5e9 jksung <jksung@gemiso.com> 1675066322 +0900	commit: [#000][성준경]주조 전송 오류 수정
+5fa930cce35fcb933c74b192bbaf6461d1e0e5e9 1e04bb153f4d4f4e4c565630c9df4ced6813635a jksung <jksung@gemiso.com> 1675066354 +0900	checkout: moving from jksung_mcr_trnsmis_#000 to develop
+1e04bb153f4d4f4e4c565630c9df4ced6813635a 37c4ff01610a39945bc042a853b9ece6e55bc8e4 jksung <jksung@gemiso.com> 1675067655 +0900	reset: moving to HEAD^
+37c4ff01610a39945bc042a853b9ece6e55bc8e4 1e04bb153f4d4f4e4c565630c9df4ced6813635a jksung <jksung@gemiso.com> 1675067921 +0900	pull: Fast-forward
+1e04bb153f4d4f4e4c565630c9df4ced6813635a f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1675067950 +0900	checkout: moving from develop to master
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1675068054 +0900	checkout: moving from master to jksung_test
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1675068059 +0900	checkout: moving from jksung_test to master
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1675068075 +0900	checkout: moving from master to jksung_mcr-trnsmis_#000
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675068118 +0900	commit: [#000][성준경]주조 전송 오류 수정
+911bb372c0369565621c96ff61a2c74e110c035c f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1675068246 +0900	checkout: moving from jksung_mcr-trnsmis_#000 to master
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675068261 +0900	merge jksung_mcr-trnsmis_#000: Fast-forward
+911bb372c0369565621c96ff61a2c74e110c035c 1e04bb153f4d4f4e4c565630c9df4ced6813635a jksung <jksung@gemiso.com> 1675068337 +0900	checkout: moving from master to develop
+1e04bb153f4d4f4e4c565630c9df4ced6813635a 1397fa702ec11f52448fb17a364d6b0c3eaf3713 jksung <jksung@gemiso.com> 1675068348 +0900	merge jksung_mcr-trnsmis_#000: Merge made by the 'ort' strategy.
+1397fa702ec11f52448fb17a364d6b0c3eaf3713 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675068445 +0900	checkout: moving from develop to master
+911bb372c0369565621c96ff61a2c74e110c035c 1397fa702ec11f52448fb17a364d6b0c3eaf3713 jksung <jksung@gemiso.com> 1675068467 +0900	checkout: moving from master to develop
+1397fa702ec11f52448fb17a364d6b0c3eaf3713 ed1176af1d8e8cf9f0f43dd253c72fc74fefb91c jksung <jksung@gemiso.com> 1675068630 +0900	checkout: moving from develop to jwpark_bis_#326
+ed1176af1d8e8cf9f0f43dd253c72fc74fefb91c 1397fa702ec11f52448fb17a364d6b0c3eaf3713 jksung <jksung@gemiso.com> 1675068643 +0900	checkout: moving from jwpark_bis_#326 to develop
+1397fa702ec11f52448fb17a364d6b0c3eaf3713 b16219532e81765d83fc669bab17bbd1723d48ed jksung <jksung@gemiso.com> 1675068739 +0900	merge jwpark_bis_#326: Merge made by the 'ort' strategy.
+b16219532e81765d83fc669bab17bbd1723d48ed 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1675123343 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675139289 +0900	checkout: moving from jksung_cordination_#125 to master
+911bb372c0369565621c96ff61a2c74e110c035c 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675139980 +0900	checkout: moving from master to jksung_weakness_#332
+911bb372c0369565621c96ff61a2c74e110c035c a5516d35a05a5c6042ca9219f054d26d1c401a98 jksung <jksung@gemiso.com> 1675140112 +0900	commit: [#332][성준경]취약점 조치 수정
+a5516d35a05a5c6042ca9219f054d26d1c401a98 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675140144 +0900	checkout: moving from jksung_weakness_#332 to master
+911bb372c0369565621c96ff61a2c74e110c035c a5516d35a05a5c6042ca9219f054d26d1c401a98 jksung <jksung@gemiso.com> 1675141611 +0900	checkout: moving from master to jksung_weakness_#332
+a5516d35a05a5c6042ca9219f054d26d1c401a98 b16219532e81765d83fc669bab17bbd1723d48ed jksung <jksung@gemiso.com> 1675141687 +0900	checkout: moving from jksung_weakness_#332 to develop
+b16219532e81765d83fc669bab17bbd1723d48ed a5516d35a05a5c6042ca9219f054d26d1c401a98 jksung <jksung@gemiso.com> 1675141768 +0900	checkout: moving from develop to jksung_weakness_#332
+a5516d35a05a5c6042ca9219f054d26d1c401a98 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675141843 +0900	checkout: moving from jksung_weakness_#332 to master
+911bb372c0369565621c96ff61a2c74e110c035c a9d2e62373dc925091264a1d0bc178abc24aa586 jksung <jksung@gemiso.com> 1675141857 +0900	pull: Fast-forward
+a9d2e62373dc925091264a1d0bc178abc24aa586 c416a5cd559513bc8454fa9399d5b610f6c779df jksung <jksung@gemiso.com> 1675141890 +0900	merge jksung_weakness_#332: Merge made by the 'ort' strategy.
+c416a5cd559513bc8454fa9399d5b610f6c779df b16219532e81765d83fc669bab17bbd1723d48ed jksung <jksung@gemiso.com> 1675141930 +0900	checkout: moving from master to develop
+b16219532e81765d83fc669bab17bbd1723d48ed a5516d35a05a5c6042ca9219f054d26d1c401a98 jksung <jksung@gemiso.com> 1675141951 +0900	checkout: moving from develop to jksung_weakness_#332
+a5516d35a05a5c6042ca9219f054d26d1c401a98 b16219532e81765d83fc669bab17bbd1723d48ed jksung <jksung@gemiso.com> 1675141957 +0900	checkout: moving from jksung_weakness_#332 to develop
+b16219532e81765d83fc669bab17bbd1723d48ed b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675141964 +0900	merge jksung_weakness_#332: Merge made by the 'ort' strategy.
+b70eea19dc232c8361ccd2aa542122fa638ac2da 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1675143170 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 c416a5cd559513bc8454fa9399d5b610f6c779df jksung <jksung@gemiso.com> 1675151227 +0900	checkout: moving from jksung_cordination_#125 to master
+c416a5cd559513bc8454fa9399d5b610f6c779df 0281a163a39997684aa8153f1b758b0b687e4417 jksung <jksung@gemiso.com> 1675152149 +0900	checkout: moving from master to ktkim_#285
+0281a163a39997684aa8153f1b758b0b687e4417 c416a5cd559513bc8454fa9399d5b610f6c779df jksung <jksung@gemiso.com> 1675152165 +0900	checkout: moving from ktkim_#285 to master
+c416a5cd559513bc8454fa9399d5b610f6c779df 94dff02cbbab9860cfb1f98dcc52a2c6126fc8d7 jksung <jksung@gemiso.com> 1675152185 +0900	merge ktkim_#285: Merge made by the 'ort' strategy.
+94dff02cbbab9860cfb1f98dcc52a2c6126fc8d7 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1675153964 +0900	pull: Fast-forward
+643acf4d8b88c7bc37b81b79aebe97dde170599e b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675155185 +0900	checkout: moving from master to develop
+b70eea19dc232c8361ccd2aa542122fa638ac2da 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1675211992 +0900	checkout: moving from develop to master
+643acf4d8b88c7bc37b81b79aebe97dde170599e b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675212256 +0900	checkout: moving from master to develop
+b70eea19dc232c8361ccd2aa542122fa638ac2da 188da5f6f7a2ec58c875a39cebf72f4230c38bca jksung <jksung@gemiso.com> 1675225667 +0900	checkout: moving from develop to release
+188da5f6f7a2ec58c875a39cebf72f4230c38bca d3e9f6f32e704e9a406fe8e68f4a5d29de3d98c9 jksung <jksung@gemiso.com> 1675225678 +0900	pull: Fast-forward
+d3e9f6f32e704e9a406fe8e68f4a5d29de3d98c9 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1675225688 +0900	merge master: Fast-forward
+643acf4d8b88c7bc37b81b79aebe97dde170599e b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675250325 +0900	checkout: moving from release to develop
+b70eea19dc232c8361ccd2aa542122fa638ac2da 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1675250369 +0900	checkout: moving from develop to master
+643acf4d8b88c7bc37b81b79aebe97dde170599e b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675296454 +0900	checkout: moving from master to develop
+b70eea19dc232c8361ccd2aa542122fa638ac2da 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1675641918 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 jksung <jksung@gemiso.com> 1675643721 +0900	checkout: moving from jksung_cordination_#125 to jksung_restore_#330
+1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 jksung <jksung@gemiso.com> 1675758942 +0900	checkout: moving from jksung_restore_#330 to jksung_restore_#330
+1376b0005a88ac9f70d206d8ef5d5e5a63aa44e4 c39e2268fc81afdd56b43891f79dc2a76ccf11c9 jksung <jksung@gemiso.com> 1675759133 +0900	commit: [#330][성준경]리스토어 통계 클린본 추가
+c39e2268fc81afdd56b43891f79dc2a76ccf11c9 b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675759181 +0900	checkout: moving from jksung_restore_#330 to develop
+b70eea19dc232c8361ccd2aa542122fa638ac2da b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675759427 +0900	reset: moving to b70eea19
+b70eea19dc232c8361ccd2aa542122fa638ac2da 31911abfac21a41b564503bb2bf610bbfa50e474 jksung <jksung@gemiso.com> 1675759440 +0900	pull: Merge made by the 'ort' strategy.
+31911abfac21a41b564503bb2bf610bbfa50e474 b70eea19dc232c8361ccd2aa542122fa638ac2da jksung <jksung@gemiso.com> 1675759834 +0900	reset: moving to b70eea19
+b70eea19dc232c8361ccd2aa542122fa638ac2da 38efec9128d0dec8df0b93170006df5b7c4504b4 jksung <jksung@gemiso.com> 1675759851 +0900	pull: Merge made by the 'ort' strategy.
+38efec9128d0dec8df0b93170006df5b7c4504b4 c39e2268fc81afdd56b43891f79dc2a76ccf11c9 jksung <jksung@gemiso.com> 1675759910 +0900	checkout: moving from develop to jksung_restore_#330
+c39e2268fc81afdd56b43891f79dc2a76ccf11c9 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1675760026 +0900	checkout: moving from jksung_restore_#330 to master
+643acf4d8b88c7bc37b81b79aebe97dde170599e de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1675760029 +0900	pull: Fast-forward
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1675760075 +0900	checkout: moving from master to jksung_restore_clean_#330
+de98263c18af5307c096be4a621189811a94f8d7 3aedadca320b1284cb8c4cfdff886dca96a63d38 jksung <jksung@gemiso.com> 1675760192 +0900	commit: [#330][성준경]리스토어 통계 콘텐츠 유형 변경
+3aedadca320b1284cb8c4cfdff886dca96a63d38 38efec9128d0dec8df0b93170006df5b7c4504b4 jksung <jksung@gemiso.com> 1675760214 +0900	checkout: moving from jksung_restore_clean_#330 to develop
+38efec9128d0dec8df0b93170006df5b7c4504b4 1169244048cd9f64221e9d2bc0662496793a39af jksung <jksung@gemiso.com> 1675760237 +0900	merge jksung_restore_clean_#330: Merge made by the 'ort' strategy.
+1169244048cd9f64221e9d2bc0662496793a39af 3aedadca320b1284cb8c4cfdff886dca96a63d38 jksung <jksung@gemiso.com> 1675760289 +0900	checkout: moving from develop to jksung_restore_clean_#330
+3aedadca320b1284cb8c4cfdff886dca96a63d38 1169244048cd9f64221e9d2bc0662496793a39af jksung <jksung@gemiso.com> 1675760331 +0900	checkout: moving from jksung_restore_clean_#330 to develop
+1169244048cd9f64221e9d2bc0662496793a39af 0c96437b9e5a1b1796aa9d050904f69f4acdd027 jksung <jksung@gemiso.com> 1675815112 +0900	checkout: moving from develop to jksung_cordination_#125
+0c96437b9e5a1b1796aa9d050904f69f4acdd027 0b520c059b03d78334682d7e27f17f6c46e24789 jksung <jksung@gemiso.com> 1675927729 +0900	commit: [#125][성준경]주조 상태값 목록 추가
+0b520c059b03d78334682d7e27f17f6c46e24789 1169244048cd9f64221e9d2bc0662496793a39af jksung <jksung@gemiso.com> 1676005480 +0900	checkout: moving from jksung_cordination_#125 to develop
+1169244048cd9f64221e9d2bc0662496793a39af 0b520c059b03d78334682d7e27f17f6c46e24789 jksung <jksung@gemiso.com> 1676008337 +0900	checkout: moving from develop to jksung_cordination_#125
+0b520c059b03d78334682d7e27f17f6c46e24789 1f554181483ea37e2f81527013f0f64b7bd4ba3e jksung <jksung@gemiso.com> 1676250645 +0900	commit: [#125][성준경]주/부조 상태값 목록 추가
+1f554181483ea37e2f81527013f0f64b7bd4ba3e de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676250710 +0900	checkout: moving from jksung_cordination_#125 to master
+de98263c18af5307c096be4a621189811a94f8d7 1f554181483ea37e2f81527013f0f64b7bd4ba3e jksung <jksung@gemiso.com> 1676254129 +0900	checkout: moving from master to jksung_cordination_#125
+1f554181483ea37e2f81527013f0f64b7bd4ba3e 484869f3d4577daed9164d6d15a38721cca16cc0 jksung <jksung@gemiso.com> 1676264497 +0900	commit: [#125][성준경]주/부조 전체값 추가
+484869f3d4577daed9164d6d15a38721cca16cc0 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676268723 +0900	checkout: moving from jksung_cordination_#125 to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676268779 +0900	checkout: moving from master to jksung_byte_#190
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676268829 +0900	checkout: moving from jksung_byte_#190 to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676268842 +0900	checkout: moving from master to jksung_byte_#190
+de98263c18af5307c096be4a621189811a94f8d7 464d4b35a9ba6deac06f24bdba42217b81aa8496 jksung <jksung@gemiso.com> 1676269006 +0900	commit: [#190][성준경]글자수 byte 수정
+464d4b35a9ba6deac06f24bdba42217b81aa8496 484869f3d4577daed9164d6d15a38721cca16cc0 jksung <jksung@gemiso.com> 1676269100 +0900	checkout: moving from jksung_byte_#190 to jksung_cordination_#125
+484869f3d4577daed9164d6d15a38721cca16cc0 3aedadca320b1284cb8c4cfdff886dca96a63d38 jksung <jksung@gemiso.com> 1676269451 +0900	checkout: moving from jksung_cordination_#125 to jksung_restore_clean_#330
+3aedadca320b1284cb8c4cfdff886dca96a63d38 1169244048cd9f64221e9d2bc0662496793a39af jksung <jksung@gemiso.com> 1676269662 +0900	checkout: moving from jksung_restore_clean_#330 to develop
+1169244048cd9f64221e9d2bc0662496793a39af 7f8947183818a8fd125f900cbd210d3062ac9ac2 jksung <jksung@gemiso.com> 1676269665 +0900	pull: Fast-forward
+7f8947183818a8fd125f900cbd210d3062ac9ac2 7f8947183818a8fd125f900cbd210d3062ac9ac2 jksung <jksung@gemiso.com> 1676270349 +0900	reset: moving to 7f894718
+7f8947183818a8fd125f900cbd210d3062ac9ac2 484869f3d4577daed9164d6d15a38721cca16cc0 jksung <jksung@gemiso.com> 1676270359 +0900	checkout: moving from develop to jksung_cordination_#125
+484869f3d4577daed9164d6d15a38721cca16cc0 c39e2268fc81afdd56b43891f79dc2a76ccf11c9 jksung <jksung@gemiso.com> 1676272845 +0900	checkout: moving from jksung_cordination_#125 to jksung_restore_#330
+c39e2268fc81afdd56b43891f79dc2a76ccf11c9 484869f3d4577daed9164d6d15a38721cca16cc0 jksung <jksung@gemiso.com> 1676275794 +0900	checkout: moving from jksung_restore_#330 to jksung_cordination_#125
+484869f3d4577daed9164d6d15a38721cca16cc0 7f8947183818a8fd125f900cbd210d3062ac9ac2 jksung <jksung@gemiso.com> 1676275901 +0900	checkout: moving from jksung_cordination_#125 to develop
+7f8947183818a8fd125f900cbd210d3062ac9ac2 e1dedf186f075ee9b86ad8fcb53e19498dcb35e4 jksung <jksung@gemiso.com> 1676276433 +0900	commit (merge): [#125][성준경]주/부조
+e1dedf186f075ee9b86ad8fcb53e19498dcb35e4 e1dedf186f075ee9b86ad8fcb53e19498dcb35e4 jksung <jksung@gemiso.com> 1676276451 +0900	checkout: moving from develop to develop
+e1dedf186f075ee9b86ad8fcb53e19498dcb35e4 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676277394 +0900	checkout: moving from develop to master
+de98263c18af5307c096be4a621189811a94f8d7 464d4b35a9ba6deac06f24bdba42217b81aa8496 jksung <jksung@gemiso.com> 1676357421 +0900	checkout: moving from master to jksung_byte_#190
+464d4b35a9ba6deac06f24bdba42217b81aa8496 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676357520 +0900	checkout: moving from jksung_byte_#190 to jksung_metadata_update_#335
+de98263c18af5307c096be4a621189811a94f8d7 568a403732b20aa1ca90a3e371e628db7035838f jksung <jksung@gemiso.com> 1676357627 +0900	commit: [#335][성준경]메타데이터 오류 수정
+568a403732b20aa1ca90a3e371e628db7035838f e1dedf186f075ee9b86ad8fcb53e19498dcb35e4 jksung <jksung@gemiso.com> 1676357648 +0900	checkout: moving from jksung_metadata_update_#335 to develop
+e1dedf186f075ee9b86ad8fcb53e19498dcb35e4 922d0e6c87af4073fe6af8f4e8f9dbcef2e6b339 jksung <jksung@gemiso.com> 1676357660 +0900	merge jksung_metadata_update_#335: Merge made by the 'ort' strategy.
+922d0e6c87af4073fe6af8f4e8f9dbcef2e6b339 ed767d4391655c466dad31556b580de8806b72b8 jksung <jksung@gemiso.com> 1676363523 +0900	checkout: moving from develop to ktkim_#284
+ed767d4391655c466dad31556b580de8806b72b8 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676419302 +0900	checkout: moving from ktkim_#284 to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676422571 +0900	checkout: moving from master to jksung_sms_resolution_#248
+de98263c18af5307c096be4a621189811a94f8d7 0f13b3364089bbc1a5f9a3a5bc2aa9f28c3d15a1 jksung <jksung@gemiso.com> 1676438501 +0900	commit: [#248][성준경]해상도 문자 전송기능
+0f13b3364089bbc1a5f9a3a5bc2aa9f28c3d15a1 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676438672 +0900	checkout: moving from jksung_sms_resolution_#248 to master
+de98263c18af5307c096be4a621189811a94f8d7 0f13b3364089bbc1a5f9a3a5bc2aa9f28c3d15a1 jksung <jksung@gemiso.com> 1676451159 +0900	checkout: moving from master to jksung_sms_resolution_#248
+0f13b3364089bbc1a5f9a3a5bc2aa9f28c3d15a1 09c08f212bf725b446b4297c0ae559129cff6ead jksung <jksung@gemiso.com> 1676528789 +0900	commit: [#248][성준경]SMS 해상도 문자 전송 합치기
+09c08f212bf725b446b4297c0ae559129cff6ead 922d0e6c87af4073fe6af8f4e8f9dbcef2e6b339 jksung <jksung@gemiso.com> 1676528830 +0900	checkout: moving from jksung_sms_resolution_#248 to develop
+922d0e6c87af4073fe6af8f4e8f9dbcef2e6b339 d511dd80f7efb3b4341ee73bb1a9b89c121f7303 jksung <jksung@gemiso.com> 1676528847 +0900	merge jksung_sms_resolution_#248: Merge made by the 'ort' strategy.
+d511dd80f7efb3b4341ee73bb1a9b89c121f7303 5f750919b0c14672e6259b86f0abba9b4e4a68cc jksung <jksung@gemiso.com> 1676528852 +0900	pull --tags origin develop: Merge made by the 'ort' strategy.
+5f750919b0c14672e6259b86f0abba9b4e4a68cc de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676883171 +0900	checkout: moving from develop to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676883326 +0900	checkout: moving from master to jksung_CG_add_#337
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676945673 +0900	checkout: moving from jksung_CG_add_#337 to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676945711 +0900	checkout: moving from master to jksung_CG_add_#337
+de98263c18af5307c096be4a621189811a94f8d7 1a7e335425e7fc7c0dc8ce8319e4e5f24316d6d4 jksung <jksung@gemiso.com> 1676945948 +0900	checkout: moving from jksung_CG_add_#337 to ktkim_#298
+1a7e335425e7fc7c0dc8ce8319e4e5f24316d6d4 8991700d09c9243128dceed2c0f1f92bc91718e3 jksung <jksung@gemiso.com> 1676946005 +0900	checkout: moving from ktkim_#298 to dkkim_monitoring_add_ip_column
+8991700d09c9243128dceed2c0f1f92bc91718e3 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676946048 +0900	checkout: moving from dkkim_monitoring_add_ip_column to jksung_CG_add_#337
+de98263c18af5307c096be4a621189811a94f8d7 52577654818a4649bd948889b27987bf17a88690 jksung <jksung@gemiso.com> 1676946497 +0900	checkout: moving from jksung_CG_add_#337 to ktkim_#276
+52577654818a4649bd948889b27987bf17a88690 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676946668 +0900	checkout: moving from ktkim_#276 to jksung_CG_add_#337
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676950804 +0900	checkout: moving from jksung_CG_add_#337 to master
+de98263c18af5307c096be4a621189811a94f8d7 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1676950849 +0900	checkout: moving from master to release
+643acf4d8b88c7bc37b81b79aebe97dde170599e 239198f5a6c7c65a38a175bb0f8997c64936c467 jksung <jksung@gemiso.com> 1676950852 +0900	pull: Fast-forward
+239198f5a6c7c65a38a175bb0f8997c64936c467 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676952000 +0900	checkout: moving from release to jksung_CG_add_#337
+de98263c18af5307c096be4a621189811a94f8d7 41f1b564ed86cf992c1b41a706ba0f62bd663368 jksung <jksung@gemiso.com> 1677220255 +0900	commit: [#337][성준경] MOV ->MXF 변환 CG추가
+41f1b564ed86cf992c1b41a706ba0f62bd663368 5e6719887f6fc06db7cbfd24996cff4c120a1033 jksung <jksung@gemiso.com> 1677220316 +0900	commit: [#337][성준경]CG 부조 전송 활성화
+5e6719887f6fc06db7cbfd24996cff4c120a1033 ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 jksung <jksung@gemiso.com> 1677220383 +0900	commit: [#337][성준경]영상매핑 UI 크기 조절 및 컬럼 추가
+ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677220423 +0900	checkout: moving from jksung_CG_add_#337 to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677220557 +0900	checkout: moving from master to jksung_filehidden_#284
+de98263c18af5307c096be4a621189811a94f8d7 e11df62e91ea1716129eef69479ffbd9ac999929 jksung <jksung@gemiso.com> 1677220879 +0900	commit: [#284][성준경]포털전송 파일서버 숨김 처리
+e11df62e91ea1716129eef69479ffbd9ac999929 484869f3d4577daed9164d6d15a38721cca16cc0 jksung <jksung@gemiso.com> 1677220958 +0900	checkout: moving from jksung_filehidden_#284 to jksung_cordination_#125
+484869f3d4577daed9164d6d15a38721cca16cc0 c923e8a709428807e365da567851ef54bdd018fc jksung <jksung@gemiso.com> 1677229193 +0900	commit: [#125][성준경]부조 전송 콘텐츠 유형 컬럼 추가
+c923e8a709428807e365da567851ef54bdd018fc ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 jksung <jksung@gemiso.com> 1677229211 +0900	checkout: moving from jksung_cordination_#125 to jksung_CG_add_#337
+ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677721799 +0900	checkout: moving from jksung_CG_add_#337 to master
+de98263c18af5307c096be4a621189811a94f8d7 e11df62e91ea1716129eef69479ffbd9ac999929 jksung <jksung@gemiso.com> 1677731168 +0900	checkout: moving from master to jksung_filehidden_#284
+e11df62e91ea1716129eef69479ffbd9ac999929 5f750919b0c14672e6259b86f0abba9b4e4a68cc jksung <jksung@gemiso.com> 1677731188 +0900	checkout: moving from jksung_filehidden_#284 to develop
+5f750919b0c14672e6259b86f0abba9b4e4a68cc bfd98c7d31c9aa9a09b0a4b5156901aa9713e17c jksung <jksung@gemiso.com> 1677731196 +0900	pull: Fast-forward
+bfd98c7d31c9aa9a09b0a4b5156901aa9713e17c 3b220039b560c1e027e68236f4c80227e948498d jksung <jksung@gemiso.com> 1677731756 +0900	commit (merge): Merge branch 'jksung_filehidden_#284' into develop
+3b220039b560c1e027e68236f4c80227e948498d de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677731934 +0900	checkout: moving from develop to master
+de98263c18af5307c096be4a621189811a94f8d7 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677731986 +0900	checkout: moving from master to jksung_file_hidden_#284
+de98263c18af5307c096be4a621189811a94f8d7 3aedadca320b1284cb8c4cfdff886dca96a63d38 jksung <jksung@gemiso.com> 1677734253 +0900	checkout: moving from jksung_file_hidden_#284 to jksung_restore_clean_#330
+3aedadca320b1284cb8c4cfdff886dca96a63d38 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677734391 +0900	checkout: moving from jksung_restore_clean_#330 to master
+de98263c18af5307c096be4a621189811a94f8d7 cc651fb3b2292e46f1360cb5bb5b2a5df3b17719 jksung <jksung@gemiso.com> 1677734394 +0900	pull: Fast-forward
+cc651fb3b2292e46f1360cb5bb5b2a5df3b17719 239198f5a6c7c65a38a175bb0f8997c64936c467 jksung <jksung@gemiso.com> 1677747537 +0900	checkout: moving from master to release
+239198f5a6c7c65a38a175bb0f8997c64936c467 7ef3b3e93117ee60841bb591edb4c5b5d61e7ac4 jksung <jksung@gemiso.com> 1677747543 +0900	merge master: Merge made by the 'ort' strategy.
+7ef3b3e93117ee60841bb591edb4c5b5d61e7ac4 cc651fb3b2292e46f1360cb5bb5b2a5df3b17719 jksung <jksung@gemiso.com> 1677765502 +0900	checkout: moving from release to master
+cc651fb3b2292e46f1360cb5bb5b2a5df3b17719 e05c02eef54db35386784254df4e3506dcae312a jksung <jksung@gemiso.com> 1677765506 +0900	pull: Fast-forward
+e05c02eef54db35386784254df4e3506dcae312a 7ef3b3e93117ee60841bb591edb4c5b5d61e7ac4 jksung <jksung@gemiso.com> 1677765516 +0900	checkout: moving from master to release
+7ef3b3e93117ee60841bb591edb4c5b5d61e7ac4 7cf7b97b93d38024b3a4f769d73d89608ad32a71 jksung <jksung@gemiso.com> 1677765521 +0900	merge master: Merge made by the 'ort' strategy.
+7cf7b97b93d38024b3a4f769d73d89608ad32a71 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1677765724 +0900	checkout: moving from release to jksung_file_hidden_#284
+de98263c18af5307c096be4a621189811a94f8d7 e05c02eef54db35386784254df4e3506dcae312a jksung <jksung@gemiso.com> 1677765779 +0900	checkout: moving from jksung_file_hidden_#284 to master
+e05c02eef54db35386784254df4e3506dcae312a 7cf7b97b93d38024b3a4f769d73d89608ad32a71 jksung <jksung@gemiso.com> 1677765839 +0900	checkout: moving from master to release
+7cf7b97b93d38024b3a4f769d73d89608ad32a71 ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 jksung <jksung@gemiso.com> 1677804441 +0900	checkout: moving from release to jksung_CG_add_#337
+ae2ac5b4a41f9ec1fb7814da0e3efd25f251ab67 e8ed2c7bfbb2f504644326a8cb9660c4f8adfabc jksung <jksung@gemiso.com> 1678150987 +0900	commit: [#337][성준경]영상매핑 표출 추가
+e8ed2c7bfbb2f504644326a8cb9660c4f8adfabc 72092568ead7a5b585d15a613842847a2805f39b jksung <jksung@gemiso.com> 1678421822 +0900	commit: [#337][성준경]우클릭 부조전송 추가
+72092568ead7a5b585d15a613842847a2805f39b e05c02eef54db35386784254df4e3506dcae312a jksung <jksung@gemiso.com> 1678421835 +0900	checkout: moving from jksung_CG_add_#337 to master
+e05c02eef54db35386784254df4e3506dcae312a e05c02eef54db35386784254df4e3506dcae312a jksung <jksung@gemiso.com> 1678421916 +0900	checkout: moving from master to jksung_download_sql_#287
+e05c02eef54db35386784254df4e3506dcae312a 15051fa00a059b8f8ed0153777c17933996ba8a5 jksung <jksung@gemiso.com> 1678422259 +0900	commit: [#287][성준경]다운로드 sql 조건 추가
+15051fa00a059b8f8ed0153777c17933996ba8a5 3b220039b560c1e027e68236f4c80227e948498d jksung <jksung@gemiso.com> 1678422277 +0900	checkout: moving from jksung_download_sql_#287 to develop
+3b220039b560c1e027e68236f4c80227e948498d 918ecfef0b96f2864ec3303f442ca1bb69210d8c jksung <jksung@gemiso.com> 1678422281 +0900	pull: Fast-forward
+918ecfef0b96f2864ec3303f442ca1bb69210d8c 0c4e27530c5fdf97e6dd203ad172d5763f3bf46e jksung <jksung@gemiso.com> 1678422293 +0900	merge jksung_download_sql_#287: Merge made by the 'ort' strategy.
+0c4e27530c5fdf97e6dd203ad172d5763f3bf46e 15051fa00a059b8f8ed0153777c17933996ba8a5 jksung <jksung@gemiso.com> 1678422612 +0900	checkout: moving from develop to jksung_download_sql_#287
+15051fa00a059b8f8ed0153777c17933996ba8a5 ed86372e881de1db3b16482fe02ec3ff995c9674 jksung <jksung@gemiso.com> 1678422707 +0900	commit: [#287][성준경]다운로드 sql 조건 추가
+ed86372e881de1db3b16482fe02ec3ff995c9674 0c4e27530c5fdf97e6dd203ad172d5763f3bf46e jksung <jksung@gemiso.com> 1678422718 +0900	checkout: moving from jksung_download_sql_#287 to develop
+0c4e27530c5fdf97e6dd203ad172d5763f3bf46e ed86372e881de1db3b16482fe02ec3ff995c9674 jksung <jksung@gemiso.com> 1678422767 +0900	checkout: moving from develop to jksung_download_sql_#287
+ed86372e881de1db3b16482fe02ec3ff995c9674 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678424296 +0900	commit: [#287][성준경]다운로드 통계 조건 추가
+5b814d76a71312fefcd02f1a8fff7c74533146e6 e05c02eef54db35386784254df4e3506dcae312a jksung <jksung@gemiso.com> 1678424516 +0900	checkout: moving from jksung_download_sql_#287 to master
+e05c02eef54db35386784254df4e3506dcae312a 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678424523 +0900	merge jksung_download_sql_#287: Fast-forward
+5b814d76a71312fefcd02f1a8fff7c74533146e6 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678424577 +0900	checkout: moving from master to jksung_download_sql_#287
+5b814d76a71312fefcd02f1a8fff7c74533146e6 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678424600 +0900	checkout: moving from jksung_download_sql_#287 to master
+5b814d76a71312fefcd02f1a8fff7c74533146e6 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678426286 +0900	checkout: moving from master to jksung_logo_add_#318
+5b814d76a71312fefcd02f1a8fff7c74533146e6 f219fe29a24d8c91d960e13445df3f6834b01e7a jksung <jksung@gemiso.com> 1678671739 +0900	commit: [#318][성준경]로고 변환 중해상도 추가
+f219fe29a24d8c91d960e13445df3f6834b01e7a 72092568ead7a5b585d15a613842847a2805f39b jksung <jksung@gemiso.com> 1678671775 +0900	checkout: moving from jksung_logo_add_#318 to jksung_CG_add_#337
+72092568ead7a5b585d15a613842847a2805f39b e32e28424c9b9b108e94ee9e087651b0d7e2ffae jksung <jksung@gemiso.com> 1678766496 +0900	commit: [#337][성준경]2주 삭제 정책CG
+e32e28424c9b9b108e94ee9e087651b0d7e2ffae 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678766515 +0900	checkout: moving from jksung_CG_add_#337 to master

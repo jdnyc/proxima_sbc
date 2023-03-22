@@ -1,0 +1,334 @@
+@charset "utf-8";
+/*
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, td, select, input, div, form, textarea, center, option, pre, blockquote {	margin:0px; padding:0px;font-size:11px; font-family: '나눔고딕',NanumGothic,'돋움',Dotum,Helvetica,AppleGothic,Sans-serif; line-height:150%; color:#4A4C5A;}
+dl li, ul li {list-style:none}
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
+html,body{height:100%;}
+*/
+/**로고 CSS, 커스터마이징 하려면 /custom/{사이트}/core/CssManager.php에서 수정하면 됨 */
+.proxima_logo_image_login_form {
+  /*background-image: url(css/images/logo/proxima_login_logo.png);*/
+  margin: 0 auto;
+  width: 440px;
+  height: 150px;
+  background-repeat: no-repeat;
+  /*background-position: right 60px;*/
+}
+
+#login-empty{
+  width:60px;
+}
+#login-size{
+  width: 300px;
+  
+}
+table{
+  border-collapse:collapse;
+}
+#login-submit:hover {
+  background-color: #1dc2ff;
+  cursor: pointer;
+}
+
+#sign-up:hover {
+  /* background-color: #1dc2ff; */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#login-submit {
+  border: none;
+  border-radius: 6px;
+  background-color: #00AEEF;
+  width: 150px;
+  height: 100px;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 17px;
+}
+
+#sign-up {
+  border-top: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 3px solid #00AEEF;
+  background-color: transparent;
+  color: white;
+  width: 110px;
+  padding: 2px;
+}
+
+a {
+  color: #4a4c5a;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+a:active {
+  color: #000;
+}
+
+/*#wrap {position:relative;width:100%;height:100%;}*/
+/*top menu*/
+.header_small_mode {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  height: 45px;
+  background-color: #1f1f23;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  zoom: 1;
+}
+.header_big_mode {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  height: 70px;
+  background-color: #1f1f23;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  zoom: 1;
+}
+header img {
+  float: left;
+}
+.header_small_mode ul {
+  float: left;
+  margin: 8px 0 0 0;
+  position: absolute;
+  width: 1100px;
+  margin-left: 230px;
+}
+.header_big_mode ul {
+  float: left;
+  margin: 35px 0 0 0;
+  position: absolute;
+  width: 1100px;
+  margin-left: 230px;
+}
+
+header li {
+  float: left;
+  color: #c0c4c7; /*padding-left:30px;padding-right:30px;*/
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+}
+header li a {
+  color: #b0b0b0;
+}
+header li a:hover {
+  color: #fff;
+}
+header li a:active {
+  color: #00a7dc;
+}
+header button {
+  border: 0;
+  color: #ffffff;
+  font-size: 13px;
+  height: 20px;
+  padding: 0px 10px 5px 15px;
+  cursor: pointer;
+  background-color: transparent;
+}
+header button:hover {
+  color: #28aeff;
+}
+.header_small_mode .logout {
+  float: right;
+  margin: 12px 50px 0 0;
+  cursor: pointer;
+  height: 20px;
+  font-size: 13px;
+  color: #ffffff;
+}
+.header_big_mode .logout {
+  float: right;
+  margin: 20px 50px 0 0;
+  cursor: pointer;
+  height: 28px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/*
+#container{height:100%;}
+#left{overflow:auto;position:absolute;top:0px;left:0px;width:179px;height:100%;z-index:1;border-right:1px solid #bdbdbd;background:#e8e8e8;}
+	.leftview{padding:44px 0 50px 15px;}
+#content{overflow:auto;position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:0;background-color:#f8f8f8;}
+	.contentview{padding:44px 0 50px 179px;}
+
+#left_search{overflow:hidden;position:absolute;top:0px;left:0px;width:27px;height:100%;z-index:1;border-right:1px solid #bdbdbd;background:#f1f1f1;}
+	.leftview_search{padding:44px 0 50px 0;}
+#content_search{overflow-y:auto;overflow-x:hidden;position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:0;background-color:#f8f8f8;}
+	.contentview_search{padding:44px 0 0 27px;}
+*/
+
+/* login */
+
+body.centerbox1 {
+  background-color: #f3f1f1;
+  height: 100%;
+  background-image: url(../css/images/login_bg_03.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+#login {
+  position: absolute;
+  top: 50%;
+  margin-top: -230px;
+  width: 100%;
+}
+
+.login-notice {
+  height: 30px;
+  color: rgb(255, 72, 0);
+}
+
+.login-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  background-color: #1b1b1b;
+  text-align: center;
+}
+
+.footer-logo {
+  background-image: url('/custom/ktv-nps/images/footer_logo.png');
+  background-repeat: no-repeat;
+}
+
+.footer-content{
+  color: rgb(156, 156, 156);
+}
+
+.copyright{
+  color: rgb(156, 156, 156);
+}
+
+.loginbox {
+  width: 649px;
+  height: 388px;
+  margin: 0 auto;
+}
+.loginbox ul {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  /*padding-top:80px;*/
+  /*margin-left:67px;*/
+}
+/*.loginbox li {margin:0;float:left;}*/
+/*.loginbox input.id {width:169px;height:37px;border:1px hidden;border-radius:5px;background:url(../css/images/login_idbg.gif);padding-left:35px;color:#eaebeb;}*/
+.loginbox input.id,
+.loginbox input.pass {
+  width: 250px;
+  height: 40px;
+  background-color: #1f1f1f;
+  border: 1px solid #000000;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.loginbox label {
+  padding-left: 3px;
+  margin-bottom: 15px;
+  font-family: Arial;
+  font-size: 13px;
+  vertical-align: top;
+  color: #ffffff;
+}
+input[type="text"]#login-id::-webkit-input-placeholder::-ms-input-placeholder,
+input[type="password"]#login-pw::-webkit-input-placeholder::-ms-input-placeholder {
+  color: #ffffff;
+}
+/*.loginbox input.pass {width:169px;height:37px;margin:0 9px 0 7px;border:1px hidden;border-radius:5px;background:url(../css/images/login_passbg.gif);padding-left:35px;color:#9fa2a5;}*/
+.loginbox img {
+  margin-top: 3px;
+}
+.loginbox .forgotid {
+  clear: both;
+  margin-top: 8px;
+  color: #ececec;
+  font-size: 9px;
+}
+.loginbox .forgotid a {
+  color: #dadada;
+  text-decoration: none;
+}
+.loginbox .forgotid a:hover {
+  color: #fff;
+}
+.loginbox .forgotid a:active {
+  color: #fff;
+}
+.loginbox dl {
+  position: relative;
+  width: 100%;
+  margin: 115px 0 0 130px;
+}
+.loginbox dt {
+  float: left;
+}
+.loginbox dd {
+  float: left;
+  color: #ececec;
+  margin: 8px 0 0 7px;
+  font-size: 9px;
+}
+
+.icon-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.icon-rotate-315 {
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+.icon-rotate-225 {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+/* Ariel.Nps.FileUploadWindow.js*/
+.progress-column {
+  vertical-align: middle;
+}
+
+.form-container {
+  width: 400px;
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical; 
+  -ms-flex-direction: column;
+}
+

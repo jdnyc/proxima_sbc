@@ -1,0 +1,7 @@
+input[type=text]:-ms-clear {
+    display: none;
+}
+
+input[type=select]:-ms-clear {
+    display: none;
+}

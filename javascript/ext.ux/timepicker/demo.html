@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/Strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+	<head>
+		<title>Ext.ux.TimePickerField</title>
+		<script type="text/javascript" src="/ext/adapter/ext/ext-base-debug-w-comments.js"></script>
+		<script type="text/javascript" src="/ext/ext-all-debug.js"></script>
+		<link rel="stylesheet" type="text/css" href="/ext/resources/css/ext-all.css" />
+		<link rel="stylesheet" type="text/css" href="Ext.ux.Spinner/resources/css/Spinner.css" />
+		<link rel="stylesheet" type="text/css" href="Ext.ux.TimePicker/resources/css/TimePicker.css" />
+		<!--[if IE]><script type="text/javascript" src="excanvas/excanvas.js"></script><![endif]-->
+		<script type="text/javascript" src="Canvas/dist.js"></script>
+		<script type="text/javascript" src="Ext.ux.Canvas/Canvas.js"></script>
+		<script type="text/javascript" src="Ext.ux.Clock/Clock.js"></script>
+		<script type="text/javascript" src="Ext.ux.Clock/ClockController.js"></script>
+		<script type="text/javascript" src="Ext.ux.Spinner/Spinner.js"></script>
+		<script type="text/javascript" src="Ext.ux.Spinner/SpinnerField.js"></script>
+		<script type="text/javascript" src="Ext.ux.TimePicker/TimePickerField.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+//<![CDATA[
+Ext.onReady(function() {
+	new Ext.Viewport({
+		layout: 'border',
+		items: [
+			{
+				xtype: 'form',
+				title: 'Main Area',
+				region: 'west',
+				width: 300,
+				border: false,
+				items: [
+					{
+						xtype: 'timepickerfield',
+						name: 'time1',
+						fieldLabel: 'Time 1'
+					},
+					{
+						xtype: 'timepickerfield',
+						name: 'time2',
+						fieldLabel: 'Time 2',
+						disabled: true
+					}
+				]
+			},
+			{
+				id: 'main',
+				title: 'x',
+				region: 'center',
+				border: false,
+				items: {
+					xtype: 'clock',
+					clockCfg: {
+						listeners: {
+							render: function(clock, date) {
+								Ext.getCmp('main').setTitle(date.h+':'+date.m+':'+date.s);
+							}
+						}
+					}
+				}
+			}
+		]
+	});
+});
+//]]>
+		</script>
+	</body>
+</html>

@@ -1,0 +1,24 @@
+.png24 {
+    tmp:expression(setPng24(this));
+}
+#notify-wrapper {
+    width: 100%;
+    height: 0px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 1001;
+}
+#notify {
+    border-radius: 3px;
+    padding: 8px 18px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0px auto;
+}
+.server-success {
+    background-color: #337AB7;
+    border: 1px solid #337AB7;
+    color: white;
+}

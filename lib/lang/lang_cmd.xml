@@ -1,0 +1,8458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<menu>
+		<mcode>MN00001</mcode>
+		<hmenu>예</hmenu>
+		<emenu>Yes</emenu>
+		<jmenu>はい</jmenu>
+		<cmenu>是</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00002</mcode>
+		<hmenu>아니오</hmenu>
+		<emenu>No</emenu>
+		<jmenu>いいえ</jmenu>
+		<cmenu>否</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00003</mcode>
+		<hmenu>확인</hmenu>
+		<emenu>OK</emenu>
+		<jmenu>OK</jmenu>
+		<cmenu>确认</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00004</mcode>
+		<hmenu>취소</hmenu>
+		<emenu>Cancel</emenu>
+		<jmenu>キャンセル</jmenu>
+		<cmenu>取消</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00005</mcode>
+		<hmenu>중지</hmenu>
+		<emenu>Abort</emenu>
+		<jmenu>停止</jmenu>
+		<cmenu>暂停</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00006</mcode>
+		<hmenu>재시도</hmenu>
+		<emenu>Retry</emenu>
+		<jmenu>再試行</jmenu>
+		<cmenu>重试</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00007</mcode>
+		<hmenu>무시</hmenu>
+		<emenu>Ignore</emenu>
+		<jmenu>無視</jmenu>
+		<cmenu>无视</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00008</mcode>
+		<hmenu>전체</hmenu>
+		<emenu>All</emenu>
+		<jmenu>すべて</jmenu>
+		<cmenu>全部</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00009</mcode>
+		<hmenu>도움말</hmenu>
+		<emenu>Help</emenu>
+		<jmenu>ヘルプ</jmenu>
+		<cmenu>帮助</cmenu>
+		<desc>버튼에 대한 값</desc>
+	</menu>
+	<menu>
+		<mcode>MN00010</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00011</mcode>
+		<hmenu>성공</hmenu>
+		<emenu>Success</emenu>
+		<jmenu>成功</jmenu>
+		<cmenu>成功</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00012</mcode>
+		<hmenu>실패</hmenu>
+		<emenu>Failure</emenu>
+		<jmenu>失敗</jmenu>
+		<cmenu>失败</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00013</mcode>
+		<hmenu>로그아웃</hmenu>
+		<emenu>Log out</emenu>
+		<jmenu>ログアウト</jmenu>
+		<cmenu>注销</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00014</mcode>
+		<hmenu>로그인</hmenu>
+		<emenu>Log In</emenu>
+		<jmenu>ログイン</jmenu>
+		<cmenu>登录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00015</mcode>
+		<hmenu>성공</hmenu>
+		<emenu>Succeeded</emenu>
+		<jmenu>成功</jmenu>
+		<cmenu>成功</cmenu>
+		<desc>(과거동사)작업관리 체크박스</desc>
+	</menu>
+	<menu>
+		<mcode>MN00016</mcode>
+		<hmenu>실패</hmenu>
+		<emenu>Failed</emenu>
+		<jmenu>失敗</jmenu>
+		<cmenu>失败</cmenu>
+		<desc>(과거동사)작업관리 체크박스</desc>
+	</menu>
+	<menu>
+		<mcode>MN00017</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00018</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00019</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00020</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00021</mcode>
+		<hmenu>경고</hmenu>
+		<emenu>Warning</emenu>
+		<jmenu>警告</jmenu>
+		<cmenu>警告</cmenu>
+		<desc>메시지 타이틀에 대한 경고(!)</desc>
+	</menu>
+	<menu>
+		<mcode>MN00022</mcode>
+		<hmenu>오류</hmenu>
+		<emenu>Error</emenu>
+		<jmenu>エラー</jmenu>
+		<cmenu>错误</cmenu>
+		<desc>메시지 타이틀에 대한 에러(X)</desc>
+	</menu>
+	<menu>
+		<mcode>MN00023</mcode>
+		<hmenu>알림</hmenu>
+		<emenu>Information</emenu>
+		<jmenu>情報</jmenu>
+		<cmenu>提示</cmenu>
+		<desc>메시지 타이틀에 대한 정보(i)</desc>
+	</menu>
+	<menu>
+		<mcode>MN00024</mcode>
+		<hmenu>확인</hmenu>
+		<emenu>Confirmation</emenu>
+		<jmenu>確認</jmenu>
+		<cmenu>确认</cmenu>
+		<desc>메시지 타이틀에 대한 확인(?)</desc>
+	</menu>
+	<menu>
+		<mcode>MN00025</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00026</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00027</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00028</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00029</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>예약 대기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00030</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00031</mcode>
+		<hmenu>닫기</hmenu>
+		<emenu>Close</emenu>
+		<jmenu>閉じる</jmenu>
+		<cmenu>关闭</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00032</mcode>
+		<hmenu>열기</hmenu>
+		<emenu>Open</emenu>
+		<jmenu>開ける</jmenu>
+		<cmenu>打开</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00033</mcode>
+		<hmenu>추가</hmenu>
+		<emenu>Add</emenu>
+		<jmenu>追加する</jmenu>
+		<cmenu>添加</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00034</mcode>
+		<hmenu>삭제</hmenu>
+		<emenu>Delete</emenu>
+		<jmenu>削除する</jmenu>
+		<cmenu>删除</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00035</mcode>
+		<hmenu>읽기</hmenu>
+		<emenu>Read</emenu>
+		<jmenu>読み込む</jmenu>
+		<cmenu>只读</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00036</mcode>
+		<hmenu>입력</hmenu>
+		<emenu>Add</emenu>
+		<jmenu>追加する</jmenu>
+		<cmenu>输入</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00037</mcode>
+		<hmenu>검색</hmenu>
+		<emenu>Search</emenu>
+		<jmenu>検索する</jmenu>
+		<cmenu>搜索</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00038</mcode>
+		<hmenu>등록</hmenu>
+		<emenu>New</emenu>
+		<jmenu>新規</jmenu>
+		<cmenu>注册</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00039</mcode>
+		<hmenu>대기</hmenu>
+		<emenu>Queue</emenu>
+		<jmenu>キュー</jmenu>
+		<cmenu>等待</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00040</mcode>
+		<hmenu>보기</hmenu>
+		<emenu>Visible</emenu>
+		<jmenu>可視</jmenu>
+		<cmenu>观看</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00041</mcode>
+		<hmenu>생성</hmenu>
+		<emenu>Create</emenu>
+		<jmenu>作成する</jmenu>
+		<cmenu>生成</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00042</mcode>
+		<hmenu>생성</hmenu>
+		<emenu>New</emenu>
+		<jmenu>新規</jmenu>
+		<cmenu>新建</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00043</mcode>
+		<hmenu>수정</hmenu>
+		<emenu>Edit</emenu>
+		<jmenu>編集</jmenu>
+		<cmenu>编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00044</mcode>
+		<hmenu>수정</hmenu>
+		<emenu>Update</emenu>
+		<jmenu>更新</jmenu>
+		<cmenu>更新</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00045</mcode>
+		<hmenu>재시작</hmenu>
+		<emenu>Restart</emenu>
+		<jmenu>再起動する</jmenu>
+		<cmenu>重启</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00046</mcode>
+		<hmenu>저장</hmenu>
+		<emenu>Save</emenu>
+		<jmenu>保存する</jmenu>
+		<cmenu>保存</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00047</mcode>
+		<hmenu>조회</hmenu>
+		<emenu>View</emenu>
+		<jmenu>ビュー</jmenu>
+		<cmenu>浏览</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00048</mcode>
+		<hmenu>로그</hmenu>
+		<emenu>Log</emenu>
+		<jmenu>ログ</jmenu>
+		<cmenu>记录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00049</mcode>
+		<hmenu>설명</hmenu>
+		<emenu>Description</emenu>
+		<jmenu>説明</jmenu>
+		<cmenu>说明</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00050</mcode>
+		<hmenu>다운로드</hmenu>
+		<emenu>Download</emenu>
+		<jmenu>ダウンロード</jmenu>
+		<cmenu>下载</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00051</mcode>
+		<hmenu>리스토어</hmenu>
+		<emenu>Restore</emenu>
+		<jmenu>回復する</jmenu>
+		<cmenu>恢复</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00052</mcode>
+		<hmenu>수정가능</hmenu>
+		<emenu>Editable</emenu>
+		<jmenu>編集可能</jmenu>
+		<cmenu>可编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00053</mcode>
+		<hmenu>수정허용</hmenu>
+		<emenu>Editable</emenu>
+		<jmenu>編集可能</jmenu>
+		<cmenu>可编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00054</mcode>
+		<hmenu>제거</hmenu>
+		<emenu>Remove</emenu>
+		<jmenu>移動する</jmenu>
+		<cmenu>排除</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00055</mcode>
+		<hmenu>리셋</hmenu>
+		<emenu>Clear</emenu>
+		<jmenu>クリアする</jmenu>
+		<cmenu>明确</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00056</mcode>
+		<hmenu>아카이브</hmenu>
+		<emenu>Archive</emenu>
+		<jmenu>アーカイブ</jmenu>
+		<cmenu>存档</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00057</mcode>
+		<hmenu>니어라인</hmenu>
+		<emenu>Nearline</emenu>
+		<jmenu>ニアライン</jmenu>
+		<cmenu>近线</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00058</mcode>
+		<hmenu>트랜스퍼</hmenu>
+		<emenu>Transfer</emenu>
+		<jmenu>転送</jmenu>
+		<cmenu>转移</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00059</mcode>
+		<hmenu>조회</hmenu>
+		<emenu>Search</emenu>
+		<jmenu>検索する</jmenu>
+		<cmenu>搜索</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00060</mcode>
+		<hmenu>미리 보기</hmenu>
+		<emenu>Thumbnail View</emenu>
+		<jmenu>サムネイル・ビュー</jmenu>
+		<cmenu>快速浏览</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00061</mcode>
+		<hmenu>리스트 보기</hmenu>
+		<emenu>List View</emenu>
+		<jmenu>リスト・ビュー</jmenu>
+		<cmenu>详细浏览</cmenu>
+		<desc>콘텐츠 보기에서 상세보기, 요약보기, 미리보기</desc>
+	</menu>
+	<menu>
+		<mcode>MN00062</mcode>
+		<hmenu>요약 보기</hmenu>
+		<emenu>Summary View</emenu>
+		<jmenu>サマリー・ビュー</jmenu>
+		<cmenu>摘要浏览</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00063</mcode>
+		<hmenu>변경</hmenu>
+		<emenu>Change</emenu>
+		<jmenu>変更する</jmenu>
+		<cmenu>修改</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00064</mcode>
+		<hmenu>존재 유무</hmenu>
+		<emenu>Exists Or Not</emenu>
+		<jmenu>Exists Or Not</jmenu>
+		<cmenu>是否存在</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00065</mcode>
+		<hmenu>저장 중</hmenu>
+		<emenu>Save in Progress</emenu>
+		<jmenu>保存を実行中</jmenu>
+		<cmenu>保存中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00066</mcode>
+		<hmenu>요청</hmenu>
+		<emenu>Request</emenu>
+		<jmenu>リクエスト</jmenu>
+		<cmenu>请求</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00067</mcode>
+		<hmenu>내용</hmenu>
+		<emenu>Content</emenu>
+		<jmenu>コンテンツ</jmenu>
+		<cmenu>内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00068</mcode>
+		<hmenu>수정 중</hmenu>
+		<emenu>Update in Progress</emenu>
+		<jmenu>更新を実行中</jmenu>
+		<cmenu>更新中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00069</mcode>
+		<hmenu>작업코드</hmenu>
+		<emenu>Job Code</emenu>
+		<jmenu>ジョブコード</jmenu>
+		<cmenu>任务代码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00070</mcode>
+		<hmenu>작업 추가</hmenu>
+		<emenu>Add Job</emenu>
+		<jmenu>ジョブを追加する</jmenu>
+		<cmenu>添加任务</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00071</mcode>
+		<hmenu>1월</hmenu>
+		<emenu>Jan</emenu>
+		<jmenu>1月</jmenu>
+		<cmenu>1月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00072</mcode>
+		<hmenu>2월</hmenu>
+		<emenu>Feb</emenu>
+		<jmenu>2月</jmenu>
+		<cmenu>2月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00073</mcode>
+		<hmenu>3월</hmenu>
+		<emenu>Mar</emenu>
+		<jmenu>3月</jmenu>
+		<cmenu>3月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00074</mcode>
+		<hmenu>4월</hmenu>
+		<emenu>Apr</emenu>
+		<jmenu>4月</jmenu>
+		<cmenu>4月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00075</mcode>
+		<hmenu>5월</hmenu>
+		<emenu>May</emenu>
+		<jmenu>5月</jmenu>
+		<cmenu>5月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00076</mcode>
+		<hmenu>6월</hmenu>
+		<emenu>Jul</emenu>
+		<jmenu>6月</jmenu>
+		<cmenu>6月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00077</mcode>
+		<hmenu>7월</hmenu>
+		<emenu>Jun</emenu>
+		<jmenu>7月</jmenu>
+		<cmenu>7月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00078</mcode>
+		<hmenu>8월</hmenu>
+		<emenu>Aug</emenu>
+		<jmenu>8月</jmenu>
+		<cmenu>8月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00079</mcode>
+		<hmenu>9월</hmenu>
+		<emenu>Sep</emenu>
+		<jmenu>9月</jmenu>
+		<cmenu>9月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00080</mcode>
+		<hmenu>10월</hmenu>
+		<emenu>Oct</emenu>
+		<jmenu>10月</jmenu>
+		<cmenu>10月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00081</mcode>
+		<hmenu>11월</hmenu>
+		<emenu>Nov</emenu>
+		<jmenu>11月</jmenu>
+		<cmenu>11月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00082</mcode>
+		<hmenu>12월</hmenu>
+		<emenu>Dec</emenu>
+		<jmenu>12月</jmenu>
+		<cmenu>12月</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00083</mcode>
+		<hmenu>상세검색</hmenu>
+		<emenu>(e)상세검색</emenu>
+		<jmenu>(e)상세검색</jmenu>
+		<cmenu>详细搜索</cmenu>
+		<desc>검색(미디어 검색) 상세검색 버튼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN00084</mcode>
+		<hmenu>결과내 재검색</hmenu>
+		<emenu>(e)결과내 재검색</emenu>
+		<jmenu>(e)결과내 재검색</jmenu>
+		<cmenu>结果中再搜索</cmenu>
+		<desc>검색(미디어 검색) 상세검색</desc>
+	</menu>
+	<menu>
+		<mcode>MN00085</mcode>
+		<hmenu>큐시트</hmenu>
+		<emenu>(e)큐시트</emenu>
+		<jmenu>(e)큐시트</jmenu>
+		<cmenu>Quesheet</cmenu>
+		<desc>검색(미디어 검색)</desc>
+	</menu>
+	<menu>
+		<mcode>MN00086</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00087</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00088</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00089</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00090</mcode>
+		<hmenu>미디어 자산관리</hmenu>
+		<emenu>Media Asset Management</emenu>
+		<jmenu>メディア・アセット管理</jmenu>
+		<cmenu>媒体资产管理</cmenu>
+		<desc>MAM</desc>
+	</menu>
+	<menu>
+		<mcode>MN00091</mcode>
+		<hmenu>Proxima</hmenu>
+		<emenu>Proxima</emenu>
+		<jmenu>プロキシマ</jmenu>
+		<cmenu>Proxima</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00092</mcode>
+		<hmenu>Proxima</hmenu>
+		<emenu>Proxima</emenu>
+		<jmenu>プロキシマ</jmenu>
+		<cmenu>Proxima</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00093</mcode>
+		<hmenu>시스템</hmenu>
+		<emenu>System</emenu>
+		<jmenu>システム</jmenu>
+		<cmenu>系统</cmenu>
+		<desc>main 상단 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN00094</mcode>
+		<hmenu>보도정보</hmenu>
+		<emenu>News</emenu>
+		<jmenu>ニュース</jmenu>
+		<cmenu>新闻</cmenu>
+		<desc>main 상단 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN00095</mcode>
+		<hmenu>의뢰</hmenu>
+		<emenu>Request</emenu>
+		<jmenu>リクエスト</jmenu>
+		<cmenu>申请</cmenu>
+		<desc>main 상단 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN00096</mcode>
+		<hmenu>미디어 검색</hmenu>
+		<emenu>Search</emenu>
+		<jmenu>検索する</jmenu>
+		<cmenu>媒体搜索</cmenu>
+		<desc>main 상단 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN00097</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00098</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00099</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00100</mcode>
+		<hmenu>가입일자</hmenu>
+		<emenu>Account Created Date</emenu>
+		<jmenu>アカウント作成日</jmenu>
+		<cmenu>用户创建日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00101</mcode>
+		<hmenu>다운로드일자</hmenu>
+		<emenu>Download Date</emenu>
+		<jmenu>ダウンロード日</jmenu>
+		<cmenu>下载日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00102</mcode>
+		<hmenu>등록일자</hmenu>
+		<emenu>Registered Date</emenu>
+		<jmenu>登録日</jmenu>
+		<cmenu>注册日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00103</mcode>
+		<hmenu>로그인 일시</hmenu>
+		<emenu>Log In Date</emenu>
+		<jmenu>ログイン日</jmenu>
+		<cmenu>登录日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00104</mcode>
+		<hmenu>최종 로그인</hmenu>
+		<emenu>Last Login Date</emenu>
+		<jmenu>最後にログインした日</jmenu>
+		<cmenu>最终登录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00105</mcode>
+		<hmenu>삭제일자</hmenu>
+		<emenu>Deleted Date</emenu>
+		<jmenu>削除日</jmenu>
+		<cmenu>删除日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00106</mcode>
+		<hmenu>삭제된 날짜</hmenu>
+		<emenu>Deleted Date</emenu>
+		<jmenu>削除日</jmenu>
+		<cmenu>删除日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00107</mcode>
+		<hmenu>생성일</hmenu>
+		<emenu>Created Date</emenu>
+		<jmenu>作成日</jmenu>
+		<cmenu>生成日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00108</mcode>
+		<hmenu>생성일자</hmenu>
+		<emenu>Created Date</emenu>
+		<jmenu>作成日</jmenu>
+		<cmenu>生成日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00109</mcode>
+		<hmenu>등록일</hmenu>
+		<emenu>Registered Date</emenu>
+		<jmenu>登録日</jmenu>
+		<cmenu>注册日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00110</mcode>
+		<hmenu>권한</hmenu>
+		<emenu>Admin Privilege</emenu>
+		<jmenu>管理者権限</jmenu>
+		<cmenu>权限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00111</mcode>
+		<hmenu>그룹</hmenu>
+		<emenu>Group</emenu>
+		<jmenu>グループ</jmenu>
+		<cmenu>组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00112</mcode>
+		<hmenu>검색 목록</hmenu>
+		<emenu>Search Item</emenu>
+		<jmenu>検索項目</jmenu>
+		<cmenu>搜索目录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00113</mcode>
+		<hmenu>검색 항목</hmenu>
+		<emenu>Items</emenu>
+		<jmenu>項目</jmenu>
+		<cmenu>搜索项目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00114</mcode>
+		<hmenu>검색 허용</hmenu>
+		<emenu>Searchable Item</emenu>
+		<jmenu>検索可能項目</jmenu>
+		<cmenu>可搜索项目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00115</mcode>
+		<hmenu>그룹 관리</hmenu>
+		<emenu>Group Management</emenu>
+		<jmenu>グループ管理</jmenu>
+		<cmenu>组管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00116</mcode>
+		<hmenu>그룹 수정</hmenu>
+		<emenu>Edit Group</emenu>
+		<jmenu>グループの編集</jmenu>
+		<cmenu>组编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00117</mcode>
+		<hmenu>그룹 이름</hmenu>
+		<emenu>Group Name</emenu>
+		<jmenu>グループ名</jmenu>
+		<cmenu>组名</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00118</mcode>
+		<hmenu>그룹 추가</hmenu>
+		<emenu>Add Group</emenu>
+		<jmenu>グループを追加する</jmenu>
+		<cmenu>添加组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00119</mcode>
+		<hmenu>등록수</hmenu>
+		<emenu>Registration Count</emenu>
+		<jmenu>登録カウント</jmenu>
+		<cmenu>注册数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00120</mcode>
+		<hmenu>등록자</hmenu>
+		<emenu>Registered User</emenu>
+		<jmenu>登録済みユーザー</jmenu>
+		<cmenu>注册者</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00121</mcode>
+		<hmenu>마이페이지</hmenu>
+		<emenu>My Page</emenu>
+		<jmenu>マイページ</jmenu>
+		<cmenu>我的页面</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00122</mcode>
+		<hmenu>로그인 수</hmenu>
+		<emenu>Log In Count</emenu>
+		<jmenu>ログインカウント</jmenu>
+		<cmenu>登陆数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00123</mcode>
+		<hmenu>수정일자</hmenu>
+		<emenu>Edited Date</emenu>
+		<jmenu>編集日</jmenu>
+		<cmenu>编辑日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00124</mcode>
+		<hmenu>개 씩</hmenu>
+		<emenu>Per Page</emenu>
+		<jmenu>ページ当たり</jmenu>
+		<cmenu>每页</cmenu>
+		<desc>몇 개 씩</desc>
+	</menu>
+	<menu>
+		<mcode>MN00125</mcode>
+		<hmenu>사용자 조회</hmenu>
+		<emenu>Look Up User</emenu>
+		<jmenu>ユーザーのルックアップ</jmenu>
+		<cmenu>查找用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00126</mcode>
+		<hmenu>사용자 추가</hmenu>
+		<emenu>Add User</emenu>
+		<jmenu>ユーザーを追加する</jmenu>
+		<cmenu>添加用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00127</mcode>
+		<hmenu>삭제 결과</hmenu>
+		<emenu>Delete Result</emenu>
+		<jmenu>結果を削除する</jmenu>
+		<cmenu>删除结果</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00128</mcode>
+		<hmenu>삭제 사유</hmenu>
+		<emenu>Reason for Deletion</emenu>
+		<jmenu>削除の理由</jmenu>
+		<cmenu>删除原因</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00129</mcode>
+		<hmenu>삭제 성공</hmenu>
+		<emenu>Delete succeeded.</emenu>
+		<jmenu>削除成功</jmenu>
+		<cmenu>删除成功</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00130</mcode>
+		<hmenu>삭제 실패</hmenu>
+		<emenu>Delete failed.</emenu>
+		<jmenu>削除失敗</jmenu>
+		<cmenu>删除失败</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00131</mcode>
+		<hmenu>삭제된 미디어수 :</hmenu>
+		<emenu>Delete Media Number</emenu>
+		<jmenu>メディアナンバーの削除</jmenu>
+		<cmenu>已删除媒体数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00132</mcode>
+		<hmenu>삭제수</hmenu>
+		<emenu>Delete Number</emenu>
+		<jmenu>ナンバーを削除</jmenu>
+		<cmenu>删除数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00133</mcode>
+		<hmenu>삭제여부</hmenu>
+		<emenu>Deleted</emenu>
+		<jmenu>削除終了</jmenu>
+		<cmenu>已删除</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00134</mcode>
+		<hmenu>삭제정보</hmenu>
+		<emenu>Deleted Content</emenu>
+		<jmenu>削除済みコンテンツ</jmenu>
+		<cmenu>删除信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00135</mcode>
+		<hmenu>상단 메뉴</hmenu>
+		<emenu>Top Menu</emenu>
+		<jmenu>トップメニュー</jmenu>
+		<cmenu>主菜单</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00136</mcode>
+		<hmenu>상세 검색</hmenu>
+		<emenu>Search Builder</emenu>
+		<jmenu>ビルダーを検索する</jmenu>
+		<cmenu>详细搜索</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00137</mcode>
+		<hmenu>상세 보기</hmenu>
+		<emenu>View Content</emenu>
+		<jmenu>コンテンツを見る</jmenu>
+		<cmenu>详细浏览</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00138</mcode>
+		<hmenu>상태</hmenu>
+		<emenu>Status</emenu>
+		<jmenu>ステータス</jmenu>
+		<cmenu>状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00139</mcode>
+		<hmenu>새로 고침</hmenu>
+		<emenu>Refresh</emenu>
+		<jmenu>リフレッシュする</jmenu>
+		<cmenu>刷新</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00140</mcode>
+		<hmenu>새 이름</hmenu>
+		<emenu>New Item</emenu>
+		<jmenu>新規項目</jmenu>
+		<cmenu>新建项目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00141</mcode>
+		<hmenu>성명</hmenu>
+		<emenu>Name</emenu>
+		<jmenu>名前</jmenu>
+		<cmenu>姓名</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00142</mcode>
+		<hmenu>다운로드</hmenu>
+		<emenu>Download</emenu>
+		<jmenu>ダウンロード</jmenu>
+		<cmenu>下载</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00143</mcode>
+		<hmenu>고해상도 트랜스코딩</hmenu>
+		<emenu>Transcoding</emenu>
+		<jmenu>トランスコーディング</jmenu>
+		<cmenu>高码率转码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00144</mcode>
+		<hmenu>공지사항</hmenu>
+		<emenu>Notice</emenu>
+		<jmenu>通知</jmenu>
+		<cmenu>通知</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00145</mcode>
+		<hmenu>공지사항 관리</hmenu>
+		<emenu>Notice Board</emenu>
+		<jmenu>掲示板</jmenu>
+		<cmenu>公告栏</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00146</mcode>
+		<hmenu>관리자 권한</hmenu>
+		<emenu>Administrator Privilege</emenu>
+		<jmenu>管理者権限</jmenu>
+		<cmenu>管理者权限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00147</mcode>
+		<hmenu>사용자 정의 콘텐츠 수정</hmenu>
+		<emenu>Edit User Defined Content</emenu>
+		<jmenu>ユーザー定義コンテンツの編集</jmenu>
+		<cmenu>编辑用户定义内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00148</mcode>
+		<hmenu>사용자 정의 콘텐츠 추가</hmenu>
+		<emenu>New User Defined Content</emenu>
+		<jmenu>新規ユーザー定義コンテンツ</jmenu>
+		<cmenu>添加用户定义内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00149</mcode>
+		<hmenu>구간 입력</hmenu>
+		<emenu>Set In/Out Range</emenu>
+		<jmenu>Set In/Out Range</jmenu>
+		<cmenu>区间输入/出</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00150</mcode>
+		<hmenu>기간</hmenu>
+		<emenu>Period</emenu>
+		<jmenu>期間</jmenu>
+		<cmenu>期间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00151</mcode>
+		<hmenu>기간별 로그인 횟수</hmenu>
+		<emenu>Log in count for period</emenu>
+		<jmenu>期間中ログインカウント</jmenu>
+		<cmenu>定期登录次数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00152</mcode>
+		<hmenu>기간별 로그인 횟수 그리드</hmenu>
+		<emenu>Log in count for month</emenu>
+		<jmenu>一か月のログインカウント</jmenu>
+		<cmenu>月登录次数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00153</mcode>
+		<hmenu>기본 사용</hmenu>
+		<emenu>Default</emenu>
+		<jmenu>デフォルト</jmenu>
+		<cmenu>默认</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00154</mcode>
+		<hmenu>기본 정보</hmenu>
+		<emenu>Basic Metadata</emenu>
+		<jmenu>基本的なメタデータ</jmenu>
+		<cmenu>基本信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00155</mcode>
+		<hmenu>기본값</hmenu>
+		<emenu>Default Values</emenu>
+		<jmenu>デフォルト値</jmenu>
+		<cmenu>默认值</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00156</mcode>
+		<hmenu>내용</hmenu>
+		<emenu>Reason</emenu>
+		<jmenu>理由</jmenu>
+		<cmenu>原因</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00157</mcode>
+		<hmenu>내용 수정</hmenu>
+		<emenu>Add/Edit Comment</emenu>
+		<jmenu>コメントの追加/編集</jmenu>
+		<cmenu>编辑内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00158</mcode>
+		<hmenu>환영합니다.</hmenu>
+		<emenu>Welcome</emenu>
+		<jmenu>ようこそ</jmenu>
+		<cmenu>欢迎您</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00159</mcode>
+		<hmenu>담당pd</hmenu>
+		<emenu>PD in charge</emenu>
+		<jmenu>担当PD</jmenu>
+		<cmenu>担当PD</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00160</mcode>
+		<hmenu>대기 중</hmenu>
+		<emenu>Queued</emenu>
+		<jmenu>待機中</jmenu>
+		<cmenu>待机中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00161</mcode>
+		<hmenu>대상자</hmenu>
+		<emenu>Target</emenu>
+		<jmenu>ターゲット</jmenu>
+		<cmenu>对象</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00162</mcode>
+		<hmenu>대표이미지로 지정</hmenu>
+		<emenu>Set as the poster image of this content</emenu>
+		<jmenu>このコンテンツのポスター画像として設定する</jmenu>
+		<cmenu>设置为代表图片</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00163</mcode>
+		<hmenu>등록 횟수</hmenu>
+		<emenu>Registration Count</emenu>
+		<jmenu>登録カウント</jmenu>
+		<cmenu>注册数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00164</mcode>
+		<hmenu>메타데이터</hmenu>
+		<emenu>Metadata</emenu>
+		<jmenu>メタデータ</jmenu>
+		<cmenu>元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00165</mcode>
+		<hmenu>메타데이터 관리</hmenu>
+		<emenu>Metadata</emenu>
+		<jmenu>メタデータ</jmenu>
+		<cmenu>管理元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00166</mcode>
+		<hmenu>메타데이터 일괄 수정</hmenu>
+		<emenu>Edit Metadata</emenu>
+		<jmenu>メタデータの編集</jmenu>
+		<cmenu>整体编辑元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00167</mcode>
+		<hmenu>메타테이터 수정</hmenu>
+		<emenu>Edit Metadata</emenu>
+		<jmenu>メタデータの編集</jmenu>
+		<cmenu>编辑元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00168</mcode>
+		<hmenu>메타테이터 추가</hmenu>
+		<emenu>Add Metadata</emenu>
+		<jmenu>メタデータの追加</jmenu>
+		<cmenu>添加元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00169</mcode>
+		<hmenu>메타테이터명</hmenu>
+		<emenu>Metadata Title</emenu>
+		<jmenu>メタデータのタイトル</jmenu>
+		<cmenu>元数据名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00170</mcode>
+		<hmenu>미디어 정보</hmenu>
+		<emenu>Media Info</emenu>
+		<jmenu>メディア情報</jmenu>
+		<cmenu>媒体信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00171</mcode>
+		<hmenu>미디어ID</hmenu>
+		<emenu>Media ID</emenu>
+		<jmenu>メディアID</jmenu>
+		<cmenu>媒体ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00172</mcode>
+		<hmenu>미디어경로</hmenu>
+		<emenu>Media File Path</emenu>
+		<jmenu>メディアファイル・パス</jmenu>
+		<cmenu>媒体路径</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00173</mcode>
+		<hmenu>미디어파일리스트</hmenu>
+		<emenu>Media File List</emenu>
+		<jmenu>メディアファイルリスト</jmenu>
+		<cmenu>媒体文件列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00174</mcode>
+		<hmenu>반려</hmenu>
+		<emenu>Rejected</emenu>
+		<jmenu>拒否</jmenu>
+		<cmenu>拒绝</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00175</mcode>
+		<hmenu>반려 날짜</hmenu>
+		<emenu>Rejected Date</emenu>
+		<jmenu>拒否日</jmenu>
+		<cmenu>拒绝日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00176</mcode>
+		<hmenu>반려 목록</hmenu>
+		<emenu>Rejected List</emenu>
+		<jmenu>拒否リスト</jmenu>
+		<cmenu>拒绝目录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00177</mcode>
+		<hmenu>반려 목록 리스트</hmenu>
+		<emenu>Rejected List</emenu>
+		<jmenu>拒否リスト</jmenu>
+		<cmenu>拒绝目录列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00178</mcode>
+		<hmenu>반려 사유</hmenu>
+		<emenu>Reason for Rejection</emenu>
+		<jmenu>拒否の理由</jmenu>
+		<cmenu>拒绝理由</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00179</mcode>
+		<hmenu>방송연도</hmenu>
+		<emenu>Broadcast Year</emenu>
+		<jmenu>放送年</jmenu>
+		<cmenu>播放年度</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00180</mcode>
+		<hmenu>방송일자</hmenu>
+		<emenu>Broadcast Date</emenu>
+		<jmenu>放送日</jmenu>
+		<cmenu>播放日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00181</mcode>
+		<hmenu>부서</hmenu>
+		<emenu>Department</emenu>
+		<jmenu>部門</jmenu>
+		<cmenu>部门</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00182</mcode>
+		<hmenu>부제</hmenu>
+		<emenu>Subtitle</emenu>
+		<jmenu>字幕</jmenu>
+		<cmenu>副标题</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00183</mcode>
+		<hmenu>부터</hmenu>
+		<emenu>~</emenu>
+		<jmenu>～</jmenu>
+		<cmenu>从</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00184</mcode>
+		<hmenu>분</hmenu>
+		<emenu>min.</emenu>
+		<jmenu>分</jmenu>
+		<cmenu>分</cmenu>
+		<desc>minute</desc>
+	</menu>
+	<menu>
+		<mcode>MN00185</mcode>
+		<hmenu>비밀번호</hmenu>
+		<emenu>Password</emenu>
+		<jmenu>パスワード</jmenu>
+		<cmenu>密码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00186</mcode>
+		<hmenu>비밀번호 변경</hmenu>
+		<emenu>Change Password</emenu>
+		<jmenu>パスワードの変更</jmenu>
+		<cmenu>更改密码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00187</mcode>
+		<hmenu>비밀번호 확인</hmenu>
+		<emenu>Confirm Password</emenu>
+		<jmenu>パスワードの確認</jmenu>
+		<cmenu>确认密码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00188</mcode>
+		<hmenu>사용자ID</hmenu>
+		<emenu>User ID</emenu>
+		<jmenu>ユーザーID</jmenu>
+		<cmenu>用户名</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00189</mcode>
+		<hmenu>사용자</hmenu>
+		<emenu>User</emenu>
+		<jmenu>ユーザー</jmenu>
+		<cmenu>用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00190</mcode>
+		<hmenu>사용자 검색</hmenu>
+		<emenu>Search User</emenu>
+		<jmenu>ユーザーを検索する</jmenu>
+		<cmenu>用户搜索</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00191</mcode>
+		<hmenu>사용자 관리</hmenu>
+		<emenu>Users and Groups</emenu>
+		<jmenu>ユーザーとグループ</jmenu>
+		<cmenu>用户管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00192</mcode>
+		<hmenu>사용자 메타데이터</hmenu>
+		<emenu>User Metadata</emenu>
+		<jmenu>ユーザー・メタデータ</jmenu>
+		<cmenu>用户元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00193</mcode>
+		<hmenu>사용자 수정</hmenu>
+		<emenu>Edit User</emenu>
+		<jmenu>ユーザーの編集</jmenu>
+		<cmenu>用户编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00194</mcode>
+		<hmenu>사용자 순위별 통계</hmenu>
+		<emenu>User Ranking Statistics</emenu>
+		<jmenu>ユーザーランキング統計</jmenu>
+		<cmenu>用户序列统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00195</mcode>
+		<hmenu>사용자 아이디</hmenu>
+		<emenu>User ID</emenu>
+		<jmenu>ユーザーID</jmenu>
+		<cmenu>用户ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00196</mcode>
+		<hmenu>사용자 이름</hmenu>
+		<emenu>User Name</emenu>
+		<jmenu>ユーザー名</jmenu>
+		<cmenu>用户名</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00197</mcode>
+		<hmenu>사용자 정의 콘텐츠</hmenu>
+		<emenu>User Defined Content</emenu>
+		<jmenu>ユーザー定義コンテンツ</jmenu>
+		<cmenu>用户定义内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00198</mcode>
+		<hmenu>사용자 정의 콘텐츠 구성</hmenu>
+		<emenu>User Defined Content</emenu>
+		<jmenu>ユーザー定義コンテンツ</jmenu>
+		<cmenu>用户定义内容构成</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00199</mcode>
+		<hmenu>사용자 정의 콘텐츠별</hmenu>
+		<emenu>By User Defined Content</emenu>
+		<jmenu>ユーザー定義コンテンツによって</jmenu>
+		<cmenu>各用户定义内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00200</mcode>
+		<hmenu>사용자 정의 콘텐츠별 등록 현황</hmenu>
+		<emenu>Registration status for user defined content</emenu>
+		<jmenu>ユーザー定義コンテンツの登録状態</jmenu>
+		<cmenu>各用户定义内容的登录状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00201</mcode>
+		<hmenu>사용자 정의 콘텐츠별 승인 현황</hmenu>
+		<emenu>Admission status for user defined content</emenu>
+		<jmenu>ユーザー定義コンテンツの承認ステータス</jmenu>
+		<cmenu>各用户定义内容的接受状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00202</mcode>
+		<hmenu>사용자 정의 콘텐츠별 조회 현황</hmenu>
+		<emenu>View status for user defined content</emenu>
+		<jmenu>ユーザー定義コンテンツのステータスを表示</jmenu>
+		<cmenu>各用户定义内容的浏览状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00203</mcode>
+		<hmenu>순번</hmenu>
+		<emenu>Order</emenu>
+		<jmenu>オーダー</jmenu>
+		<cmenu>排序</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00204</mcode>
+		<hmenu>순위</hmenu>
+		<emenu>Order</emenu>
+		<jmenu>オーダー</jmenu>
+		<cmenu>次序</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00205</mcode>
+		<hmenu>스토리지 관리</hmenu>
+		<emenu>Storage Management</emenu>
+		<jmenu>ストレージ管理</jmenu>
+		<cmenu>存储管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00206</mcode>
+		<hmenu>승인</hmenu>
+		<emenu>Admit</emenu>
+		<jmenu>承認する</jmenu>
+		<cmenu>允许</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00207</mcode>
+		<hmenu>시스템 관리</hmenu>
+		<emenu>System Management</emenu>
+		<jmenu>システム管理</jmenu>
+		<cmenu>系统管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00208</mcode>
+		<hmenu>시스템 메타데이터</hmenu>
+		<emenu>System Metadata</emenu>
+		<jmenu>システムメタデータ</jmenu>
+		<cmenu>系统元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00209</mcode>
+		<hmenu>실패사유</hmenu>
+		<emenu>Reason to delete this content</emenu>
+		<jmenu>このコンテンツを削除する理由</jmenu>
+		<cmenu>失败理由</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00210</mcode>
+		<hmenu>아이디</hmenu>
+		<emenu>ID</emenu>
+		<jmenu>ID</jmenu>
+		<cmenu>ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00211</mcode>
+		<hmenu>개인별 통계</hmenu>
+		<emenu>Personal Statistics</emenu>
+		<jmenu>個人的統計</jmenu>
+		<cmenu>个人统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00212</mcode>
+		<hmenu>엑셀로 저장</hmenu>
+		<emenu>Save as Excel</emenu>
+		<jmenu>エクセルで保存</jmenu>
+		<cmenu>保存为Excel</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00213</mcode>
+		<hmenu>연도</hmenu>
+		<emenu>Year</emenu>
+		<jmenu>年</jmenu>
+		<cmenu>年</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00214</mcode>
+		<hmenu>연도 선택</hmenu>
+		<emenu>Select</emenu>
+		<jmenu>選択する</jmenu>
+		<cmenu>选择年度</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00215</mcode>
+		<hmenu>영역</hmenu>
+		<emenu>Boundary</emenu>
+		<jmenu>境界</jmenu>
+		<cmenu>领域</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00216</mcode>
+		<hmenu>오디오 트랜스코딩</hmenu>
+		<emenu>Audio Transcoding</emenu>
+		<jmenu>オーディオ・トランスコーディング</jmenu>
+		<cmenu>音频转码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00217</mcode>
+		<hmenu>온라인</hmenu>
+		<emenu>Online</emenu>
+		<jmenu>オンライン</jmenu>
+		<cmenu>线上</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00218</mcode>
+		<hmenu>요청자</hmenu>
+		<emenu>Request User</emenu>
+		<jmenu>ユーザーをリクエストする</jmenu>
+		<cmenu>申请用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00219</mcode>
+		<hmenu>용량 정보</hmenu>
+		<emenu>Capacity Information</emenu>
+		<jmenu>キャパシティー情報</jmenu>
+		<cmenu>容量信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00220</mcode>
+		<hmenu>원본</hmenu>
+		<emenu>Original(Source) File</emenu>
+		<jmenu>オリジナル（ソース）ファイル</jmenu>
+		<cmenu>原件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00221</mcode>
+		<hmenu>월</hmenu>
+		<emenu>Month</emenu>
+		<jmenu>月</jmenu>
+		<cmenu>月</cmenu>
+		<desc>Month</desc>
+	</menu>
+	<menu>
+		<mcode>MN00222</mcode>
+		<hmenu>유형</hmenu>
+		<emenu>Type</emenu>
+		<jmenu>タイプ</jmenu>
+		<cmenu>类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00223</mcode>
+		<hmenu>이름</hmenu>
+		<emenu>Name</emenu>
+		<jmenu>名前</jmenu>
+		<cmenu>姓名</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00224</mcode>
+		<hmenu>인제스트 메타데이터 통계</hmenu>
+		<emenu>Ingest Metadata Statistics</emenu>
+		<jmenu>メタデータ統計をインジェストする</jmenu>
+		<cmenu>采集元数据统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00225</mcode>
+		<hmenu>인제스트 작업 통계</hmenu>
+		<emenu>Ingest Job Statistics</emenu>
+		<jmenu>ジョブ統計をインジェストする</jmenu>
+		<cmenu>采集工作统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00226</mcode>
+		<hmenu>인제스트전송</hmenu>
+		<emenu>Ingest Transfer</emenu>
+		<jmenu>転送をインジェストする</jmenu>
+		<cmenu>采集发送</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00227</mcode>
+		<hmenu>일괄 수정</hmenu>
+		<emenu>Update metadata for multiple content</emenu>
+		<jmenu>複数のコンテンツ用にメタデータを更新する</jmenu>
+		<cmenu>更新多个内容元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00228</mcode>
+		<hmenu>입력형식</hmenu>
+		<emenu>Item Type</emenu>
+		<jmenu>項目の種類</jmenu>
+		<cmenu>输入形式</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00229</mcode>
+		<hmenu>자동 새로고침</hmenu>
+		<emenu>Automatic Refresh</emenu>
+		<jmenu>自動リフレッシュ</jmenu>
+		<cmenu>自动刷新</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00230</mcode>
+		<hmenu>작성일자</hmenu>
+		<emenu>Written Date</emenu>
+		<jmenu>作成日時</jmenu>
+		<cmenu>编写日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00231</mcode>
+		<hmenu>작업 관리</hmenu>
+		<emenu>Task Monitoring</emenu>
+		<jmenu>タスク監視</jmenu>
+		<cmenu>任务监控</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00232</mcode>
+		<hmenu>작업 별 통계</hmenu>
+		<emenu>Work Statistics</emenu>
+		<jmenu>ワーク統計</jmenu>
+		<cmenu>工作统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00233</mcode>
+		<hmenu>작업 시작</hmenu>
+		<emenu>Work Started</emenu>
+		<jmenu>ワーク開始</jmenu>
+		<cmenu>工作开始</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00234</mcode>
+		<hmenu>작업 종료</hmenu>
+		<emenu>Work Finished</emenu>
+		<jmenu>ワーク完了</jmenu>
+		<cmenu>工作结束</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00235</mcode>
+		<hmenu>작업ID</hmenu>
+		<emenu>No</emenu>
+		<jmenu>いいえ</jmenu>
+		<cmenu>工作ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00236</mcode>
+		<hmenu>작업명</hmenu>
+		<emenu>Work Title</emenu>
+		<jmenu>ワークタイトル</jmenu>
+		<cmenu>工作名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00237</mcode>
+		<hmenu>작업상태</hmenu>
+		<emenu>Work Status</emenu>
+		<jmenu>ワークステイタス</jmenu>
+		<cmenu>工作状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00238</mcode>
+		<hmenu>작업시작</hmenu>
+		<emenu>Work Started</emenu>
+		<jmenu>ワーク開始</jmenu>
+		<cmenu>工作开始</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00239</mcode>
+		<hmenu>작업자</hmenu>
+		<emenu>User</emenu>
+		<jmenu>ユーザー</jmenu>
+		<cmenu>工作者</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00240</mcode>
+		<hmenu>작업종료</hmenu>
+		<emenu>Work Finished</emenu>
+		<jmenu>ワーク終了</jmenu>
+		<cmenu>工作结束</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00241</mcode>
+		<hmenu>작업흐름보기</hmenu>
+		<emenu>Show workflow</emenu>
+		<jmenu>ワークフローを表示する</jmenu>
+		<cmenu>显示工作流程</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00242</mcode>
+		<hmenu>저장경로</hmenu>
+		<emenu>Target File</emenu>
+		<jmenu>ターゲットファイル</jmenu>
+		<cmenu>保存路径</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00243</mcode>
+		<hmenu>전송</hmenu>
+		<emenu>Transfer</emenu>
+		<jmenu>転送</jmenu>
+		<cmenu>发送</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00244</mcode>
+		<hmenu>전체</hmenu>
+		<emenu>Total</emenu>
+		<jmenu>合計</jmenu>
+		<cmenu>合计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00245</mcode>
+		<hmenu>전체 작업내역</hmenu>
+		<emenu>Total Work List</emenu>
+		<jmenu>ワークリスト合計</jmenu>
+		<cmenu>总工作明细</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00246</mcode>
+		<hmenu>전체보기</hmenu>
+		<emenu>Total</emenu>
+		<jmenu>合計</jmenu>
+		<cmenu>合计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00247</mcode>
+		<hmenu>전체작업 내역</hmenu>
+		<emenu>Total Work List</emenu>
+		<jmenu>ワークリスト合計</jmenu>
+		<cmenu>总工作明细</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00248</mcode>
+		<hmenu>전체작업 리스트</hmenu>
+		<emenu>List for All</emenu>
+		<jmenu>すべてのリスト</jmenu>
+		<cmenu>总工作列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00249</mcode>
+		<hmenu>제목</hmenu>
+		<emenu>Title</emenu>
+		<jmenu>タイトル</jmenu>
+		<cmenu>题目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00250</mcode>
+		<hmenu>조회 리스트</hmenu>
+		<emenu>View List</emenu>
+		<jmenu>リストを表示</jmenu>
+		<cmenu>查看列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00251</mcode>
+		<hmenu>조회 횟수</hmenu>
+		<emenu>View Count</emenu>
+		<jmenu>カウントの表示</jmenu>
+		<cmenu>查看次数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00252</mcode>
+		<hmenu>조회수</hmenu>
+		<emenu>View Count</emenu>
+		<jmenu>カウントの表示</jmenu>
+		<cmenu>查看数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00253</mcode>
+		<hmenu>조회일자</hmenu>
+		<emenu>Viewed Date</emenu>
+		<jmenu>表示した日付</jmenu>
+		<cmenu>查看日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00254</mcode>
+		<hmenu>존재하는 미디어의 수</hmenu>
+		<emenu>Existing Media Count</emenu>
+		<jmenu>既存のメディアカウント</jmenu>
+		<cmenu>已存在媒体数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00255</mcode>
+		<hmenu>종류</hmenu>
+		<emenu>Type</emenu>
+		<jmenu>タイプ</jmenu>
+		<cmenu>种类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00256</mcode>
+		<hmenu>즐겨찾기 추가</hmenu>
+		<emenu>Add to Favorites</emenu>
+		<jmenu>お気に入りに追加</jmenu>
+		<cmenu>添加收藏</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00257</mcode>
+		<hmenu>지정 기간 가입한 사용자</hmenu>
+		<emenu>New users for period</emenu>
+		<jmenu>期間中新規ユーザー</jmenu>
+		<cmenu>定期新用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00258</mcode>
+		<hmenu>지정 기간 사용자별 접속 로그</hmenu>
+		<emenu>Connection log by user</emenu>
+		<jmenu>ユーザーによる接続ログ</jmenu>
+		<cmenu>定期用户连接</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00259</mcode>
+		<hmenu>지정 기간 접속하지 않은 사용자</hmenu>
+		<emenu>User not connected for period</emenu>
+		<jmenu>期間中未接続のユーザー</jmenu>
+		<cmenu>定期未连接用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00260</mcode>
+		<hmenu>직위</hmenu>
+		<emenu>Job Position</emenu>
+		<jmenu>ジョブポジション</jmenu>
+		<cmenu>职位</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00261</mcode>
+		<hmenu>진행율(%)</hmenu>
+		<emenu>Progress</emenu>
+		<jmenu>進捗</jmenu>
+		<cmenu>进度(%)</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00262</mcode>
+		<hmenu>처리 중</hmenu>
+		<emenu>Processing</emenu>
+		<jmenu>処理中</jmenu>
+		<cmenu>处理中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00263</mcode>
+		<hmenu>총미디어 수</hmenu>
+		<emenu>Total Media Count</emenu>
+		<jmenu>合計メディアカウント</jmenu>
+		<cmenu>总媒体数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00264</mcode>
+		<hmenu>최근 등록작업</hmenu>
+		<emenu>Recent Registerations</emenu>
+		<jmenu>最近の登録</jmenu>
+		<cmenu>最近登陆</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00265</mcode>
+		<hmenu>최근 작업 콘텐츠</hmenu>
+		<emenu>Recent Jobs</emenu>
+		<jmenu>最近のジョブ</jmenu>
+		<cmenu>最近工作</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00266</mcode>
+		<hmenu>최근등록 작업</hmenu>
+		<emenu>Recent Registerations</emenu>
+		<jmenu>最近の登録</jmenu>
+		<cmenu>最近登陆</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00267</mcode>
+		<hmenu>최근등록작업 리스트</hmenu>
+		<emenu>Recent Registeration List</emenu>
+		<jmenu>最近の登録リスト</jmenu>
+		<cmenu>最近登录列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00268</mcode>
+		<hmenu>최종 로그인</hmenu>
+		<emenu>Last Login Date</emenu>
+		<jmenu>最終ログイン日</jmenu>
+		<cmenu>最后登录日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00269</mcode>
+		<hmenu>카탈로그 이미지</hmenu>
+		<emenu>Story Board</emenu>
+		<jmenu>ストーリーボード</jmenu>
+		<cmenu>节目目录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00270</mcode>
+		<hmenu>카탈로깅</hmenu>
+		<emenu>Story Board Generation</emenu>
+		<jmenu>ストーリーボード生成</jmenu>
+		<cmenu>生成目录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00271</mcode>
+		<hmenu>카테고리별</hmenu>
+		<emenu>Category</emenu>
+		<jmenu>カテゴリー</jmenu>
+		<cmenu>分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00272</mcode>
+		<hmenu>컨테이너</hmenu>
+		<emenu>Container</emenu>
+		<jmenu>コンテナ</jmenu>
+		<cmenu>容器</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00273</mcode>
+		<hmenu>콘텐츠 명</hmenu>
+		<emenu>Title</emenu>
+		<jmenu>タイトル</jmenu>
+		<cmenu>标题</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00274</mcode>
+		<hmenu>콘텐츠 목록</hmenu>
+		<emenu>Content List</emenu>
+		<jmenu>コンテンツリスト</jmenu>
+		<cmenu>内容列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00275</mcode>
+		<hmenu>콘텐츠 선택</hmenu>
+		<emenu>Select Content</emenu>
+		<jmenu>コンテンツを選択</jmenu>
+		<cmenu>选择内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00276</mcode>
+		<hmenu>콘텐츠 유형</hmenu>
+		<emenu>Content Type</emenu>
+		<jmenu>コンテンツタイプ</jmenu>
+		<cmenu>内容类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00277</mcode>
+		<hmenu>콘텐츠 작업흐름 정보</hmenu>
+		<emenu>Content Workflow Information</emenu>
+		<jmenu>コンテンツワークフロー情報</jmenu>
+		<cmenu>内容工作流程信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00278</mcode>
+		<hmenu>콘텐츠 제목</hmenu>
+		<emenu>Content Title</emenu>
+		<jmenu>コンテンツタイトル</jmenu>
+		<cmenu>内容标题</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00279</mcode>
+		<hmenu>콘텐츠 종류</hmenu>
+		<emenu>Content Type</emenu>
+		<jmenu>コンテンツタイプ</jmenu>
+		<cmenu>内容种类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00280</mcode>
+		<hmenu>콘텐츠 종류 수정</hmenu>
+		<emenu>Edit Type of Content</emenu>
+		<jmenu>コンテンツタイプの編集</jmenu>
+		<cmenu>编辑内容种类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00281</mcode>
+		<hmenu>콘텐츠 종류 추가</hmenu>
+		<emenu>Add Type of Content</emenu>
+		<jmenu>コンテンツタイプを追加する</jmenu>
+		<cmenu>添加内容种类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00282</mcode>
+		<hmenu>콘텐츠 타입별</hmenu>
+		<emenu>By Content Types</emenu>
+		<jmenu>コンテンツタイプごと</jmenu>
+		<cmenu>各内容类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00283</mcode>
+		<hmenu>콘텐츠 타입별 등록 현황</hmenu>
+		<emenu>Registration Status by Content Types</emenu>
+		<jmenu>コンテンツタイプごとの登録ステータス</jmenu>
+		<cmenu>各内容类型注册状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00284</mcode>
+		<hmenu>콘텐츠 타입별 등록 횟수</hmenu>
+		<emenu>Registration Count by Content Types</emenu>
+		<jmenu>コンテンツタイプごとの登録カウント</jmenu>
+		<cmenu>各内容类型登记次数 </cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00285</mcode>
+		<hmenu>콘텐츠 타입별 조회 현황</hmenu>
+		<emenu>View Status by Content Types</emenu>
+		<jmenu>コンテンツタイプごとにステータスを表示</jmenu>
+		<cmenu>各内容类型浏览状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00286</mcode>
+		<hmenu>콘텐츠 타입별 조회 횟수</hmenu>
+		<emenu>View Count by Content Types</emenu>
+		<jmenu>コンテンツタイプごとにカウントを表示</jmenu>
+		<cmenu>各内容类型浏览次数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00287</mcode>
+		<hmenu>콘텐츠ID</hmenu>
+		<emenu>Content ID</emenu>
+		<jmenu>コンテンツID</jmenu>
+		<cmenu>内容ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00288</mcode>
+		<hmenu>콘텐츠 별 허용 권한</hmenu>
+		<emenu>Access right for each content</emenu>
+		<jmenu>各コンテンツに対するアクセス権</jmenu>
+		<cmenu>各内容访问权限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00289</mcode>
+		<hmenu>콘텐츠아이디</hmenu>
+		<emenu>Content ID</emenu>
+		<jmenu>コンテンツID</jmenu>
+		<cmenu>内容ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00290</mcode>
+		<hmenu>콘텐트 종류</hmenu>
+		<emenu>Type of Content</emenu>
+		<jmenu>コンテンツタイプ</jmenu>
+		<cmenu>内容种类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00291</mcode>
+		<hmenu>타입</hmenu>
+		<emenu>Type</emenu>
+		<jmenu>タイプ</jmenu>
+		<cmenu>类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00292</mcode>
+		<hmenu>테입번호</hmenu>
+		<emenu>Tape No</emenu>
+		<jmenu>テープ番号</jmenu>
+		<cmenu>磁带编号</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00293</mcode>
+		<hmenu>통계</hmenu>
+		<emenu>Statistics</emenu>
+		<jmenu>統計</jmenu>
+		<cmenu>统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00294</mcode>
+		<hmenu>통계 종류</hmenu>
+		<emenu>Type of Statistics</emenu>
+		<jmenu>統計の種類</jmenu>
+		<cmenu>统计种类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00295</mcode>
+		<hmenu>통계관리</hmenu>
+		<emenu>Statistics Management</emenu>
+		<jmenu>統計管理</jmenu>
+		<cmenu>统计管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00296</mcode>
+		<hmenu>통계보기</hmenu>
+		<emenu>View Statistics</emenu>
+		<jmenu>統計を表示</jmenu>
+		<cmenu>统计浏览</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00297</mcode>
+		<hmenu>통합검색</hmenu>
+		<emenu>Keyword Search</emenu>
+		<jmenu>キーワード検索</jmenu>
+		<cmenu>关键字检索</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00298</mcode>
+		<hmenu>트랜스코딩</hmenu>
+		<emenu>Transcoding</emenu>
+		<jmenu>トランスコーディング</jmenu>
+		<cmenu>转码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00299</mcode>
+		<hmenu>파라미터</hmenu>
+		<emenu>Parameter</emenu>
+		<jmenu>パラメーター</jmenu>
+		<cmenu>参数</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00300</mcode>
+		<hmenu>파일 용도</hmenu>
+		<emenu>File Type</emenu>
+		<jmenu>ファイルタイプ</jmenu>
+		<cmenu>文件类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00301</mcode>
+		<hmenu>파일 용량</hmenu>
+		<emenu>File Size</emenu>
+		<jmenu>ファイルサイズ</jmenu>
+		<cmenu>文件大小</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00302</mcode>
+		<hmenu>페이지</hmenu>
+		<emenu>Page</emenu>
+		<jmenu>ページ</jmenu>
+		<cmenu>页</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00303</mcode>
+		<hmenu>프로그램명</hmenu>
+		<emenu>Programme</emenu>
+		<jmenu>プログラム</jmenu>
+		<cmenu>节目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00304</mcode>
+		<hmenu>프록시</hmenu>
+		<emenu>Proxy Media</emenu>
+		<jmenu>プロキシメディア</jmenu>
+		<cmenu>代理媒体</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00305</mcode>
+		<hmenu>필수 항목</hmenu>
+		<emenu>Mandatory Item</emenu>
+		<jmenu>必須アイテム</jmenu>
+		<cmenu>强制性项目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00306</mcode>
+		<hmenu>필수항목</hmenu>
+		<emenu>Mandatory Item</emenu>
+		<jmenu>必須アイテム</jmenu>
+		<cmenu>强制性项目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00307</mcode>
+		<hmenu>항목</hmenu>
+		<emenu>Item</emenu>
+		<jmenu>アイテム</jmenu>
+		<cmenu>项目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00308</mcode>
+		<hmenu>항목 명</hmenu>
+		<emenu>Item Name</emenu>
+		<jmenu>アイテム名</jmenu>
+		<cmenu>项目名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00309</mcode>
+		<hmenu>허용 확장자</hmenu>
+		<emenu>Allowed File Extensions</emenu>
+		<jmenu>使用可能な拡張子</jmenu>
+		<cmenu>允许文件扩张</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00310</mcode>
+		<hmenu>형식</hmenu>
+		<emenu>Type</emenu>
+		<jmenu>タイプ</jmenu>
+		<cmenu>类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00311</mcode>
+		<hmenu>홈으로</hmenu>
+		<emenu>Home</emenu>
+		<jmenu>ホーム</jmenu>
+		<cmenu>主页</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00312</mcode>
+		<hmenu>가장 많이 등록한 사용자</hmenu>
+		<emenu>Most Registrations</emenu>
+		<jmenu>最も多い登録</jmenu>
+		<cmenu>最多注册用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00313</mcode>
+		<hmenu>가장 많이 로그인한 사용자</hmenu>
+		<emenu>Most Logging Ins</emenu>
+		<jmenu>最も多いログイン</jmenu>
+		<cmenu>最多登陆用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00314</mcode>
+		<hmenu>가장 많이 삭제한 사용자</hmenu>
+		<emenu>Most Deletions</emenu>
+		<jmenu>最も多い削除</jmenu>
+		<cmenu>最多删除用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00315</mcode>
+		<hmenu>가장 많이 조회한 사용자</hmenu>
+		<emenu>Most View</emenu>
+		<jmenu>最も多い閲覧</jmenu>
+		<cmenu>最多查看用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00316</mcode>
+		<hmenu>가장 최근에 다운로드된 콘텐츠</hmenu>
+		<emenu>Recently Downloaded Content</emenu>
+		<jmenu>最近ダウンロードしたコンテンツ</jmenu>
+		<cmenu>最近下载内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00317</mcode>
+		<hmenu>가장 최근에 등록된 콘텐츠</hmenu>
+		<emenu>Recently Registered Content</emenu>
+		<jmenu>最近登録したコンテンツ</jmenu>
+		<cmenu>最近登录内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00318</mcode>
+		<hmenu>가장 최근에 삭제된 콘텐츠</hmenu>
+		<emenu>Recently Deleted Content</emenu>
+		<jmenu>最近削除したコンテンツ</jmenu>
+		<cmenu>最近删除内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00319</mcode>
+		<hmenu>가장 최근에 수정된 콘텐츠</hmenu>
+		<emenu>Recently Modified Content</emenu>
+		<jmenu>最近修正したコンテンツ</jmenu>
+		<cmenu>最近更改内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00320</mcode>
+		<hmenu>가장 최근에 조회된 콘텐츠</hmenu>
+		<emenu>Recently Viewed Content</emenu>
+		<jmenu>最近閲覧したコンテンツ</jmenu>
+		<cmenu>最近查看内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00321</mcode>
+		<hmenu>프로그램 별</hmenu>
+		<emenu>By Program</emenu>
+		<jmenu>プログラムごとに</jmenu>
+		<cmenu>按节目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00322</mcode>
+		<hmenu>프로그램</hmenu>
+		<emenu>Program</emenu>
+		<jmenu>プログラム</jmenu>
+		<cmenu>节目</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00323</mcode>
+		<hmenu>인제스트 통계</hmenu>
+		<emenu>Ingest Statistics</emenu>
+		<jmenu>インジェスト統計</jmenu>
+		<cmenu>采集统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00324</mcode>
+		<hmenu>사용자 통계</hmenu>
+		<emenu>User Statistics</emenu>
+		<jmenu>ユーザー統計</jmenu>
+		<cmenu>用户统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00325</mcode>
+		<hmenu>콘텐츠 통계</hmenu>
+		<emenu>Content Statistics</emenu>
+		<jmenu>コンテンツ統計</jmenu>
+		<cmenu>内容统计</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00326</mcode>
+		<hmenu>워크플로우 관리</hmenu>
+		<emenu>Workflow Setup</emenu>
+		<jmenu>ワークスロー設定</jmenu>
+		<cmenu>工作流程管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00327</mcode>
+		<hmenu>작업흐름 설정</hmenu>
+		<emenu>Ingest Workflow</emenu>
+		<jmenu>ワークフローをインジェストする</jmenu>
+		<cmenu>工作流程设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00328</mcode>
+		<hmenu>작업 / 모듈 설정</hmenu>
+		<emenu>Task</emenu>
+		<jmenu>タスク</jmenu>
+		<cmenu>任务设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00329</mcode>
+		<hmenu>스토리지 설정</hmenu>
+		<emenu>Storage</emenu>
+		<jmenu>ストレージ</jmenu>
+		<cmenu>存储设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00330</mcode>
+		<hmenu>년</hmenu>
+		<emenu>Year</emenu>
+		<jmenu>年</jmenu>
+		<cmenu>年</cmenu>
+		<desc>Year</desc>
+	</menu>
+	<menu>
+		<mcode>MN00331</mcode>
+		<hmenu>입사일자</hmenu>
+		<emenu>Hired Date</emenu>
+		<jmenu>雇用の日付</jmenu>
+		<cmenu>入职日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00332</mcode>
+		<hmenu>퇴사일자</hmenu>
+		<emenu>Retire Date</emenu>
+		<jmenu>退職の日付</jmenu>
+		<cmenu>离职日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00333</mcode>
+		<hmenu>전화번호</hmenu>
+		<emenu>Tel.</emenu>
+		<jmenu>電話番号</jmenu>
+		<cmenu>电话号码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00334</mcode>
+		<hmenu>유효일시</hmenu>
+		<emenu>Valid Date</emenu>
+		<jmenu>有効日</jmenu>
+		<cmenu>有效日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00335</mcode>
+		<hmenu>등록 요청</hmenu>
+		<emenu>Registration Request</emenu>
+		<jmenu>登録リクエスト</jmenu>
+		<cmenu>登记</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00336</mcode>
+		<hmenu>휴직</hmenu>
+		<emenu>Layoff</emenu>
+		<jmenu>一時解雇</jmenu>
+		<cmenu>休职</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00337</mcode>
+		<hmenu>재직</hmenu>
+		<emenu>Be in Service</emenu>
+		<jmenu>就業中</jmenu>
+		<cmenu>在职</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00338</mcode>
+		<hmenu>퇴직</hmenu>
+		<emenu>Retired</emenu>
+		<jmenu>退職</jmenu>
+		<cmenu>退职</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00339</mcode>
+		<hmenu>직위해제</hmenu>
+		<emenu>Relieved</emenu>
+		<jmenu>解任</jmenu>
+		<cmenu>解雇</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00340</mcode>
+		<hmenu>알 수 없는 정보입니다.</hmenu>
+		<emenu>Cannot understand this information</emenu>
+		<jmenu>この情報の理解ができない</jmenu>
+		<cmenu>无法访问信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00341</mcode>
+		<hmenu>작업흐름보기</hmenu>
+		<emenu>Open workflow for the job</emenu>
+		<jmenu>ジョブ用のオープンワークフロー</jmenu>
+		<cmenu>观看工作流程</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00342</mcode>
+		<hmenu>항목 명</hmenu>
+		<emenu>Metadata Name</emenu>
+		<jmenu>メタデータ名</jmenu>
+		<cmenu>项目名称</cmenu>
+		<desc>메타테이터 페이지</desc>
+	</menu>
+	<menu>
+		<mcode>MN00343</mcode>
+		<hmenu>소스 경로</hmenu>
+		<emenu>Source Path</emenu>
+		<jmenu>ソースパス</jmenu>
+		<cmenu>素材路径</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00344</mcode>
+		<hmenu>타겟 경로</hmenu>
+		<emenu>Target Path</emenu>
+		<jmenu>ターゲットパス</jmenu>
+		<cmenu>目标路径</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00345</mcode>
+		<hmenu>작업 명</hmenu>
+		<emenu>Job Type</emenu>
+		<jmenu>ジョブタイプ</jmenu>
+		<cmenu>工作名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00346</mcode>
+		<hmenu>모듈 명</hmenu>
+		<emenu>Module Name</emenu>
+		<jmenu>モジュール名</jmenu>
+		<cmenu>模块名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00347</mcode>
+		<hmenu>활성화</hmenu>
+		<emenu>Activated</emenu>
+		<jmenu>アクティブ状態</jmenu>
+		<cmenu>激活</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00348</mcode>
+		<hmenu>메인 IP</hmenu>
+		<emenu>Main IP</emenu>
+		<jmenu>メインIP</jmenu>
+		<cmenu>主要IP</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00349</mcode>
+		<hmenu>보조 IP</hmenu>
+		<emenu>Second IP</emenu>
+		<jmenu>二次IP</jmenu>
+		<cmenu>辅助IP</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00350</mcode>
+		<hmenu>한줄 입력</hmenu>
+		<emenu>One Line Text</emenu>
+		<jmenu>一行テキスト</jmenu>
+		<cmenu>一行文本</cmenu>
+		<desc>textfield</desc>
+	</menu>
+	<menu>
+		<mcode>MN00351</mcode>
+		<hmenu>여러줄 입력</hmenu>
+		<emenu>Multi Line Text</emenu>
+		<jmenu>複数行テキスト</jmenu>
+		<cmenu>多行文本</cmenu>
+		<desc>textarea</desc>
+	</menu>
+	<menu>
+		<mcode>MN00352</mcode>
+		<hmenu>테이블(표)</hmenu>
+		<emenu>Table</emenu>
+		<jmenu>表</jmenu>
+		<cmenu>表</cmenu>
+		<desc>listview</desc>
+	</menu>
+	<menu>
+		<mcode>MN00353</mcode>
+		<hmenu>체크박스</hmenu>
+		<emenu>Check Box</emenu>
+		<jmenu>チェックボックス</jmenu>
+		<cmenu>检查框</cmenu>
+		<desc>checkbox</desc>
+	</menu>
+	<menu>
+		<mcode>MN00354</mcode>
+		<hmenu>날짜</hmenu>
+		<emenu>Date</emenu>
+		<jmenu>日付</jmenu>
+		<cmenu>日期</cmenu>
+		<desc>datefield</desc>
+	</menu>
+	<menu>
+		<mcode>MN00355</mcode>
+		<hmenu>숫자</hmenu>
+		<emenu>Numeric</emenu>
+		<jmenu>数字上の</jmenu>
+		<cmenu>数字</cmenu>
+		<desc>numberfield</desc>
+	</menu>
+	<menu>
+		<mcode>MN00358</mcode>
+		<hmenu>콤보박스</hmenu>
+		<emenu>Combo Box</emenu>
+		<jmenu>コンボボックス</jmenu>
+		<cmenu>Combo Box</cmenu>
+		<desc>combo</desc>
+	</menu>
+	<menu>
+		<mcode>MN00360</mcode>
+		<hmenu>등록 대기</hmenu>
+		<emenu>Queued for Registration</emenu>
+		<jmenu>登録待ち</jmenu>
+		<cmenu>等待登录</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00361</mcode>
+		<hmenu>작업흐름 명</hmenu>
+		<emenu>Workflow</emenu>
+		<jmenu>ワークフロー</jmenu>
+		<cmenu>工作流程名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00362</mcode>
+		<hmenu>등록 채널</hmenu>
+		<emenu>Ingest Method</emenu>
+		<jmenu>メソッドをインジェストする</jmenu>
+		<cmenu>采集方法</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00363</mcode>
+		<hmenu>작업 흐름 추가</hmenu>
+		<emenu>Add Workflow</emenu>
+		<jmenu>ワークフローを追加する</jmenu>
+		<cmenu>添加工作流程</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00364</mcode>
+		<hmenu>작업 흐름 수정</hmenu>
+		<emenu>Edit Workflow</emenu>
+		<jmenu>ワークフローを編集する</jmenu>
+		<cmenu>编辑工作流程</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00365</mcode>
+		<hmenu>작업 흐름 상세</hmenu>
+		<emenu>Workflow in detail</emenu>
+		<jmenu>詳細ワークフロー</jmenu>
+		<cmenu>详细工作流程</cmenu>
+		<desc>시스템 관리</desc>
+	</menu>
+	<menu>
+		<mcode>MN00366</mcode>
+		<hmenu>작업 순서</hmenu>
+		<emenu>Order</emenu>
+		<jmenu>オーダー</jmenu>
+		<cmenu>工作顺序</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00367</mcode>
+		<hmenu>작업 명칭</hmenu>
+		<emenu>Name</emenu>
+		<jmenu>名前</jmenu>
+		<cmenu>工作名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00368</mcode>
+		<hmenu>프록시 파일</hmenu>
+		<emenu>Proxy File</emenu>
+		<jmenu>プロキシファイル</jmenu>
+		<cmenu>代理文件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00369</mcode>
+		<hmenu>작업흐름 상세 수정</hmenu>
+		<emenu>Edit Workflow Detail</emenu>
+		<jmenu>詳細ワークフローの編集</jmenu>
+		<cmenu>详细编辑工作流程</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00370</mcode>
+		<hmenu>원본 파일</hmenu>
+		<emenu>Original File</emenu>
+		<jmenu>オリジナルファイル</jmenu>
+		<cmenu>原件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00371</mcode>
+		<hmenu>대표 이미지</hmenu>
+		<emenu>Thumbnail Image</emenu>
+		<jmenu>サムネイル画像</jmenu>
+		<cmenu>缩略图</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00372</mcode>
+		<hmenu>프록시 파일</hmenu>
+		<emenu>Proxy File</emenu>
+		<jmenu>プロキシファイル</jmenu>
+		<cmenu>代理文件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00373</mcode>
+		<hmenu>사용자 추가 프록시 파일</hmenu>
+		<emenu>Partially restored proxy file.</emenu>
+		<jmenu>一部回復されたプロキシファイル</jmenu>
+		<cmenu>用户添加代理文件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00374</mcode>
+		<hmenu>구간추출 리스토어</hmenu>
+		<emenu>Partially restored file.</emenu>
+		<jmenu>一部回復されたファイル</jmenu>
+		<cmenu>部分恢复文件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00375</mcode>
+		<hmenu>고해상도 프록시 파일입니다.</hmenu>
+		<emenu>High resolution proxy file.</emenu>
+		<jmenu>高解像度プロキシファイル</jmenu>
+		<cmenu>高分辨率代理文件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00376</mcode>
+		<hmenu>경로</hmenu>
+		<emenu>Path</emenu>
+		<jmenu>パス</jmenu>
+		<cmenu>路径</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00377</mcode>
+		<hmenu>스토리지 명</hmenu>
+		<emenu>Storage Path</emenu>
+		<jmenu>ストレージパス</jmenu>
+		<cmenu>存储名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00378</mcode>
+		<hmenu>접근 ID</hmenu>
+		<emenu>Storage ID</emenu>
+		<jmenu>ストレージID</jmenu>
+		<cmenu>存储ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00379</mcode>
+		<hmenu>접근 PW</hmenu>
+		<emenu>Storage PW</emenu>
+		<jmenu>ストレージPW</jmenu>
+		<cmenu>存储PW</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00380</mcode>
+		<hmenu>작업 설정</hmenu>
+		<emenu>Setup Job</emenu>
+		<jmenu>ジョブ設定</jmenu>
+		<cmenu>工作设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00381</mcode>
+		<hmenu>스토리지</hmenu>
+		<emenu>Storage</emenu>
+		<jmenu>ストレージ管理</jmenu>
+		<cmenu>存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00382</mcode>
+		<hmenu>작업 타입</hmenu>
+		<emenu>Job Type</emenu>
+		<jmenu>ジョブの種類</jmenu>
+		<cmenu>工作类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00383</mcode>
+		<hmenu>작업 수정</hmenu>
+		<emenu>Edit Job</emenu>
+		<jmenu>ジョブの編集</jmenu>
+		<cmenu>编辑工作</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00384</mcode>
+		<hmenu>모듈 설정</hmenu>
+		<emenu>Setup Module</emenu>
+		<jmenu>モジュールを設定する</jmenu>
+		<cmenu>模块设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00385</mcode>
+		<hmenu>모듈 ID</hmenu>
+		<emenu>Module ID</emenu>
+		<jmenu>モジュールID</jmenu>
+		<cmenu>模块ID</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00386</mcode>
+		<hmenu>모듈 추가</hmenu>
+		<emenu>Add Module</emenu>
+		<jmenu>モジュールを追加する</jmenu>
+		<cmenu>添加模块</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00387</mcode>
+		<hmenu>카테고리</hmenu>
+		<emenu>Category</emenu>
+		<jmenu>カテゴリーを削除する</jmenu>
+		<cmenu>分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00388</mcode>
+		<hmenu>모듈 수정</hmenu>
+		<emenu>Edit Module</emenu>
+		<jmenu>モジュールの編集</jmenu>
+		<cmenu>编辑模块</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00389</mcode>
+		<hmenu>카달로그</hmenu>
+		<emenu>Catalog</emenu>
+		<jmenu>カタログ</jmenu>
+		<cmenu>目录</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00390</mcode>
+		<hmenu>새로고침</hmenu>
+		<emenu>Reload</emenu>
+		<jmenu>リロード</jmenu>
+		<cmenu>更改</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00391</mcode>
+		<hmenu>구간추출</hmenu>
+		<emenu>Partial Restore</emenu>
+		<jmenu>一部回復</jmenu>
+		<cmenu>部分恢复</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00392</mcode>
+		<hmenu>리래핑 MXF to MOV</hmenu>
+		<emenu>Rewrapping MXF to MOV</emenu>
+		<jmenu>MXFをMOVにリラップ</jmenu>
+		<cmenu>MXF 转换 MOV</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00393</mcode>
+		<hmenu>공용</hmenu>
+		<emenu>Common</emenu>
+		<jmenu>共通</jmenu>
+		<cmenu>通用</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00394</mcode>
+		<hmenu>단독</hmenu>
+		<emenu>Exclusive</emenu>
+		<jmenu>独占</jmenu>
+		<cmenu>单独</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00395</mcode>
+		<hmenu>공용 카테리고 사용</hmenu>
+		<emenu>Use Common Category</emenu>
+		<jmenu>共通カテゴリーを使用する</jmenu>
+		<cmenu>使用普通类别</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00396</mcode>
+		<hmenu>Rewrapper</hmenu>
+		<emenu>Rewrapper</emenu>
+		<jmenu>リラッパー</jmenu>
+		<cmenu>Rewrapper</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00397</mcode>
+		<hmenu>ALTO 관리</hmenu>
+		<emenu>ALTO Manager</emenu>
+		<jmenu>ALTOマネージャー</jmenu>
+		<cmenu>ALTO管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN00398</mcode>
+		<hmenu>ALTO</hmenu>
+		<emenu>ALTO</emenu>
+		<jmenu>ALTO</jmenu>
+		<cmenu>ALTO</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00399</mcode>
+		<hmenu>업로드</hmenu>
+		<emenu>Uploader</emenu>
+		<jmenu>アップローダー</jmenu>
+		<cmenu>上传</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00400</mcode>
+		<hmenu>소요시간</hmenu>
+		<emenu>소요시간</emenu>
+		<jmenu>소요시간</jmenu>
+		<cmenu>消耗时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00401</mcode>
+		<hmenu>구간 추출</hmenu>
+		<emenu>Partial Restore</emenu>
+		<jmenu>一部回復</jmenu>
+		<cmenu>部分恢复</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00402</mcode>
+		<hmenu>REWRAP</hmenu>
+		<emenu>REWRAP</emenu>
+		<jmenu>リラップ</jmenu>
+		<cmenu>REWRAP</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00403</mcode>
+		<hmenu>폐기 일자</hmenu>
+		<emenu>Expired Date</emenu>
+		<jmenu>失効日</jmenu>
+		<cmenu>失效日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00404</mcode>
+		<hmenu>Hight Transcoder(Carbon)</hmenu>
+		<emenu>Hight Transcoder(Carbon)</emenu>
+		<jmenu>Hight Transcoder(Carbon)</jmenu>
+		<cmenu>Hight Transcoder</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN00405</mcode>
+		<hmenu>시간</hmenu>
+		<emenu>Time</emenu>
+		<jmenu>時間</jmenu>
+		<cmenu>时间</cmenu>
+		<desc>datefield</desc>
+	</menu>
+	<menu>
+		<mcode>MN00406</mcode>
+		<hmenu>날짜+시간</hmenu>
+		<emenu>Date+Time</emenu>
+		<jmenu>日付＋時間</jmenu>
+		<cmenu>日期+时间</cmenu>
+		<desc>datefield</desc>
+	</menu>
+	<menu>
+		<mcode>MN00407</mcode>
+		<hmenu>트랜스코딩 요청</hmenu>
+		<emenu>Transcoding Request</emenu>
+		<jmenu>トランスコーディングリクエスト</jmenu>
+		<cmenu>申请转码</cmenu>
+		<desc>트랜스코딩 요청</desc>
+	</menu>
+	<menu>
+		<mcode>MN00408</mcode>
+		<hmenu>사용자 삭제</hmenu>
+		<emenu>Remove User</emenu>
+		<jmenu>ユーザーを移動する</jmenu>
+		<cmenu>删除用户</cmenu>
+		<desc>트랜스코딩 요청</desc>
+	</menu>
+    <menu>
+		<mcode>MN00500</mcode>
+		<hmenu>읽기/생성/수정</hmenu>
+		<emenu>Read/Create/Edit</emenu>
+		<jmenu>Read/Create/Edit</jmenu>
+		<cmenu>Read/Create/Edit</cmenu>
+		<desc>카테고리 권한</desc>
+	</menu>
+    <menu>
+		<mcode>MN00501</mcode>
+		<hmenu>읽기/생성/수정/이동/삭제</hmenu>
+		<emenu>Read/Create/Edit/Move/Delete</emenu>
+		<jmenu>Read/Create/Edit/Move/Delete</jmenu>
+		<cmenu>Read/Create/Edit/Move/Delete</cmenu>
+		<desc>카테고리 권한</desc>
+	</menu>
+    <menu>
+		<mcode>MN00502</mcode>
+		<hmenu>삭제일시</hmenu>
+		<emenu>Deleted Datetime</emenu>
+		<jmenu>削除日</jmenu>
+		<cmenu>删除日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01000</mcode>
+		<hmenu>사용자</hmenu>
+		<emenu>Users</emenu>
+		<jmenu>ユーザー</jmenu>
+		<cmenu>用户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01001</mcode>
+		<hmenu>그룹</hmenu>
+		<emenu>Groups</emenu>
+		<jmenu>グループ</jmenu>
+		<cmenu>组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01002</mcode>
+		<hmenu>등록일자</hmenu>
+		<emenu>Created Date</emenu>
+		<jmenu>作成日</jmenu>
+		<cmenu>生成日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01003</mcode>
+		<hmenu>권한관리</hmenu>
+		<emenu>Access Rights</emenu>
+		<jmenu>アクセス権</jmenu>
+		<cmenu>权限管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01004</mcode>
+		<hmenu>그룹삭제</hmenu>
+		<emenu>Remove Group</emenu>
+		<jmenu>グループを移動する</jmenu>
+		<cmenu>删除组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01005</mcode>
+		<hmenu>콘텐츠 별 사용기간</hmenu>
+		<emenu>Content Life</emenu>
+		<jmenu>コンテンツ寿命</jmenu>
+		<cmenu>各内容的使用时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01006</mcode>
+		<hmenu>콘텐츠 주요사항 설정</hmenu>
+		<emenu>User Defined Content Settings</emenu>
+		<jmenu>ユーザー定義コンテンツ設定</jmenu>
+		<cmenu>用户定义内容设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01007</mcode>
+		<hmenu>만료기한</hmenu>
+		<emenu>Content Life</emenu>
+		<jmenu>コンテンツライフ</jmenu>
+		<cmenu>到期期限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01008</mcode>
+		<hmenu>영구보존</hmenu>
+		<emenu>Permanent</emenu>
+		<jmenu>恒久的</jmenu>
+		<cmenu>永久保存</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01009</mcode>
+		<hmenu>시스템 코드 관리</hmenu>
+		<emenu>System Code Management</emenu>
+		<jmenu>システムコード管理</jmenu>
+		<cmenu>系统编码管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01010</mcode>
+		<hmenu>고해상도 스토리지</hmenu>
+		<emenu>Storage for High Resolution Files</emenu>
+		<jmenu>高解像度ファイル用ストレージ</jmenu>
+		<cmenu>高分辨率存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01011</mcode>
+		<hmenu>저해상도 스토리지</hmenu>
+		<emenu>Storage for Low Resolution Files</emenu>
+		<jmenu>低解像度ファイル用ストレージ</jmenu>
+		<cmenu>低分辨率存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01012</mcode>
+		<hmenu>업로드 스토리지</hmenu>
+		<emenu>Storage for Upload</emenu>
+		<jmenu>アップロード用ストレージ</jmenu>
+		<cmenu>上传存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01013</mcode>
+		<hmenu>기본 카테고리</hmenu>
+		<emenu>Root Category</emenu>
+		<jmenu>ルートカテゴリー</jmenu>
+		<cmenu>基本分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01014</mcode>
+		<hmenu>설정</hmenu>
+		<emenu>Settings</emenu>
+		<jmenu>設定</jmenu>
+		<cmenu>设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01015</mcode>
+		<hmenu>메인 필드항목</hmenu>
+		<emenu>Show in List</emenu>
+		<jmenu>リストで表示</jmenu>
+		<cmenu>以列表显示</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01016</mcode>
+		<hmenu>썸네일 캡쳐</hmenu>
+		<emenu>Thumbnail Generation</emenu>
+		<jmenu>サムネイル生成</jmenu>
+		<cmenu>生成缩略图</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01017</mcode>
+		<hmenu>프록시 생성</hmenu>
+		<emenu>Proxy Generation</emenu>
+		<jmenu>プロキシ生成</jmenu>
+		<cmenu>生成Proxy</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01018</mcode>
+		<hmenu>FS 전송</hmenu>
+		<emenu>FS Transfer</emenu>
+		<jmenu>FC転送</jmenu>
+		<cmenu>FS传送</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01019</mcode>
+		<hmenu>FTP 전송</hmenu>
+		<emenu>FTP Transfer</emenu>
+		<jmenu>FTP転送</jmenu>
+		<cmenu>FTP传送</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01020</mcode>
+		<hmenu>아카이브</hmenu>
+		<emenu>Archive</emenu>
+		<jmenu>アーカイブ</jmenu>
+		<cmenu>存档</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01021</mcode>
+		<hmenu>리스토어</hmenu>
+		<emenu>Restore</emenu>
+		<jmenu>回復する</jmenu>
+		<cmenu>恢复</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01022</mcode>
+		<hmenu>작업자</hmenu>
+		<emenu>Task Creator</emenu>
+		<jmenu>タスク作成者</jmenu>
+		<cmenu>任务执行者</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01023</mcode>
+		<hmenu>작업생성일</hmenu>
+		<emenu>Task Created Date</emenu>
+		<jmenu>タスク作成日</jmenu>
+		<cmenu>任务生成日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01024</mcode>
+		<hmenu>작업시작일</hmenu>
+		<emenu>Task Started Date</emenu>
+		<jmenu>タスク開始日</jmenu>
+		<cmenu>任务开始日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01025</mcode>
+		<hmenu>작업종료일</hmenu>
+		<emenu>Task Finished Date</emenu>
+		<jmenu>タスク完了日</jmenu>
+		<cmenu>任务完成日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01026</mcode>
+		<hmenu>작업유형</hmenu>
+		<emenu>Task Type</emenu>
+		<jmenu>タスクタイプ</jmenu>
+		<cmenu>任务类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01027</mcode>
+		<hmenu>작업유형 설정</hmenu>
+		<emenu>Work Type</emenu>
+		<jmenu>ワークタイプ</jmenu>
+		<cmenu>任务类型设置</cmenu>
+		<desc>Job/Task Agent-&gt; Work Type</desc>
+	</menu>
+	<menu>
+		<mcode>MN01028</mcode>
+		<hmenu>작업유형 명</hmenu>
+		<emenu>Task Type Name</emenu>
+		<jmenu>タスクタイプの名前</jmenu>
+		<cmenu>任务类型名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01029</mcode>
+		<hmenu>관리자</hmenu>
+		<emenu>Administrator</emenu>
+		<jmenu>管理者</jmenu>
+		<cmenu>管理员</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01030</mcode>
+		<hmenu>생성일</hmenu>
+		<emenu>Event Time</emenu>
+		<jmenu>イベント日時</jmenu>
+		<cmenu>生成日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01031</mcode>
+		<hmenu>카테고리 삭제</hmenu>
+		<emenu>Delete a Category</emenu>
+		<jmenu>カテゴリーを削除する</jmenu>
+		<cmenu>删除分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01032</mcode>
+		<hmenu>카테고리 삭제</hmenu>
+		<emenu>Delete Category</emenu>
+		<jmenu>カテゴリーを削除する</jmenu>
+		<cmenu>删除分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01033</mcode>
+		<hmenu>첨부파일 업로드</hmenu>
+		<emenu>Upload Files</emenu>
+		<jmenu>ファイルをアップロードする</jmenu>
+		<cmenu>上传附件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01034</mcode>
+		<hmenu>첨부파일 삭제</hmenu>
+		<emenu>Delete a selected File</emenu>
+		<jmenu>選択したファイルを削除する</jmenu>
+		<cmenu>附件删除</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01035</mcode>
+		<hmenu>저장경로</hmenu>
+		<emenu>File Name</emenu>
+		<jmenu>ファイル名</jmenu>
+		<cmenu>保存路径</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01036</mcode>
+		<hmenu>내용</hmenu>
+		<emenu>Comment</emenu>
+		<jmenu>コメント</jmenu>
+		<cmenu>内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01037</mcode>
+		<hmenu>썸네일 보기</hmenu>
+		<emenu>Thumbnail View</emenu>
+		<jmenu>サムネイル・ビュー</jmenu>
+		<cmenu>浏览缩略图</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01038</mcode>
+		<hmenu>전송중</hmenu>
+		<emenu>Processing</emenu>
+		<jmenu>処理中</jmenu>
+		<cmenu>传送中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01039</mcode>
+		<hmenu>오류</hmenu>
+		<emenu>Error</emenu>
+		<jmenu>エラー</jmenu>
+		<cmenu>错误</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01040</mcode>
+		<hmenu>모두 삭제</hmenu>
+		<emenu>Delete All</emenu>
+		<jmenu>全て削除</jmenu>
+		<cmenu>全部删除</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01041</mcode>
+		<hmenu>파일명</hmenu>
+		<emenu>File Name</emenu>
+		<jmenu>ファイル名</jmenu>
+		<cmenu>文件名</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01042</mcode>
+		<hmenu>크기</hmenu>
+		<emenu>File Size</emenu>
+		<jmenu>ファイルサイズ</jmenu>
+		<cmenu>文件大小</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01043</mcode>
+		<hmenu>진행률</hmenu>
+		<emenu>Progress</emenu>
+		<jmenu>進捗</jmenu>
+		<cmenu>进度</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01044</mcode>
+		<hmenu>썸네일</hmenu>
+		<emenu>Thumbnail</emenu>
+		<jmenu>サムネイル</jmenu>
+		<cmenu>缩略图</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01045</mcode>
+		<hmenu>첨부파일</hmenu>
+		<emenu>Attached File</emenu>
+		<jmenu>添付ファイル</jmenu>
+		<cmenu>附件</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01046</mcode>
+		<hmenu>구간추출</hmenu>
+		<emenu>PFR File</emenu>
+		<jmenu>PFRファイル</jmenu>
+		<cmenu>PFR文件</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01047</mcode>
+		<hmenu>메타데이터 삭제</hmenu>
+		<emenu>Delete Metadata Item</emenu>
+		<jmenu>メタデータ項目を削除する</jmenu>
+		<cmenu>删除元数据</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01048</mcode>
+		<hmenu>할당IP</hmenu>
+		<emenu>Assigned IP</emenu>
+		<jmenu>指定IP </jmenu>
+		<cmenu>指定IP</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01049</mcode>
+		<hmenu>취소</hmenu>
+		<emenu>Canceled</emenu>
+		<jmenu>キャンセル</jmenu>
+		<cmenu>取消</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01050</mcode>
+		<hmenu>탐색</hmenu>
+		<emenu>Search</emenu>
+		<jmenu>検索する</jmenu>
+		<cmenu>搜索</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01051</mcode>
+		<hmenu>1초 뒤로</hmenu>
+		<emenu>REW(1 sec)</emenu>
+		<jmenu>REW(1秒)</jmenu>
+		<cmenu>REW（1秒）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01052</mcode>
+		<hmenu>10초 뒤로</hmenu>
+		<emenu>REW(10 sec)</emenu>
+		<jmenu>REW(10秒)</jmenu>
+		<cmenu>REW（10秒）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01053</mcode>
+		<hmenu>1초 앞으로</hmenu>
+		<emenu>FF(1 sec)</emenu>
+		<jmenu>FF(1秒)</jmenu>
+		<cmenu>FF（1秒）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01054</mcode>
+		<hmenu>10초 앞으로</hmenu>
+		<emenu>FF(10 sec)</emenu>
+		<jmenu>FF(10秒)</jmenu>
+		<cmenu>FF（10秒）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01055</mcode>
+		<hmenu>고해상도</hmenu>
+		<emenu>High Resolution File on Storage</emenu>
+		<jmenu>ストレージ上に高解像度ファイル</jmenu>
+		<cmenu>高分辨率</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01056</mcode>
+		<hmenu>아카이브</hmenu>
+		<emenu>HR file archive completed</emenu>
+		<jmenu>HRファイルアーカイブ完了</jmenu>
+		<cmenu>HR文件归档完成</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01057</mcode>
+		<hmenu>FlashNet 그룹</hmenu>
+		<emenu>FlashNet Group</emenu>
+		<jmenu>FlashNetグループ</jmenu>
+		<cmenu>FlashNet组</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01058</mcode>
+		<hmenu>아카이브 여부</hmenu>
+		<emenu>Archive Enabled</emenu>
+		<jmenu>アーカイブ使用可能</jmenu>
+		<cmenu>存档与否</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01059</mcode>
+		<hmenu>아카이브 시점</hmenu>
+		<emenu>Scheduled Archive Time(Day)</emenu>
+		<jmenu>予定アーカイブ時間(日)</jmenu>
+		<cmenu>归档时间（日）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01060</mcode>
+		<hmenu>아카이브 후 삭제 시점</hmenu>
+		<emenu>Online Retention Time(Day)</emenu>
+		<jmenu>オンライン保持時間(日)</jmenu>
+		<cmenu>存档后删除时间（日）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01061</mcode>
+		<hmenu>리스토어 후 삭제 시점</hmenu>
+		<emenu>Restore Retention Time(Day)</emenu>
+		<jmenu>回復保持時間（日）</jmenu>
+		<cmenu>恢复后删除时间（日）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01062</mcode>
+		<hmenu>아카이브 삭제 시점</hmenu>
+		<emenu>Archive Retention Time(Day)</emenu>
+		<jmenu>アーカイブ保持時間（日）</jmenu>
+		<cmenu>删除档案时间（日）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01063</mcode>
+		<hmenu>아카이브 설정</hmenu>
+		<emenu>Archive Configuration</emenu>
+		<jmenu>アーカイブ設定</jmenu>
+		<cmenu>归档设置</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01064</mcode>
+		<hmenu>아카이브 설정</hmenu>
+		<emenu>Add an Archive Rule</emenu>
+		<jmenu>アーカイブルールを追加する</jmenu>
+		<cmenu>添加归档规则</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01065</mcode>
+		<hmenu>리스토어 설정</hmenu>
+		<emenu>Add a Restore Rule</emenu>
+		<jmenu>回復ルールを追加する</jmenu>
+		<cmenu>恢复设置</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01066</mcode>
+		<hmenu>아카이브 우선순위</hmenu>
+		<emenu>Archive Priority</emenu>
+		<jmenu>アーカイブ優先順位</jmenu>
+		<cmenu>优先档案顺序</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01067</mcode>
+		<hmenu>리스토어 우선순위</hmenu>
+		<emenu>Restore Priority</emenu>
+		<jmenu>回復優先順位</jmenu>
+		<cmenu>优先恢复顺序</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01068</mcode>
+		<hmenu>팝업메뉴</hmenu>
+		<emenu>Context Menu</emenu>
+		<jmenu>コンテクストメニュー</jmenu>
+		<cmenu>快捷菜单</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01069</mcode>
+		<hmenu>팝업메뉴 설정</hmenu>
+		<emenu>Context Menu Workflow</emenu>
+		<jmenu>コンテクストメニューワークフロー</jmenu>
+		<cmenu>快捷菜单设置</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01070</mcode>
+		<hmenu>Preset 워크플로우 관리</hmenu>
+		<emenu>Preset Workflow</emenu>
+		<jmenu>ワークフローをプリセットする</jmenu>
+		<cmenu>预设工作流程管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01071</mcode>
+		<hmenu>작업채널</hmenu>
+		<emenu>Task Channel</emenu>
+		<jmenu>タスクチャンネル</jmenu>
+		<cmenu>任务通道</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01072</mcode>
+		<hmenu>Preset 워크플로우 관리</hmenu>
+		<emenu>Workflow Preset</emenu>
+		<jmenu>ワークフロープリセット</jmenu>
+		<cmenu>预设工作流程管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01073</mcode>
+		<hmenu>Archive 그룹정보 입수</hmenu>
+		<emenu>Import FlashNet Group</emenu>
+		<jmenu>FlashNetグループをインポートする</jmenu>
+		<cmenu>Archive组信息获取</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01074</mcode>
+		<hmenu>원본 경로</hmenu>
+		<emenu>Original Path</emenu>
+		<jmenu>オリジナルパス</jmenu>
+		<cmenu>原件路径</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01075</mcode>
+		<hmenu>대상 경로</hmenu>
+		<emenu>Target Path</emenu>
+		<jmenu>ターゲットパス</jmenu>
+		<cmenu>对象路径</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01076</mcode>
+		<hmenu>작업시스템</hmenu>
+		<emenu>Task System</emenu>
+		<jmenu>ターゲットシステム</jmenu>
+		<cmenu>任务系统</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01077</mcode>
+		<hmenu>전체삭제</hmenu>
+		<emenu>Delete All</emenu>
+		<jmenu>全て削除</jmenu>
+		<cmenu>全部删除</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01078</mcode>
+		<hmenu>원본삭제</hmenu>
+		<emenu>Delete High Resolution</emenu>
+		<jmenu>高解像度を削除する</jmenu>
+		<cmenu>高码文件删除</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01079</mcode>
+		<hmenu>사용자에 의한 작업 재시작</hmenu>
+		<emenu>Restart work by User</emenu>
+		<jmenu>ユーザーごとにワーク再開</jmenu>
+		<cmenu>用户重置任务</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01080</mcode>
+		<hmenu>사용자에 의한 작업 취소</hmenu>
+		<emenu>Cancel work by User</emenu>
+		<jmenu>ユーザーごとにワーク中止</jmenu>
+		<cmenu>用户取消工作</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01081</mcode>
+		<hmenu>모듈 목록</hmenu>
+		<emenu>Module List</emenu>
+		<jmenu>モジュールリスト</jmenu>
+		<cmenu>模块列表</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01082</mcode>
+		<hmenu>모듈 별 사용 작업 목록</hmenu>
+		<emenu>Task list by module</emenu>
+		<jmenu>モジュールごとのタスクリスト</jmenu>
+		<cmenu>各模块任务列表</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01083</mcode>
+		<hmenu>소스 옵션</hmenu>
+		<emenu>Source Option</emenu>
+		<jmenu>ソースオプション</jmenu>
+		<cmenu>素材选项</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01084</mcode>
+		<hmenu>타겟 옵션</hmenu>
+		<emenu>Target Option</emenu>
+		<jmenu>ターゲットオプション</jmenu>
+		<cmenu>目标选项</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01085</mcode>
+		<hmenu>복사</hmenu>
+		<emenu>Copy</emenu>
+		<jmenu>コピー</jmenu>
+		<cmenu>复制</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01086</mcode>
+		<hmenu>작업들</hmenu>
+		<emenu>Tasks</emenu>
+		<jmenu>タスク</jmenu>
+		<cmenu>任务</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01087</mcode>
+		<hmenu>접근 가능한 스토리지</hmenu>
+		<emenu>Available Storage</emenu>
+		<jmenu>使用可能ストレージ</jmenu>
+		<cmenu>有效存储</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01088</mcode>
+		<hmenu>사용할 작업</hmenu>
+		<emenu>Task for use</emenu>
+		<jmenu>Task for use</jmenu>
+		<cmenu>待使用任务</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01089</mcode>
+		<hmenu>기본정보</hmenu>
+		<emenu>Basic Information</emenu>
+		<jmenu>基本情報</jmenu>
+		<cmenu>基本信息</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01090</mcode>
+		<hmenu>스토리지 선택</hmenu>
+		<emenu>Storage Select</emenu>
+		<jmenu>ストレージ選択</jmenu>
+		<cmenu>选择存储</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01091</mcode>
+		<hmenu>워크플로우 ID</hmenu>
+		<emenu>Workflow ID</emenu>
+		<jmenu>ワークフローID</jmenu>
+		<cmenu>工作流程ID</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01092</mcode>
+		<hmenu>작업경과시간</hmenu>
+		<emenu>Task Duration</emenu>
+		<jmenu>タスク期間</jmenu>
+		<cmenu>任务持续时间</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01093</mcode>
+		<hmenu>전체 워크플로우</hmenu>
+		<emenu>Total Workflow</emenu>
+		<jmenu>合計ワークフロー</jmenu>
+		<cmenu>全部工作流程</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01094</mcode>
+		<hmenu>조건</hmenu>
+		<emenu>Condition</emenu>
+		<jmenu>条件</jmenu>
+		<cmenu>条件</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01095</mcode>
+		<hmenu>이미지 트랜스코딩</hmenu>
+		<emenu>Image Transcoding</emenu>
+		<jmenu>画像のトランスコーディング</jmenu>
+		<cmenu>图像转码</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01096</mcode>
+		<hmenu>MOV &gt; MXF 리랩핑</hmenu>
+		<emenu>MOV &gt; MXF Rewrapping</emenu>
+		<jmenu>MOV＞MXFリラップ</jmenu>
+		<cmenu>MOV &gt; MXF 包装</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01097</mcode>
+		<hmenu>사유</hmenu>
+		<emenu>Reason</emenu>
+		<jmenu>理由</jmenu>
+		<cmenu>原因</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01098</mcode>
+		<hmenu>서버 오류</hmenu>
+		<emenu>Error</emenu>
+		<jmenu>エラー</jmenu>
+		<cmenu>服务器错误</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01099</mcode>
+		<hmenu>FlashNet 로그</hmenu>
+		<emenu>FlashNet Log</emenu>
+		<jmenu>FlashNetログ</jmenu>
+		<cmenu>FlashNet日志</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01100</mcode>
+		<hmenu>현재 비밀번호</hmenu>
+		<emenu>Current Password</emenu>
+		<jmenu>現在のパスワード</jmenu>
+		<cmenu>旧密码</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01101</mcode>
+		<hmenu>신규 비밀번호</hmenu>
+		<emenu>New Password</emenu>
+		<jmenu>新しいパスワード</jmenu>
+		<cmenu>新密码</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01102</mcode>
+		<hmenu>Partial Restore 명</hmenu>
+		<emenu>Partial Restore Name</emenu>
+		<jmenu>一部回復名</jmenu>
+		<cmenu>部分恢复名称</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01103</mcode>
+		<hmenu>Timecode In</hmenu>
+		<emenu>Timecode In</emenu>
+		<jmenu>タイムコード・イン</jmenu>
+		<cmenu>Timecode In</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01104</mcode>
+		<hmenu>Timecode Out</hmenu>
+		<emenu>Timecode Out</emenu>
+		<jmenu>タイムコード・アウト</jmenu>
+		<cmenu>Timecode Out</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01105</mcode>
+		<hmenu>스토리지 통계</hmenu>
+		<emenu>Storage Statistics</emenu>
+		<jmenu>ストレージ統計</jmenu>
+		<cmenu>存储统计</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01106</mcode>
+		<hmenu>삭제</hmenu>
+		<emenu>Del</emenu>
+		<jmenu>削除</jmenu>
+		<cmenu>删除</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01107</mcode>
+		<hmenu>리스토어 요청</hmenu>
+		<emenu>Send Restore Request</emenu>
+		<jmenu>回復のリクエストを送信する</jmenu>
+		<cmenu>发送恢复申请</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01108</mcode>
+		<hmenu>아카이브 상태</hmenu>
+		<emenu>Archive Status</emenu>
+		<jmenu>アーカイブステータス</jmenu>
+		<cmenu>归档状态</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01109</mcode>
+		<hmenu>온라인</hmenu>
+		<emenu>Storage Only</emenu>
+		<jmenu>ストレージのみ</jmenu>
+		<cmenu>线上</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01110</mcode>
+		<hmenu>아카이브</hmenu>
+		<emenu>Archived</emenu>
+		<jmenu>アーカイブ済み</jmenu>
+		<cmenu>存档</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01111</mcode>
+		<hmenu>온라인 + 아카이브</hmenu>
+		<emenu>Online + Archive</emenu>
+		<jmenu>オンライン＋アーカイブ</jmenu>
+		<cmenu>线上+存档</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01112</mcode>
+		<hmenu>작업흐름 명</hmenu>
+		<emenu>Workflow Name</emenu>
+		<jmenu>ワークフロー名</jmenu>
+		<cmenu>工作流程名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01113</mcode>
+		<hmenu>볼륨 명</hmenu>
+		<emenu>Volumes</emenu>
+		<jmenu>ボリューム</jmenu>
+		<cmenu>音量</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01114</mcode>
+		<hmenu>작업흐름 유형</hmenu>
+		<emenu>Workflow Type</emenu>
+		<jmenu>ワークフロータイプ</jmenu>
+		<cmenu>工作流程类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01115</mcode>
+		<hmenu>Outgest</hmenu>
+		<emenu>Outgest</emenu>
+		<jmenu>アウトジェスト</jmenu>
+		<cmenu>Outgest</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01116</mcode>
+		<hmenu>Ingest</hmenu>
+		<emenu>Ingest</emenu>
+		<jmenu>インジェスト</jmenu>
+		<cmenu>Ingest</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01117</mcode>
+		<hmenu>완료</hmenu>
+		<emenu>Complete</emenu>
+		<jmenu>完了</jmenu>
+		<cmenu>完成</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01118</mcode>
+		<hmenu>송출 전송</hmenu>
+		<emenu>Playout Transfer</emenu>
+		<jmenu>プレイアウト転送</jmenu>
+		<cmenu>送出传送</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01119</mcode>
+		<hmenu>메뉴 권한</hmenu>
+		<emenu>Menu Management</emenu>
+		<jmenu>メニュー管理</jmenu>
+		<cmenu>菜单管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN01120</mcode>
+		<hmenu>메뉴리스트</hmenu>
+		<emenu>Menu list</emenu>
+		<jmenu>メニューリスト</jmenu>
+		<cmenu>菜单列表</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01121</mcode>
+		<hmenu>카테고리 이동</hmenu>
+		<emenu>Category Move</emenu>
+		<jmenu>カテゴリー移動</jmenu>
+		<cmenu>分类移动</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN01122</mcode>
+		<hmenu>권한 저장</hmenu>
+		<emenu>Save Rule</emenu>
+		<jmenu>ルールの保存</jmenu>
+		<cmenu>保存权限</cmenu>
+	</menu>
+    <menu>
+		<mcode>MN01995</mcode>
+		<hmenu>문서번호</hmenu>
+		<emenu>Document number</emenu>
+		<jmenu>문서번호</jmenu>
+		<cmenu>문서번호</cmenu>
+		<desc>-</desc>
+	</menu>
+    <menu>
+		<mcode>MN01996</mcode>
+		<hmenu>개 선택됨</hmenu>
+		<emenu>selected</emenu>
+		<jmenu>개 선택됨</jmenu>
+		<cmenu>个已选项目</cmenu>
+		<desc>-</desc>
+	</menu>
+    <menu>
+		<mcode>MN01997</mcode>
+		<hmenu>내가 만든 미디어</hmenu>
+		<emenu>My Media</emenu>
+		<jmenu>내가 만든 미디어</jmenu>
+		<cmenu>내가 만든 미디어</cmenu>
+		<desc>-</desc>
+	</menu>
+    <menu>
+		<mcode>MN01998</mcode>
+		<hmenu>삭제요청일</hmenu>
+		<emenu>Delete Request Date</emenu>
+		<jmenu>削除要請日</jmenu>
+		<cmenu>删除申请日</cmenu>
+		<desc>-</desc>
+	</menu>
+    <menu>
+		<mcode>MN01999</mcode>
+		<hmenu>삭제요청자</hmenu>
+		<emenu>Delete requestor</emenu>
+		<jmenu>削除要求者</jmenu>
+		<cmenu>删除申请人</cmenu>
+		<desc>-</desc>
+	</menu>
+    <menu>
+		<mcode>MN02000</mcode>
+		<hmenu>접속 제한</hmenu>
+		<emenu>Connection limit</emenu>
+		<jmenu>アクセス制限</jmenu>
+		<cmenu>连接限制</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02001</mcode>
+		<hmenu>등록일시</hmenu>
+		<emenu>Registeration date</emenu>
+		<jmenu>登録日</jmenu>
+		<cmenu>注册日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02002</mcode>
+		<hmenu>구간입력</hmenu>
+		<emenu>Set range</emenu>
+		<jmenu>レンジの設定</jmenu>
+		<cmenu>区间设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02003</mcode>
+		<hmenu>삭제 기한</hmenu>
+		<emenu>deletion period</emenu>
+		<jmenu>削除期間</jmenu>
+		<cmenu>删除时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02004</mcode>
+		<hmenu>원본파일</hmenu>
+		<emenu>original</emenu>
+		<jmenu>オリジナル</jmenu>
+		<cmenu>原件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02005</mcode>
+		<hmenu>파일 삭제 기한</hmenu>
+		<emenu>File delete date</emenu>
+		<jmenu>ファイル削除日</jmenu>
+		<cmenu>文件删除时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02006</mcode>
+		<hmenu>삭제 예정일</hmenu>
+		<emenu>Expected date for delete</emenu>
+		<jmenu>削除予定日</jmenu>
+		<cmenu>预计删除日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02007</mcode>
+		<hmenu>콘텐츠 별 사용기간</hmenu>
+		<emenu>Terms of use</emenu>
+		<jmenu>利用規約</jmenu>
+		<cmenu>各内容使用时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02008</mcode>
+		<hmenu>서버 오류</hmenu>
+		<emenu>Server error</emenu>
+		<jmenu>サーバーエラー</jmenu>
+		<cmenu>服务器错误</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02009</mcode>
+		<hmenu>콘텐츠 주요사항 설정</hmenu>
+		<emenu>Content main setting</emenu>
+		<jmenu>コンテンツメイン設定</jmenu>
+		<cmenu>内容主要项目设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02010</mcode>
+		<hmenu>동영상</hmenu>
+		<emenu>Video</emenu>
+		<jmenu>ビデオ</jmenu>
+		<cmenu>视频</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02011</mcode>
+		<hmenu>원본파일 삭제 기한</hmenu>
+		<emenu>Original media delete date</emenu>
+		<jmenu>オリジナルメディア削除日</jmenu>
+		<cmenu>原件删除时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02012</mcode>
+		<hmenu>콘텐츠 삭제 기한</hmenu>
+		<emenu>Content delete date</emenu>
+		<jmenu>コンテンツ削除日</jmenu>
+		<cmenu>内容删除时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02013</mcode>
+		<hmenu>만료 기한</hmenu>
+		<emenu>Expired date</emenu>
+		<jmenu>失効日</jmenu>
+		<cmenu>失效日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02014</mcode>
+		<hmenu>고해상도 스토리지</hmenu>
+		<emenu>High resolution storage path</emenu>
+		<jmenu>高解像度ストレージパス</jmenu>
+		<cmenu>高分辨率存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02015</mcode>
+		<hmenu>저해상도 스토리지</hmenu>
+		<emenu>Low resolution storage path</emenu>
+		<jmenu>低解像度ストレージパス</jmenu>
+		<cmenu>低分辨率存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02016</mcode>
+		<hmenu>업로드 스토리지</hmenu>
+		<emenu>Upload storage path</emenu>
+		<jmenu>アップロードストレージパス</jmenu>
+		<cmenu>上传存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02017</mcode>
+		<hmenu>기본 카테고리 설정</hmenu>
+		<emenu>Default category</emenu>
+		<jmenu>デフォルトカテゴリー</jmenu>
+		<cmenu>默认分类设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02018</mcode>
+		<hmenu>콘텐츠 및 파일 폐기/삭제 기한 설정</hmenu>
+		<emenu>Disposal/Delete date setting for Content and file</emenu>
+		<jmenu>コンテンツとファイル用廃棄/削除日設定</jmenu>
+		<cmenu>内容和文件处理/删除日期设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02019</mcode>
+		<hmenu>콘텐츠 삭제 기한</hmenu>
+		<emenu>Content delete date</emenu>
+		<jmenu>コンテンツ削除日</jmenu>
+		<cmenu>内容删除日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02020</mcode>
+		<hmenu>썸네일보기</hmenu>
+		<emenu>Thumbnail view</emenu>
+		<jmenu>サムネイルビュー</jmenu>
+		<cmenu>浏览缩略图</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02021</mcode>
+		<hmenu>요약보기</hmenu>
+		<emenu>Summary view</emenu>
+		<jmenu>サマリービュー</jmenu>
+		<cmenu>摘要浏览</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02022</mcode>
+		<hmenu>보기모드 지정</hmenu>
+		<emenu>Main view type</emenu>
+		<jmenu>メイン表示タイプ</jmenu>
+		<cmenu>主视图类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02023</mcode>
+		<hmenu>전체 선택</hmenu>
+		<emenu>Select all</emenu>
+		<jmenu>すべてを選択</jmenu>
+		<cmenu>全部选择</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02024</mcode>
+		<hmenu>코드유형</hmenu>
+		<emenu>Code type</emenu>
+		<jmenu>コードタイプの削除</jmenu>
+		<cmenu>代码类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02025</mcode>
+		<hmenu>코드유형 추가</hmenu>
+		<emenu>Add code type</emenu>
+		<jmenu>コードタイプの追加</jmenu>
+		<cmenu>添加代码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02026</mcode>
+		<hmenu>코드유형 명</hmenu>
+		<emenu>Code type name</emenu>
+		<jmenu>コードタイプ名</jmenu>
+		<cmenu>代码类型名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02027</mcode>
+		<hmenu>코드유형 수정</hmenu>
+		<emenu>Edit code type</emenu>
+		<jmenu>コード対タイプの編集</jmenu>
+		<cmenu>编辑代码类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02028</mcode>
+		<hmenu>수정할 값</hmenu>
+		<emenu>Edit value</emenu>
+		<jmenu>価の編集</jmenu>
+		<cmenu>编辑值</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02029</mcode>
+		<hmenu>코드유형 삭제</hmenu>
+		<emenu>Delete code type</emenu>
+		<jmenu>コードタイプの削除</jmenu>
+		<cmenu>删除代码类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02030</mcode>
+		<hmenu>코드</hmenu>
+		<emenu>Code</emenu>
+		<jmenu>コード</jmenu>
+		<cmenu>代码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02031</mcode>
+		<hmenu>코드 추가</hmenu>
+		<emenu>Add code</emenu>
+		<jmenu>コードの追加</jmenu>
+		<cmenu>添加代码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02032</mcode>
+		<hmenu>코드 명</hmenu>
+		<emenu>Code name</emenu>
+		<jmenu>コード名</jmenu>
+		<cmenu>代码名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02033</mcode>
+		<hmenu>코드 수정</hmenu>
+		<emenu>Edit code</emenu>
+		<jmenu>コードの編集</jmenu>
+		<cmenu>代码编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02034</mcode>
+		<hmenu>코드 삭제</hmenu>
+		<emenu>Delete code</emenu>
+		<jmenu>コードを削除する</jmenu>
+		<cmenu>代码删除</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02035</mcode>
+		<hmenu>권한 없음</hmenu>
+		<emenu>No access right is assigned</emenu>
+		<jmenu>アクセス権未指定</jmenu>
+		<cmenu>无权限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02036</mcode>
+		<hmenu>이동</hmenu>
+		<emenu>Move</emenu>
+		<jmenu>移動する</jmenu>
+		<cmenu>移动</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02037</mcode>
+		<hmenu>숨김</hmenu>
+		<emenu>Hide</emenu>
+		<jmenu>隠す</jmenu>
+		<cmenu>隐藏</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02038</mcode>
+		<hmenu>권한 관리</hmenu>
+		<emenu>Right Management</emenu>
+		<jmenu>権利管理</jmenu>
+		<cmenu>权限管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02039</mcode>
+		<hmenu>카테고리 권한 관리</hmenu>
+		<emenu>Category Right Management</emenu>
+		<jmenu>カテゴリー権利管理</jmenu>
+		<cmenu>分类权限管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02040</mcode>
+		<hmenu>작업 유형 설정</hmenu>
+		<emenu>Work type</emenu>
+		<jmenu>ワークタイプ</jmenu>
+		<cmenu>任务类型设置</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02041</mcode>
+		<hmenu>코드 관리</hmenu>
+		<emenu>Code management</emenu>
+		<jmenu>コード管理</jmenu>
+		<cmenu>代码管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02042</mcode>
+		<hmenu>콘텐츠 관리</hmenu>
+		<emenu>Content management</emenu>
+		<jmenu>コンテンツ管理</jmenu>
+		<cmenu>内容管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02043</mcode>
+		<hmenu>옵션</hmenu>
+		<emenu>Option</emenu>
+		<jmenu>オプション</jmenu>
+		<cmenu>选项</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02044</mcode>
+		<hmenu>미디어 삭제 관리</hmenu>
+		<emenu>Media Delete Management</emenu>
+		<jmenu>メディア削除管理</jmenu>
+		<cmenu>媒体删除管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02045</mcode>
+		<hmenu>요청중</hmenu>
+		<emenu>Request in progress</emenu>
+		<jmenu>リクエスト処理中</jmenu>
+		<cmenu>处理中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02046</mcode>
+		<hmenu>사용자정의콘텐츠</hmenu>
+		<emenu>User Defined Metadata</emenu>
+		<jmenu>ユーザー定義メタデータ</jmenu>
+		<cmenu>用户定义内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02047</mcode>
+		<hmenu>사용자 그룹</hmenu>
+		<emenu>User group</emenu>
+		<jmenu>ユーザーグループ</jmenu>
+		<cmenu>用户组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02048</mcode>
+		<hmenu>카테고리 권한</hmenu>
+		<emenu>Category right</emenu>
+		<jmenu>カテゴリー権利</jmenu>
+		<cmenu>分类权限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02049</mcode>
+		<hmenu>콘텐츠 권한 관리</hmenu>
+		<emenu>Content Right Management</emenu>
+		<jmenu>コンテンツ権利管理</jmenu>
+		<cmenu>内容权限管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02050</mcode>
+		<hmenu>콘텐츠 권한</hmenu>
+		<emenu>Content Right</emenu>
+		<jmenu>コンテンツ権利</jmenu>
+		<cmenu>内容权限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02051</mcode>
+		<hmenu>완료 후 콘텐츠 상태</hmenu>
+		<emenu>Content status after done</emenu>
+		<jmenu>終了後のコンテンツステータス</jmenu>
+		<cmenu>结束后内容状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02052</mcode>
+		<hmenu>비활성화</hmenu>
+		<emenu>Deactivated</emenu>
+		<jmenu>非アクティブ状態</jmenu>
+		<cmenu>未激活</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02053</mcode>
+		<hmenu>콘텐츠 상태</hmenu>
+		<emenu>Content status</emenu>
+		<jmenu>コンテンツステータス</jmenu>
+		<cmenu>内容状态</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02054</mcode>
+		<hmenu>소스 옵션</hmenu>
+		<emenu>Source option</emenu>
+		<jmenu>ソースオプション</jmenu>
+		<cmenu>素材选项</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02055</mcode>
+		<hmenu>타겟 옵션</hmenu>
+		<emenu>Target option</emenu>
+		<jmenu>ターゲットオプション</jmenu>
+		<cmenu>目标选项</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02056</mcode>
+		<hmenu>작업 유형</hmenu>
+		<emenu>Work type</emenu>
+		<jmenu>ワークタイプ</jmenu>
+		<cmenu>任务类型</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02057</mcode>
+		<hmenu>작업 코드</hmenu>
+		<emenu>Work code</emenu>
+		<jmenu>ワークコード</jmenu>
+		<cmenu>任务代码</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02058</mcode>
+		<hmenu>복사</hmenu>
+		<emenu>Copy</emenu>
+		<jmenu>コピー</jmenu>
+		<cmenu>复制</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02059</mcode>
+		<hmenu>모듈 별 사용 작업 목록</hmenu>
+		<emenu>Job list for module</emenu>
+		<jmenu>モジュール用ジョブリスト</jmenu>
+		<cmenu>各模块工作列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02060</mcode>
+		<hmenu>모듈 목록</hmenu>
+		<emenu>Module list</emenu>
+		<jmenu>モジュールリスト</jmenu>
+		<cmenu>模块列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02061</mcode>
+		<hmenu>접근 가능한 스토리지</hmenu>
+		<emenu>Available storage</emenu>
+		<jmenu>使用可能ストレージ</jmenu>
+		<cmenu>有效存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02062</mcode>
+		<hmenu>사용할 작업</hmenu>
+		<emenu>Tasks for use</emenu>
+		<jmenu>Tasks for use</jmenu>
+		<cmenu>待使用任务</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02063</mcode>
+		<hmenu>할당 IP</hmenu>
+		<emenu>Assign IP</emenu>
+		<jmenu>IPを指定する</jmenu>
+		<cmenu>指定IP</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02064</mcode>
+		<hmenu>사유</hmenu>
+		<emenu>Reason</emenu>
+		<jmenu>理由</jmenu>
+		<cmenu>原因</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02065</mcode>
+		<hmenu>작성 취소</hmenu>
+		<emenu>Cancel written</emenu>
+		<jmenu>Cancel written</jmenu>
+		<cmenu>取消编辑</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02066</mcode>
+		<hmenu>코드 그룹</hmenu>
+		<emenu>Code group</emenu>
+		<jmenu>コードグループ</jmenu>
+		<cmenu>代码组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02067</mcode>
+		<hmenu>스토리지 선택</hmenu>
+		<emenu>Select storage</emenu>
+		<jmenu>ストレージを選択する</jmenu>
+		<cmenu>选择存储</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02068</mcode>
+		<hmenu>사용가능한 작업</hmenu>
+		<emenu>Available task</emenu>
+		<jmenu>利用可能なタスク</jmenu>
+		<cmenu>可使用任务</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02069</mcode>
+		<hmenu>모듈 정보</hmenu>
+		<emenu>Module information</emenu>
+		<jmenu>モジュール情報</jmenu>
+		<cmenu>模块信息</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02070</mcode>
+		<hmenu>다운로더</hmenu>
+		<emenu>Downloader</emenu>
+		<jmenu>ダウンローダー</jmenu>
+		<cmenu>下载器</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02071</mcode>
+		<hmenu>대기</hmenu>
+		<emenu>Pending</emenu>
+		<jmenu>保留</jmenu>
+		<cmenu>待机</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02072</mcode>
+		<hmenu>전송중</hmenu>
+		<emenu>Sending</emenu>
+		<jmenu>送信中</jmenu>
+		<cmenu>传送中</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02073</mcode>
+		<hmenu>취소</hmenu>
+		<emenu>Cancelled</emenu>
+		<jmenu>キャンセル</jmenu>
+		<cmenu>取消</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02074</mcode>
+		<hmenu>성공</hmenu>
+		<emenu>Uploaded</emenu>
+		<jmenu>アップロード済み</jmenu>
+		<cmenu>成功</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02075</mcode>
+		<hmenu>모두 취소</hmenu>
+		<emenu>Cancel All</emenu>
+		<jmenu>全て取消</jmenu>
+		<cmenu>全部取消</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02076</mcode>
+		<hmenu>파일명</hmenu>
+		<emenu>File size</emenu>
+		<jmenu>ファイルサイズ</jmenu>
+		<cmenu>文件名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02077</mcode>
+		<hmenu>크기</hmenu>
+		<emenu>Size</emenu>
+		<jmenu>サイズ</jmenu>
+		<cmenu>大小</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02078</mcode>
+		<hmenu>첨부파일</hmenu>
+		<emenu>Attached file</emenu>
+		<jmenu>添付ファイル</jmenu>
+		<cmenu>附件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02079</mcode>
+		<hmenu>구간추출파일</hmenu>
+		<emenu>PFR file</emenu>
+		<jmenu>PFRファイル</jmenu>
+		<cmenu>PFR文件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02080</mcode>
+		<hmenu>완료</hmenu>
+		<emenu>Complete</emenu>
+		<jmenu>完了</jmenu>
+		<cmenu>完成</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02081</mcode>
+		<hmenu>토픽</hmenu>
+		<emenu>Topic</emenu>
+		<jmenu>トピック</jmenu>
+		<cmenu>标题</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02082</mcode>
+		<hmenu>토픽 추가</hmenu>
+		<emenu>Add new Topic</emenu>
+		<jmenu>新規トピックを追加する</jmenu>
+		<cmenu>添加标题</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02083</mcode>
+		<hmenu>만료</hmenu>
+		<emenu>Expire</emenu>
+		<jmenu>Expire</jmenu>
+		<cmenu>期满</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02084</mcode>
+		<hmenu>구분</hmenu>
+		<emenu>Type</emenu>
+		<jmenu>タイプ</jmenu>
+		<cmenu>分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02085</mcode>
+		<hmenu>시작</hmenu>
+		<emenu>Start</emenu>
+		<jmenu>開始</jmenu>
+		<cmenu>开始</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02086</mcode>
+		<hmenu>영구보관</hmenu>
+		<emenu>Not removable media</emenu>
+		<jmenu>Not removable media</jmenu>
+		<cmenu>永久保存</cmenu>
+		<desc>시스템 - 송출 관리 : 전송된 콘텐츠를 서버에 영구보관 여부</desc>
+	</menu>
+	<menu>
+		<mcode>MN02087</mcode>
+		<hmenu>비디오</hmenu>
+		<emenu>Video</emenu>
+		<jmenu>ビデオ</jmenu>
+		<cmenu>视频</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02088</mcode>
+		<hmenu>그래픽</hmenu>
+		<emenu>Graphic</emenu>
+		<jmenu>グラフィック</jmenu>
+		<cmenu>图案</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02089</mcode>
+		<hmenu>영구보관 신청</hmenu>
+		<emenu>Mark as Not Removable</emenu>
+		<jmenu>移動不可としてマークする</jmenu>
+		<cmenu>申请永久保存</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02090</mcode>
+		<hmenu>영구보관 취소</hmenu>
+		<emenu>Mark as Removable</emenu>
+		<jmenu>Mark as Removable</jmenu>
+		<cmenu>取消永久保管</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02091</mcode>
+		<hmenu>의뢰</hmenu>
+		<emenu>Request</emenu>
+		<jmenu>Request</jmenu>
+		<cmenu>申请</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02092</mcode>
+		<hmenu>업무 의뢰일</hmenu>
+		<emenu>Requested Date</emenu>
+		<jmenu>Requested Date</jmenu>
+		<cmenu>任务申请日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02093</mcode>
+		<hmenu>내역</hmenu>
+		<emenu>Request</emenu>
+		<jmenu>リクエストする</jmenu>
+		<cmenu>请求</cmenu>
+		<desc>기사 편집 의뢰 상세보기 업무 의뢰 내역</desc>
+	</menu>
+	<menu>
+		<mcode>MN02094</mcode>
+		<hmenu>종료 시각</hmenu>
+		<emenu>Estimated Finishing Time</emenu>
+		<jmenu>予想完了時間</jmenu>
+		<cmenu>结束时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02095</mcode>
+		<hmenu>작업자</hmenu>
+		<emenu>Assigned Editor</emenu>
+		<jmenu>指定エディター</jmenu>
+		<cmenu>工作者</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02096</mcode>
+		<hmenu>초기화</hmenu>
+		<emenu>Clear Conditions</emenu>
+		<jmenu>条件をクリアする</jmenu>
+		<cmenu>初始化</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02097</mcode>
+		<hmenu>할당</hmenu>
+		<emenu>Assigned</emenu>
+		<jmenu>指定</jmenu>
+		<cmenu>指定</cmenu>
+		<desc>의뢰 상태값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02098</mcode>
+		<hmenu>종료시각 입력</hmenu>
+		<emenu>Enter Estimated Finishing Time</emenu>
+		<jmenu>予想完了時間を入力する</jmenu>
+		<cmenu>输入结束时间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02099</mcode>
+		<hmenu>일반기사</hmenu>
+		<emenu>News Script</emenu>
+		<jmenu>新規スクリプト</jmenu>
+		<cmenu>新闻脚本</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02100</mcode>
+		<hmenu>런다운기사</hmenu>
+		<emenu>Rundown</emenu>
+		<jmenu>ランダウン</jmenu>
+		<cmenu>纲要</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02101</mcode>
+		<hmenu>편집</hmenu>
+		<emenu>Editing</emenu>
+		<jmenu>編集</jmenu>
+		<cmenu>剪辑</cmenu>
+		<desc>의뢰 : 의뢰 상세보기 제목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02102</mcode>
+		<hmenu>편집자</hmenu>
+		<emenu>Editor</emenu>
+		<jmenu>エディター</jmenu>
+		<cmenu>剪辑者</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02103</mcode>
+		<hmenu>내용</hmenu>
+		<emenu>Script</emenu>
+		<jmenu>スクリプト</jmenu>
+		<cmenu>内容</cmenu>
+		<desc>기사 내용</desc>
+	</menu>
+	<menu>
+		<mcode>MN02104</mcode>
+		<hmenu>종료</hmenu>
+		<emenu>Out(Timecode)</emenu>
+		<jmenu>アウト（タイムコード）</jmenu>
+		<cmenu>结束</cmenu>
+		<desc>의뢰 상세보기 EDL 목록의 종료</desc>
+	</menu>
+	<menu>
+		<mcode>MN02105</mcode>
+		<hmenu>시작</hmenu>
+		<emenu>In(Timecode)</emenu>
+		<jmenu>イン（タイムコード）</jmenu>
+		<cmenu>开始</cmenu>
+		<desc>의뢰 상세보기 EDL 목록의 시작</desc>
+	</menu>
+	<menu>
+		<mcode>MN02106</mcode>
+		<hmenu>승인</hmenu>
+		<emenu>Fix</emenu>
+		<jmenu>Fix</jmenu>
+		<cmenu>承认</cmenu>
+		<desc>보도정보 기사 승인 상태 표현</desc>
+	</menu>
+	<menu>
+		<mcode>MN02107</mcode>
+		<hmenu>매칭 항목</hmenu>
+		<emenu>Linked Media</emenu>
+		<jmenu>Linked Media</jmenu>
+		<cmenu>配对项目</cmenu>
+		<desc>보도정보 기사에 매칭된 목록의 제목(비디오 매칭 항목, 그래픽 매칭 항목)</desc>
+	</menu>
+	<menu>
+		<mcode>MN02108</mcode>
+		<hmenu>미승인</hmenu>
+		<emenu>Not Fix</emenu>
+		<jmenu>Not Fix</jmenu>
+		<cmenu>未承认</cmenu>
+		<desc>보도정보 기사 승인 상태 표현</desc>
+	</menu>
+	<menu>
+		<mcode>MN02109</mcode>
+		<hmenu>가승인</hmenu>
+		<emenu>Editing</emenu>
+		<jmenu>Editing</jmenu>
+		<cmenu>可承认</cmenu>
+		<desc>보도정보 기사 승인 상태 표현</desc>
+	</menu>
+	<menu>
+		<mcode>MN02110</mcode>
+		<hmenu>작성일</hmenu>
+		<emenu>Created Date</emenu>
+		<jmenu>Created Date</jmenu>
+		<cmenu>制作日期</cmenu>
+		<desc>보도정보 기사 작성일</desc>
+	</menu>
+	<menu>
+		<mcode>MN02111</mcode>
+		<hmenu>-</hmenu>
+		<emenu>(ENG)-</emenu>
+		<jmenu>(ENG)-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02112</mcode>
+		<hmenu>이슈</hmenu>
+		<emenu>Issue</emenu>
+		<jmenu>Issue</jmenu>
+		<cmenu>热门</cmenu>
+		<desc>보도정보 큐시트 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02113</mcode>
+		<hmenu>대분류</hmenu>
+		<emenu>Category</emenu>
+		<jmenu>カテゴリー</jmenu>
+		<cmenu>大分类</cmenu>
+		<desc>보도정보 큐시트 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02114</mcode>
+		<hmenu>기자</hmenu>
+		<emenu>Reporter</emenu>
+		<jmenu>Reporter</jmenu>
+		<cmenu>记者</cmenu>
+		<desc>보도정보 큐시트 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02115</mcode>
+		<hmenu>영상수</hmenu>
+		<emenu>Linked Video</emenu>
+		<jmenu>Linked Video</jmenu>
+		<cmenu>视频数量</cmenu>
+		<desc>보도정보 큐시트 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02116</mcode>
+		<hmenu>그래픽수</hmenu>
+		<emenu>Linked Graphics</emenu>
+		<jmenu>Linked Graphics</jmenu>
+		<cmenu>图纹数量</cmenu>
+		<desc>보도정보 큐시트 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02117</mcode>
+		<hmenu>매칭</hmenu>
+		<emenu>Link</emenu>
+		<jmenu>リンクする</jmenu>
+		<cmenu>配对</cmenu>
+		<desc>보도정보 기사/큐시트 - 콘텐츠 매칭</desc>
+	</menu>
+	<menu>
+		<mcode>MN02118</mcode>
+		<hmenu>매칭 해제</hmenu>
+		<emenu>Unlink</emenu>
+		<jmenu>リンクを解除する</jmenu>
+		<cmenu>解除配对</cmenu>
+		<desc>보도정보 기사/큐시트 - 콘텐츠 매칭 해제</desc>
+	</menu>
+	<menu>
+		<mcode>MN02119</mcode>
+		<hmenu>순서</hmenu>
+		<emenu>Order</emenu>
+		<jmenu>オーダー</jmenu>
+		<cmenu>顺序</cmenu>
+		<desc>보도정보 기사/큐시트 - 콘텐츠 매칭 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02120</mcode>
+		<hmenu>길이</hmenu>
+		<emenu>Duration</emenu>
+		<jmenu>期間</jmenu>
+		<cmenu>时长</cmenu>
+		<desc>보도정보 기사/큐시트 - 콘텐츠 매칭 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02121</mcode>
+		<hmenu>송출ID</hmenu>
+		<emenu>Playout ID</emenu>
+		<jmenu>プレイアウトID</jmenu>
+		<cmenu>播放ID</cmenu>
+		<desc>보도정보 기사/큐시트 - 콘텐츠 매칭 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02122</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02123</mcode>
+		<hmenu>방송시각</hmenu>
+		<emenu>Broadcast Time</emenu>
+		<jmenu>放送時間</jmenu>
+		<cmenu>播放时间</cmenu>
+		<desc>보도정보 큐시트 - 프로그램 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02124</mcode>
+		<hmenu>--</hmenu>
+		<emenu>--</emenu>
+		<jmenu>--</jmenu>
+		<cmenu>--</cmenu>
+		<desc>보도정보 큐시트 - 프로그램 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02125</mcode>
+		<hmenu>사용자 정보</hmenu>
+		<emenu>User Information</emenu>
+		<jmenu>ユーザー情報</jmenu>
+		<cmenu>用户信息</cmenu>
+		<desc>홈 사용자 정보 제목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02126</mcode>
+		<hmenu>사용자 정보 변경</hmenu>
+		<emenu>Modifiy</emenu>
+		<jmenu>修整する</jmenu>
+		<cmenu>修改用户信息</cmenu>
+		<desc>홈 사용자 정보 변경 버튼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02127</mcode>
+		<hmenu>이메일</hmenu>
+		<emenu>Email</emenu>
+		<jmenu>電子メール</jmenu>
+		<cmenu>电子邮件</cmenu>
+		<desc>홈 사용자 정보 변경 팝업창 필드</desc>
+	</menu>
+	<menu>
+		<mcode>MN02128</mcode>
+		<hmenu>작업 내역</hmenu>
+		<emenu>Task/Job</emenu>
+		<jmenu>タスク/ジョブ</jmenu>
+		<cmenu>任务细则</cmenu>
+		<desc>홈 작업 내역 탭 이름</desc>
+	</menu>
+	<menu>
+		<mcode>MN02129</mcode>
+		<hmenu>완료 처리</hmenu>
+		<emenu>Set as Finished</emenu>
+		<jmenu>完了として設定する</jmenu>
+		<cmenu>处理为已完成</cmenu>
+		<desc>홈/작업관리 context menu</desc>
+	</menu>
+	<menu>
+		<mcode>MN02130</mcode>
+		<hmenu>완료 건/총 건</hmenu>
+		<emenu>Completed/All</emenu>
+		<jmenu>終了/すべて</jmenu>
+		<cmenu>完成量/总量</cmenu>
+		<desc>홈 작업 내역 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02131</mcode>
+		<hmenu>전체자료</hmenu>
+		<emenu>All Task</emenu>
+		<jmenu>すべてのタスク</jmenu>
+		<cmenu>全部资料</cmenu>
+		<desc>홈 작업 내역 목록 tbar combo data</desc>
+	</menu>
+	<menu>
+		<mcode>MN02132</mcode>
+		<hmenu>내자료</hmenu>
+		<emenu>My Task</emenu>
+		<jmenu>マイ・タスク</jmenu>
+		<cmenu>我的资料</cmenu>
+		<desc>홈 작업 내역 목록 tbar combo data</desc>
+	</menu>
+	<menu>
+		<mcode>MN02133</mcode>
+		<hmenu>기사 상세보기</hmenu>
+		<emenu>Script</emenu>
+		<jmenu>スクリプト</jmenu>
+		<cmenu>新闻详细浏览</cmenu>
+		<desc>보도정보 기사 상세보기 팝업창 제목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02134</mcode>
+		<hmenu>개별</hmenu>
+		<emenu>Private</emenu>
+		<jmenu>Private</jmenu>
+		<cmenu>个别</cmenu>
+		<desc>공지사항 유형(전체, 그룹, 개별)</desc>
+	</menu>
+	<menu>
+		<mcode>MN02135</mcode>
+		<hmenu>발신</hmenu>
+		<emenu>Sender</emenu>
+		<jmenu>送信者</jmenu>
+		<cmenu>发件人</cmenu>
+		<desc>공지사항 필드</desc>
+	</menu>
+	<menu>
+		<mcode>MN02136</mcode>
+		<hmenu>수신</hmenu>
+		<emenu>Recipients</emenu>
+		<jmenu>受信者</jmenu>
+		<cmenu>收件人</cmenu>
+		<desc>공지사항 필드</desc>
+	</menu>
+	<menu>
+		<mcode>MN02137</mcode>
+		<hmenu>알림일자</hmenu>
+		<emenu>Date Time</emenu>
+		<jmenu>Date Time</jmenu>
+		<cmenu>通知日期</cmenu>
+		<desc>공지사항 필드</desc>
+	</menu>
+	<menu>
+		<mcode>MN02138</mcode>
+		<hmenu>단위 작업명</hmenu>
+		<emenu>Task Item</emenu>
+		<jmenu>Task Item</jmenu>
+		<cmenu>任务项</cmenu>
+		<desc>홈 작업 내역 상세보기 목록 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02139</mcode>
+		<hmenu>관심콘텐츠</hmenu>
+		<emenu>Favorites</emenu>
+		<jmenu>お気に入り</jmenu>
+		<cmenu>收藏夹</cmenu>
+		<desc>검색 관심콘텐츠</desc>
+	</menu>
+	<menu>
+		<mcode>MN02140</mcode>
+		<hmenu>신규 콘텐츠 생성</hmenu>
+		<emenu>Make Partial File</emenu>
+		<jmenu>Make Partial File</jmenu>
+		<cmenu>新内容生成</cmenu>
+		<desc>상세보기 구간 추출 신규 콘텐츠 생성</desc>
+	</menu>
+	<menu>
+		<mcode>MN02141</mcode>
+		<hmenu>바로 이동</hmenu>
+		<emenu>Go To</emenu>
+		<jmenu>Go To</jmenu>
+		<cmenu>移动</cmenu>
+		<desc>상세보기 동영상 탐색</desc>
+	</menu>
+	<menu>
+		<mcode>MN02142</mcode>
+		<hmenu>저해상도</hmenu>
+		<emenu>Proxy Media</emenu>
+		<jmenu>Proxy Media</jmenu>
+		<cmenu>低分辨率</cmenu>
+		<desc>검색(미디어 검색) context menu 전송 하위메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN02143</mcode>
+		<hmenu>--</hmenu>
+		<emenu>--</emenu>
+		<jmenu>--</jmenu>
+		<cmenu>--</cmenu>
+		<desc>검색(미디어 검색) context menu 전송 하위메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN02144</mcode>
+		<hmenu>에이전트</hmenu>
+		<emenu>Agents</emenu>
+		<jmenu>Agents</jmenu>
+		<cmenu>媒介</cmenu>
+		<desc>시스템 관리 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN02145</mcode>
+		<hmenu>뉴스 서버 콘텐츠 목록</hmenu>
+		<emenu>News Server Content List</emenu>
+		<jmenu>News Server Content List</jmenu>
+		<cmenu>新闻服务器内容列表</cmenu>
+		<desc>시스템 관리 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN02146</mcode>
+		<hmenu>모두 열기</hmenu>
+		<emenu>Expand All</emenu>
+		<jmenu>すべて展開する</jmenu>
+		<cmenu>显示所有</cmenu>
+		<desc>시스템 관리 사용자 관리 그룹관리</desc>
+	</menu>
+	<menu>
+		<mcode>MN02147</mcode>
+		<hmenu>모두 접기</hmenu>
+		<emenu>Collapse All</emenu>
+		<jmenu>すべて折りたたむ</jmenu>
+		<cmenu>关闭所有</cmenu>
+		<desc>시스템 관리 사용자 관리 그룹관리</desc>
+	</menu>
+	<menu>
+		<mcode>MN02148</mcode>
+		<hmenu>그룹명</hmenu>
+		<emenu>Group</emenu>
+		<jmenu>グループ</jmenu>
+		<cmenu>组名称</cmenu>
+		<desc>시스템 관리 사용자 관리 그룹관리 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02149</mcode>
+		<hmenu>등록자 아이디</hmenu>
+		<emenu>Registered User ID</emenu>
+		<jmenu>登録ユーザーID</jmenu>
+		<cmenu>注册者ID</cmenu>
+		<desc>상세보기 기본정보 고정 필드</desc>
+	</menu>
+	<menu>
+		<mcode>MN02150</mcode>
+		<hmenu>등록자 이름</hmenu>
+		<emenu>Registered User Name</emenu>
+		<jmenu>登録ユーザー名</jmenu>
+		<cmenu>注册者姓名</cmenu>
+		<desc>상세보기 기본정보 고정 필드</desc>
+	</menu>
+	<menu>
+		<mcode>MN02151</mcode>
+		<hmenu>건이 요청되었습니다.</hmenu>
+		<emenu>requests are requested.</emenu>
+		<jmenu>requests are requested.</jmenu>
+		<cmenu>请求已提交</cmenu>
+		<desc>--</desc>
+	</menu>
+	<menu>
+		<mcode>MN02152</mcode>
+		<hmenu>전송처</hmenu>
+		<emenu>FTP Target</emenu>
+		<jmenu>FTP Target</jmenu>
+		<cmenu>发送处</cmenu>
+		<desc>검색(미디어 검색) comtext menu 전송 팝업창</desc>
+	</menu>
+	<menu>
+		<mcode>MN02153</mcode>
+		<hmenu>테이블명</hmenu>
+		<emenu>DB Table Name</emenu>
+		<jmenu>DB Table Name</jmenu>
+		<cmenu>数据库表格名称</cmenu>
+		<desc>시스템 사용자 메타데이터 사용자 정의 메타데이터 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02154</mcode>
+		<hmenu>필드명</hmenu>
+		<emenu>DB Field Name</emenu>
+		<jmenu>DB Field Name</jmenu>
+		<cmenu>数据库字段名称</cmenu>
+		<desc>시스템 사용자 메타데이터 메타데이터 컬럼명</desc>
+	</menu>
+	<menu>
+		<mcode>MN02155</mcode>
+		<hmenu>기본값(default)첫번째;두번째;세번째</hmenu>
+		<emenu>second(default)first;second;third</emenu>
+		<jmenu>second(default)first;second;third</jmenu>
+		<cmenu>标准价(默认)第一；第二；第三</cmenu>
+		<desc>시스템 사용자 메타데이터 메타데이터 추가시 콤보값 설정</desc>
+	</menu>
+	<menu>
+		<mcode>MN02156</mcode>
+		<hmenu>-</hmenu>
+		<emenu>-</emenu>
+		<jmenu>-</jmenu>
+		<cmenu>-</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02157</mcode>
+		<hmenu>활성</hmenu>
+		<emenu>On</emenu>
+		<jmenu>オン</jmenu>
+		<cmenu>激活</cmenu>
+		<desc>시스템 작업 흐름 설정</desc>
+	</menu>
+	<menu>
+		<mcode>MN02158</mcode>
+		<hmenu>비활성</hmenu>
+		<emenu>Off</emenu>
+		<jmenu>オフ</jmenu>
+		<cmenu>未激活</cmenu>
+		<desc>시스템 작업 흐름 설정</desc>
+	</menu>
+	<menu>
+		<mcode>MN02159</mcode>
+		<hmenu>스토리지 그룹</hmenu>
+		<emenu>Storage Group</emenu>
+		<jmenu>Storage Group</jmenu>
+		<cmenu>存储组</cmenu>
+		<desc>시스템 작업 흐름 설정</desc>
+	</menu>
+	<menu>
+		<mcode>MN02160</mcode>
+		<hmenu>CONTENT_STATUS</hmenu>
+		<emenu>CONTENT_STATUS_ENG</emenu>
+		<jmenu>CONTENT_STATUS_ENG</jmenu>
+		<cmenu>CONTENT_STATUS</cmenu>
+		<desc>콘텐츠 상태 CODE TYPE</desc>
+	</menu>
+	<menu>
+		<mcode>MN02161</mcode>
+		<hmenu>개인</hmenu>
+		<emenu>Private</emenu>
+		<jmenu>プライベート</jmenu>
+		<cmenu>个人</cmenu>
+		<desc>공지사항 등록시 유형(전체, 그룹, 개인)</desc>
+	</menu>
+	<menu>
+		<mcode>MN02162</mcode>
+		<hmenu>긴급작업 요청</hmenu>
+		<emenu>Set Emergent Job</emenu>
+		<jmenu>Set Emergent Job</jmenu>
+		<cmenu>紧急任务申请</cmenu>
+		<desc>시스템 작업관리</desc>
+	</menu>
+	<menu>
+		<mcode>MN02163</mcode>
+		<hmenu>IP</hmenu>
+		<emenu>IP</emenu>
+		<jmenu>IP</jmenu>
+		<cmenu>IP</cmenu>
+		<desc>시스템 관리 에이전트 모니터링</desc>
+	</menu>
+	<menu>
+		<mcode>MN02164</mcode>
+		<hmenu>하위 코드 수</hmenu>
+		<emenu>sub-codes</emenu>
+		<jmenu>サブコード</jmenu>
+		<cmenu>副代码数</cmenu>
+		<desc>시스템 관리 - 코드 관리 : 코드 유형 삭제시 팝업 메세지</desc>
+	</menu>
+	<menu>
+		<mcode>MN02165</mcode>
+		<hmenu>콘텐츠 수</hmenu>
+		<emenu>Content Count</emenu>
+		<jmenu>コンテンツカウント</jmenu>
+		<cmenu>内容数</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 그리드 하단 검색 결과 표시</desc>
+	</menu>
+	<menu>
+		<mcode>MN02166</mcode>
+		<hmenu>사용자 요청</hmenu>
+		<emenu>User Requested</emenu>
+		<jmenu>User Requested</jmenu>
+		<cmenu>用户请求</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 삭제 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02167</mcode>
+		<hmenu>만료일자</hmenu>
+		<emenu>Online Retention Day</emenu>
+		<jmenu>Online Retention Day</jmenu>
+		<cmenu>有效日期</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 날짜 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02168</mcode>
+		<hmenu>구분관련일자</hmenu>
+		<emenu>(e)구분관련일자</emenu>
+		<jmenu>(e)구분관련일자</jmenu>
+		<cmenu>区分相关日期</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 날짜 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02169</mcode>
+		<hmenu>삭제 요청</hmenu>
+		<emenu>Delete Requested</emenu>
+		<jmenu>Delete Requested</jmenu>
+		<cmenu>申请删除</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 삭제 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02170</mcode>
+		<hmenu>삭제 승인</hmenu>
+		<emenu>Delete Approved</emenu>
+		<jmenu>Delete Approved</jmenu>
+		<cmenu>同意删除</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 삭제 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02171</mcode>
+		<hmenu>삭제 완료</hmenu>
+		<emenu>Delete Completed</emenu>
+		<jmenu>Delete Completed</jmenu>
+		<cmenu>完成删除</cmenu>
+		<desc>시스템 관리 - 삭제관리 : 삭제 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02172</mcode>
+		<hmenu>삭제 취소</hmenu>
+		<emenu>Cancel Deleting</emenu>
+		<jmenu>Cancel Deleting</jmenu>
+		<cmenu>取消删除</cmenu>
+		<desc>시스템 관리 - 삭제관리</desc>
+	</menu>
+	<menu>
+		<mcode>MN02173</mcode>
+		<hmenu>시각</hmenu>
+		<emenu>Time</emenu>
+		<jmenu>Time</jmenu>
+		<cmenu>时间</cmenu>
+		<desc>의뢰 - 편집 작업 종료일시 입력 : 날짜, 시, 분 입력</desc>
+	</menu>
+	<menu>
+		<mcode>MN02174</mcode>
+		<hmenu>오름차순</hmenu>
+		<emenu>Ascending</emenu>
+		<jmenu>Ascending</jmenu>
+		<cmenu>升序</cmenu>
+		<desc>의뢰 - 편집 작업 종료일시 입력 : 날짜, 시, 분 입력</desc>
+	</menu>
+	<menu>
+		<mcode>MN02175</mcode>
+		<hmenu>내림차순</hmenu>
+		<emenu>Descending</emenu>
+		<jmenu>Descending</jmenu>
+		<cmenu>降序</cmenu>
+		<desc>의뢰 - 편집 작업 종료일시 입력 : 날짜, 시, 분 입력</desc>
+	</menu>
+	<menu>
+		<mcode>MN02176</mcode>
+		<hmenu>...</hmenu>
+		<emenu>...</emenu>
+		<jmenu>...</jmenu>
+		<cmenu>...</cmenu>
+		<desc>미디어 검색 - 콘텐츠 상세보기 - 미디어 정보 - 업로드 팝업창 첨부파일 선택 버튼</desc>
+	</menu>
+	<menu>
+		<mcode>MN02177</mcode>
+		<hmenu>대기</hmenu>
+		<emenu>Queued</emenu>
+		<jmenu>Queued</jmenu>
+		<cmenu>等待</cmenu>
+		<desc>의뢰 상태값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02178</mcode>
+		<hmenu>완료</hmenu>
+		<emenu>Completed</emenu>
+		<jmenu>完了</jmenu>
+		<cmenu>完成</cmenu>
+		<desc>의뢰 상태값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02179</mcode>
+		<hmenu>기사 아이디</hmenu>
+		<emenu>Script ID</emenu>
+		<jmenu>Script ID</jmenu>
+		<cmenu>新闻ID</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02180</mcode>
+		<hmenu>긴급여부</hmenu>
+		<emenu>Emergent</emenu>
+		<jmenu>Emergent</jmenu>
+		<cmenu>紧急与否</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02181</mcode>
+		<hmenu>엠바고여부</hmenu>
+		<emenu>Embargoed</emenu>
+		<jmenu>Embargoed</jmenu>
+		<cmenu>禁止与否</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02182</mcode>
+		<hmenu>수정자 아이디</hmenu>
+		<emenu>Modified User ID</emenu>
+		<jmenu>修整済みユーザーID</jmenu>
+		<cmenu>修改人ID</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02183</mcode>
+		<hmenu>수정자 이름</hmenu>
+		<emenu>Modified User Name</emenu>
+		<jmenu>修整済みユーザー名</jmenu>
+		<cmenu>修改人姓名</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02184</mcode>
+		<hmenu>수정일시</hmenu>
+		<emenu>Modified date</emenu>
+		<jmenu>修整済み日付</jmenu>
+		<cmenu>修改日期</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02185</mcode>
+		<hmenu>런다운 ID</hmenu>
+		<emenu>Rundown ID</emenu>
+		<jmenu>ランダウンID</jmenu>
+		<cmenu>Rundown ID</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02186</mcode>
+		<hmenu>런다운 시퀀스</hmenu>
+		<emenu>Rundown Sequence</emenu>
+		<jmenu>ランダウン・シークエンス</jmenu>
+		<cmenu>Rundown 顺序</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02187</mcode>
+		<hmenu>승인일시</hmenu>
+		<emenu>Fixed Date</emenu>
+		<jmenu>Fixed Date</jmenu>
+		<cmenu>确认日期</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02188</mcode>
+		<hmenu>승인자 이름</hmenu>
+		<emenu>Fixed User Name</emenu>
+		<jmenu>Fixed User Name</jmenu>
+		<cmenu>确认人姓名</cmenu>
+		<desc>기사 상세보기 항목</desc>
+	</menu>
+	<menu>
+		<mcode>MN02189</mcode>
+		<hmenu>언어 선택</hmenu>
+		<emenu>Select Language</emenu>
+		<jmenu>Select Language</jmenu>
+		<cmenu>选择语言</cmenu>
+		<desc>홈 - 사용자 정보 변경</desc>
+	</menu>
+	<menu>
+		<mcode>MN02190</mcode>
+		<hmenu>언어</hmenu>
+		<emenu>Language</emenu>
+		<jmenu>Language</jmenu>
+		<cmenu>语言</cmenu>
+		<desc>홈 - 사용자 정보 변경</desc>
+	</menu>
+	<menu>
+		<mcode>MN02191</mcode>
+		<hmenu>영문 코드 명</hmenu>
+		<emenu>Code Name(English)</emenu>
+		<jmenu>Code Name(English)</jmenu>
+		<cmenu>英文代码名称</cmenu>
+		<desc>시스템 - 코드관리 : 코드 수정 팝업창</desc>
+	</menu>
+	<menu>
+		<mcode>MN02192</mcode>
+		<hmenu>권한</hmenu>
+		<emenu>Rights</emenu>
+		<jmenu>Rights</jmenu>
+		<cmenu>权限</cmenu>
+		<desc>시스템 - 권한관리</desc>
+	</menu>
+	<menu>
+		<mcode>MN02193</mcode>
+		<hmenu>모니터링</hmenu>
+		<emenu>Monitoring</emenu>
+		<jmenu>Monitoring</jmenu>
+		<cmenu>监控</cmenu>
+		<desc>시스템 - 모니터링</desc>
+	</menu>
+	<menu>
+		<mcode>MN02194</mcode>
+		<hmenu>설정</hmenu>
+		<emenu>Configuration</emenu>
+		<jmenu>Configuration</jmenu>
+		<cmenu>设置</cmenu>
+		<desc>main 상단 메뉴</desc>
+	</menu>
+	<menu>
+		<mcode>MN02195</mcode>
+		<hmenu>팝업메뉴 권한관리</hmenu>
+		<emenu>Context Menu Rights</emenu>
+		<jmenu>Context Menu Rights</jmenu>
+		<cmenu>快捷菜单权限管理</cmenu>
+		<desc>시스템관리 - 권한관리 - Context메뉴권한</desc>
+	</menu>
+	<menu>
+		<mcode>MN02196</mcode>
+		<hmenu>메타변경이력</hmenu>
+		<emenu>Content History</emenu>
+		<jmenu>コンテンツ履歴</jmenu>
+		<cmenu>META信息修改记录</cmenu>
+		<desc>Edited Content tab title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02197</mcode>
+		<hmenu>등록</hmenu>
+		<emenu>Send</emenu>
+		<jmenu>Send</jmenu>
+		<cmenu>注册</cmenu>
+		<desc>Send button</desc>
+	</menu>
+	<menu>
+		<mcode>MN02198</mcode>
+		<hmenu>상세보기</hmenu>
+		<emenu>Detail</emenu>
+		<jmenu>Detail</jmenu>
+		<cmenu>详细浏览</cmenu>
+		<desc>Detail text</desc>
+	</menu>
+	<menu>
+		<mcode>MN02199</mcode>
+		<hmenu>메타데이터 변경내역</hmenu>
+		<emenu>Detail edited list</emenu>
+		<jmenu>Detail edited list</jmenu>
+		<cmenu>元数据修改记录</cmenu>
+		<desc>Detail edited list text</desc>
+	</menu>
+	<menu>
+		<mcode>MN02200</mcode>
+		<hmenu>항목</hmenu>
+		<emenu>Field</emenu>
+		<jmenu>Field</jmenu>
+		<cmenu>项目</cmenu>
+		<desc>Field in Detail edited list</desc>
+	</menu>
+	<menu>
+		<mcode>MN02201</mcode>
+		<hmenu>변경전</hmenu>
+		<emenu>Old Value</emenu>
+		<jmenu>Old Value</jmenu>
+		<cmenu>旧值</cmenu>
+		<desc>Old Value in Detail edited list popup</desc>
+	</menu>
+	<menu>
+		<mcode>MN02202</mcode>
+		<hmenu>변경후</hmenu>
+		<emenu>New Value</emenu>
+		<jmenu>New Value</jmenu>
+		<cmenu>新值</cmenu>
+		<desc>New Value in Detail edited list popup</desc>
+	</menu>
+	<menu>
+		<mcode>MN02203</mcode>
+		<hmenu>Proxima V3.0</hmenu>
+		<emenu>Proxima V3.0</emenu>
+		<jmenu>プロキシマ V3.0</jmenu>
+		<cmenu>Proxima V3.0</cmenu>
+		<desc>Infomation for version in footer side</desc>
+	</menu>
+	<menu>
+		<mcode>MN02204</mcode>
+		<hmenu>시스템 기능 사용 설정</hmenu>
+		<emenu>System Configuration</emenu>
+		<jmenu>System Configuration</jmenu>
+		<cmenu>设置系统功能使用</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02205</mcode>
+		<hmenu>사용 여부</hmenu>
+		<emenu>Usable</emenu>
+		<jmenu>Usable</jmenu>
+		<cmenu>使用与否</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02206</mcode>
+		<hmenu>작성자</hmenu>
+		<emenu>Writer</emenu>
+		<jmenu>Writer</jmenu>
+		<cmenu>编写人</cmenu>
+		<desc>공지사항 관리 목록 컬럼</desc>
+	</menu>
+	<menu>
+		<mcode>MN02207</mcode>
+		<hmenu>공지기간</hmenu>
+		<emenu>Notice Period</emenu>
+		<jmenu>通知期間</jmenu>
+		<cmenu>通知期间</cmenu>
+		<desc>공지사항 관리 목록 컬럼</desc>
+	</menu>
+	<menu>
+		<mcode>MN02208</mcode>
+		<hmenu>연락처</hmenu>
+		<emenu>Contact Number</emenu>
+		<jmenu>連絡先</jmenu>
+		<cmenu>联系方式</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02209</mcode>
+		<hmenu>다운로드</hmenu>
+		<emenu>Download</emenu>
+		<jmenu>ダウンロード</jmenu>
+		<cmenu>下载</cmenu>
+		<desc>홈</desc>
+	</menu>
+	<menu>
+		<mcode>MN02210</mcode>
+		<hmenu>Proxima V3 (2016.03.09)</hmenu>
+		<emenu>Proxima V3 (09 Mar, 2016)</emenu>
+		<jmenu>Proxima　V3（2016年3月9日）</jmenu>
+		<cmenu>Proxima　V3（2016年3月9日）</cmenu>
+		<desc>홈</desc>
+	</menu>
+	<menu>
+		<mcode>MN02211</mcode>
+		<hmenu>FileIngest(2018.05.07)</hmenu>
+		<emenu>FileIngest(07 May, 2018)</emenu>
+		<jmenu>FileIngest（2018年5月7日）</jmenu>
+		<cmenu>FileIngest（2018年5月7日）</cmenu>
+		<desc>홈</desc>
+	</menu>
+	<menu>
+		<mcode>MN02212</mcode>
+		<hmenu>Edius(2018.05.07)</hmenu>
+		<emenu>Edius(07 May, 2018)</emenu>
+		<jmenu>Edius（2018年5月7日）</jmenu>
+		<cmenu>Edius（2018年5月7日）</cmenu>
+		<desc>홈</desc>
+	</menu>
+	<menu>
+		<mcode>MN02213</mcode>
+		<hmenu>볼륨명</hmenu>
+		<emenu>Volume Name</emenu>
+		<jmenu>ボリューム名</jmenu>
+		<cmenu>硬盘卷标</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02214</mcode>
+		<hmenu>볼륨 그룹</hmenu>
+		<emenu>Volume Group</emenu>
+		<jmenu>ボリュームグループ</jmenu>
+		<cmenu>卷组</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02215</mcode>
+		<hmenu>상태</hmenu>
+		<emenu>Status</emenu>
+		<jmenu>ステータス</jmenu>
+		<cmenu>状态</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02216</mcode>
+		<hmenu>아카이브 일자</hmenu>
+		<emenu>ArchiveDate</emenu>
+		<jmenu>アーカイブ日付</jmenu>
+		<cmenu>存档日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02217</mcode>
+		<hmenu>등록일시</hmenu>
+		<emenu>Created date</emenu>
+		<jmenu>作成日</jmenu>
+		<cmenu>注册日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02218</mcode>
+		<hmenu>시스템 콘텐츠명</hmenu>
+		<emenu>Title</emenu>
+		<jmenu>タイトル</jmenu>
+		<cmenu>系统内容名称</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02219</mcode>
+		<hmenu>시스템 콘텐츠 추가</hmenu>
+		<emenu>New System Content</emenu>
+		<jmenu>新規システムコンテンツ</jmenu>
+		<cmenu>添加系统内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02220</mcode>
+		<hmenu>시스템 콘텐츠 수정</hmenu>
+		<emenu>Edit System Content</emenu>
+		<jmenu>システムコンテンツを編集する</jmenu>
+		<cmenu>编辑系统内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02221</mcode>
+		<hmenu>카테고리 관리</hmenu>
+		<emenu>Manage Category</emenu>
+		<jmenu>カテゴリーを管理する</jmenu>
+		<cmenu>分类管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02222</mcode>
+		<hmenu>카테고리명 수정</hmenu>
+		<emenu>Rename Category</emenu>
+		<jmenu>Rename Category</jmenu>
+		<cmenu>分类重命名</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02223</mcode>
+		<hmenu>카테고리명</hmenu>
+		<emenu>Category Title</emenu>
+		<jmenu>カテゴリータイトル</jmenu>
+		<cmenu>分类名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02225</mcode>
+		<hmenu>카테고리 추가</hmenu>
+		<emenu>Add Root Category</emenu>
+		<jmenu>ルートカテゴリーを追加する</jmenu>
+		<cmenu>添加分类</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02226</mcode>
+		<hmenu>콘텐츠명</hmenu>
+		<emenu>Use User Defined Content</emenu>
+		<jmenu>Use User Defined Content</jmenu>
+		<cmenu>内容名称</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02227</mcode>
+		<hmenu>사용여부</hmenu>
+		<emenu>Use</emenu>
+		<jmenu>Use</jmenu>
+		<cmenu>使用与否</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02228</mcode>
+		<hmenu>정렬 저장</hmenu>
+		<emenu>Save Order</emenu>
+		<jmenu>オーダーを保存する</jmenu>
+		<cmenu>保存命令</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02229</mcode>
+		<hmenu>맨 위로 이동</hmenu>
+		<emenu>Top</emenu>
+		<jmenu>トップ</jmenu>
+		<cmenu>移动至顶端</cmenu>
+		<desc>tooltip "top"</desc>
+	</menu>
+	<menu>
+		<mcode>MN02230</mcode>
+		<hmenu>한칸 위로 이동</hmenu>
+		<emenu>Up</emenu>
+		<jmenu>Up</jmenu>
+		<cmenu>上移一格</cmenu>
+		<desc>tooltip "up"</desc>
+	</menu>
+	<menu>
+		<mcode>MN02231</mcode>
+		<hmenu>맨 밑으로 이동</hmenu>
+		<emenu>Down</emenu>
+		<jmenu>Down</jmenu>
+		<cmenu>移动至底端</cmenu>
+		<desc>tooltip "down"</desc>
+	</menu>
+	<menu>
+		<mcode>MN02232</mcode>
+		<hmenu>한칸 아래로 이동</hmenu>
+		<emenu>Bottom</emenu>
+		<jmenu>Bottom</jmenu>
+		<cmenu>下移一格</cmenu>
+		<desc>tooltip "bottom"</desc>
+	</menu>
+	<menu>
+		<mcode>MN02233</mcode>
+		<hmenu>콘테이너 명</hmenu>
+		<emenu>Media Container</emenu>
+		<jmenu>メディアコンテナ</jmenu>
+		<cmenu>媒体容器</cmenu>
+		<desc>media container title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02234</mcode>
+		<hmenu>태그 관리</hmenu>
+		<emenu>Tag Management</emenu>
+		<jmenu>タグ管理</jmenu>
+		<cmenu>标签管理</cmenu>
+		<desc>Tag Management title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02235</mcode>
+		<hmenu>태그명</hmenu>
+		<emenu>Tag Title</emenu>
+		<jmenu>タグタイトル</jmenu>
+		<cmenu>标签名称</cmenu>
+		<desc>Tag Title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02236</mcode>
+		<hmenu>태그 수정</hmenu>
+		<emenu>Edit Tag</emenu>
+		<jmenu>タグの編集</jmenu>
+		<cmenu>编辑标签</cmenu>
+		<desc>Edit Tag title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02237</mcode>
+		<hmenu>태그 색상</hmenu>
+		<emenu>Tag Color</emenu>
+		<jmenu>タグカラー</jmenu>
+		<cmenu>标签颜色</cmenu>
+		<desc>Tag Color</desc>
+	</menu>
+	<menu>
+		<mcode>MN02238</mcode>
+		<hmenu>태그 추가</hmenu>
+		<emenu>New Tag</emenu>
+		<jmenu>新規タグ</jmenu>
+		<cmenu>添加标签</cmenu>
+		<desc>New Tag</desc>
+	</menu>
+	<menu>
+		<mcode>MN02239</mcode>
+		<hmenu>설정</hmenu>
+		<emenu>Config</emenu>
+		<jmenu>設定</jmenu>
+		<cmenu>设置</cmenu>
+		<desc>Config in tag menu</desc>
+	</menu>
+	<menu>
+		<mcode>MN02240</mcode>
+		<hmenu>초기화</hmenu>
+		<emenu>Clear Tag</emenu>
+		<jmenu>タグをクリアする</jmenu>
+		<cmenu>初始化</cmenu>
+		<desc>Clear Tag in tag menu</desc>
+	</menu>
+	<menu>
+		<mcode>MN02241</mcode>
+		<hmenu>정보</hmenu>
+		<emenu>Information</emenu>
+		<jmenu>信息</jmenu>
+		<cmenu>信息</cmenu>
+		<desc>system code management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02242</mcode>
+		<hmenu>Loudness</hmenu>
+		<emenu>Loudness</emenu>
+		<jmenu>ラウドネス</jmenu>
+		<cmenu>Loudness</cmenu>
+		<desc>Loudness</desc>
+	</menu>
+	<menu>
+		<mcode>MN02243</mcode>
+		<hmenu>Loudness 측정</hmenu>
+		<emenu>Check Loudness</emenu>
+		<jmenu>ラウドネスをチェックする</jmenu>
+		<cmenu>Loudness测定</cmenu>
+		<desc>Check Loudness</desc>
+	</menu>
+	<menu>
+		<mcode>MN02244</mcode>
+		<hmenu>Loudness 보정</hmenu>
+		<emenu>Fix Loudness</emenu>
+		<jmenu>ラウドネスの修正</jmenu>
+		<cmenu>Loudness修正</cmenu>
+		<desc>Fix Loudness</desc>
+	</menu>
+	<menu>
+		<mcode>MN02245</mcode>
+		<hmenu>Loudness 로그</hmenu>
+		<emenu>Loudness Log</emenu>
+		<jmenu>ラウドネスログ</jmenu>
+		<cmenu>Loudness Log</cmenu>
+		<desc>Loudness Log</desc>
+	</menu>
+	<menu>
+		<mcode>MN02246</mcode>
+		<hmenu>의뢰일시</hmenu>
+		<emenu>Requested Date</emenu>
+		<jmenu>リクエスト日</jmenu>
+		<cmenu>请求日期</cmenu>
+		<desc>Requested Date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02247</mcode>
+		<hmenu>Loudness ID</hmenu>
+		<emenu>Loudness ID</emenu>
+		<jmenu>ラウドネスID</jmenu>
+		<cmenu>Loudness ID</cmenu>
+		<desc>Loudness ID</desc>
+	</menu>
+	<menu>
+		<mcode>MN02248</mcode>
+		<hmenu>Job UID</hmenu>
+		<emenu>Job UID</emenu>
+		<jmenu>ジョブUID</jmenu>
+		<cmenu>Job UID</cmenu>
+		<desc>Loudness Job UID</desc>
+	</menu>
+	<menu>
+		<mcode>MN02249</mcode>
+		<hmenu>Loudness Log ID</hmenu>
+		<emenu>Loudness Log ID</emenu>
+		<jmenu>ラウドネスログID</jmenu>
+		<cmenu>Loudness Log ID</cmenu>
+		<desc>Loudness Log ID</desc>
+	</menu>
+	<menu>
+		<mcode>MN02250</mcode>
+		<hmenu>Loudness 설정</hmenu>
+		<emenu>Loudness Configuration</emenu>
+		<jmenu>ラウドネス設定</jmenu>
+		<cmenu>Loudness设置</cmenu>
+		<desc>Loudness Configuration</desc>
+	</menu>
+	<menu>
+		<mcode>MN02251</mcode>
+		<hmenu>Time Stamp</hmenu>
+		<emenu>Time Stamp</emenu>
+		<jmenu>タイムスタンプ</jmenu>
+		<cmenu>Time Stamp</cmenu>
+		<desc>Time Stamp</desc>
+	</menu>
+	<menu>
+		<mcode>MN02252</mcode>
+		<hmenu>True Peak</hmenu>
+		<emenu>True Peak</emenu>
+		<jmenu>True Peak</jmenu>
+		<cmenu>True Peak</cmenu>
+		<desc>True Peak</desc>
+	</menu>
+	<menu>
+		<mcode>MN02253</mcode>
+		<hmenu>Integrate</hmenu>
+		<emenu>Integrate</emenu>
+		<jmenu>Integrate</jmenu>
+		<cmenu>Integrate</cmenu>
+		<desc>Integrate</desc>
+	</menu>
+	<menu>
+		<mcode>MN02254</mcode>
+		<hmenu>Momentary</hmenu>
+		<emenu>Momentary</emenu>
+		<jmenu>Momentary</jmenu>
+		<cmenu>Momentary</cmenu>
+		<desc>Momentary</desc>
+	</menu>
+	<menu>
+		<mcode>MN02255</mcode>
+		<hmenu>Short term</hmenu>
+		<emenu>Short term</emenu>
+		<jmenu>短期</jmenu>
+		<cmenu>短期</cmenu>
+		<desc>Short term</desc>
+	</menu>
+	<menu>
+		<mcode>MN02256</mcode>
+		<hmenu>Loudness range</hmenu>
+		<emenu>Loudness range</emenu>
+		<jmenu>ラウドネス幅</jmenu>
+		<cmenu>Loudness range</cmenu>
+		<desc>Loudness range</desc>
+	</menu>
+	<menu>
+		<mcode>MN02257</mcode>
+		<hmenu>통과</hmenu>
+		<emenu>Passed</emenu>
+		<jmenu>Passed</jmenu>
+		<cmenu>通过</cmenu>
+		<desc>Pass</desc>
+	</menu>
+	<menu>
+		<mcode>MN02258</mcode>
+		<hmenu>Loudness 검출</hmenu>
+		<emenu>Detected Loudness</emenu>
+		<jmenu>検出されたラウドネス</jmenu>
+		<cmenu>Loudness检出</cmenu>
+		<desc>Pass</desc>
+	</menu>
+	<menu>
+		<mcode>MN02259</mcode>
+		<hmenu>Loudness 상태</hmenu>
+		<emenu>Loudness Status</emenu>
+		<jmenu>ラウドネス・ステータス</jmenu>
+		<cmenu>Loudness状态</cmenu>
+		<desc>Pass</desc>
+	</menu>
+	<menu>
+		<mcode>MN02260</mcode>
+		<hmenu>태그</hmenu>
+		<emenu>Tags</emenu>
+		<jmenu>Tags(jap)</jmenu>
+		<cmenu>标签</cmenu>
+		<desc>Tag filter</desc>
+	</menu>
+	<menu>
+		<mcode>MN02261</mcode>
+		<hmenu>선택하세요.</hmenu>
+		<emenu>Select tag filter</emenu>
+		<jmenu>タグフィルターを選択する</jmenu>
+		<cmenu>请选择</cmenu>
+		<desc>Select tag filter combox empty text</desc>
+	</menu>
+	<menu>
+		<mcode>MN02262</mcode>
+		<hmenu>초기화</hmenu>
+		<emenu>Clear tag filter</emenu>
+		<jmenu>タグフィルターをクリアする</jmenu>
+		<cmenu>初始化</cmenu>
+		<desc>Clear tag filter button</desc>
+	</menu>
+	<menu>
+		<mcode>MN02263</mcode>
+		<hmenu>표준값</hmenu>
+		<emenu>Standards</emenu>
+		<jmenu>スタンダード</jmenu>
+		<cmenu>标准值</cmenu>
+		<desc>Standards</desc>
+	</menu>
+	<menu>
+		<mcode>MN02264</mcode>
+		<hmenu>유럽방송연합</hmenu>
+		<emenu>EBU</emenu>
+		<jmenu>EBU</jmenu>
+		<cmenu>EBU</cmenu>
+		<desc>European Broadcasting Union</desc>
+	</menu>
+	<menu>
+		<mcode>MN02265</mcode>
+		<hmenu>미국디지털TV표준연합</hmenu>
+		<emenu>ATSC</emenu>
+		<jmenu>ATSC</jmenu>
+		<cmenu>ATSC</cmenu>
+		<desc>Advanced Television Systems Committee</desc>
+	</menu>
+	<menu>
+		<mcode>MN02266</mcode>
+		<hmenu>한국방송연합</hmenu>
+		<emenu>KBU</emenu>
+		<jmenu>KBU</jmenu>
+		<cmenu>KBU</cmenu>
+		<desc>Korea Broadcasting Union</desc>
+	</menu>
+	<menu>
+		<mcode>MN02267</mcode>
+		<hmenu>작업종료</hmenu>
+		<emenu>Finished</emenu>
+		<jmenu>完了</jmenu>
+		<cmenu>完成任务</cmenu>
+		<desc>Finished</desc>
+	</menu>
+	<menu>
+		<mcode>MN02268</mcode>
+		<hmenu>작업종료(검출됨)</hmenu>
+		<emenu>Finished with Errors</emenu>
+		<jmenu>完了（エラー有り）</jmenu>
+		<cmenu>ラウドネスログ（检查结果）</cmenu>
+		<desc>完成任务(检出结果)</desc>
+	</menu>
+	<menu>
+		<mcode>MN02269</mcode>
+		<hmenu>콘텐츠 종류</hmenu>
+		<emenu>System Content</emenu>
+		<jmenu>システムコンテンツ</jmenu>
+		<cmenu>内容类型</cmenu>
+		<desc>System metadata column title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02270</mcode>
+		<hmenu>Loudness 사용여부</hmenu>
+		<emenu>Loudness Enabled</emenu>
+		<jmenu>ラウドネス有効状態</jmenu>
+		<cmenu>Loudness使用与否</cmenu>
+		<desc>Loudness Enabled in Loudness Configuration</desc>
+	</menu>
+	<menu>
+		<mcode>MN02271</mcode>
+		<hmenu>현재 카테고리 및 하위 카테고리에 적용</hmenu>
+		<emenu>Apply to the current category and sub-categories</emenu>
+		<jmenu>現在のカテゴリーとサブカテゴリーに適用する</jmenu>
+		<cmenu>适用于当前的分类和下方的分类</cmenu>
+		<desc>Apply to the current category and sub-categories</desc>
+	</menu>
+	<menu>
+		<mcode>MN02272</mcode>
+		<hmenu>자동실행</hmenu>
+		<emenu>Auto Process</emenu>
+		<jmenu>自動プロセス</jmenu>
+		<cmenu>自动执行</cmenu>
+		<desc>System &gt; Preset Workflow &gt; Add window</desc>
+	</menu>
+	<menu>
+		<mcode>MN02273</mcode>
+		<hmenu>자동 워크플로우 관리</hmenu>
+		<emenu>Auto Process Management</emenu>
+		<jmenu>自動プロセス管理</jmenu>
+		<cmenu>自动管理工作流程</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02274</mcode>
+		<hmenu>HD 영상</hmenu>
+		<emenu>HD Content</emenu>
+		<jmenu>HDコンテンツ</jmenu>
+		<cmenu>HD视频</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02275</mcode>
+		<hmenu>SD 영상</hmenu>
+		<emenu>SD Content</emenu>
+		<jmenu>SDコンテンツ</jmenu>
+		<cmenu>SD视频</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02276</mcode>
+		<hmenu>원본파일 오프라인</hmenu>
+		<emenu>Offline Orginal File</emenu>
+		<jmenu>オフラインオリジナルファイル</jmenu>
+		<cmenu>原件下线</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02277</mcode>
+		<hmenu>라우드니스 측정완료(에러)</hmenu>
+		<emenu>Check Loudness Finished with Errors</emenu>
+		<jmenu>完了したラウドネス（エラー有り）をチェックする</jmenu>
+		<cmenu>完成响度检查（错误）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02278</mcode>
+		<hmenu>라우드니스 측정완료(정상)</hmenu>
+		<emenu>Check Loudness Finished</emenu>
+		<jmenu>完了したラウドネスをチェックする</jmenu>
+		<cmenu>完成响度检查（正常）</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02279</mcode>
+		<hmenu>그룹 포함</hmenu>
+		<emenu>Group Content</emenu>
+		<jmenu>グループコンテンツ</jmenu>
+		<cmenu>包括组</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02280</mcode>
+		<hmenu>원본파일 오프라인</hmenu>
+		<emenu>High Resolution File on FlashNet Archive</emenu>
+		<jmenu>FlashNetアーカイブ上の高解像度ファイル</jmenu>
+		<cmenu>原件下线</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02281</mcode>
+		<hmenu>신규 콘텐츠</hmenu>
+		<emenu>New Content</emenu>
+		<jmenu>新規コンテンツ</jmenu>
+		<cmenu>新内容</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02282</mcode>
+		<hmenu>태그 기능</hmenu>
+		<emenu>Tag</emenu>
+		<jmenu>タグ</jmenu>
+		<cmenu>标签功能</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02283</mcode>
+		<hmenu>원본파일 온라인</hmenu>
+		<emenu>Online Orginal File</emenu>
+		<jmenu>オンラインオリジナルファイル</jmenu>
+		<cmenu>原件上线</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02284</mcode>
+		<hmenu>검색</hmenu>
+		<emenu>Search</emenu>
+		<jmenu>Search(jap)</jmenu>
+		<cmenu>搜索</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02285</mcode>
+		<hmenu>추가 검색 조건</hmenu>
+		<emenu>Slide bar</emenu>
+		<jmenu>スライドバー</jmenu>
+		<cmenu>添加搜索条件</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02286</mcode>
+		<hmenu>그룹 콘텐츠</hmenu>
+		<emenu>Group Content</emenu>
+		<jmenu>グループコンテンツ</jmenu>
+		<cmenu>组内容</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02287</mcode>
+		<hmenu>스토리보드</hmenu>
+		<emenu>Story Board</emenu>
+		<jmenu>ストーリーボード</jmenu>
+		<cmenu>情节串连图板</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02288</mcode>
+		<hmenu>더보기</hmenu>
+		<emenu>More</emenu>
+		<jmenu>更に</jmenu>
+		<cmenu>更多</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02289</mcode>
+		<hmenu>샷리스트 추가</hmenu>
+		<emenu>Add to shot list</emenu>
+		<jmenu>ショットリストに追加</jmenu>
+		<cmenu>添加图片列表</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02290</mcode>
+		<hmenu>QC 오류</hmenu>
+		<emenu>QC Error</emenu>
+		<jmenu>QCエラー</jmenu>
+		<cmenu>QC异常</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02291</mcode>
+		<hmenu>Loudness 오류</hmenu>
+		<emenu>Loudness Error</emenu>
+		<jmenu>ラウドネスエラー</jmenu>
+		<cmenu>Loudness错误</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02292</mcode>
+		<hmenu>전체 이미지</hmenu>
+		<emenu>All Segments</emenu>
+		<jmenu>すべてのセグメント</jmenu>
+		<cmenu>全部图片</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02293</mcode>
+		<hmenu>스토리보드 추가</hmenu>
+		<emenu>Add Story Board</emenu>
+		<jmenu>ストーリーボードを追加する</jmenu>
+		<cmenu>添加情节串连图板</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02294</mcode>
+		<hmenu>Quality Check</hmenu>
+		<emenu>Quality Check</emenu>
+		<jmenu>品質チェック</jmenu>
+		<cmenu>Quality Check</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02295</mcode>
+		<hmenu>Quality 유형</hmenu>
+		<emenu>Quality Type</emenu>
+		<jmenu>品質タイプ</jmenu>
+		<cmenu>Quality类型</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02296</mcode>
+		<hmenu>Start TC</hmenu>
+		<emenu>Start TC</emenu>
+		<jmenu>TC開始</jmenu>
+		<cmenu>Start TC</cmenu>
+		<desc>Start Timecode for Qulity Check</desc>
+	</menu>
+	<menu>
+		<mcode>MN02297</mcode>
+		<hmenu>End TC</hmenu>
+		<emenu>End TC</emenu>
+		<jmenu>TC開始終了</jmenu>
+		<cmenu>End TC</cmenu>
+		<desc>End Timecode for Qulity Check</desc>
+	</menu>
+	<menu>
+		<mcode>MN02298</mcode>
+		<hmenu>Detected</hmenu>
+		<emenu>Detected</emenu>
+		<jmenu>検出</jmenu>
+		<cmenu>检出</cmenu>
+		<desc>Detected Quality Check</desc>
+	</menu>
+	<menu>
+		<mcode>MN02299</mcode>
+		<hmenu>채널</hmenu>
+		<emenu>Channel</emenu>
+		<jmenu>チャンネル</jmenu>
+		<cmenu>通道</cmenu>
+		<desc>Channel</desc>
+	</menu>
+	<menu>
+		<mcode>MN02300</mcode>
+		<hmenu>스토리보드 수정</hmenu>
+		<emenu>Edit Sub Story Board Title</emenu>
+		<jmenu>サブストーリボードタイトルを編集する</jmenu>
+		<cmenu>修正情节串连图板</cmenu>
+		<desc>Edit Sub Story Board Title</desc>
+	</menu>
+	<menu>
+		<mcode>MN02301</mcode>
+		<hmenu>스토리보드 수정</hmenu>
+		<emenu>Edit Sub Story Board Title</emenu>
+		<jmenu>サブストーリーボードタイトルを編集する</jmenu>
+		<cmenu>编辑情节串连图板</cmenu>
+		<desc>tooltip</desc>
+	</menu>
+	<menu>
+		<mcode>MN02302</mcode>
+		<hmenu>스토리보드 삭제</hmenu>
+		<emenu>Delete Sub Story Board</emenu>
+		<jmenu>サブストーリーボードを削除する</jmenu>
+		<cmenu>删除情节串连图板</cmenu>
+		<desc>tooltip</desc>
+	</menu>
+	<menu>
+		<mcode>MN02303</mcode>
+		<hmenu>접기</hmenu>
+		<emenu>Collapse</emenu>
+		<jmenu>折りたたむ</jmenu>
+		<cmenu>关闭</cmenu>
+		<desc>tooltip</desc>
+	</menu>
+	<menu>
+		<mcode>MN02304</mcode>
+		<hmenu>확장</hmenu>
+		<emenu>Expand</emenu>
+		<jmenu>展開する</jmenu>
+		<cmenu>扩张</cmenu>
+		<desc>tooltip</desc>
+	</menu>
+	<menu>
+		<mcode>MN02305</mcode>
+		<hmenu>컨테이너 추가</hmenu>
+		<emenu>Add Container</emenu>
+		<jmenu>コンテナを追加</jmenu>
+		<cmenu>添加容器</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02306</mcode>
+		<hmenu>컨테이너 수정</hmenu>
+		<emenu>Edit Container</emenu>
+		<jmenu>コンテナを編集</jmenu>
+		<cmenu>修正容器</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02307</mcode>
+		<hmenu>컨테이너 명</hmenu>
+		<emenu>Container title</emenu>
+		<jmenu>コンテナタイトル</jmenu>
+		<cmenu>容器名称</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02308</mcode>
+		<hmenu>소셜</hmenu>
+		<emenu>Social</emenu>
+		<jmenu>ソーシャル</jmenu>
+		<cmenu>社交</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02309</mcode>
+		<hmenu>작업자</hmenu>
+		<emenu>Creator</emenu>
+		<jmenu>作成者</jmenu>
+		<cmenu>任务执行人</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02310</mcode>
+		<hmenu>태그 목록</hmenu>
+		<emenu>List Tag</emenu>
+		<jmenu>リストタグ</jmenu>
+		<cmenu>标签目录</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02311</mcode>
+		<hmenu>내용</hmenu>
+		<emenu>Content</emenu>
+		<jmenu>コンテンツ</jmenu>
+		<cmenu>内容</cmenu>
+		<desc>storyboard</desc>
+	</menu>
+	<menu>
+		<mcode>MN02312</mcode>
+		<hmenu>등장인물</hmenu>
+		<emenu>Peoples</emenu>
+		<jmenu>人々</jmenu>
+		<cmenu>人物</cmenu>
+		<desc>storyboard</desc>
+	</menu>
+	<menu>
+		<mcode>MN02313</mcode>
+		<hmenu>샷리스트</hmenu>
+		<emenu>Shot List</emenu>
+		<jmenu>ショットリスト</jmenu>
+		<cmenu>拍摄清单</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02314</mcode>
+		<hmenu>Sec Out</hmenu>
+		<emenu>Sec Out</emenu>
+		<jmenu>Sec Out </jmenu>
+		<cmenu>Sec Out</cmenu>
+		<desc>rough cut</desc>
+	</menu>
+	<menu>
+		<mcode>MN02315</mcode>
+		<hmenu>Sec In</hmenu>
+		<emenu>Sec In</emenu>
+		<jmenu>Sec In</jmenu>
+		<cmenu>Sec In</cmenu>
+		<desc>rough cut</desc>
+	</menu>
+	<menu>
+		<mcode>MN02316</mcode>
+		<hmenu>In</hmenu>
+		<emenu>In</emenu>
+		<jmenu>インジェスト</jmenu>
+		<cmenu>In</cmenu>
+		<desc>rough cut</desc>
+	</menu>
+	<menu>
+		<mcode>MN02317</mcode>
+		<hmenu>Out</hmenu>
+		<emenu>Out</emenu>
+		<jmenu>アウト</jmenu>
+		<cmenu>Out</cmenu>
+		<desc>rough cut</desc>
+	</menu>
+	<menu>
+		<mcode>MN02318</mcode>
+		<hmenu>재생길이</hmenu>
+		<emenu>Duration</emenu>
+		<jmenu>期間</jmenu>
+		<cmenu>播放时长</cmenu>
+		<desc>rough cut</desc>
+	</menu>
+	<menu>
+		<mcode>MN02319</mcode>
+		<hmenu>메뉴 형태</hmenu>
+		<emenu>Top Menu Mode</emenu>
+		<jmenu>トップメニューモード</jmenu>
+		<cmenu>菜单形态</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02320</mcode>
+		<hmenu>크게</hmenu>
+		<emenu>Big</emenu>
+		<jmenu>大</jmenu>
+		<cmenu>放大</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02321</mcode>
+		<hmenu>작게</hmenu>
+		<emenu>Small</emenu>
+		<jmenu>小</jmenu>
+		<cmenu>缩小</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02322</mcode>
+		<hmenu>내부작업 관리</hmenu>
+		<emenu>System Workflow</emenu>
+		<jmenu>システムワークフロー</jmenu>
+		<cmenu>内部工作管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02323</mcode>
+		<hmenu>내부작업</hmenu>
+		<emenu>System</emenu>
+		<jmenu>システム</jmenu>
+		<cmenu>内部工作</cmenu>
+		<desc>workflow type</desc>
+	</menu>
+	<menu>
+		<mcode>MN02324</mcode>
+		<hmenu>SNS 관리</hmenu>
+		<emenu>SNS Management</emenu>
+		<jmenu>SNS管理</jmenu>
+		<cmenu>SNS管理</cmenu>
+		<desc>System</desc>
+	</menu>
+	<menu>
+		<mcode>MN02325</mcode>
+		<hmenu>아이콘</hmenu>
+		<emenu>Icons</emenu>
+		<jmenu>アイコン</jmenu>
+		<cmenu>图标</cmenu>
+		<desc>Search</desc>
+	</menu>
+	<menu>
+		<mcode>MN02326</mcode>
+		<hmenu>이미지</hmenu>
+		<emenu>Images</emenu>
+		<jmenu>画像</jmenu>
+		<cmenu>图片</cmenu>
+		<desc>count image segment</desc>
+	</menu>
+	<menu>
+		<mcode>MN02327</mcode>
+		<hmenu>읽기 제한</hmenu>
+		<emenu>Read limits</emenu>
+		<jmenu>Read limits</jmenu>
+		<cmenu>限制阅读</cmenu>
+		<desc>Read limits</desc>
+	</menu>
+	<menu>
+		<mcode>MN02328</mcode>
+		<hmenu>쓰기 제한</hmenu>
+		<emenu>Write limits</emenu>
+		<jmenu>Write limits</jmenu>
+		<cmenu>限制编写</cmenu>
+		<desc>Write limits</desc>
+	</menu>
+	<menu>
+		<mcode>MN02329</mcode>
+		<hmenu>무제한</hmenu>
+		<emenu>Unlimited</emenu>
+		<jmenu>無制限</jmenu>
+		<cmenu>无限制</cmenu>
+		<desc>Unlimited</desc>
+	</menu>
+	<menu>
+		<mcode>MN02330</mcode>
+		<hmenu>이미지 추가</hmenu>
+		<emenu>Make Segment</emenu>
+		<jmenu>セグメントを作成する</jmenu>
+		<cmenu>添加图片</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02331</mcode>
+		<hmenu>SNS 전송 리스트</hmenu>
+		<emenu>SNS Transfer List</emenu>
+		<jmenu>SNS転送リスト</jmenu>
+		<cmenu>SNS发送列表</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02332</mcode>
+		<hmenu>검색어</hmenu>
+		<emenu>Keyword</emenu>
+		<jmenu>キーワード</jmenu>
+		<cmenu>关键词</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02333</mcode>
+		<hmenu>SNS 계정 관리</hmenu>
+		<emenu>SNS Account Management</emenu>
+		<jmenu>SNSアカウント管理</jmenu>
+		<cmenu>SNS账户管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02334</mcode>
+		<hmenu>사용여부</hmenu>
+		<emenu>Use Y/N</emenu>
+		<jmenu>Y/Nを使用すること</jmenu>
+		<cmenu>使用与否</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02335</mcode>
+		<hmenu>SNS 분류</hmenu>
+		<emenu>Social Type</emenu>
+		<jmenu>ソーシャルタイプ</jmenu>
+		<cmenu>SNS分类</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02336</mcode>
+		<hmenu>Token 키</hmenu>
+		<emenu>Token Key</emenu>
+		<jmenu>トークンキー</jmenu>
+		<cmenu>Token键</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02337</mcode>
+		<hmenu>a</hmenu>
+		<emenu>a</emenu>
+		<jmenu>a</jmenu>
+		<cmenu>a</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02338</mcode>
+		<hmenu>a</hmenu>
+		<emenu>a</emenu>
+		<jmenu>a</jmenu>
+		<cmenu>a</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02339</mcode>
+		<hmenu>a</hmenu>
+		<emenu>a</emenu>
+		<jmenu>a</jmenu>
+		<cmenu>a</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02340</mcode>
+		<hmenu>a</hmenu>
+		<emenu>a</emenu>
+		<jmenu>a</jmenu>
+		<cmenu>a</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02341</mcode>
+		<hmenu>a</hmenu>
+		<emenu>a</emenu>
+		<jmenu>a</jmenu>
+		<cmenu>a</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02342</mcode>
+		<hmenu>상세보기</hmenu>
+		<emenu>Show Detail Popup</emenu>
+		<jmenu>詳細ポップアップを表示</jmenu>
+		<cmenu>详细浏览</cmenu>
+		<desc>action_icon</desc>
+	</menu>
+	<menu>
+		<mcode>MN02343</mcode>
+		<hmenu>미리보기</hmenu>
+		<emenu>Show Image Preview</emenu>
+		<jmenu>画像プレビューを表示</jmenu>
+		<cmenu>快速浏览</cmenu>
+		<desc>action_icon</desc>
+	</menu>
+	<menu>
+		<mcode>MN02344</mcode>
+		<hmenu>Quality Check 로그</hmenu>
+		<emenu>Quality Check Log</emenu>
+		<jmenu>品質チェックログ</jmenu>
+		<cmenu>Quality Check Log</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02345</mcode>
+		<hmenu>결과</hmenu>
+		<emenu>Result</emenu>
+		<jmenu>結果</jmenu>
+		<cmenu>结果</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02346</mcode>
+		<hmenu>검출</hmenu>
+		<emenu>Detected Error</emenu>
+		<jmenu>検出されたエラー</jmenu>
+		<cmenu>检测到错误</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02347</mcode>
+		<hmenu>사용자 확인</hmenu>
+		<emenu>Confirmed</emenu>
+		<jmenu>確認済み</jmenu>
+		<cmenu>确认用户</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02348</mcode>
+		<hmenu>콘텐츠 전체 삭제</hmenu>
+		<emenu>Delete All Contents</emenu>
+		<jmenu>すべてのコンテンツを削除する</jmenu>
+		<cmenu>删除全部内容</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02349</mcode>
+		<hmenu>검색어</hmenu>
+		<emenu>Search Text</emenu>
+		<jmenu>テキストを検索する</jmenu>
+		<cmenu>关键词</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02350</mcode>
+		<hmenu>스토리지 명</hmenu>
+		<emenu>Storage name</emenu>
+		<jmenu>ストレージ名</jmenu>
+		<cmenu>存储名称</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02351</mcode>
+		<hmenu>사용된 공간</hmenu>
+		<emenu>Used</emenu>
+		<jmenu>使用済み</jmenu>
+		<cmenu>已使用空间</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02352</mcode>
+		<hmenu>사용 가능한 공간</hmenu>
+		<emenu>Available</emenu>
+		<jmenu>使用可能</jmenu>
+		<cmenu>可使用空间</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02353</mcode>
+		<hmenu>전체 공간</hmenu>
+		<emenu>Total Storage</emenu>
+		<jmenu>合計ストレージ</jmenu>
+		<cmenu>全部空间</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02354</mcode>
+		<hmenu>마지막 수정일</hmenu>
+		<emenu>Last Updated</emenu>
+		<jmenu>最終更新日</jmenu>
+		<cmenu>最终更新日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02355</mcode>
+		<hmenu>서버명</hmenu>
+		<emenu>Server Name</emenu>
+		<jmenu>サーバー名</jmenu>
+		<cmenu>服务器名称</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02356</mcode>
+		<hmenu>서버 IP</hmenu>
+		<emenu>Server IP</emenu>
+		<jmenu>サーバーIP</jmenu>
+		<cmenu>服务器IP</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02357</mcode>
+		<hmenu>Memory</hmenu>
+		<emenu>Memory</emenu>
+		<jmenu>メモリー</jmenu>
+		<cmenu>Memory</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02358</mcode>
+		<hmenu>CPU</hmenu>
+		<emenu>CPU</emenu>
+		<jmenu>CPU</jmenu>
+		<cmenu>CPU</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02359</mcode>
+		<hmenu>엑셀출력</hmenu>
+		<emenu>Excel</emenu>
+		<jmenu>エクセル</jmenu>
+		<cmenu>Excel</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02360</mcode>
+		<hmenu>로그인 횟수</hmenu>
+		<emenu>Login Count</emenu>
+		<jmenu>ログインカウント</jmenu>
+		<cmenu>登录次数</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02361</mcode>
+		<hmenu>콘텐츠 등록 횟수</hmenu>
+		<emenu>Content Regist Count</emenu>
+		<jmenu>コンテンツ登録カウント</jmenu>
+		<cmenu>内容上传次数</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02362</mcode>
+		<hmenu>전체 용량</hmenu>
+		<emenu>Total Size</emenu>
+		<jmenu>合計サイズ</jmenu>
+		<cmenu>全部容量</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02363</mcode>
+		<hmenu>마지막 등록일</hmenu>
+		<emenu>Last Regist Date</emenu>
+		<jmenu>最終登録日</jmenu>
+		<cmenu>最终注册日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02364</mcode>
+		<hmenu>ID 생성일</hmenu>
+		<emenu>ID Create Date</emenu>
+		<jmenu>ID作成日</jmenu>
+		<cmenu>ID生成日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02365</mcode>
+		<hmenu>원본 용량</hmenu>
+		<emenu>Original File Size</emenu>
+		<jmenu>オリジナルファイルサイズ</jmenu>
+		<cmenu>原件容量</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02366</mcode>
+		<hmenu>Proxy 용량</hmenu>
+		<emenu>Proxy File Size</emenu>
+		<jmenu>プロキシファイルサイズ</jmenu>
+		<cmenu>Proxy容量</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02367</mcode>
+		<hmenu>마지막 수정일</hmenu>
+		<emenu>Last Updated Date</emenu>
+		<jmenu>最終更新日</jmenu>
+		<cmenu>最终更新日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02368</mcode>
+		<hmenu>QC 이상없음</hmenu>
+		<emenu>Mark as not error</emenu>
+		<jmenu>ノットエラーとしてマークする</jmenu>
+		<cmenu>QC无异常</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02369</mcode>
+		<hmenu>사용자 확인</hmenu>
+		<emenu>User confirm</emenu>
+		<jmenu>ユーザー確認</jmenu>
+		<cmenu>用户确认</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02370</mcode>
+		<hmenu>인제스트 스케쥴 관리</hmenu>
+		<emenu>Ingest Schedule Management</emenu>
+		<jmenu>スケジュール管理をインジェストする</jmenu>
+		<cmenu>收录日程管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02371</mcode>
+		<hmenu>인제스트 스케쥴 ID</hmenu>
+		<emenu>Schedule ID</emenu>
+		<jmenu>スケジュールID</jmenu>
+		<cmenu>收录日程ID</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02372</mcode>
+		<hmenu>인제스트 서버</hmenu>
+		<emenu>Ingest Server</emenu>
+		<jmenu>サーバーをインジェストする</jmenu>
+		<cmenu>收录服务器</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02373</mcode>
+		<hmenu>작업일자</hmenu>
+		<emenu>Work Date</emenu>
+		<jmenu>ワーク日</jmenu>
+		<cmenu>工作日期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02374</mcode>
+		<hmenu>작업시작시간</hmenu>
+		<emenu>Start Time</emenu>
+		<jmenu>開始時間</jmenu>
+		<cmenu>工作开始时间</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02375</mcode>
+		<hmenu>이전</hmenu>
+		<emenu>Previous</emenu>
+		<jmenu>前</jmenu>
+		<cmenu>上一步</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02376</mcode>
+		<hmenu>다음</hmenu>
+		<emenu>Next</emenu>
+		<jmenu>次</jmenu>
+		<cmenu>下一步</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02377</mcode>
+		<hmenu>콘텐츠 작업 관리</hmenu>
+		<emenu>Content Task Monitoring</emenu>
+		<jmenu>コンテンツタスク監視</jmenu>
+		<cmenu>内容任务监控</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02378</mcode>
+		<hmenu>SNS 계정 수정</hmenu>
+		<emenu>Edit SNS Account</emenu>
+		<jmenu>SNSアカウントの編集</jmenu>
+		<cmenu>编辑SNS账户</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02379</mcode>
+		<hmenu>아이콘 리스트</hmenu>
+		<emenu>Action icon slide</emenu>
+		<jmenu>アクションアイコンスライド</jmenu>
+		<cmenu>图标列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02380</mcode>
+		<hmenu>상위 그룹</hmenu>
+		<emenu>Parent Group</emenu>
+		<jmenu>親グループ</jmenu>
+		<cmenu>上位组</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02381</mcode>
+		<hmenu>SNS 내용</hmenu>
+		<emenu>SNS Message</emenu>
+		<jmenu>SNSメッセージ</jmenu>
+		<cmenu>SNS内容</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02382</mcode>
+		<hmenu>아카이브 요청사유</hmenu>
+		<emenu>Reason for Archives</emenu>
+		<jmenu>アーカイブの理由</jmenu>
+		<cmenu>存档申请原因</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02383</mcode>
+		<hmenu>리스토어 요청사유</hmenu>
+		<emenu>Reason for Restore</emenu>
+		<jmenu>回復の理由</jmenu>
+		<cmenu>恢复申请原因</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02384</mcode>
+		<hmenu>아카이브(요청)</hmenu>
+		<emenu>HR file archive requested</emenu>
+		<jmenu>HRファイルアーカイブリクエスト済み</jmenu>
+		<cmenu>存档（申请）</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02385</mcode>
+		<hmenu>매일 반복</hmenu>
+		<emenu>Repeat day</emenu>
+		<jmenu>日を繰り返す</jmenu>
+		<cmenu>每日循环</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02386</mcode>
+		<hmenu>주 반복</hmenu>
+		<emenu>Repeat weekly</emenu>
+		<jmenu>毎週繰り返す</jmenu>
+		<cmenu>周循环</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02387</mcode>
+		<hmenu>기간 지정</hmenu>
+		<emenu>Set term</emenu>
+		<jmenu>期限を設定する</jmenu>
+		<cmenu>指定期限</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02388</mcode>
+		<hmenu>매일</hmenu>
+		<emenu>Everyday</emenu>
+		<jmenu>毎日</jmenu>
+		<cmenu>每日</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02389</mcode>
+		<hmenu>월</hmenu>
+		<emenu>Mon</emenu>
+		<jmenu>月</jmenu>
+		<cmenu>月</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02390</mcode>
+		<hmenu>화</hmenu>
+		<emenu>Tue</emenu>
+		<jmenu>火</jmenu>
+		<cmenu>火</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02391</mcode>
+		<hmenu>수</hmenu>
+		<emenu>Wed</emenu>
+		<jmenu>水</jmenu>
+		<cmenu>水</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02392</mcode>
+		<hmenu>목</hmenu>
+		<emenu>Thu</emenu>
+		<jmenu>木</jmenu>
+		<cmenu>木</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02393</mcode>
+		<hmenu>금</hmenu>
+		<emenu>Fri</emenu>
+		<jmenu>金</jmenu>
+		<cmenu>金</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02394</mcode>
+		<hmenu>토</hmenu>
+		<emenu>Sat</emenu>
+		<jmenu>土</jmenu>
+		<cmenu>土</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02395</mcode>
+		<hmenu>일</hmenu>
+		<emenu>Sun</emenu>
+		<jmenu>日</jmenu>
+		<cmenu>日</cmenu>
+		<desc>Week date</desc>
+	</menu>
+	<menu>
+		<mcode>MN02396</mcode>
+		<hmenu>요일</hmenu>
+		<emenu>Day of week</emenu>
+		<jmenu>曜日</jmenu>
+		<cmenu>星期</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02397</mcode>
+		<hmenu>1번 채널</hmenu>
+		<emenu>Chanel 1</emenu>
+		<jmenu>チャンネル1</jmenu>
+		<cmenu>通道1</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02398</mcode>
+		<hmenu>2번 채널</hmenu>
+		<emenu>Chanel 2</emenu>
+		<jmenu>チャンネル2</jmenu>
+		<cmenu>通道2</cmenu>
+	</menu>
+		<menu>
+		<mcode>MN06001</mcode>
+		<hmenu>3번 채널</hmenu>
+		<emenu>Chanel 3</emenu>
+		<jmenu>チャンネル3</jmenu>
+		<cmenu>通道3</cmenu>
+	</menu>
+		<menu>
+		<mcode>MN06002</mcode>
+		<hmenu>4번 채널</hmenu>
+		<emenu>Chanel 4</emenu>
+		<jmenu>チャンネル4</jmenu>
+		<cmenu>通道4</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02399</mcode>
+		<hmenu>스케줄 타입</hmenu>
+		<emenu>Type of schedule</emenu>
+		<jmenu>スケジュールの種類</jmenu>
+		<cmenu>日程类型</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02400</mcode>
+		<hmenu>종료시간</hmenu>
+		<emenu>End time</emenu>
+		<jmenu>終了時間</jmenu>
+		<cmenu>结束时间</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02401</mcode>
+		<hmenu>녹화길이</hmenu>
+		<emenu>Duration</emenu>
+		<jmenu>期間</jmenu>
+		<cmenu>录制时长</cmenu>
+		<desc>Ingest Schedule Management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02402</mcode>
+		<hmenu>사용</hmenu>
+		<emenu>Use</emenu>
+		<jmenu>使用する</jmenu>
+		<cmenu>使用</cmenu>
+		<desc>Ingest Schedule Management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02403</mcode>
+		<hmenu>미사용</hmenu>
+		<emenu>Not Use</emenu>
+		<jmenu>使用しない</jmenu>
+		<cmenu>未使用</cmenu>
+		<desc>Ingest Schedule Management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02404</mcode>
+		<hmenu>인제스트 스케줄</hmenu>
+		<emenu>Ingest Schedule</emenu>
+		<jmenu>スケジュールをインジェストする</jmenu>
+		<cmenu>采集日程</cmenu>
+		<desc>Ingest Schedule Management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02405</mcode>
+		<hmenu>스케줄</hmenu>
+		<emenu>Schedule</emenu>
+		<jmenu>スケジュール</jmenu>
+		<cmenu>日程</cmenu>
+		<desc>Ingest Schedule Management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02406</mcode>
+		<hmenu>사용자정의 콘텐츠</hmenu>
+		<emenu>User defined content</emenu>
+		<jmenu>ユーザー定義コンテンツ</jmenu>
+		<cmenu>用户定义内容</cmenu>
+		<desc>Ingest Schedule Management</desc>
+	</menu>
+	<menu>
+		<mcode>MN02408</mcode>
+		<hmenu>지정일 한번</hmenu>
+		<emenu>Repeat designated day</emenu>
+		<jmenu>指定日を繰り返す</jmenu>
+		<cmenu>重复一次指定日</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02409</mcode>
+		<hmenu>기간</hmenu>
+		<emenu>Term of date</emenu>
+		<jmenu>日付条件</jmenu>
+		<cmenu>期间</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02410</mcode>
+		<hmenu>팝업메뉴보기</hmenu>
+		<emenu>Show Context Menu</emenu>
+		<jmenu>コンテクストメニューを表示する</jmenu>
+		<cmenu>显示快捷菜单</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02411</mcode>
+		<hmenu>아카이브 승인 관리</hmenu>
+		<emenu>Media Archive Management</emenu>
+		<jmenu>メディアアーカイブ管理</jmenu>
+		<cmenu>媒体存档管理</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02412</mcode>
+		<hmenu>요청일자</hmenu>
+		<emenu>Request Date</emenu>
+		<jmenu>日付をリクエストする</jmenu>
+		<cmenu>请求日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02413</mcode>
+		<hmenu>승인</hmenu>
+		<emenu>Approved</emenu>
+		<jmenu>承認済み</jmenu>
+		<cmenu>同意</cmenu>
+		<desc>시스템 관리 - 아카이브관리 : 승인 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02414</mcode>
+		<hmenu>진행중</hmenu>
+		<emenu>Processing</emenu>
+		<jmenu>処理中</jmenu>
+		<cmenu>处理中</cmenu>
+		<desc>시스템 관리 - 아카이브관리 : 승인 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02415</mcode>
+		<hmenu>반려</hmenu>
+		<emenu>Rejected</emenu>
+		<jmenu>却下</jmenu>
+		<cmenu>拒绝</cmenu>
+		<desc>시스템 관리 - 아카이브관리 : 승인 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02416</mcode>
+		<hmenu>완료</hmenu>
+		<emenu>Completed</emenu>
+		<jmenu>完了</jmenu>
+		<cmenu>完成</cmenu>
+		<desc>시스템 관리 - 아카이브관리 : 승인 구분 선택값</desc>
+	</menu>
+	<menu>
+		<mcode>MN02417</mcode>
+		<hmenu>실패</hmenu>
+		<emenu>Failed</emenu>
+		<jmenu>失敗</jmenu>
+		<cmenu>失败</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02418</mcode>
+		<hmenu>요청</hmenu>
+		<emenu>Request</emenu>
+		<jmenu>リクエスト処理中</jmenu>
+		<cmenu>申请</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02419</mcode>
+		<hmenu>요청일자</hmenu>
+		<emenu>Approve Date</emenu>
+		<jmenu>承認日</jmenu>
+		<cmenu>申请日期</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02420</mcode>
+		<hmenu>아카이브 승인</hmenu>
+		<emenu>Archive Approve</emenu>
+		<jmenu>アーカイブ承認</jmenu>
+		<cmenu>同意存档</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02421</mcode>
+		<hmenu>아카이브 완료</hmenu>
+		<emenu>Archive Completed</emenu>
+		<jmenu>アーカイブ完了</jmenu>
+		<cmenu>完成存档</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02422</mcode>
+		<hmenu>아카이브 취소</hmenu>
+		<emenu>Archive Reject</emenu>
+		<jmenu>アーカイブ拒否</jmenu>
+		<cmenu>取消存档</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02423</mcode>
+		<hmenu>요청사유</hmenu>
+		<emenu>Reason for request</emenu>
+		<jmenu>リクエストの理由</jmenu>
+		<cmenu>申请原由</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02424</mcode>
+		<hmenu>오프라인</hmenu>
+		<emenu>Offline</emenu>
+		<jmenu>オフライン</jmenu>
+		<cmenu>下线</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02425</mcode>
+		<hmenu>되감기</hmenu>
+		<emenu>Review</emenu>
+		<jmenu>レビュー</jmenu>
+		<cmenu>倒退</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02426</mcode>
+		<hmenu>1프레임 뒤로 (←)</hmenu>
+		<emenu>1 Frame Back (←)</emenu>
+		<jmenu>1コマ戻る</jmenu>
+		<cmenu>退回1帧 (←)</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02427</mcode>
+		<hmenu>재생/정지</hmenu>
+		<emenu>Play / Stop (space)</emenu>
+		<jmenu>再生/停止（スペース）</jmenu>
+		<cmenu>播放/停止</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02428</mcode>
+		<hmenu>일시정지(space)</hmenu>
+		<emenu>Pause (space)</emenu>
+		<jmenu>一時停止　（スペース）</jmenu>
+		<cmenu>暂停</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02429</mcode>
+		<hmenu>다음 프레임 (→)</hmenu>
+		<emenu>Next Frame (→)</emenu>
+		<jmenu>次の駒　</jmenu>
+		<cmenu>下一帧 (→)</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02430</mcode>
+		<hmenu>빠르게 감기</hmenu>
+		<emenu>Fast Forward</emenu>
+		<jmenu>早送り</jmenu>
+		<cmenu>快进</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02431</mcode>
+		<hmenu>반복재생 (L)</hmenu>
+		<emenu>Loop (L)</emenu>
+		<jmenu>ループ(L)</jmenu>
+		<cmenu>循环播放(L)</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02432</mcode>
+		<hmenu>마크취소 (D)</hmenu>
+		<emenu>Clear Mark (D)</emenu>
+		<jmenu>マークをクリアする(D)</jmenu>
+		<cmenu>取消标志（D）</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02433</mcode>
+		<hmenu>마크 (P)</hmenu>
+		<emenu>Mark (P)</emenu>
+		<jmenu>マーク(P)</jmenu>
+		<cmenu>标志（P）</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02434</mcode>
+		<hmenu>추가 기능</hmenu>
+		<emenu>Video Menu</emenu>
+		<jmenu>ビデオメニュー</jmenu>
+		<cmenu>添加功能</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02435</mcode>
+		<hmenu>Sec In (I)</hmenu>
+		<emenu>Sec In (I)</emenu>
+		<jmenu>Sec In (I)</jmenu>
+		<cmenu>Sec In (I)</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02436</mcode>
+		<hmenu>Sec Out (O)</hmenu>
+		<emenu>Sec Out (O)</emenu>
+		<jmenu>Sec Out (O)</jmenu>
+		<cmenu>Sec Out (O)</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02437</mcode>
+		<hmenu>마커</hmenu>
+		<emenu>Marker</emenu>
+		<jmenu>マーカー</jmenu>
+		<cmenu>标记</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02438</mcode>
+		<hmenu>제목</hmenu>
+		<emenu>Title</emenu>
+		<jmenu>タイトル</jmenu>
+		<cmenu>标题</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02439</mcode>
+		<hmenu>내용</hmenu>
+		<emenu>Comments</emenu>
+		<jmenu>コメント</jmenu>
+		<cmenu>内容</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02440</mcode>
+		<hmenu>Color</hmenu>
+		<emenu>Mark Color</emenu>
+		<jmenu>カラーをマークする</jmenu>
+		<cmenu>标记颜色</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02441</mcode>
+		<hmenu>마커 관리</hmenu>
+		<emenu>Mark Management</emenu>
+		<jmenu>管理をマークする</jmenu>
+		<cmenu>标志管理</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02442</mcode>
+		<hmenu>샷리스트 추가 (A)</hmenu>
+		<emenu>Add to shot list (A)</emenu>
+		<jmenu>ショットリストに追加(A)</jmenu>
+		<cmenu>添加照片列表(A)</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02443</mcode>
+		<hmenu>이미지 추가 (S)</hmenu>
+		<emenu>Make Segment (S)</emenu>
+		<jmenu>セグメントを作成する（S)</jmenu>
+		<cmenu>添加图片（S）</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02444</mcode>
+		<hmenu>신규 콘텐츠 생성 (N)</hmenu>
+		<emenu>Make Partial File (N)</emenu>
+		<jmenu>一部ファイルを作成する（N)</jmenu>
+		<cmenu>新内容生成（N）</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02445</mcode>
+		<hmenu>Color</hmenu>
+		<emenu>Shot List Color</emenu>
+		<jmenu>ショットリストカラー</jmenu>
+		<cmenu>Color</cmenu>
+		<desc>--</desc>
+	</menu>
+	<menu>
+		<mcode>MN02446</mcode>
+		<hmenu>Color</hmenu>
+		<emenu>Color</emenu>
+		<jmenu>カラー</jmenu>
+		<cmenu>Color</cmenu>
+		<desc>--</desc>
+	</menu>
+	<menu>
+		<mcode>MN02447</mcode>
+		<hmenu>이동 (G)</hmenu>
+		<emenu>Go To Position(G)</emenu>
+		<jmenu>ポジションに移動する（G）</jmenu>
+		<cmenu>移动（G）</cmenu>
+		<desc>-video player-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02448</mcode>
+		<hmenu>샷리스트 추가</hmenu>
+		<emenu>Add to shot list</emenu>
+		<jmenu>ショットリストに追加する</jmenu>
+		<cmenu>添加照片列表</cmenu>
+		<desc>--</desc>
+	</menu>
+	<menu>
+		<mcode>MN02449</mcode>
+		<hmenu>플레이리스트</hmenu>
+		<emenu>Cue Sheet</emenu>
+		<jmenu>キューシート</jmenu>
+		<cmenu>节目播放列表</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02450</mcode>
+		<hmenu>미디어 플레이리스트 목록</hmenu>
+		<emenu>Broadcast List</emenu>
+		<jmenu>放送リスト</jmenu>
+		<cmenu>媒体播放列表</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02451</mcode>
+		<hmenu>등록된 미디어 플레이리스트 정보가 없습니다</hmenu>
+		<emenu>No registered media</emenu>
+		<jmenu>登録メディアなし</jmenu>
+		<cmenu>没有注册媒体信息</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02452</mcode>
+		<hmenu>타이틀</hmenu>
+		<emenu>Broadcast Title</emenu>
+		<jmenu>放送タイトル</jmenu>
+		<cmenu>播放标题</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02453</mcode>
+		<hmenu>프로그램</hmenu>
+		<emenu>Program</emenu>
+		<jmenu>プログラム</jmenu>
+		<cmenu>节目</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02454</mcode>
+		<hmenu>편성길이</hmenu>
+		<emenu>Duration</emenu>
+		<jmenu>期間</jmenu>
+		<cmenu>编排时长</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02455</mcode>
+		<hmenu>방송일시</hmenu>
+		<emenu>Broadcast Date</emenu>
+		<jmenu>放送日</jmenu>
+		<cmenu>播出日期</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02456</mcode>
+		<hmenu>부조정실</hmenu>
+		<emenu>Sub Control Room</emenu>
+		<jmenu>サブコントロール・ルーム</jmenu>
+		<cmenu>副控</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02457</mcode>
+		<hmenu>등록자</hmenu>
+		<emenu>Data Index</emenu>
+		<jmenu>データインデックス</jmenu>
+		<cmenu>上传人</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02458</mcode>
+		<hmenu>등록일시</hmenu>
+		<emenu>Created Date</emenu>
+		<jmenu>作成日</jmenu>
+		<cmenu>上传日期</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02459</mcode>
+		<hmenu>등록타입</hmenu>
+		<emenu>Type</emenu>
+		<jmenu>種類</jmenu>
+		<cmenu>上传类型</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02460</mcode>
+		<hmenu>미디어 플레이리스트 추가</hmenu>
+		<emenu>Add Media Playlist</emenu>
+		<jmenu>メディアプレイリストを追加</jmenu>
+		<cmenu>添加媒体播放列表</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02461</mcode>
+		<hmenu>플레이리스트 명</hmenu>
+		<emenu>Playlist Title</emenu>
+		<jmenu>プレイリストタイトル</jmenu>
+		<cmenu>播放列表名称</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02462</mcode>
+		<hmenu>부제 목록</hmenu>
+		<emenu>Subtitle List</emenu>
+		<jmenu>サブタイトルリスト</jmenu>
+		<cmenu>副标题目录</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02463</mcode>
+		<hmenu>회차</hmenu>
+		<emenu>Recurrence</emenu>
+		<jmenu>再現</jmenu>
+		<cmenu>重复</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02464</mcode>
+		<hmenu>회차코드</hmenu>
+		<emenu>Recurrence Code</emenu>
+		<jmenu>再現コード</jmenu>
+		<cmenu>重复代码</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02465</mcode>
+		<hmenu>회차원제목</hmenu>
+		<emenu>Recurrence Title</emenu>
+		<jmenu>再現タイトル</jmenu>
+		<cmenu>重复原标题</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02466</mcode>
+		<hmenu>회차부제목</hmenu>
+		<emenu>Recurrence Subtitles</emenu>
+		<jmenu>再現字幕</jmenu>
+		<cmenu>重复副标题</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02467</mcode>
+		<hmenu>시간</hmenu>
+		<emenu>Running Time</emenu>
+		<jmenu>実行時間</jmenu>
+		<cmenu>时间</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02468</mcode>
+		<hmenu>미디어 플레이리스트 수정</hmenu>
+		<emenu>Edit Media Playlist</emenu>
+		<jmenu>メディアプレイリストの編集</jmenu>
+		<cmenu>编辑媒体播放列表</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02469</mcode>
+		<hmenu>미디어 플레이리스트 상세 목록</hmenu>
+		<emenu>Media Play List Detail</emenu>
+		<jmenu>メディアプレイリスト詳細</jmenu>
+		<cmenu>媒体播放列表详细目录</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02470</mcode>
+		<hmenu>콘텐츠명</hmenu>
+		<emenu>Title</emenu>
+		<jmenu>タイトル</jmenu>
+		<cmenu>内容名称</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02471</mcode>
+		<hmenu>큐시트 ID</hmenu>
+		<emenu>Cue Sheet ID</emenu>
+		<jmenu>キューシートID</jmenu>
+		<cmenu>节目列表ID</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02472</mcode>
+		<hmenu>큐시트 콘텐츠ID</hmenu>
+		<emenu>Cuesheet Content ID</emenu>
+		<jmenu>キューシート　コンテンツID</jmenu>
+		<cmenu>节目列表内容ID</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02473</mcode>
+		<hmenu>전송상태</hmenu>
+		<emenu>Transfer Status</emenu>
+		<jmenu>ステータスの転送</jmenu>
+		<cmenu>传送状态</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02474</mcode>
+		<hmenu>플레이리스트추가</hmenu>
+		<emenu>Add to Playlist</emenu>
+		<jmenu>プレイリストに追加</jmenu>
+		<cmenu>添加播放列表</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02475</mcode>
+		<hmenu>큐시트를 선택해 주세요</hmenu>
+		<emenu>Please select cuesheet</emenu>
+		<jmenu>カットシートを選択してください</jmenu>
+		<cmenu>请选择节目列表</cmenu>
+		<desc>-cue sheet-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02476</mcode>
+		<hmenu>승인사유</hmenu>
+		<emenu>Reason for Approve</emenu>
+		<jmenu>承認の理由</jmenu>
+		<cmenu>同意原因</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02477</mcode>
+		<hmenu>작업결과</hmenu>
+		<emenu>Task Result</emenu>
+		<jmenu>タスクの結果</jmenu>
+		<cmenu>任务结果</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02478</mcode>
+		<hmenu>Harris 관리</hmenu>
+		<emenu>Harris Management</emenu>
+		<jmenu>ハリス管理</jmenu>
+		<cmenu>Harris管理</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02479</mcode>
+		<hmenu>메타데이터 일괄수정</hmenu>
+		<emenu>Batch Edit Metadata</emenu>
+		<jmenu>メタデータのバッチ編集</jmenu>
+		<cmenu>批量编辑元数据</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02480</mcode>
+		<hmenu>대표이미지 변경</hmenu>
+		<emenu>Set Thumbnail Icon</emenu>
+		<jmenu>サムネイルアイコンを設定する</jmenu>
+		<cmenu>修改代表图标</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02481</mcode>
+		<hmenu>그룹 하위 콘텐츠 삭제</hmenu>
+		<emenu>Delete Sub Content</emenu>
+		<jmenu>サブコンテンツの削除</jmenu>
+		<cmenu>删除内容</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02501</mcode>
+		<hmenu>프리미어 플러그인 - 등록</hmenu>
+		<emenu>Premiere Plugin - Export Form</emenu>
+		<jmenu>プレミアプラグイン-エクスポート形式</jmenu>
+		<cmenu>Premiere插件 - 导出形式</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02502</mcode>
+		<hmenu>시퀀스 등록</hmenu>
+		<emenu>Registration a Sequence</emenu>
+		<jmenu>シークエンスの登録</jmenu>
+		<cmenu>上传一个序列</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02503</mcode>
+		<hmenu>Render 등록</hmenu>
+		<emenu>Registration after Render</emenu>
+		<jmenu>レンダー後の登録</jmenu>
+		<cmenu>Render注册</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02504</mcode>
+		<hmenu>시퀀스 가져오기</hmenu>
+		<emenu>Import Sequence</emenu>
+		<jmenu>シークエンスをインポート</jmenu>
+		<cmenu>导入序列</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02505</mcode>
+		<hmenu>영상으로 시퀀스 만들기</hmenu>
+		<emenu>Create a sequence in the selected Movie</emenu>
+		<jmenu>選択した映画の中にシークエンスを作成する</jmenu>
+		<cmenu>已选视频中创建序列</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02510</mcode>
+		<hmenu>이미지 가져오기</hmenu>
+		<emenu>Import Image</emenu>
+		<jmenu>画像のインポート</jmenu>
+		<cmenu>导入图片</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02511</mcode>
+		<hmenu>포토샵 플러그인 - 등록</hmenu>
+		<emenu>Photoshop Plugin - Export Form</emenu>
+		<jmenu>フォトショップ・プラグイン-</jmenu>
+		<cmenu>Photoshop插件 - 导出形式</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02512</mcode>
+		<hmenu>이미지 등록</hmenu>
+		<emenu>Registration a Image</emenu>
+		<jmenu>画像を登録</jmenu>
+		<cmenu>上传图片</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02513</mcode>
+		<hmenu>첫번째 페이지</hmenu>
+		<emenu>First Page</emenu>
+		<jmenu>最初のページ</jmenu>
+		<cmenu>第一页</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02514</mcode>
+		<hmenu>시작 프레임</hmenu>
+		<emenu>Start Frame</emenu>
+		<jmenu>フレーム開始</jmenu>
+		<cmenu>开始帧</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02515</mcode>
+		<hmenu>종료 프레임</hmenu>
+		<emenu>End Frame</emenu>
+		<jmenu>フレーム終わり</jmenu>
+		<cmenu>结束帧</cmenu>
+	</menu>
+	<menu>
+		<mcode>MN02516</mcode>
+		<hmenu>댓글</hmenu>
+		<emenu>Comment</emenu>
+		<jmenu>コメント</jmenu>
+		<cmenu>评论</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02517</mcode>
+		<hmenu>순서저장</hmenu>
+		<emenu>List Order</emenu>
+		<jmenu>リストオーダー</jmenu>
+		<cmenu>保存顺序</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02518</mcode>
+		<hmenu>원본 다운로드</hmenu>
+		<emenu>Download Original</emenu>
+		<jmenu>オリジナルのダウンロード</jmenu>
+		<cmenu>下载原件</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02519</mcode>
+		<hmenu>프록시 다운로드</hmenu>
+		<emenu>Download Proxy</emenu>
+		<jmenu>プロキシ―のダウンロード</jmenu>
+		<cmenu>下载Proxy</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02520</mcode>
+		<hmenu>매킨토시 경로</hmenu>
+		<emenu>MAC Path</emenu>
+		<jmenu>MAC Path(JAP)</jmenu>
+		<cmenu>MAC Path</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02521</mcode>
+		<hmenu>Unix 경로</hmenu>
+		<emenu>Unix Path</emenu>
+		<jmenu>Unix Path(JAP)</jmenu>
+		<cmenu>Unix Path</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02522</mcode>
+		<hmenu>가상 경로</hmenu>
+		<emenu>Virtual Path</emenu>
+		<jmenu>Virtual Path(JAP)</jmenu>
+		<cmenu>Virtual Path</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02523</mcode>
+		<hmenu>Windows 경로</hmenu>
+		<emenu>Windows Path</emenu>
+		<jmenu>Windows Path(JAP)</jmenu>
+		<cmenu>Windows Path</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02524</mcode>
+		<hmenu>선택된 콘텐츠 메타데이터</hmenu>
+		<emenu>Selected Content's Metadata Part</emenu>
+		<jmenu>Selected Content's Metadata Part(JAP)</jmenu>
+		<cmenu>所选素材的元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02525</mcode>
+		<hmenu>새로운 메타데이터</hmenu>
+		<emenu>Batch Edit Metadata Part</emenu>
+		<jmenu>Batch Edit Metadata Part(JAP)</jmenu>
+		<cmenu>新元数据</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02526</mcode>
+		<hmenu>아카이브 대상 관리</hmenu>
+		<emenu>Media Archive Target</emenu>
+		<jmenu>Media Archive Target(JAP)</jmenu>
+		<cmenu>存档对象管理</cmenu>
+		<desc>Media Archive Target</desc>
+	</menu>
+	<menu>
+		<mcode>MN02527</mcode>
+		<hmenu>마지막 조회 기간</hmenu>
+		<emenu>Last viewed</emenu>
+		<jmenu>Last viewed(JAP)</jmenu>
+		<cmenu>最终查看时间</cmenu>
+		<desc>Media Archive Target</desc>
+	</menu>
+	<menu>
+		<mcode>MN02528</mcode>
+		<hmenu>아카이브 실행</hmenu>
+		<emenu>Running Archive</emenu>
+		<jmenu>Running Archive(JAP)</jmenu>
+		<cmenu>运行存档</cmenu>
+		<desc>Media Archive Target</desc>
+	</menu>
+	<menu>
+		<mcode>MN02529</mcode>
+		<hmenu>...</hmenu>
+		<emenu>...</emenu>
+		<jmenu>...</jmenu>
+		<cmenu>...</cmenu>
+		<desc>Web Upload</desc>
+	</menu>
+	<menu>
+		<mcode>MN02530</mcode>
+		<hmenu>콘텐츠 등록</hmenu>
+		<emenu>File Upload</emenu>
+		<jmenu>File Upload(JAP)</jmenu>
+		<cmenu>上传文件</cmenu>
+		<desc>Web Upload</desc>
+	</menu>
+	<menu>
+		<mcode>MN02531</mcode>
+		<hmenu>전송중</hmenu>
+		<emenu>Uploading</emenu>
+		<jmenu>Uploading(JAP)</jmenu>
+		<cmenu>发送中</cmenu>
+		<desc>Web Upload</desc>
+	</menu>
+	<menu>
+		<mcode>MN02532</mcode>
+		<hmenu>전송</hmenu>
+		<emenu>Upload</emenu>
+		<jmenu>Upload(JAP)</jmenu>
+		<cmenu>发送</cmenu>
+		<desc>Web Upload Button</desc>
+	</menu>
+	<menu>
+		<mcode>MN02533</mcode>
+		<hmenu>남은 시간</hmenu>
+		<emenu>Remaining Time</emenu>
+		<jmenu>Remaining Time(JAP)</jmenu>
+		<cmenu>剩余时间</cmenu>
+		<desc>Web Upload</desc>
+	</menu>
+	<menu>
+		<mcode>MN02534</mcode>
+		<hmenu>하위 폴더 콘텐츠 포함</hmenu>
+		<emenu>Show All</emenu>
+		<jmenu>Show All(JAP)</jmenu>
+		<cmenu>全部显示</cmenu>
+		<desc></desc>
+	</menu>
+	<menu>
+		<mcode>MN02535</mcode>
+		<hmenu>필터</hmenu>
+		<emenu>Filter</emenu>
+		<jmenu>Filter(JAP)</jmenu>
+		<cmenu>Filter</cmenu>
+		<desc>Filter at left side bar- search page</desc>
+	</menu>
+	<menu>
+		<mcode>MN02536</mcode>
+		<hmenu>내 검색</hmenu>
+		<emenu>My Search</emenu>
+		<jmenu>My Search(JAP)</jmenu>
+		<cmenu>My Search</cmenu>
+		<desc>Filter at left side bar- search page</desc>
+	</menu>
+	<menu>
+		<mcode>MN02537</mcode>
+		<hmenu>MEDEIS</hmenu>
+		<emenu>MEDEIS</emenu>
+		<jmenu>MEDEIS</jmenu>
+		<cmenu>MEDEIS</cmenu>
+		<desc>Name of Product</desc>
+	</menu>
+	<menu>
+		<mcode>MN02538</mcode>
+		<hmenu>Proxima Network Production System 3.1.3</hmenu>
+		<emenu>Proxima Network Production System 3.1.3</emenu>
+		<jmenu>Proxima Network Production System 3.1.3</jmenu>
+		<cmenu>Proxima Network Production System 3.1.3</cmenu>
+		<desc>Loading Proxima system</desc>
+	</menu>
+	<menu>
+		<mcode>MN02539</mcode>
+		<hmenu>Medeis Media Management 3.0.0</hmenu>
+		<emenu>Medeis Media Management 3.0.0</emenu>
+		<jmenu>Medeis Media Management 3.0.0</jmenu>
+		<cmenu>Medeis Media Management 3.0.0</cmenu>
+		<desc>Loading Medeis system</desc>
+	</menu>
+	<menu>
+		<mcode>MN02540</mcode>
+		<hmenu>보이기</hmenu>
+		<emenu>Show</emenu>
+		<jmenu>Show(JAP)</jmenu>
+		<cmenu>Show</cmenu>
+		<desc></desc>
+	</menu>
+	<menu>
+		<mcode>MN02541</mcode>
+		<hmenu>숨기기</hmenu>
+		<emenu>Hide</emenu>
+		<jmenu>Hide(JAP)</jmenu>
+		<cmenu>Hide</cmenu>
+		<desc></desc>
+	</menu>
+	<menu>
+		<mcode>MN02542</mcode>
+		<hmenu>미디어 정보</hmenu>
+		<emenu>Media Information</emenu>
+		<jmenu>メディア情報</jmenu>
+		<cmenu>媒体信息</cmenu>
+		<desc></desc>
+	</menu>
+	<menu>
+		<mcode>MN02543</mcode>
+		<hmenu>콘텐츠 승인</hmenu>
+		<emenu>Approve this content</emenu>
+		<jmenu>Approve this content(JAP)</jmenu>
+		<cmenu>Approve this content</cmenu>
+		<desc>Approve content</desc>
+	</menu>
+	<menu>
+		<mcode>MN02544</mcode>
+		<hmenu>승인</hmenu>
+		<emenu>Approve content</emenu>
+		<jmenu>Approve content(JAP)</jmenu>
+		<cmenu>Approve content</cmenu>
+		<desc>Approve content</desc>
+	</menu>
+	<menu>
+		<mcode>MN02545</mcode>
+		<hmenu>승인취소</hmenu>
+		<emenu>Un-approve content</emenu>
+		<jmenu>Un-approve content(JAP)</jmenu>
+		<cmenu>Un-approve content</cmenu>
+		<desc>Approve content</desc>
+	</menu>
+	<menu>
+		<mcode>MN02546</mcode>
+		<hmenu>Harris 서버 목록</hmenu>
+		<emenu>Harris Server List</emenu>
+		<jmenu>Harris Server List(JAP)</jmenu>
+		<cmenu>Harris Server List</cmenu>
+		<desc>Harris Server List</desc>
+	</menu>
+	<menu>
+		<mcode>MN02547</mcode>
+		<hmenu>Agency 목록 재작성</hmenu>
+		<emenu>Agency list refresh</emenu>
+		<jmenu>Agency list refresh(JAP)</jmenu>
+		<cmenu>Agency list refresh</cmenu>
+		<desc>Agency list refresh</desc>
+	</menu>
+	<menu>
+		<mcode>MN02548</mcode>
+		<hmenu>Harris</hmenu>
+		<emenu>Harris</emenu>
+		<jmenu>Harris(JAP)</jmenu>
+		<cmenu>Harris</cmenu>
+		<desc>Harris</desc>		
+	</menu>
+	<menu>
+		<mcode>MN02549</mcode>
+		<hmenu>필터 목록</hmenu>
+		<emenu>Filter List</emenu>
+		<jmenu>Filter List(JAP)</jmenu>
+		<cmenu>Filter List</cmenu>
+		<desc>Filter</desc>
+	</menu>
+	<menu>
+		<mcode>MN02550</mcode>
+		<hmenu>자동 새로고침 실행중</hmenu>
+		<emenu>Running auto-refresh</emenu>
+		<jmenu>Running auto-refresh(JAP)</jmenu>
+		<cmenu>Running auto-refresh</cmenu>
+		<desc>Running auto-refresh</desc>
+	</menu>	
+	<menu>
+		<mcode>MN02551</mcode>
+		<hmenu>자동 새로고침 중지됨</hmenu>
+		<emenu>Stopped auto-refresh</emenu>
+		<jmenu>Stopped auto-refresh(JAP)</jmenu>
+		<cmenu>Stopped auto-refresh</cmenu>
+		<desc>Stopped auto-refresh</desc>
+	</menu>
+	<menu>
+		<mcode>MN02552</mcode>
+		<hmenu>히스토리</hmenu>
+		<emenu>History</emenu>
+		<jmenu>History</jmenu>
+		<cmenu>History</cmenu>
+		<desc>History</desc>
+	</menu>
+	<menu>
+		<mcode>MN02553</mcode>
+		<hmenu>삭제 이력</hmenu>
+		<emenu>History of Delete</emenu>
+		<jmenu>History of Delete</jmenu>
+		<cmenu>History of Delete</cmenu>
+		<desc>History of Delete</desc>
+	</menu>
+	<menu>
+		<mcode>MN02554</mcode>
+		<hmenu>사용 권한</hmenu>
+		<emenu>Permission for Category</emenu>
+		<jmenu>Permission for Category</jmenu>
+		<cmenu>品线使用权限</cmenu>
+		<desc>Permission for Category</desc>
+	</menu>
+	<menu>
+		<mcode>MN02555</mcode>
+		<hmenu>적용</hmenu>
+		<emenu>Apply</emenu>
+		<jmenu>Apply</jmenu>
+		<cmenu>应用</cmenu>
+		<desc>Apply</desc>
+	</menu>
+	<menu>
+		<mcode>MN02556</mcode>
+		<hmenu>시스템관리자</hmenu>
+		<emenu>Manager of System</emenu>
+		<jmenu>Manager of System</jmenu>
+		<cmenu>系统管理者</cmenu>
+		<desc>Manager of System</desc>
+	</menu>
+    <menu>
+		<mcode>MN02557</mcode>
+		<hmenu>우선순위</hmenu>
+		<emenu>priority</emenu>
+		<jmenu>priority(JAP)</jmenu>
+		<cmenu>优先级</cmenu>
+		<desc>Task Monitoring</desc>
+	</menu>
+	<menu>
+		<mcode>MN02558</mcode>
+		<hmenu>전송일자</hmenu>
+		<emenu>Sended Date</emenu>
+		<jmenu>Sended Date(JAP)</jmenu>
+		<cmenu></cmenu>
+		<desc>Email Sended Date</desc>
+	</menu>
+	<menu>
+		<mcode>MN04096</mcode>
+		<hmenu>사용자에 의한 작업</hmenu>
+		<emenu>User task</emenu>
+		<jmenu>User task(JP)</jmenu>
+		<cmenu>User task(CH)</cmenu>
+		<desc>Email Sended Date</desc>
+	</menu>
+
+	<menu>
+		<mcode>MN02559</mcode>
+		<hmenu>즐겨찾기</hmenu>
+		<emenu>Favorites</emenu>
+		<jmenu>お気に入り</jmenu>
+		<cmenu>收藏夹</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02560</mcode>
+		<hmenu>즐겨찾기 관리</hmenu>
+		<emenu>Manage Favorites</emenu>
+		<jmenu>お気に入りの管理</jmenu>
+		<cmenu>管理收藏夹</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02561</mcode>
+		<hmenu>즐겨찾기명</hmenu>
+		<emenu>Favorite name</emenu>
+		<jmenu>お気に入り名</jmenu>
+		<cmenu>最喜欢的名字</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02562</mcode>
+		<hmenu>즐겨찾기 색상</hmenu>
+		<emenu>Favorite color</emenu>
+		<jmenu>好きな色</jmenu>
+		<cmenu>最喜欢的颜色</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02563</mcode>
+		<hmenu>즐겨찾기 추가</hmenu>
+		<emenu>Add to Favorites</emenu>
+		<jmenu>お気に入りを追加</jmenu>
+		<cmenu>添加到收藏夹</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02564</mcode>
+		<hmenu>즐겨찾기 목록</hmenu>
+		<emenu>Favorites list</emenu>
+		<jmenu>お気に入りリスト</jmenu>
+		<cmenu>收藏夹列表</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02565</mcode>
+		<hmenu>즐겨찾기 기능</hmenu>
+		<emenu>Favorites function</emenu>
+		<jmenu>お気に入り機能</jmenu>
+		<cmenu>收藏夹功能</cmenu>
+		<desc>-</desc>
+	</menu>
+	<menu>
+		<mcode>MN02566</mcode>
+		<hmenu>즐겨찾기 수정</hmenu>
+		<emenu>Add to Favorites</emenu>
+		<jmenu>お気に入りの編集</jmenu>
+		<cmenu>编辑收藏夹</cmenu>
+		<desc>-</desc>
+	</menu>
+	
+</root>

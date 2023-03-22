@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Archive 관리</title>
+        <link rel="stylesheet" type="text/css" href="/jquery/themes/default/easyui.css"></link>
+        <link rel="stylesheet" type="text/css" href="/jquery/themes/icon.css"></link>
+
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="/jquery/jquery.easyui.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('#view_opt').combobox({
+                    onSelect : function(record)
+                    {
+                        var view_opt = $(this).combobox('getValue');
+                        $('#man_arc_grid_all').datagrid('load')
+                        {
+                            view_opt : view_opt
+                        }
+                    }
+                });
+                // 자동 새로고침
+                function grid_refresh(){
+                    //       $('man_arc_grid_all').datagrid('reload')
+                    
+                    //        setTimeout(grid_refresh, 10000);
+                }
+                
+                
+            });
+            
+            
+        </script>
+    </head>
+    <body>
+            <table id="man_arc_grid" class="easyui-datagrid" singleSelect="true"
+                   url = "/pages/menu/config/archive/php/get_arc_monitor.php"
+                   rownumbers ="true" toolbar="#monitor_tb" pagination="true">
+                <thead>
+                    <tr>
+                        <th field="seperator" width="50" ><center>구분</center></th>
+                        <th field="content_sep" width="70" ><center>콘텐츠 구분</center></th>
+                        <th field="category_title" width="150" ><center>카테고리</center></th>
+                        <th field="title" width="200"><center>제 목</center></th>
+                        <th field='status' width="100" ><center>상 태</center></th>
+                        <th field="complete_datetime" width="100" align="center">등록완료일자</th>
+                    </tr>
+                </thead> 
+            </table>
+        <div id="monitor_tb" style="padding:3px" >
+            <td><select id="monitor_opt" class="easyui-combobox" name="con_status" style="width:80px;" data-options="panelHeight:'auto'">
+                    <option value ="all_view">전체보기</option>
+                    <option value ="complete">등록완료</option>
+                    <option value ="auto_wait">자동대기</option>
+                    <option value ="manual_wait">수동대기</option>
+                    <option value ="error">등록에러</option>
+                </select>
+            </td>
+            <td>
+                <span>등록날짜 : </span>  
+                <input id="m_start_date" type="text" class="easyui-datebox" style="width:90px;"></input>  
+                <span> ~ </span>  
+                <input id="m_end_date" type="text" class="easyui-datebox" style="width:90px;"></input>  
+                <a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="doSearch()">검색</a>
+            </td>
+        </div>  
+    </body>
+</html>

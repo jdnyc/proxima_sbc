@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/jquery/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/jquery/themes/icon.css">
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/jquery/jquery.easyui.min.js"></script>
+        <script type="text/javascript" src="/pages/menu/config/archive/functions.js"></script>
+
+</head>
+<body>
+    <table width="100%">
+        <td width="30%;" valign="top">
+            <ul id="category_tree" class="easyui-tree" 
+                url="/pages/menu/config/archive/php/get_category.php">
+            </ul>
+        </td>
+        <td height="700px;" valign="top">
+            <table id="archive_grid" class="easyui-datagrid" 
+                   url = "/pages/menu/config/archive/php/get_arc_info.php"
+                   rownumbers = true toolbar="#arc_grid_buttons" >
+                <thead>
+                    <tr>
+                        <th field="category_id" width="80" hidden="true" >ID</th>
+                        <th field="category_title" width="200" ><center>카테고리</th>
+                        <th field="arc_method" width="80" align="center">아카이브방법</th>
+                        <th field="arc_period" width="80" align="center">아카이브시점</th>
+                        <th field="del_method" width="80" align="center">삭제방법</th>
+                        <th field="del_period" width="80" align="center">삭제시점</th>
+                        <th field="edit_date" width="90" align="center">최종수정일</th>
+                    </tr>
+                </thead>
+            </table>
+            <div id="arc_grid_buttons" style="width:100%">
+                <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="add_dlg()"> 등 록 </a>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="edit_dlg()"> 수 정 </a>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" plain="true" onclick="del_dlg()" > 삭 제 </a>
+                <a id="man_arc" href='#' class="easyui-linkbutton" iconCls="icon-tip" plain="true" onclick="manual_arc()" data-options="disabled : true" > 수동 Archive 등록</a>
+            </div>
+        </td>
+    </table>
+        <div id = "arc_add_dlg" class = "easyui-dialog" title="Archive 등록" style="width:350px;height:200px;" 
+             buttons="#arc_add_buttons" modal="true" closed="true">
+            <form id="arc_add_form" method="post"style="padding:20px 10px;"> 
+                <table> 
+                    <tr>
+                        <td> Category </td>
+                        <td><select id="c_tree_combo" class="easyui-combotree" style="width:250px;" data-options="required:true"
+                                    url="/pages/menu/config/archive/php/get_category.php" name="c_category"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 방 법 </td>
+                        <td><select id="add_method" class="easyui-combobox" name="a_method" style="width:250px;" data-options="panelHeight:'auto',required:true">
+                                <option value ="A">자동</option>
+                                <option value ="M">수동</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 기 간 </td>
+                        <td><input id="add_period" type="text" name="a_period" style="width:150px;"></input> 일
+                        </td>
+                            
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="arc_add_buttons">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="add_submit()"> 등 록 </a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#arc_add_dlg').dialog('close')"> 취 소 </a>
+        </div>
+        <div id = "arc_edit_dlg" class = "easyui-dialog" title="Archive 관리" style="width:350px;height:200px;" 
+             buttons="#arc_edit_buttons" modal="true" closed="true">
+            <form id="arc_edit_form" method="post"style="padding:20px 10px;"> 
+                <table> 
+                    <tr>
+                        <td> Category </td>
+                        <td><select id="c_tree_combo" class="easyui-combotree" style="width:250px;" data-options="required:true"
+                                    url="/pages/menu/config/archive/php/get_category.php" name="c_category"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 방 법 </td>
+                        <td><select id ="edit_method"class="easyui-combobox" name="a_method" style="width:250px;" data-options="panelHeight:'auto',required:true">
+                                <option value ="A">자동</option>
+                                <option value ="M">수동</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 기 간 </td>
+                        <td><input id="edit_period" type="text" class="easyui-numberbox" name="a_period" style="width:150px;"></input> 일
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="arc_edit_buttons">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="edit_submit()"> 수 정 </a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#arc_edit_dlg').dialog('close')"> 취 소 </a>
+        </div>
+    <div id="con_man_arc" class="easyui-dialog" title="수동 Archive 관리" style="width:1000px; height:750px;"
+         data-options="closed:true, collapsible:false, modal:true" buttons="#manual_dlg_tool">
+        <table id="m_arc_grid" class="easyui-datagrid" 
+               url = "/pages/menu/config/archive/php/get_contents.php"
+               rownumbers = "true" toolbar="#search_tb" pagination="true">
+            <thead>
+                <tr>
+                    <th field="ck" checkbox="true"></th>
+                    <th field="content_id" width="80" align="center">컨텐츠 ID</th>
+                    <th field="ud_content" width="150" align="center">컨텐츠 구분</center></th>
+                    <th field="category_title" width="150" align="center">카테고리</center></th>
+                    <th field="content_title" width="300"><center>제 목</center></th>
+                    <th field="created_date" width="100" align="center">등록일자</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div id="manual_dlg_tool" align="center">
+        <a href="#" class="easyui-linkbutton" iconCls="icon-add" onclick="add_arc()"> Archive </a>
+        <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#con_man_arc').dialog('close')"> 취 소 </a>
+    </div>
+</div>
+<div id="search_tb" style="padding:3px" >
+    <td>
+        <a href="#" class="easyui-linkbutton" iconCls="icon-ok" plain="true" onclick="select_all()"> 전체선택 </a>
+    </td>
+    <td align="right">
+        <span>등록날짜 : </span>  
+        <input id="start_date" type="text" class="easyui-datebox" ></input>  
+        <span> ~ </span>  
+        <input id="end_date" type="text" class="easyui-datebox"></input>  
+        <a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="doSearch()">Search</a>
+    </td>
+</div> 
+      
+</body>
+</html>

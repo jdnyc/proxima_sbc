@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  
+  #https 사용시 주석해제
+  #RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  #RewriteCond %{HTTPS} off
+  #RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  #RewriteRule . index.php [L]
+
+  RewriteRule ^ index.php [QSA,L]
+</IfModule>

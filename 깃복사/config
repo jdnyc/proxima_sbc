@@ -1,0 +1,82 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = http://10.10.110.210:8088/GitServer/proxima_v3_ktv_git.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "release"]
+	remote = origin
+	merge = refs/heads/release
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
+[branch "jksung_cordination_#125"]
+	remote = origin
+	merge = "refs/heads/jksung_cordination_#125"
+[branch "dkkim_#294"]
+	remote = origin
+	merge = "refs/heads/dkkim_#294"
+[branch "jwpark_password_#271"]
+	remote = origin
+	merge = "refs/heads/jwpark_password_#271"
+[branch "jksung_mcr-trnsmis_#000"]
+	remote = origin
+	merge = "refs/heads/jksung_mcr-trnsmis_#000"
+[branch "jwpark_bis_#326"]
+	remote = origin
+	merge = "refs/heads/jwpark_bis_#326"
+[branch "jksung_weakness_#332"]
+	remote = origin
+	merge = "refs/heads/jksung_weakness_#332"
+[branch "ktkim_#285"]
+	remote = origin
+	merge = "refs/heads/ktkim_#285"
+[branch "jksung_restore_#330"]
+	remote = origin
+	merge = "refs/heads/jksung_restore_#330"
+[branch "jksung_restore_clean_#330"]
+	remote = origin
+	merge = "refs/heads/jksung_restore_clean_#330"
+[branch "jksung_byte_#190"]
+	remote = origin
+	merge = "refs/heads/jksung_byte_#190"
+[branch "jksung_metadata_update_#335"]
+	remote = origin
+	merge = "refs/heads/jksung_metadata_update_#335"
+[branch "ktkim_#284"]
+	remote = origin
+	merge = "refs/heads/ktkim_#284"
+[branch "jksung_sms_resolution_#248"]
+	remote = origin
+	merge = "refs/heads/jksung_sms_resolution_#248"
+[branch "jksung_CG_add_#337"]
+	remote = origin
+	merge = "refs/heads/jksung_CG_add_#337"
+[branch "ktkim_#298"]
+	remote = origin
+	merge = "refs/heads/ktkim_#298"
+[branch "dkkim_monitoring_add_ip_column"]
+	remote = origin
+	merge = refs/heads/dkkim_monitoring_add_ip_column
+[branch "ktkim_#276"]
+	remote = origin
+	merge = "refs/heads/ktkim_#276"
+[branch "jksung_filehidden_#284"]
+	remote = origin
+	merge = "refs/heads/jksung_filehidden_#284"
+[branch "jksung_file_hidden_#284"]
+	remote = origin
+	merge = "refs/heads/jksung_file_hidden_#284"
+[branch "jksung_download_sql_#287"]
+	remote = origin
+	merge = "refs/heads/jksung_download_sql_#287"
+[branch "jksung_logo_add_#318"]
+	remote = origin
+	merge = "refs/heads/jksung_logo_add_#318"

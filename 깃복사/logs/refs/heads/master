@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 0a49c01c7ddad448c6d1bcfe85cc996f3e72dad2 jksung <jksung@gemiso.com> 1664518075 +0900	clone: from http://10.10.110.210:8088/GitServer/proxima_v3_ktv_git.git
+0a49c01c7ddad448c6d1bcfe85cc996f3e72dad2 60309f1f7411f72d9cb551eae6721c0bbd6d3f0b jksung <jksung@gemiso.com> 1667189045 +0900	pull: Fast-forward
+60309f1f7411f72d9cb551eae6721c0bbd6d3f0b f15f1c0bbd31e97b762272d19b1a54f6cf27787e jksung <jksung@gemiso.com> 1673591247 +0900	pull: Fast-forward
+f15f1c0bbd31e97b762272d19b1a54f6cf27787e 911bb372c0369565621c96ff61a2c74e110c035c jksung <jksung@gemiso.com> 1675068261 +0900	merge jksung_mcr-trnsmis_#000: Fast-forward
+911bb372c0369565621c96ff61a2c74e110c035c a9d2e62373dc925091264a1d0bc178abc24aa586 jksung <jksung@gemiso.com> 1675141857 +0900	pull: Fast-forward
+a9d2e62373dc925091264a1d0bc178abc24aa586 c416a5cd559513bc8454fa9399d5b610f6c779df jksung <jksung@gemiso.com> 1675141890 +0900	merge jksung_weakness_#332: Merge made by the 'ort' strategy.
+c416a5cd559513bc8454fa9399d5b610f6c779df 94dff02cbbab9860cfb1f98dcc52a2c6126fc8d7 jksung <jksung@gemiso.com> 1675152185 +0900	merge ktkim_#285: Merge made by the 'ort' strategy.
+94dff02cbbab9860cfb1f98dcc52a2c6126fc8d7 643acf4d8b88c7bc37b81b79aebe97dde170599e jksung <jksung@gemiso.com> 1675153964 +0900	pull: Fast-forward
+643acf4d8b88c7bc37b81b79aebe97dde170599e de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1675760029 +0900	pull: Fast-forward
+de98263c18af5307c096be4a621189811a94f8d7 cc651fb3b2292e46f1360cb5bb5b2a5df3b17719 jksung <jksung@gemiso.com> 1677734394 +0900	pull: Fast-forward
+cc651fb3b2292e46f1360cb5bb5b2a5df3b17719 e05c02eef54db35386784254df4e3506dcae312a jksung <jksung@gemiso.com> 1677765506 +0900	pull: Fast-forward
+e05c02eef54db35386784254df4e3506dcae312a 5b814d76a71312fefcd02f1a8fff7c74533146e6 jksung <jksung@gemiso.com> 1678424523 +0900	merge jksung_download_sql_#287: Fast-forward

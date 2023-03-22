@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 de98263c18af5307c096be4a621189811a94f8d7 jksung <jksung@gemiso.com> 1676422563 +0900	branch: Created from master
+de98263c18af5307c096be4a621189811a94f8d7 0f13b3364089bbc1a5f9a3a5bc2aa9f28c3d15a1 jksung <jksung@gemiso.com> 1676438501 +0900	commit: [#248][성준경]해상도 문자 전송기능
+0f13b3364089bbc1a5f9a3a5bc2aa9f28c3d15a1 09c08f212bf725b446b4297c0ae559129cff6ead jksung <jksung@gemiso.com> 1676528789 +0900	commit: [#248][성준경]SMS 해상도 문자 전송 합치기

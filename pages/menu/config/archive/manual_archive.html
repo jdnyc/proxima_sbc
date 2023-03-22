@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta charset="UTF-8"></meta>
+        <title>수동 Archive 관리</title>
+        <link rel="stylesheet" type="text/css" href="/jquery/themes/default/easyui.css"></link>
+        <link rel="stylesheet" type="text/css" href="/jquery/themes/icon.css"></link>
+	
+	<script type="text/javascript" src="/jquery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/jquery/jquery.easyui.min.js"></script>
+        <script type="text/javascript">
+            function doSearch(){
+                var ss_date = $('#start_date').datebox('getValue');
+                var se_date = $('#end_date').datebox('getValue');
+                $('#m_arc_grid').datagrid('load',{
+              //      category_id : category_id,
+                    start_date : ss_date.replace(/-/g,''),
+                    end_date : se_date.replace(/-/g,'') 
+                });
+            }
+            function select_all(){
+                $('#m_arc_grid').datagrid('checkAll');
+            }
+            $.fn.datebox.defaults.formatter = function(date){
+                var y = date.getFullYear();
+                var m = ('0' + (date.getMonth()+1)).slice( -2 );
+                var d = ('0' + date.getDate()).slice( -2 );
+                return y+'-'+m+'-'+d;
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="easyui-layout" fit="true">
+            <div region="center"  title="Category" >
+                    <table id="m_arc_grid" class="easyui-datagrid" fit="true"
+                           url = "/pages/menu/config/archive/php/get_contents.php"
+                           rownumbers = "true" toolbar="#search_tb">
+                        <thead>
+                            <tr>
+                                <th field="ck" checkbox="true"></th>
+                                <th field="content_id" width="80" align="center">컨텐츠 ID</th>
+                                <th field="ud_content" width="150"><center>컨텐츠 구분</center></th>
+                                <th field="category_title" width="200"><center>카테고리</center></th>
+                                <th field="content_title" width="200"><center>제 목</center></th>
+                                <th field="created_date" width="100" align="center">등록일자</th>
+                            </tr>
+                        </thead>
+                    </table>
+            </div>
+            <div region="south" style="height:100px;">
+                <div id="arc_grid_buttons" align="center">
+                    <a href="#" class="easyui-linkbutton" iconCls="icon-add" onclick="add_dlg()"> Archive </a>
+                    <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#con_man_arc').dialog('close')"> 취 소 </a>
+                 </div>
+            </div>
+        </div>
+        <div id="search_tb" style="padding:3px" >
+            <td>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-ok" plain="true" onclick="select_all()"> 전체선택 </a>
+            </td>
+            <td align="right">
+                <span>등록날짜 : </span>  
+                <input id="start_date" type="text" class="easyui-datebox" ></input>  
+                <span> ~ </span>  
+                <input id="end_date" type="text" class="easyui-datebox"></input>  
+                <a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="doSearch()">Search</a>
+            </td>
+        </div> 
+    </body>
+</html>

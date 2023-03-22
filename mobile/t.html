@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+    <!--        
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+      -->
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="no" />		
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/redmond/jquery-ui.css" />
+<link rel="stylesheet" href="css/white.css" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script>
+var ScrollClass = (function()
+{
+	var timeoutID;
+	
+	function _setScroll(previousePosition)
+	{
+		console.log("serwer");
+		if(previousePosition != window.pageYOffset)
+		{
+			timeoutID = window.setTimeout("ScrollClass.setScroll("+ window.pageYOffset+")",1);
+			window.scrollBy(0,1);
+		}
+		else 
+		{
+			timeoutID = window.clearTimeout(timeoutID);
+		}
+	}
+	
+	function _toggleScroll()
+	{
+		if(timeoutID)
+		{
+			timeoutID = window.clearTimeout(timeoutID);
+		}
+		else 
+		{
+			_setScroll();
+		}
+	}
+	
+	return { setScroll:_setScroll,toggleScroll: _toggleScroll};
+	
+})();
+
+
+var scroll_timer = null;
+var prev_pageYOffset = 0;
+var default_font_size = 15;
+var default_scroll_speed = 20;
+var scroll_start_flag = false;
+
+function init_scroll()
+{
+	$("#scroll_controlbar");
+}
+
+function get_scroll_artcl()
+{
+	$("body").css("background","#000");
+	var artcl_item = $(".article_item");
+	/*
+	console.log(artcl_item.length);
+	var artcl_scroll_txt ="";
+	for(var i=0;i<artcl_item.length;i++)
+	{
+		var html = artcl_item[i].innerHTML;
+		
+		console.log(html);
+		
+		if(!html)
+		{
+			artcl_scroll_txt+="<br>";
+		}
+		else 
+		{
+			artcl_scroll_txt+=html +"<br>";
+		}
+	}
+	
+	console.log(artcl_scroll_txt);
+	*/
+	var artcl_scroll_txt = "체스터 시티(이하 맨시티)를 상대로 선발 출전해 71분을 뛴 손흥민(24, 토트넘)이 평점 7.34점을 받았다. 무난한 활약을 펼쳤다는 평가였다.<br>손흥민은 15일(한국시간) 영국 그레이트 맨체스터 주 맨체스터에 위치한 에티하드 스타디움서 열린 맨시티와의 '2015-2016 잉글리시 프리미어리그(EPL)' 26라운드 정경기에 선발 출전해 71분을 뛴 뒤, 톰 캐롤과 교체되며 경기를 마쳤다.<br> 비록 공격 포인트를 올리지는 못했지만, 그는 활발한 활동량을 선보이며 팀의 2-1 승리에 힘을 보탰다.특히 전반 초반 움직임이 돋보였다.<br><br> 맨시티의 측면을 활발하게 공략한 손흥민은 전반 초반 오프사이드로 판정되긴 했지만, 침투 패스에 이은 오른발 슈팅으로 맨시티의 골망을 한 차례 흔들기도 했다. <br><br>무엇보다 각도가 없는 곳에서의 슈팅이었음에도 불구하고 정확하게 골문으로 향했던 슈팅이 인상적이었다.이후 손흥민은 에릭센, 알리 등 2선을 구축한 동료들과 유기적인 플레이를 펼쳤고, 대니 로즈, 카일 워커 등 적극적으로 오버래핑에 나선 동료들과도 좋은 움직임을 보여줬다. 다만 간간이 좋지 못했던 위치 선정이나, 찬스상황에서 상대 수비에게 패스를 차단당하는 모습 등은 다소 아쉬움을 남기기도 했다.경기 후 손흥민은 영국 축구 전문 통계사이트 후스코어드닷컴으로부터 7.34점의 평점을 받았다. <br><br>결승골을 터뜨린 에릭센이 7.42점, 선제골을 뽑아낸 케인이 6.93점의 평점을 받았다는 점을 봤을 때, 손흥민의 이날 활약은 결코 뒤떨어지지 않았고 볼 수 있었다. ";
+	
+	$("#scroll_contents").html(artcl_scroll_txt);
+
+}
+
+function scroll_restart()
+{
+	if(scroll_start_flag)
+	{
+		scroll_stop();
+		
+	}
+	window.scrollTo(0,0);
+	scroll_start();
+}
+
+function scroll_start()
+{			
+	ScrollClass.toggleScroll();
+	/*
+	if(!scroll_start_flag)
+	{
+		scroll_start_flag = true;
+		scroll_start_css();
+		scroll_timer = setInterval(scroll_move,default_scroll_speed);		
+	}*/
+}
+
+function scroll_start_css()
+{
+	$("#scroll_start").css("background","#000");
+	$("#scroll_start").css("color","orange");
+}
+
+function scroll_stop_css()
+{
+	$("#scroll_start").css("background","#333");
+	$("#scroll_start").css("color","#fff");
+}
+
+
+function scroll_stop()
+{
+	console.log(window.pageYOffset);
+	clearInterval(scroll_timer);
+	scroll_start_flag = false;
+	scroll_stop_css();
+}
+
+function scroll_move()
+{	
+	window.scrollBy(0,2);	
+	var pageoffset = window.pageYOffset;
+	console.log("pageoffset :"+pageoffset);
+	
+	if(prev_pageYOffset>0 && pageoffset == prev_pageYOffset)
+	{
+		scroll_stop();
+	}
+	else 
+	{
+		prev_pageYOffset = pageoffset;
+	}
+}
+
+function scroll_view(mode)
+{
+	if(mode =='close')
+	{
+		$("body").css("background","#fff");
+		$("#mobile_web_content").show();					
+		$("#scroll_back").hide();
+	}
+}
+
+function scroll_speed_control(mode)
+{
+	if(mode == 'down')
+	{
+		default_scroll_speed+=5;					
+	}
+	else if(mode =='up')
+	{
+		default_scroll_speed-=5;
+	}
+	
+	$("#scroll_speed_value").html(default_scroll_speed);
+	scroll_stop();
+	scroll_start();
+}
+
+function scroll_font_size(mode)
+{
+	if(mode == 'up')
+	{
+		default_font_size++;					
+	}
+	else if(mode =='down')
+	{
+		default_font_size--;
+	}
+	
+	var size_str = default_font_size+"px";
+	$("#scroll_contents").css("font-size",size_str);
+}
+
+
+function articl_scroll(that)
+{
+	var height = document
+	get_scroll_artcl();
+	$("#mobile_web_content").hide();
+
+	$("#scroll_back").show();
+
+}
+
+
+</script>
+</head>
+<body>
+
+<div class="scroll_back" style="display:block;" id="scroll_back">
+	<ul style="position:relative;height:100%;width:100%;z-index:100000;background:#333;opacity: 1;">
+		<li id="scroll_controlbar" style="text-align:center;display:block;width:100%;position:fixed;bottom:0px;height:55px;line-height:55px;background:#333;">
+		 <ul>
+		 	<li onclick="scroll_restart()" style="float:left;width:33%;color:#fff;font-weight:700;"> 재시작 </li>
+		 	<li id="scroll_start" onclick="scroll_start()" style="float:left;width:34%;color:#fff;font-weight:700;"> 시작 </li>
+		 	<li onclick="scroll_stop()" style="float:left;width:33%;color:#fff;font-weight:700;"> 중지 </li>
+		 </ul> 
+	    </li>
+	</ul>
+	<li style="width:100%;text-align:center;position:fixed;height:46px;line-height:46px;background:#666;">
+		<span class="blue_btn4" onclick="scroll_view('close');" style="position:relative;display:inline;float:left;top:9px;left:3px;">닫기</span>  
+		<span class="blue_btn4" onclick="scroll_font_size('up');" style="position:relative;display:inline;float:right;top:9px;right:5px;">크게</span> 
+		<span class="blue_btn4" onclick="scroll_font_size('down');" style="position:relative;display:inline;float:right;top:9px;right:12px;">작게</span>  
+		<button class="blue_btn4"  onclick="scroll_speed_control('up');" style="clear:both;position:relative;display:inline;">빠르게</button>
+		<button class="blue_btn4" id="scroll_speed_value" style="color:#000;width:35px;background-color:#fff;clear:both;position:relative;display:inline;">20</button>
+		<button class="blue_btn4"  onclick="scroll_speed_control('down');" style="clear:both;position:relative;display:inline;">느리게</button>
+		<span style="clear:both;">&nbsp;</span>
+	</li>
+	<pre id="scroll_contents" style="word-break: break-word;font-size:15px;overflow:hidden;padding:10px;padding-top:100px;padding-bottom:150px;line-height:1.8em;z-index:5000;color:#fff;font-weight:700">
+	</pre>
+
+	<script>
+		get_scroll_artcl();
+	</script>
+	
+</div>
+</body>
+</html>

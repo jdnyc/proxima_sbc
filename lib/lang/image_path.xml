@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<items>
+		<imgcode>IMG0001</imgcode>
+		<imgkor>/images/logout_bt.png</imgkor>
+		<imgeng>/images/logout_bt_eng.png</imgeng>
+	</items>
+	<items>
+		<imgcode>IMG0002</imgcode>
+		<imgkor>/images/mypage_bt.png</imgkor>
+		<imgeng>/images/mypage_bt_eng.png</imgeng>
+	</items>
+	<items>
+		<imgcode>IMG0003</imgcode>
+		<imgkor>/images/btn_search.png</imgkor>
+		<imgeng>/images/btn_search2.png</imgeng>
+	</items>
+</root>

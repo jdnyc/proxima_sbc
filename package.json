@@ -1,0 +1,24 @@
+{
+  "name": "proxima_v3",
+  "version": "1.0.0",
+  "description": "Proxima V3 MAM",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@webpack-cli/init": "^0.2.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@geminisoft.iptime.org:2222/ktv-cms/ktv-cms-src.git"
+  },
+  "author": "gemiso",
+  "license": "ISC"
+}

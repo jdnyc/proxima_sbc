@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Archive 관리</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="/jquery/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/jquery/themes/icon.css">
+	
+	<script type="text/javascript" src="/jquery/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="/jquery/jquery.easyui.min.js"></script>
+        <script type="text/javascript" src="/pages/menu/config/archive/php/functions.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('#arc_method').combobox({
+                    onHidePanel:function(){
+                        var method = $('#arc_method').combobox('getValue');
+                        if(method == 'A')
+                        {
+                            $('#arc_period').numberbox('enable');
+                        }
+                        else
+                        {
+                            $('#arc_period').numberbox('disable');
+                        }
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <table id="arc_treegrid" title="Archive 설정 관리" class="easyui-treegrid" fit="true"
+			url="/pages/menu/config/archive/php/get_tree_grid_data.php"
+			idField="category_id" treeField="category_title" toolbar="#treegrid_buttons">
+		<thead>
+			<tr>
+                                <th field="category_id" width="100" hidden="true">Category ID</th>
+				<th field="category_title" width="250">Category</th>
+				<th field="arc_method" width="100">아카이브 방법</th>
+                                <th field="arc_period" width="100">아카이브 기간</th>
+				<th field="del_method" width="100">삭제 방법</th>
+                                <th field="del_period" width="100">삭제 기간</th>
+                                <th field="abr_method" width="100">자동 폐기 방법</th>
+                                <th field="abr_period" width="100">자동 폐기 기간</th>                                
+				<th field="edit_date" width="120">수정일</th>
+			</tr>
+		</thead>
+	</table>
+        <div id="treegrid_buttons" style="width:100%">
+                <a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="arc_dlg()"> 아카이브 설정</a>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" plain="true" onclick="del_dlg()"> 삭제 설정 </a>
+                <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" plain="true" onclick="abrogate_dlg()"> 자동폐기 설정 </a>
+        </div>
+        <div id = "arc_dlg" class = "easyui-dialog" title="Archive 설정" style="width:350px;height:200px;" 
+             buttons="#arc_buttons" modal="true" closed="true">
+            <form id="arc_form" method="post"style="padding:20px 10px;"> 
+                <table> 
+                    <tr>
+                        <td> Category </td>
+                        <td><select id="arc_tree" class="easyui-combotree" style="width:250px;" data-options="required:true"
+                                    url="/pages/menu/config/archive/php/get_category.php" name="c_category"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 방 법 </td>
+                        <td><select id="arc_method" class="easyui-combobox" name="a_method" style="width:250px;" 
+                                    data-options="panelHeight:'auto',required:true, editable:false">
+                                <option value ="A">자동</option>
+                                <option value ="M">수동</option>
+                                <option value ="N">미지정</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 기 간 </td>
+                        <td><input id="arc_period" type="text" class="easyui-numberbox" name="a_period" style="width:150px;"></input> 일
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="arc_buttons">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="arc_submit()"> 설 정 </a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#arc_dlg').dialog('close')"> 취 소 </a>
+        </div>
+        <div id = "del_dlg" class = "easyui-dialog" title="삭제 설정" style="width:350px;height:200px;" 
+             buttons="#del_buttons" modal="true" closed="true">
+            <form id="del_form" method="post"style="padding:20px 10px;"> 
+                <table> 
+                    <tr>
+                        <td> Category </td>
+                        <td>
+                            <select id="del_category" class="easyui-combotree" style="width:250px;" data-options="required:true, disabled:true"
+                                    url="/pages/menu/config/archive/php/get_category.php" name="c_category"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 방 법 </td>
+                        <td><select id="del_method" class="easyui-combobox" name="d_method" style="width:250px;" data-options="panelHeight:'auto',required:true">
+                                <option value ="A">자동</option>
+                                <option value ="M">수동</option>
+                                <option value ="N">미지정</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 기 간 </td>
+                        <td><input id="del_period" type="text" class="easyui-numberbox" name="d_period" style="width:150px;"></input> 일
+                        </td>
+                            
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="del_buttons">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="del_submit()"> 설 정 </a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#del_dlg').dialog('close')"> 취 소 </a>
+        </div>
+        <div id = "abrogate_dlg" class = "easyui-dialog" title="자동폐기 설정" style="width:350px;height:200px;" 
+             buttons="#abr_buttons" modal="true" closed="true">
+            <form id="abr_form" method="post"style="padding:20px 10px;"> 
+                <table> 
+                    <tr>
+                        <td> Category </td>
+                        <td>
+                            <input id="abr_category" class="easyui-validatebox" style="width:250px;" disabled="true"></input>
+                                   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 방 법 </td>
+                        <td><select id="abr_method" class="easyui-combobox" name="abr_method" style="width:250px;" data-options="panelHeight:'auto',required:true">
+                                <option value ="A">자동</option>
+                                <option value ="M">수동</option>
+                                <option value ="N">미지정</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 기 간 </td>
+                        <td><input id="abr_period" type="text" class="easyui-numberbox" name="abr_period" style="width:150px;"></input> 일
+                        </td>
+                            
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="abr_buttons">
+            <a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="abrogate_submit()"> 설 정 </a>
+            <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#abrogate_dlg').dialog('close')"> 취 소 </a>
+        </div>
+    </body>
+</html>

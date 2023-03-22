@@ -1,0 +1,130 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 140%; FONT-FAMILY: ; 
+}
+
+TD {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 140%; FONT-FAMILY: 굴림 ; 
+}
+
+P {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 140%; FONT-FAMILY: ; 
+}
+INPUT {
+	FONT-SIZE: 9pt;
+	COLOR: #666666;
+	LINE-HEIGHT: 120%;
+	FONT-FAMILY: "";
+	TEXT-ALIGN: justify
+}
+BUTTON {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 140%; FONT-FAMILY: ; 
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 140%; FONT-FAMILY: ; 
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 140%; FONT-FAMILY: ; 
+}
+A:link {
+	COLOR: #3a4e40; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #3a4e40; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #3a4e40; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6633; TEXT-DECORATION: none
+}
+.tablebg {
+	BACKGROUND-COLOR: #dddddd
+}
+.subject {
+	COLOR: #315584
+}
+.subjectbg {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.content {
+	COLOR: #404040
+}
+.contentbg {
+	BACKGROUND-COLOR: #ffffff
+}
+.list {
+	COLOR: #222222
+}
+.list0 {
+	BACKGROUND-COLOR: #ffffff
+}
+.list1 {
+	BACKGROUND-COLOR: #f5f5f5
+}
+.input {
+	BORDER-RIGHT: #777777 1px solid; BORDER-TOP: #777777 1px solid; BORDER-LEFT: #777777 1px solid; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff
+}
+.textarea {
+	BORDER-RIGHT: #777777 1px solid; BORDER-TOP: #777777 1px solid; BORDER-LEFT: #777777 1px solid; BORDER-BOTTOM: #777777 1px solid
+}
+.button {
+	
+}
+.select {
+	
+}
+.name {
+	FONT-WEIGHT: normal; COLOR: #575757
+; font-family: ""; font-size: 8pt
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.ht {
+	HEIGHT: 30px
+}
+.ht2 {
+	HEIGHT: 20px
+}
+.price {
+font-size: 8pt; text-decoration: line-through
+}
+.lfont {
+	FONT-SIZE: 8pt; font-family: "Arial", "Helvetica", "sans-serif"; color: #999999
+}
+.sfont {
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: ""
+}
+.w50 {
+	WIDTH: 50%
+}
+.w99 {
+	WIDTH: 99%
+}
+.arial {
+	FONT-FAMILY: Arial
+}
+.lh {
+	LINE-HEIGHT: 150%
+}
+.lh2 {
+	LINE-HEIGHT: 200%
+}
+.box {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #fdfdfd
+}
+.login {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: "vernada"
+}
+.line {
+	BACKGROUND-COLOR: #969696
+}
+.tdsc {
+	BACKGROUND-COLOR: #f0f0f0
+}
+TD.product {
+	FONT-SIZE: 14px; COLOR: #666666; LINE-HEIGHT: 180%; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-ALIGN: justify
+; font-weight: bold; font-style: normal
+}

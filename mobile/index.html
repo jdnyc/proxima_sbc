@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>TelePrompter</title>
+
+		<meta name="author" content="Peter Schmalfeldt">
+		<meta name="description" content="HTML5, CSS3 &amp; Javascript Based TelePrompter">
+		<meta name="keywords" content="TelePrompter, HTML, HTML5, CSS, CSS3, Javascript">
+
+		<!-- Mobile Specific Meta Tags -->
+		<meta name="viewport" content="width=1024, initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/redmond/jquery-ui.css" />
+		<link rel="stylesheet" href="css/style.css?v=0.6.1">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+	</head>
+	<body id="gui">
+		<header>
+			<h1><i class="icon icon-bullhorn"></i> <span class="clock">00:00:00</span></h1>
+			<nav>
+                <div class="buttons">
+					<a class="button small icon-undo reset" href="#" onclick="return false;"></a>
+					<a class="button small icon-text-width flipx" href="#" onclick="return false;"></a>
+					<a class="button small icon-text-height flipy" href="#" onclick="return false;"></a>
+					<a class="button icon-play play active" href="#" onclick="return false;"></a>
+				</div>
+				<div class="sliders">
+					<label class="font_size_label">Font Size <span>(60)</span>:&nbsp; <div class="font_size slider"></div></label><br>
+					<label class="speed_label">Speed <span>(35)</span>:&nbsp; <div class="speed slider"></div></label>
+				</div>
+                <div class="colors">
+                    <input id="text-color-picker" class="color {hash:true,caps:true,valueElement:'text-color'}"><input type="hidden" id="text-color" value="#ffffff">
+                    <input id="background-color-picker" class="color {hash:true,caps:true,valueElement:'background-color'}"><input type="hidden" id="background-color" value="#141414">
+                </div>
+			</nav>
+		</header>
+		<article>
+			<div class="overlay">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+			<div class="teleprompter" id="teleprompter" contenteditable>
+				※전직 대통령 등 유명인사 서거 대비 사전제작<br>&nbsp; &nbsp;<br>1. 노태우 대통령 <br>  @ 대통령 노태우 누구인가 - 일대기<br>  @ 노태우 대통령 공과 - 업적과 과오<br> --&gt; 노태우는 사전 제작물 있음<br>     11월 22일자로 검색하면 저 아래 미승인란에<br>     2꼭지+앵커 리포트가 있음.<br>     이것을 업데이트 시키면 될 듯<br>&nbsp; &nbsp;<br>2. 전두환 대통령<br>  @ 대통령 전두환 누구인가 - 일대기  -&gt;이종구  <br>  @ 전두환 대통령 공과 - 업적과 과오 -&gt;강정규<br>&nbsp; &nbsp;<br>3. 김종필 전 총리<br>  @ 김종필 누구인가 - 일대기        -&gt;이만수<br>  @ 3김 시대의 영원한 폐막 - 이승현<br>&nbsp; &nbsp;<br>4. 손명순 여사<br>  @ 손명순 여사는 누구인가 - 안윤학<br>&nbsp; &nbsp;<br>5. 이희호 여사<br>  @ 이희호 여사는 누구인가 - 구수본<br>&nbsp; &nbsp;<br>&nbsp; &nbsp;<br>&nbsp; &nbsp;<br>&nbsp; &nbsp;<br>&nbsp; &nbsp;<br>
+			</div>
+			<i class="icon-play marker"></i>
+		</article>
+		<footer>
+
+		</footer>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script src="js/jquery.timer.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+        <script src="js/jscolor.js"></script>
+		<script src="js/script.js?v=0.6.1"></script>
+	</body>
+</html>

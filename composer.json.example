@@ -1,0 +1,50 @@
+{
+    "name": "gemiso/proxima_v3",
+    "description": "Gemiso MAM Solution",
+    "require": {
+      "slim/slim": "3.*",
+      "nesbot/carbon": "*",
+      "danielstjules/stringy": "~1.8",
+      "touki/ftp": "~1.1",
+      "rmccue/requests": "~1.6",
+      "seld/jsonlint": "~1.3",
+      "mtdowling/cron-expression": "~1.0",
+      "monolog/monolog": "^1.23",
+      "phpoffice/phpspreadsheet": "~1.6.0",
+      "illuminate/database": "^5.8",
+      "yajra/laravel-oci8": "^5.8",
+      "vlucas/phpdotenv": "^3.4",
+      "symfony/var-dumper": "^4.3",
+      "illuminate/events": "^5.8",
+      "respect/validation": "^1.1",
+      "psy/psysh": "^0.9.9",
+      "zeuxisoo/slim-whoops": "^0.6.5",
+      "symfony/console": "^4.3",
+      "illuminate/pagination": "^5.8",
+      "spatie/data-transfer-object": "^1.8",
+      "guzzlehttp/guzzle": "^6.3",
+      "lavary/crunz": "^2.0",
+      "econea/nusoap": "~0.9.5.1"
+    },
+    "autoload": {
+      "files": [
+        "api/Support/Helpers/helpers.php",
+        "core/helpers.php"
+      ],
+      "psr-4": {
+        "Proxima\\": "",
+        "ProximaCustom\\": "custom/ktv-nps",
+        "Api\\": "api"
+      }
+    },
+    "config": {
+      "bin-dir": "bin/"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^8"
+    },
+    "scripts": {
+      "test": "phpunit"
+    }
+  }
+  

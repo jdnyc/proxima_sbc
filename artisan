@@ -1,0 +1,110 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor/autoload.php';
+
+$dotenv = \Dotenv\Dotenv::create(__DIR__ . '/api');
+$dotenv->load();
+
+use Api\Support\Commands\Serve;
+use Api\Support\Commands\Tinker;
+use Api\Support\Commands\ConvToDB;
+use Api\Support\Commands\Commenter;
+use Api\Support\Commands\JobSchedule;
+use Api\Support\Commands\SyncSchedule;
+use Api\Support\Commands\SocialSchedule;
+use Api\Support\Commands\SocialMigration;
+use Api\Support\Commands\ContentMigration;
+use Api\Support\Commands\SyncContentMigration;
+
+use Api\Support\Commands\UserMigration;
+use Api\Support\Commands\AuthMigration;
+
+use Api\Support\Commands\DefaultMigration;
+use Api\Support\Commands\CustomTableMigration;
+use Api\Support\Commands\DownloadMigration;
+use Api\Support\Commands\FileServerMigration;
+use Api\Support\Commands\SyncPortalContent;
+use Api\Support\Commands\SearcherSync;
+use Api\Support\Commands\QuotaSync;
+
+use Api\Support\Commands\ExcelMigration;
+
+use Api\Support\Commands\ArchiveSchedule;
+use Api\Support\Commands\ArchiveDeleteSchedule;
+use Api\Support\Commands\DeleteSchedule;
+use Api\Support\Commands\UpdateSchedule;
+use Api\Support\Commands\DeleteMediaSchedule;
+
+use Symfony\Component\Console\Application;
+use Api\Support\Commands\BisProgramMigration;
+use Api\Support\Commands\MetaMigration;
+use Api\Support\Commands\ArchiveServerMigration;
+
+use Api\Support\Commands\AuthTest;
+
+$app = new Application('Proxima Api', 'v1.0');
+
+$app->add(new Tinker());
+$app->add(new Serve());
+$app->add(new Commenter());
+
+// scheduler
+$app->add(new JobSchedule());
+$app->add(new SyncSchedule());
+$app->add(new SocialSchedule());
+
+// migrations
+$app->add(new SocialMigration());
+$app->add(new DefaultMigration());
+$app->add(new ContentMigration());
+$app->add(new SyncContentMigration());
+$app->add(new FileServerMigration());
+$app->add(new UserMigration());
+$app->add(new AuthMigration());
+$app->add(new DownloadMigration());
+
+//create table
+$app->add(new CustomTableMigration());
+
+//포털용 싱크 커맨드
+$app->add(new ConvToDB());
+$app->add(new SyncPortalContent()); 
+
+//검색엔진동기화
+$app->add(new SearcherSync());
+
+//일배치 아카이브 작업
+$app->add(new ArchiveSchedule());
+
+$app->add(new ArchiveDeleteSchedule());
+
+//삭제 정책 스케줄
+$app->add(new DeleteSchedule());
+
+//쿼터 동기화 스케줄
+$app->add(new QuotaSync());
+
+//쿼터 동기화 스케줄
+$app->add(new ExcelMigration());
+// bis 테이블
+$app->add(new BisProgramMigration());
+
+//메타데이터 업데이트 스케줄
+$app->add(new UpdateSchedule());
+//메타데이터 업데이트 스케줄
+$app->add(new MetaMigration());
+
+$app->add(new \Api\Support\Commands\TaskMigration());
+
+$app->add(new ArchiveServerMigration());
+
+//삭제 정책 스케줄
+$app->add(new DeleteMediaSchedule());
+
+$app->add(new \Api\Support\Commands\ArchiveMigSchedule());
+
+$app->add(new \Api\Support\Commands\DTLSyncSchedule());
+
+$app->add(new AuthTest());
+$app->run();

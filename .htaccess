@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # HTTP로 접속 된 경우,
+  RewriteCond %{HTTPS} off
+
+  # 단 아래를 제외하고.
+
+  #내부망은 HTTP로
+  #RewriteCond %{REMOTE_ADDR} !^192.168.0.*$
+  
+  #내부망은 HTTP로
+  #RewriteCond %{REMOTE_ADDR} !^192.168.0.*$
+  
+  #에이전트용 경로
+  RewriteCond %{REQUEST_URI} !^/workflow/.*$
+  RewriteCond %{REQUEST_URI} !^/interface/.*$
+  
+  #스토리지 경로 필요없으면 주석
+  RewriteCond %{REQUEST_URI} !^/data/.*$
+  
+  # https로 리다이렉트
+  #우선 주석
+  #RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+  
+  #다른 도메인명 사용시
+  #RewriteRule ^/?(.*)$ https://www.domain.com/$1 [NE,L,R=301]
+</IfModule>

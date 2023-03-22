@@ -1,0 +1,36 @@
+input[type="text"]:-ms-clear {
+  display: none;
+}
+
+input[type="select"]:-ms-clear {
+  display: none;
+}
+
+/* 16:9 박스에 세로는 100% 맞추고 나머지는 자동 비율 조절 되게 */
+.poster-container {
+  width: 140px;
+  height: 80px;
+  margin-right: 0px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-pack: center;
+  align-items: center;
+}
+
+.poster {
+  width: auto;
+  height: 100%;
+  cursor: pointer;
+}
+
+.poster-width {
+  width: 100%;
+  height: auto;
+  -ms-flex: 1;
+  flex: 1;
+  cursor: pointer;
+}

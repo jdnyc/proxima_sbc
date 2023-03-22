@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<items>
+		<SYSTEM_CONFIG>f958c21d7839a8acbdb8cfbe0d300a97cd55d6c6d56aedfa0c814a6eefa7bb3d9193d83f868aa60e511198264f9e57a6b0983a7dd41883299b62cca9033bd23ee2bc8ca53e630757ef4a3e8f3d0fc48aac10a66dbe6d14d759d00c21263f4c0623f6841dc3995081f97eff9641ea9be42c9219f66e6c5b9ea9effa1c8450c3fb1fda885306f7ddd22b88eac3a0bb4738</SYSTEM_CONFIG>
+		<!--초기설정 여부-->
+		<FIRST_ACCESS>N</FIRST_ACCESS>
+		<!--프록시용 아파치 가상 경로-->
+		<WEB_PATH>/data</WEB_PATH>
+		<!--프록시용 아파치 가상 경로-->
+		<LOCAL_LOWRES_ROOT>/data</LOCAL_LOWRES_ROOT>
+		<!--프록시용 아파치 가상 경로 값-->
+		<WEB_PATH_LOCAL_VALUE>//192.168.1.202/Storage/Storage/lowres</WEB_PATH_LOCAL_VALUE>
+		
+		<!--스트리밍용 서버 아이피-->
+		<STREAM_SERVER_IP>geminisoft.iptime.org</STREAM_SERVER_IP>
+		<!--스트리밍용 미디어 타입-->
+		<STREAM_FILE>proxy</STREAM_FILE>
+		<!--스트리밍용 가상 경로-->
+		<STREAMER_ADDR_MID>/vod</STREAMER_ADDR_MID>
+		<!--검색 엔진 (0) / DB  (1) 사용 여부-->
+		<SEARCH_TYPE>0</SEARCH_TYPE>
+		
+		<!--DB 접속 정보-->
+		<!-- "oracle","odbc","postgresql"-->
+		<DB_TYPE>postgresql</DB_TYPE>
+		<DB_USER>proxima_v3</DB_USER>
+		<DB_USER_PW>proxima_v3</DB_USER_PW>
+		<DB_HOST>geminisoft.iptime.org</DB_HOST>
+		<DB_PORT>8016</DB_PORT>
+		<DB_NAME>proxima</DB_NAME>
+		<DB_SID>proxima</DB_SID>
+		<DB_SERVICE_ORACLE>(DESCRIPTION =(FAILOVER = on)(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 1.215.23.20)(PORT = 8016)))(SERVER=POOLED)(CONNECT_DATA =(SERVICE_NAME = proxima)(FAILOVER_MODE =(TYPE = session)(METHOD = basic))))</DB_SERVICE_ORACLE>
+		<DB_SERVICE>host=geminisoft.iptime.org port=5432 dbname=postgres user=proxima_v3 password=proxima_v3 options='--client_encoding=UTF8'</DB_SERVICE>	
+
+		<!--커스터마이징 이름(만약 ebs_encoder면 src/custom/ebs_encoder로 폴더를 만들고 
+			composer.json에 ProximaCusom의 값을 "custom/ebs_encoder"로 설정해야 한다.)
+			composer.json을 고친 후에는 반드시 composer dumpautoload 명령을 수행해서 autoloading파일을 갱신해 줘야 한다.
+		-->
+		<CUSTOM_NAME>example</CUSTOM_NAME>
+		<UPLOAD_URL>http://localhost:8080/upload</UPLOAD_URL>
+		<!--전체 카테고리 사용 여부
+		전체 카테고리 사용 하게 되면 첫 로딩 시 1Depth 루트 카테고리까지 로드가 되고 
+		탭을 클릭해도 카테고리를 새로 로드 하지 않고 루트 카테고리만 선택이 바뀐다.
+		-->
+		<USE_WHOLE_CATEGORY>false</USE_WHOLE_CATEGORY>
+	</items>
+</root>

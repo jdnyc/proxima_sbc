@@ -1,0 +1,215 @@
+﻿<br>
+------------------------------- 기본 검색폼 -------------------------<br>
+<br>
+<form method='post' action=''>
+방송유형 : 
+<select name='ud_content_id'>
+<option value='81722'>TV방송</option>
+<option value='81767'>소재영상</option>
+<option value='81770'>클럽영상</option>
+<option value='4023848'>EDRB</option>
+<option value='81768'>참조영상</option>
+<option value='4023846'>RADIO 방송</option>
+<option value='81771'>음반</option>
+<option value='81773'>단행본</option>
+<option value='81774'>정간물</option>
+<option value='4023847'>이미지</option>
+</select>
+<br>
+검색어: 
+<input type='text' name='search_array' value=''>
+<br>
+<input type='hidden' name='content_type' value=''>
+<input type='hidden' name='sort' value=''>
+<input type='hidden' name='dir' value=''>
+<input type='hidden' name='start' value='0'>
+<input type='hidden' name='limit' value='20'>
+<input type='hidden' name='filter_type' value='category'>
+<input type='hidden' name='filter_value' value='0'>
+<input type='hidden' name='mode' value=''>
+<input type='hidden' name='action' value=''>
+<input type='hidden' name='list_type' value=''>
+<input type='hidden' name='MOBILE_CONN' value='1'>
+<input type='submit'>
+</form>
+
+
+
+
+
+
+
+<!--
+-------------------- 일반 검색시  전송 결과 ---------------------
+limit : 20 
+ meta_table_id :  
+ list_type : common_search 
+ search_array : ["동물"] 
+ search_q : 동물 
+ test : 1 
+ ud_content_id : 81722 
+ task : listing 
+ start : 0 
+
+
+limit : 20 
+ meta_table_id :  
+ list_type : common_search 
+ search_array : ["동물\"ㅁㅁ"] 
+ search_q : 동물"ㅁㅁ 
+ test : 1 
+ ud_content_id : 81770 
+ task : listing 
+ start : 0 
+
+----  3페이지 이동시 ------
+start : 40 
+ limit : 20 
+ meta_table_id :  
+ list_type : common_search 
+ search_array : ["동물"] 
+ search_q : 동물 
+ test : 1 
+ ud_content_id : 81767 
+ task : listing 
+ 
+
+
+
+
+------------------ 상세 검색 결과시 전송되는 내용 -----------------
+limit : 20 
+list_type : common_search 
+ud_content_id : 81722 
+meta_table_id :  
+params : {"meta_table_id":"81722","med_field_value":"TV","med_field_condition":"AND","nm_field_key_1":"F81787","nm_field_value":"aaaaa","nm_field_condition":"AND","de_field_key_1":"F81786","de_field_value":"ddddd","de_field_condition":"AND","s_date":"2013-01-21","e_date":"2013-02-05","et_field_key":"","et_field_value":"eeeee","sort_a":"","sort_b":"","sort_c":"","sort_type":"오름차순","resolution":"","onoff":"3"} 
+task : listing 
+start : 0 
+
+
+-->
+
+
+
+// 관리자 검색 (총4줄까지만 되게처리)
+// post 호출할것
+// meta_table_id : 81722
+<?if($_SERVER[HTTP_HOST] == 'www.local-das.co.kr'){?>
+	inc/get_dynamic.php
+<?}else{?>
+	/store/search/get_dynamic.php
+<?}?>
+
+
+// 관리자 검색시 아래 내용 post로 전송
+action	a_search
+limit	20
+params	{"meta_table_id":"81722","fields":[{"type":"datefield","meta_field_id":"created_date","s_dt":"20130205000000","e_dt":"20130207999999","table":"bc_content","field":"created_date"},{"type":"textfield","meta_field_id":"81787","value":"11111","table":"","field":"11111"},{"type":"datefield","meta_field_id":"created_date","s_dt":"20130205000000","e_dt":"20130207999999","table":"bc_content","field":"~"},{"type":"textfield","meta_field_id":"4002621","value":"333333","table":"","field":""}]}
+start	0
+task	listing
+ud_content_id	81722
+
+
+
+
+
+//TV방송
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81722","med_field_key_1":"F81783","med_field_value":"TV","med_field_condition":"AND","nm_field_key_1":"F81787","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F81786","de_field_key_2":"F4002624","de_field_key_3":"columnG","de_field_value":"검색2","de_field_condition":"AND","ymd_field_key":"F4002618","s_date":"2013-01-22","e_date":"2013-02-06","et_field_key":"columnH","et_field_value":"일반검색","sort_a":"F81783","sort_b":"F81783","sort_c":"F81783","sort_type":"오름차순","resolution":"","onoff":"1"}
+start	0
+task	listing
+ud_content_id	81722
+
+
+// 소재영상
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81767","nm_field_key_2":"F81851","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F12435039","de_field_key_2":"columnG","de_field_key_3":"columnQ","de_field_value":"검색2","de_field_condition":"AND","pn_field_key_2":"F4021168","pn_field_value":"검색3","pn_field_condition":"AND","ymd_field_key_1":"columnK","ymd_field_key_2":"F7194792","s_date":"2013-01-22","e_date":"2013-02-06","et_field_key":"F81853","et_field_value":"일반검색","sort_a":"F12435039","sort_b":"F12435039","sort_c":"F12435039","sort_type":"내림차순","resolution":"","onoff":"2"}
+start	0
+task	listing
+ud_content_id	81767
+
+
+// 클립영상
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81770","de_field_key_1":"F22894024","de_field_value":"검색1","de_field_condition":"AND","pn_field_key_1":"F22894026","pn_field_value":"검색2","pn_field_condition":"AND","ymd_field_key1":"F22894263","s_date":"2013-01-22","e_date":"2013-02-06","et_field_key":"F22893507","et_field_value":"일반검색","sort_a":"F22893506","sort_b":"F22893506","sort_c":"F22893507","sort_type":"내림차순","resolution":""}
+start	0
+task	listing
+ud_content_id	81770
+
+
+// EDRB
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"4023848","nm_field_key_1":"F22951176","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F22951170","de_field_value":"검색2","de_field_condition":"AND","et_field_key":"F22951174","et_field_value":"일반검색","sort_a":"출연자","sort_b":"주요내용","sort_c":"주요내용","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	4023848
+
+
+
+// 참조영상
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81768","nm_field_key_1":"F81874","nm_field_key_2":"F81876","nm_field_key_3":"F81875","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F4002695","de_field_key_2":"columnE","de_field_value":"검색2","de_field_condition":"AND","pn_field_key_1":"F81879","pn_field_value":"검색3","pn_field_condition":"AND","et_field_key":"F4002696","et_field_value":"일반검색","sort_a":"원어표제명","sort_b":"원어표제명","sort_c":"원어표제명","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	81768
+
+
+// radio 방송
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"4023846","nm_field_key_1":"F6255174","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F6255227","de_field_key_2":"F6255184","de_field_value":"검색2","de_field_condition":"AND","ymd_field_key1":"F6255209","s_date":"2013-01-22","e_date":"2013-02-06","et_field_key":"","et_field_value":"일반검색","sort_a":"F6255174","sort_b":"F6255184","sort_c":"F6255174","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	4023846
+
+
+//음반
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81771","nm_field_key_1":"F22950993","nm_field_key_2":"F22950992","nm_field_key_3":"F22950995","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F22951037","de_field_value":"검색2","de_field_condition":"AND","et_field_key":"F22950994","et_field_value":"일반검색","sort_a":"한글표제명","sort_b":"한글표제명","sort_c":"한글표제명","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	81771
+
+
+//단행본
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81773","nm_field_key_1":"F22951004","nm_field_key_2":"F22951005","nm_field_key_4":"F22951059","nm_field_key_5":"F22951057","nm_field_key_6":"F22951009","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F22951006","de_field_key_2":"","de_field_key_3":"","de_field_key_4":"","de_field_value":"검색2","de_field_condition":"AND","pn_field_key_1":"F22951008","pn_field_value":"검색3","pn_field_condition":"AND","et_field_key":"F22951007","et_field_value":"일반검색","sort_a":"서명","sort_b":"서명","sort_c":"서명","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	81773
+
+
+//정간물
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"81774","nm_field_key_2":"F22951013","nm_field_key_1":"F22951012","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F22951088","de_field_key_2":"F22951303","de_field_value":"검색2","de_field_condition":"AND","et_field_key":"F22951016","et_field_value":"일반검색","sort_a":"한글정간물명","sort_b":"한글정간물명","sort_c":"목차사항","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	81774
+
+
+//이미지
+limit	20
+list_type	common_search
+meta_table_id	
+params	{"meta_table_id":"4023847","nm_field_key_1":"F22951188","nm_field_key_2":"F22951192","nm_field_value":"검색1","nm_field_condition":"AND","de_field_key_1":"F22951189","de_field_key_2":"F22951190","de_field_value":"검색2","de_field_condition":"AND","ymd_field_key1":"F22951193","s_date":"2013-01-22","e_date":"2013-02-06","et_field_key":"F22951191","et_field_value":"일반검색","sort_a":"제목","sort_b":"인물정보","sort_c":"내용","sort_type":"내림차순"}
+start	0
+task	listing
+ud_content_id	4023847
+

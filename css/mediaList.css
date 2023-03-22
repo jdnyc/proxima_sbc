@@ -1,0 +1,163 @@
+
+div.mediaplay {
+	float: left;
+}
+
+#media_list {
+	overflow-y:scroll;
+	background: black;
+}
+
+#media_list dl {
+	margin: 0;
+}
+
+#media_list dd {
+	float: left;
+	width: 110px;
+	height: 135px;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+#media_list div.media_row {
+	position:relative;
+	width: 100px;
+	height: 110px;
+	background:#606060;
+	border: 1px solid #555555;
+	margin: 4px 4px 0 4px;
+}
+
+#media_list div.media_content {
+	position:relative;
+	width: 90px;
+	height: 90px;
+	background:#000;
+	text-align:center;
+	top: 18px;
+	left: 5px;
+}
+
+#media_list div.media_content img {
+	position:relative;
+	margin-top: 2px;
+}
+
+#media_list div.frame {
+	position: relative;
+	top: -5px;
+	height: 30px;
+}
+
+#media_list div.frame span {
+	position:absolute;
+	font-size: 7px;
+	padding: 2px 0;
+	color: white;
+	right: 2px;
+}
+
+.onMeidaplayer{
+	position:absolute;
+	text-align: center;
+}
+span.play_point {
+	z-index: 10;
+	position:relative;
+	font-size: 25px;
+    background-color: rgba( 30, 30, 30, 0.5);
+	color: white;
+}
+
+#media_list div.frame span.duration {
+	bottom: 1px;
+}
+
+#media_list .media_title {
+	position:absolute;
+	text-align:left;
+	font-size: 12px;
+	top: 112px;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+	height: 16px;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#media_list .medialist_select {
+	background: #1E6EDA;
+}
+
+.east {
+	position:absolute;
+	right:10px;
+	border: 1px solid #AAA;
+}
+
+.show_east {
+	height: 30px;
+	background: #AAA;
+}
+
+.open_east {
+	height: 100%;
+	display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox; /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	-ms-flex-direction: column;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.close_east {
+	display: none;
+	height: 100%;
+}
+
+.cms_media_row {
+	float: left;
+	margin: 5px 5px 0 5px;
+	border: 1px solid #DCDCDC;
+	width: 160px;
+	height: 115px !important;
+	text-align: center;
+}
+
+.cms_media_row .cms_media_row_title {
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	padding: 3px 3px 3px 5px;
+	white-space: nowrap;
+	font: normal 11px/13px arial, tahoma, helvetica, sans-serif;
+	font-family: 나눔고딕;
+	letter-spacing: 0.01em;
+	font-size: 11px;
+}
+
+.east #CmsMediaList {
+	overflow-y:scroll;
+	flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+}
+
+.east .selectedCmsMedia {
+	background-color: #CCCCCC !important
+}
+
+.east #CmsMediaList_bbar {
+	height: 30px;
+    line-height: 30px;
+	background: #AAA;
+	text-align: center;
+}
